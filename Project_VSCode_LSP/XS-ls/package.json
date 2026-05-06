@@ -1,0 +1,41 @@
+{
+  "name": "XS-ls",
+  "displayName": "XS-language-support",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "xs",
+        "aliases": [
+          "xs",
+          "xs"
+        ],
+        "extensions": [
+          ".xs"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "xs",
+        "scopeName": "",
+        "path": "./syntaxes/xs.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "antlr4ts": "^0.5.0-alpha.4"
+  }
+}

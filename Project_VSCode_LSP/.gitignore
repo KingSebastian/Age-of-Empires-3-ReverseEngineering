@@ -36,11 +36,12 @@ Thumbs.db
 .git/
 
 # ANTLR generated files (adjust depending on what you generate)
-server/grammar/.antlr/
-server/grammar/parser/*.js
-server/grammar/parser/*.ts
-server/grammar/parser/*.interp
-server/grammar/parser/*.tokens
+XS-ls/server/grammar/.antlr/
+XS-ls/server/grammar/parser/*.js
+XS-ls/server/grammar/parser/*.ts
+XS-ls/server/grammar/parser/*.interp
+XS-ls/server/grammar/parser/*.tokens
+XS-ls/server/src/*.xs
 
 # Coverage / testing
 coverage/
