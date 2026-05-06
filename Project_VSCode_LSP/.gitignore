@@ -1,0 +1,59 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+out/
+build/
+lib/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode (keep settings if you want, ignore the rest)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Git internals (just in case, though .git is already excluded)
+.git/
+
+# ANTLR generated files (adjust depending on what you generate)
+server/grammar/.antlr/
+server/grammar/parser/*.js
+server/grammar/parser/*.ts
+server/grammar/parser/*.interp
+server/grammar/parser/*.tokens
+
+# Coverage / testing
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# ts-node cache
+.ts-node/
+
+# Optional: lockfiles (keep ONE, ignore others)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
