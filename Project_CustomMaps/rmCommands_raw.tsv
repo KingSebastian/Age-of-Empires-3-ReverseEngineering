@@ -1,0 +1,491 @@
+00b60b00	rmSetOcean(bool reveal): Sets whether or not to reveal oceans.	"rmSetOcean(bool reveal): Sets whether or not to reveal oceans."	ds	1
+00b60b58	rmSetNuggetDifficulty(int minLevel, int maxLevel): Sets the min/max difficulty levels for placing nuggets.	"rmSetNuggetDifficulty(int minLevel, int maxLevel): Sets the min/max difficulty levels for placing nuggets."	ds	1
+00b60be0	rmAddAreaCliffRandomWaypoints(int areaID, float endXFraction, float endZFraction, int count, float maxVariation): Adds random waypoints to the specified cliff valley area.	"rmAddAreaCliffRandomWaypoints(int areaID, float endXFraction, float endZFraction, int count, float maxVariation): Adds random waypoints to the specified cliff valley area."	ds	1
+00b60cb0	rmAddAreaCliffWaypoint(int areaID, float xFraction, float zFraction): Adds the given waypoint to the specified cliff area (for valleys).	"rmAddAreaCliffWaypoint(int areaID, float xFraction, float zFraction): Adds the given waypoint to the specified cliff area (for valleys)."	ds	1
+00b60d58	rmFindCloserArea(float xFraction, float zFraction, int area1, int area2): Returns which area is closer.	"rmFindCloserArea(float xFraction, float zFraction, int area1, int area2): Returns which area is closer."	ds	1
+00b60e88	rmClearClosestPointConstraints(): Clears constraints for closest point finder.	"rmClearClosestPointConstraints(): Clears constraints for closest point finder."	ds	1
+00b60ef8	rmAddClosestPointConstraint( int constraintID ): Adds constraint to closest point finder.	"rmAddClosestPointConstraint( int constraintID ): Adds constraint to closest point finder."	ds	1
+00b60f70	rmEnableLocalWater( bool enable ): Enables / disables local water disturbances.	"rmEnableLocalWater( bool enable ): Enables / disables local water disturbances."	ds	1
+00b60fd8	rmIsMapType( string type ): Returns true if the map belongs to the given type.	"rmIsMapType( string type ): Returns true if the map belongs to the given type."	ds	1
+00b61038	rmSetMapType( string type ): Indicates that this map is of a certain type (it can be multiple types simultaneously.	"rmSetMapType( string type ): Indicates that this map is of a certain type (it can be multiple types simultaneously."	ds	1
+00b61410	rmBuildTradeRoute(int tradeRouteID, string terrainTypeName): Builds the trade route with the given terrain type.	"rmBuildTradeRoute(int tradeRouteID, string terrainTypeName): Builds the trade route with the given terrain type."	ds	1
+00b61498	rmGetTradeRouteWayPoint(int tradeRouteID, float fraction): Retrieves a waypoint along the trade route based on the fraction.	"rmGetTradeRouteWayPoint(int tradeRouteID, float fraction): Retrieves a waypoint along the trade route based on the fraction."	ds	1
+00b61530	rmCreateTradeRouteWaypointsInArea(int tradeRouteID, int areaID, float length): Creates a trade route in the specified area.	"rmCreateTradeRouteWaypointsInArea(int tradeRouteID, int areaID, float length): Creates a trade route in the specified area."	ds	1
+00b615d0	rmAddRandomTradeRouteWaypointsVector(int tradeRouteID, vector v, int count, float maxVariation): Adds random waypoints to the specified trade route.	"rmAddRandomTradeRouteWaypointsVector(int tradeRouteID, vector v, int count, float maxVariation): Adds random waypoints to the specified trade route."	ds	1
+00b61690	rmAddRandomTradeRouteWaypoints(int tradeRouteID, float endXFraction, float endZFraction, int count, float maxVariation): Adds random waypoints to the specified trade route.	"rmAddRandomTradeRouteWaypoints(int tradeRouteID, float endXFraction, float endZFraction, int count, float maxVariation): Adds random waypoints to the specified trade route."	ds	1
+00b61760	rmAddTradeRouteWaypointVector(int tradeRouteID, vector v): Adds the given waypoint to the specified trade route.	"rmAddTradeRouteWaypointVector(int tradeRouteID, vector v): Adds the given waypoint to the specified trade route."	ds	1
+00b617f8	rmAddTradeRouteWaypoint(int tradeRouteID, float xFraction, float zFraction): Adds the given waypoint to the specified trade route.	"rmAddTradeRouteWaypoint(int tradeRouteID, float xFraction, float zFraction): Adds the given waypoint to the specified trade route."	ds	1
+00b61894	rmCreateTradeRoute(): Creates a trade route.	"rmCreateTradeRoute(): Creates a trade route."	ds	1
+00b61950	rmSetGroupingMaxDistance(int defID, float dist): Set the maximum distance for the grouping (in meters).	"rmSetGroupingMaxDistance(int defID, float dist): Set the maximum distance for the grouping (in meters)."	ds	1
+00b619d8	rmSetGroupingMinDistance(int defID, float dist): Set the minimum distance for the grouping (in meters).	"rmSetGroupingMinDistance(int defID, float dist): Set the minimum distance for the grouping (in meters)."	ds	1
+00b61a60	rmPlaceGroupingInArea(int groupingID, int playerID, int areaID, int placeCount): Place grouping for the player in the given area.	"rmPlaceGroupingInArea(int groupingID, int playerID, int areaID, int placeCount): Place grouping for the player in the given area."	ds	1
+00b61cc8	rmCreateGrouping(string name, string filename): Creates a grouping.	"rmCreateGrouping(string name, string filename): Creates a grouping."	ds	1
+00b61d20	rmSetIgnoreForceToGaia(bool val)	"rmSetIgnoreForceToGaia(bool val)"	ds	1
+00b61d5c	rmDefineConstant(string name, int value)	"rmDefineConstant(string name, int value)"	ds	1
+00b61d9c	rmGetUnitPlacedOfPlayer(int objectDefID, int playerID)	"rmGetUnitPlacedOfPlayer(int objectDefID, int playerID)"	ds	1
+00b61dec	rmGetUnitPlaced(int objectDefID, int index)	"rmGetUnitPlaced(int objectDefID, int index)"	ds	1
+00b61e28	rmGetNumberUnitsPlaced(int objectDefID)	"rmGetNumberUnitsPlaced(int objectDefID)"	ds	1
+00b61e68	rmAddUnitsToArmy(int playerID, int armyID, int objectDefID)	"rmAddUnitsToArmy(int playerID, int armyID, int objectDefID)"	ds	1
+00b61eb8	rmCreateArmy(int playerID, string armyName)	"rmCreateArmy(int playerID, string armyName)"	ds	1
+00b61ef8	rmSetTriggerEffectParamArmy(string paramName, int playerID, int armyID, bool add)	"rmSetTriggerEffectParamArmy(string paramName, int playerID, int armyID, bool add)"	ds	1
+00b61f68	rmSetTriggerEffectParamFloat(string paramName, float value, bool add)	"rmSetTriggerEffectParamFloat(string paramName, float value, bool add)"	ds	1
+00b61fd0	rmSetTriggerEffectParamInt(string paramName, int value, bool add)	"rmSetTriggerEffectParamInt(string paramName, int value, bool add)"	ds	1
+00b62030	rmSetTriggerEffectParam(string paramName, string value, bool add)	"rmSetTriggerEffectParam(string paramName, string value, bool add)"	ds	1
+00b6208c	rmAddTriggerEffect(string effectType)	"rmAddTriggerEffect(string effectType)"	ds	1
+00b620c8	rmSetTriggerConditionParamArmy(string paramName, int playerID, int armyID, bool add)	"rmSetTriggerConditionParamArmy(string paramName, int playerID, int armyID, bool add)"	ds	1
+00b62140	rmSetTriggerConditionParamFloat(string paramName, float value, bool add)	"rmSetTriggerConditionParamFloat(string paramName, float value, bool add)"	ds	1
+00b621b0	rmSetTriggerConditionParamInt(string paramName, int value, bool add)	"rmSetTriggerConditionParamInt(string paramName, int value, bool add)"	ds	1
+00b62218	rmSetTriggerConditionParam(string paramName, string value, bool add)	"rmSetTriggerConditionParam(string paramName, string value, bool add)"	ds	1
+00b6227c	rmAddTriggerCondition(string conditionType)	"rmAddTriggerCondition(string conditionType)"	ds	1
+00b622c0	rmSetTriggerLoop(bool loop)	"rmSetTriggerLoop(bool loop)"	ds	1
+00b622f0	rmSetTriggerRunImmediately(bool runImmediately)	"rmSetTriggerRunImmediately(bool runImmediately)"	ds	1
+00b6233c	rmSetTriggerActive(bool active)	"rmSetTriggerActive(bool active)"	ds	1
+00b62370	rmSetTriggerPriority(int priority)	"rmSetTriggerPriority(int priority)"	ds	1
+00b623ac	rmTriggerID(string triggerName)	"rmTriggerID(string triggerName)"	ds	1
+00b623d8	rmSwitchToTrigger(int triggerID)	"rmSwitchToTrigger(int triggerID)"	ds	1
+00b62410	rmCreateTrigger(string triggerName)	"rmCreateTrigger(string triggerName)"	ds	1
+00b62444	rmSetVPFile(string filename)	"rmSetVPFile(string filename)"	ds	1
+00b624b8	rmSetStatusText(status, progress) : Sets the friendly cool loading screen text.	"rmSetStatusText(status, progress) : Sets the friendly cool loading screen text."	ds	1
+00b626e8	rmAddConnectionToClass(int connectionID, int classID): Adds the connection to specified class.	"rmAddConnectionToClass(int connectionID, int classID): Adds the connection to specified class."	ds	1
+00b62760	rmBuildConnection(int connectionID): Builds the given connection.	"rmBuildConnection(int connectionID): Builds the given connection."	ds	1
+00b627b8	rmSetConnectionBaseTerrainCost(int connectionID, float cost): Sets the base terrain cost for a connection.	"rmSetConnectionBaseTerrainCost(int connectionID, float cost): Sets the base terrain cost for a connection."	ds	1
+00b62848	rmSetConnectionTerrainCost(int connectionID, string terrainTypeName, float cost): Sets the terrain cost for a connection.	"rmSetConnectionTerrainCost(int connectionID, string terrainTypeName, float cost): Sets the terrain cost for a connection."	ds	1
+00b628e0	rmAddConnectionTerrainReplacement(int connectionID, string terrainTypeName, string newTypeName): Adds a terrain replacement rule to the connection.	"rmAddConnectionTerrainReplacement(int connectionID, string terrainTypeName, string newTypeName): Adds a terrain replacement rule to the connection."	ds	1
+00b62998	rmSetConnectionSmoothDistance(int connectionID, float width): Sets connection edge smoothing distance (distance is number of neighboring points to consider in each direction).	"rmSetConnectionSmoothDistance(int connectionID, float width): Sets connection edge smoothing distance (distance is number of neighboring points to consider in each direction)."	ds	1
+00b62a68	rmSetConnectionHeightBlend(int connectionID, float width): Sets how smoothly connection height blends into surroundings.	"rmSetConnectionHeightBlend(int connectionID, float width): Sets how smoothly connection height blends into surroundings."	ds	1
+00b62b00	rmSetConnectionWarnFailure(int connectionID, bool warn): Sets whether a connection warns on failure.	"rmSetConnectionWarnFailure(int connectionID, bool warn): Sets whether a connection warns on failure."	ds	1
+00b62b88	rmSetConnectionCoherence(int connectionID, float width): Sets area coherence (0-1).	"rmSetConnectionCoherence(int connectionID, float width): Sets area coherence (0-1)."	ds	1
+00b62bf8	rmSetConnectionBaseHeight(int connectionID, float width): Sets the base height of a connection.	"rmSetConnectionBaseHeight(int connectionID, float width): Sets the base height of a connection."	ds	1
+00b62c78	rmSetConnectionWidth(int connectionID, float width, float variance): Sets the width of a connection.	"rmSetConnectionWidth(int connectionID, float width, float variance): Sets the width of a connection."	ds	1
+00b62cf8	rmSetConnectionPositionVariance(int connectionID, float variance): Sets the position variance of a connection.	"rmSetConnectionPositionVariance(int connectionID, float variance): Sets the position variance of a connection."	ds	1
+00b62d88	rmAddConnectionArea(int connectionID, int areaID): Adds an area to the connection.	"rmAddConnectionArea(int connectionID, int areaID): Adds an area to the connection."	ds	1
+00b62df0	rmSetConnectionType(int connectionID, int connectionType, bool connectAll, float connectPercentage): Sets the connection type.	"rmSetConnectionType(int connectionID, int connectionType, bool connectAll, float connectPercentage): Sets the connection type."	ds	1
+00b62e84	rmCreateConnection(string name): Creates an connection.	"rmCreateConnection(string name): Creates an connection."	ds	1
+00b62ed0	rmPlaceObjectDefInRandomAreaOfClass(int defID, int playerID, int classID, int placeCount): Place object definition for the player in a random area in the given class.	"rmPlaceObjectDefInRandomAreaOfClass(int defID, int playerID, int classID, int placeCount): Place object definition for the player in a random area in the given class."	ds	1
+00b62fa0	rmPlaceObjectDefAtRandomAreaOfClass(int defID, int playerID, int classID, int placeCount): Place object definition for the player at the location of a random area in the given class.	"rmPlaceObjectDefAtRandomAreaOfClass(int defID, int playerID, int classID, int placeCount): Place object definition for the player at the location of a random area in the given class."	ds	1
+00b63080	rmPlaceObjectDefInArea(int defID, int playerID, int areaID, int placeCount): Place object definition for the player in the given area.	"rmPlaceObjectDefInArea(int defID, int playerID, int areaID, int placeCount): Place object definition for the player in the given area."	ds	1
+00b63120	rmPlaceObjectDefAtAreaLoc(int defID, int playerID, int areaID, int placeCount): Place object definition for the player at the given area's location.	"rmPlaceObjectDefAtAreaLoc(int defID, int playerID, int areaID, int placeCount): Place object definition for the player at the given area's location."	ds	1
+00b631d8	rmPlaceObjectDefPerPlayer(int defID, bool playerOwned, int placeCount): Place object definition per player.	"rmPlaceObjectDefPerPlayer(int defID, bool playerOwned, int placeCount): Place object definition per player."	ds	1
+00b63260	rmSetObjectDefTradeRouteID(int defID, int tradeRouteID): Set the trade route for all objects in this object definition.	"rmSetObjectDefTradeRouteID(int defID, int tradeRouteID): Set the trade route for all objects in this object definition."	ds	1
+00b632f8	rmPlaceObjectDefAtPoint(int defID, int playerID, vector point, int placeCount): Place object definition at specific point for given player.	"rmPlaceObjectDefAtPoint(int defID, int playerID, vector point, int placeCount): Place object definition at specific point for given player."	ds	1
+00b633a0	rmPlaceObjectDefAtLoc(int defID, int playerID, float xFraction, float zFraction, int placeCount): Place object definition at specific location for given player.	"rmPlaceObjectDefAtLoc(int defID, int playerID, float xFraction, float zFraction, int placeCount): Place object definition at specific location for given player."	ds	1
+00b63460	rmAddObjectDefItemByTypeID(int defID, int unitTypeID, int count, float clusterDistance): Add item to object definition.	"rmAddObjectDefItemByTypeID(int defID, int unitTypeID, int count, float clusterDistance): Add item to object definition."	ds	1
+00b634f8	rmAddObjectDefItem(int defID, string unitName, int count, float clusterDistance): Add item to object definition.	"rmAddObjectDefItem(int defID, string unitName, int count, float clusterDistance): Add item to object definition."	ds	1
+00b63580	rmSetObjectDefForceFullRotation(int defID, bool on): Forces things in this object def to get full arbitrary rotation.	"rmSetObjectDefForceFullRotation(int defID, bool on): Forces things in this object def to get full arbitrary rotation."	ds	1
+00b63618	rmSetObjectDefAllowOverlap(int defID, bool on): Lets objects overlap within this object def.	"rmSetObjectDefAllowOverlap(int defID, bool on): Lets objects overlap within this object def."	ds	1
+00b63698	rmSetObjectDefHerdAngle(int defID, float angle): Set a herd angle(clockwise from +z) in the object def.	"rmSetObjectDefHerdAngle(int defID, float angle): Set a herd angle(clockwise from +z) in the object def."	ds	1
+00b63718	rmSetObjectDefCreateHerd(int defID, bool on): Creates a herd out of all units placed in this object def.	"rmSetObjectDefCreateHerd(int defID, bool on): Creates a herd out of all units placed in this object def."	ds	1
+00b637a0	rmSetObjectDefGarrisonStartingUnits(int defID, bool on): Turn on the garrison starting units flag.	"rmSetObjectDefGarrisonStartingUnits(int defID, bool on): Turn on the garrison starting units flag."	ds	1
+00b63828	rmSetObjectDefGarrisonSecondaryUnits(int defID, bool on): Turn on the garrison secondary units flag.	"rmSetObjectDefGarrisonSecondaryUnits(int defID, bool on): Turn on the garrison secondary units flag."	ds	1
+00b638b8	rmSetObjectDefMaxDistance(int defID, float dist): Set the maximum distance for the object definition (in meters).	"rmSetObjectDefMaxDistance(int defID, float dist): Set the maximum distance for the object definition (in meters)."	ds	1
+00b63948	rmSetObjectDefMinDistance(int defID, float dist): Set the minimum distance for the object definition (in meters).	"rmSetObjectDefMinDistance(int defID, float dist): Set the minimum distance for the object definition (in meters)."	ds	1
+00b639d8	rmCreateStartingUnitsObjectDef(float clusterDistance): Creates special object definition for starting units with the given cluster distance.	"rmCreateStartingUnitsObjectDef(float clusterDistance): Creates special object definition for starting units with the given cluster distance."	ds	1
+00b63a88	rmCreateObjectDef(string name): Creates an object definition.	"rmCreateObjectDef(string name): Creates an object definition."	ds	1
+00b63ae0	rmConstraintID(string name): Gets constraint ID for given constraint name.	"rmConstraintID(string name): Gets constraint ID for given constraint name."	ds	1
+00b63b3c	rmClassID(string name): Gets class ID for given class name.	"rmClassID(string name): Gets class ID for given class name."	ds	1
+00b64f68	rmSetTeamArea(int teamID, int areaID): Sets a team's 'official' area.	"rmSetTeamArea(int teamID, int areaID): Sets a team's 'official' area."	ds	1
+00b64fc0	rmGetNumberPlayersOnTeam(int teamID): Gets the number of players on the given team.	"rmGetNumberPlayersOnTeam(int teamID): Gets the number of players on the given team."	ds	1
+00b65030	rmGetPlayerCulture(int playerID): Gets the culture the specified player is on.	"rmGetPlayerCulture(int playerID): Gets the culture the specified player is on."	ds	1
+00b65098	rmGetPlayerCiv(int playerID): Gets the civilization the specified player is on.	"rmGetPlayerCiv(int playerID): Gets the civilization the specified player is on."	ds	1
+00b650f8	rmGetPlayerTeam(int playerID): Gets the team the specified player is on.	"rmGetPlayerTeam(int playerID): Gets the team the specified player is on."	ds	1
+00b65154	rmGetPlayerName(int playerID): Gets a player's name.	"rmGetPlayerName(int playerID): Gets a player's name."	ds	1
+00b651a0	rmMultiplyPlayerResource(int playerID, string resourceName, float factor): Multiplys a player's resource amount by the given factor.	"rmMultiplyPlayerResource(int playerID, string resourceName, float factor): Multiplys a player's resource amount by the given factor."	ds	1
+00b65248	rmAddPlayerResource(int playerID, string resourceName, float amount): Adds to a player's resource amount.	"rmAddPlayerResource(int playerID, string resourceName, float amount): Adds to a player's resource amount."	ds	1
+00b652c8	rmSetPlayerResource(int playerID, string resourceName, float amount): Sets a player's resource amount.	"rmSetPlayerResource(int playerID, string resourceName, float amount): Sets a player's resource amount."	ds	1
+00b65488	rmResetFairLocs(): Resets fairLoc placment info.	"rmResetFairLocs(): Resets fairLoc placment info."	ds	1
+00b655f8	rmPlayerLocZFraction(int playerID): Gets a player's start location z fraction.	"rmPlayerLocZFraction(int playerID): Gets a player's start location z fraction."	ds	1
+00b65660	rmPlayerLocXFraction(int playerID): Gets a player's start location x fraction.	"rmPlayerLocXFraction(int playerID): Gets a player's start location x fraction."	ds	1
+00b656c8	rmSetPlayerArea(int playerID, int areaID): Sets a player's 'official' area.	"rmSetPlayerArea(int playerID, int areaID): Sets a player's 'official' area."	ds	1
+00b65728	rmPlacePlayer(int playerID, float xFraction, float zFraction): Sets one player location.	"rmPlacePlayer(int playerID, float xFraction, float zFraction): Sets one player location."	ds	1
+00b65798	rmPlacePlayersRiver(int riverID, float distVariation, float spacingVariation, float edgeDistance): Makes a line of player locations along the specified river.	"rmPlacePlayersRiver(int riverID, float distVariation, float spacingVariation, float edgeDistance): Makes a line of player locations along the specified river."	ds	1
+00b65850	rmPlacePlayersLine(float x1, float z1, float x2, float z2, float distVariation, float spacingVariation): Makes a line of player locations.	"rmPlacePlayersLine(float x1, float z1, float x2, float z2, float distVariation, float spacingVariation): Makes a line of player locations."	ds	1
+00b658f0	rmPlacePlayersSquare(float dist, float distVariation, float spacingVariationfloat): Makes a square of player locations.	"rmPlacePlayersSquare(float dist, float distVariation, float spacingVariationfloat): Makes a square of player locations."	ds	1
+00b65980	rmPlacePlayersCircular(float minFraction, float maxFraction, float angleVariation): Makes a circle of player locations.	"rmPlacePlayersCircular(float minFraction, float maxFraction, float angleVariation): Makes a circle of player locations."	ds	1
+00b65a10	rmSetPlacementSection(float fromPercent, float toPercent): Sets the section of the placement line to use.	"rmSetPlacementSection(float fromPercent, float toPercent): Sets the section of the placement line to use."	ds	1
+00b65a94	rmSetPlacementTeam(int teamID): Sets the team to place.	"rmSetPlacementTeam(int teamID): Sets the team to place."	ds	1
+00b65ae0	rmSetTeamSpacingModifier(float modifier): Sets the team spacing modifier.	"rmSetTeamSpacingModifier(float modifier): Sets the team spacing modifier."	ds	1
+00b65b48	rmSetPlayerPlacementArea(float minX, float minZ, float maxX, float maxZ): Sets the area of the map to use for player placement.	"rmSetPlayerPlacementArea(float minX, float minZ, float maxX, float maxZ): Sets the area of the map to use for player placement."	ds	1
+00b65be8	rmSetPlayerLocation (int playerID, float xFraction, float zFraction): Manually sets a player's starting location.	"rmSetPlayerLocation (int playerID, float xFraction, float zFraction): Manually sets a player's starting location."	ds	1
+00b65c70	rmAddMerc(string unitName, float count, float minCount, float maxCount, float countIncrement, bool multipleUses ) : Adds mercs of to the merc manager for this game.	"rmAddMerc(string unitName, float count, float minCount, float maxCount, float countIncrement, bool multipleUses ) : Adds mercs of to the merc manager for this game."	ds	1
+00b65d24	rmGetCivID(string civName) : Returns the civ ID.	"rmGetCivID(string civName) : Returns the civ ID."	ds	1
+00b65d68	rmSetSubCiv(int index, string civName, bool big) : Sets a given sub civ in the world.	"rmSetSubCiv(int index, string civName, bool big) : Sets a given sub civ in the world."	ds	1
+00b65dd0	rmAllocateSubCivs(int number) : Allocates the number of sub civs in the world.	"rmAllocateSubCivs(int number) : Allocates the number of sub civs in the world."	ds	1
+00b65e34	rmSetGaiaCiv(int civ) : Sets Gaia's civilization	"rmSetGaiaCiv(int civ) : Sets Gaia's civilization"	ds	1
+00b65e78	rmDoLightingEffect("lightSetName", blendInTime, effectTime, blendOutTime):  applies a lighting set effect.	"rmDoLightingEffect(\"lightSetName\", blendInTime, effectTime, blendOutTime):  applies a lighting set effect."	ds	1
+00b65ef8	rmDoLightingFade("lightSetName", fadeTime):  applies a lighting set fade.	"rmDoLightingFade(\"lightSetName\", fadeTime):  applies a lighting set fade."	ds	1
+00b65f58	rmSetLightingSet(string name) : Sets a lighting set	"rmSetLightingSet(string name) : Sets a lighting set"	ds	1
+00b65fa0	rmFillMapCorners(): Fill map corners with blackmap.	"rmFillMapCorners(): Fill map corners with blackmap."	ds	1
+00b65fe8	rmTerrainInitialize( string baseTerrain, float height ): Initializes the terrain to the base type and height.	"rmTerrainInitialize( string baseTerrain, float height ): Initializes the terrain to the base type and height."	ds	1
+00b66070	rmSetWindMagnitude(float magnitude): sets the global wind magnitude (1.0f is default).	"rmSetWindMagnitude(float magnitude): sets the global wind magnitude (1.0f is default)."	ds	1
+00b660e0	rmSetGlobalStormLength(length, timeBetweenStorms): sets storm length and time between storm in seconds.	"rmSetGlobalStormLength(length, timeBetweenStorms): sets storm length and time between storm in seconds."	ds	1
+00b66160	rmSetGlobalRain(percent): sets the global rain percent.	"rmSetGlobalRain(percent): sets the global rain percent."	ds	1
+00b661a8	rmSetGlobalSnow(percent): sets the global snow percent.	"rmSetGlobalSnow(percent): sets the global snow percent."	ds	1
+00b661f0	rmSetAreaReveal(int areaID, int tiles): Sets the area to be revealed (-1 means don't reveal, 0 means reveal, >0 means reveal plus that number of extra tiles.	"rmSetAreaReveal(int areaID, int tiles): Sets the area to be revealed (-1 means don't reveal, 0 means reveal, >0 means reveal plus that number of extra tiles."	ds	1
+00b662a0	rmSetAreaElevationNoiseBias(int areaID, float bias): Sets the area elevation variation noise bias (-1 means down only, 0 means +- equally, 1 means up only.)	"rmSetAreaElevationNoiseBias(int areaID, float bias): Sets the area elevation variation noise bias (-1 means down only, 0 means +- equally, 1 means up only.)"	ds	1
+00b66360	rmSetAreaElevationEdgeFalloffDist(int areaID, float dist): Sets the area elevation noise to falloff as it gets closer to the area edge.	"rmSetAreaElevationEdgeFalloffDist(int areaID, float dist): Sets the area elevation noise to falloff as it gets closer to the area edge."	ds	1
+00b66410	rmSetAreaElevationVariation(int areaID, float variation): Sets the area elevation variation height (amount to vary +- from area base height).	"rmSetAreaElevationVariation(int areaID, float variation): Sets the area elevation variation height (amount to vary +- from area base height)."	ds	1
+00b664c0	rmSetAreaElevationPersistence(int areaID, float persistence): Sets the area elevation variation noise persistence (best >0 and <1).	"rmSetAreaElevationPersistence(int areaID, float persistence): Sets the area elevation variation noise persistence (best >0 and <1)."	ds	1
+00b66568	rmSetAreaElevationOctaves(int areaID, int octaves): Sets the area elevation variation noise octaves.	"rmSetAreaElevationOctaves(int areaID, int octaves): Sets the area elevation variation noise octaves."	ds	1
+00b665f0	rmSetAreaElevationMinFrequency(int areaID, float freq): Sets the area elevation variation noise frequency (best >0 and <1).	"rmSetAreaElevationMinFrequency(int areaID, float freq): Sets the area elevation variation noise frequency (best >0 and <1)."	ds	1
+00b66690	rmSetAreaElevationType(int areaID, int type): Sets the area elevation variation type (cElevNormal, cElevFractalSum, cElevTurbulence).	"rmSetAreaElevationType(int areaID, int type): Sets the area elevation variation type (cElevNormal, cElevFractalSum, cElevTurbulence)."	ds	1
+00b66730	rmAddAreaTerrainReplacement(int areaID, string terrainTypeName, string newTypeName): Adds a terrain replacement rule to the area.	"rmAddAreaTerrainReplacement(int areaID, string terrainTypeName, string newTypeName): Adds a terrain replacement rule to the area."	ds	1
+00b667d0	rmAddAreaRemoveType(int areaID, string typeName): Add an unit type that the specified area removes.	"rmAddAreaRemoveType(int areaID, string typeName): Add an unit type that the specified area removes."	ds	1
+00b66848	rmAddAreaInfluenceSegment(int areaID, float xFraction1, float zFraction1, float xFraction2, float zFraction2): Adds an area influence segment.	"rmAddAreaInfluenceSegment(int areaID, float xFraction1, float zFraction1, float xFraction2, float zFraction2): Adds an area influence segment."	ds	1
+00b668f8	rmAddAreaInfluencePoint(int areaID, float xFraction, float zFraction): Adds an area influence point.	"rmAddAreaInfluencePoint(int areaID, float xFraction, float zFraction): Adds an area influence point."	ds	1
+00b66978	rmAreaID(string name): Gets area ID for given area name.	"rmAreaID(string name): Gets area ID for given area name."	ds	1
+00b669c0	rmSetAreaHeightBlend(int areaID, int heightBlend): Sets how smoothly area height blends into surroundings.	"rmSetAreaHeightBlend(int areaID, int heightBlend): Sets how smoothly area height blends into surroundings."	ds	1
+00b66a48	rmSetAreaSmoothDistance(int areaID, int smoothDistance): Sets area edge smoothing distance (distance is number of neighboring points to consider in each direction).	"rmSetAreaSmoothDistance(int areaID, int smoothDistance): Sets area edge smoothing distance (distance is number of neighboring points to consider in each direction)."	ds	1
+00b66b08	rmSetAreaCoherence(int areaID, float coherence): Sets area coherence (0-1).	"rmSetAreaCoherence(int areaID, float coherence): Sets area coherence (0-1)."	ds	1
+00b66b68	rmSetAreaMaxBlobDistance(int areaID, float dist): Sets maximum blob distance.	"rmSetAreaMaxBlobDistance(int areaID, float dist): Sets maximum blob distance."	ds	1
+00b66bd8	rmSetAreaMinBlobDistance(int areaID, float dist): Sets minimum blob distance.	"rmSetAreaMinBlobDistance(int areaID, float dist): Sets minimum blob distance."	ds	1
+00b66c48	rmSetAreaMaxBlobs(int areaID, int blobs): Sets maximum number of area blobs.	"rmSetAreaMaxBlobs(int areaID, int blobs): Sets maximum number of area blobs."	ds	1
+00b66cb0	rmSetAreaMinBlobs(int areaID, int blobs): Sets minimum number of area blobs.	"rmSetAreaMinBlobs(int areaID, int blobs): Sets minimum number of area blobs."	ds	1
+00b66d18	rmSetAreaTerrainLayerVariance(int areaID, bool variance): Specifies if the area should vary the terrain layer edges.	"rmSetAreaTerrainLayerVariance(int areaID, bool variance): Specifies if the area should vary the terrain layer edges."	ds	1
+00b66db0	rmAddAreaTerrainLayer(int areaID, string terrain, float minDist, float maxDist): Adds a terrain layer to an area.	"rmAddAreaTerrainLayer(int areaID, string terrain, float minDist, float maxDist): Adds a terrain layer to an area."	ds	1
+00b66e40	rmSetAreaObeyWorldCircleConstraint(int areaID, bool constrain): Determines whether an area obeys world circle constraint.	"rmSetAreaObeyWorldCircleConstraint(int areaID, bool constrain): Determines whether an area obeys world circle constraint."	ds	1
+00b66ee0	rmSetWorldCircleConstraint(bool constrain): sets whether RM activities should be constrained to the main world circle.	"rmSetWorldCircleConstraint(bool constrain): sets whether RM activities should be constrained to the main world circle."	ds	1
+00b66f78	rmSetRiverFoundationParams(int tileBuffer, float heightOffset) -- sets up river foundation parameters: the terrain buffer around the river, and the height of the banks above water level	"rmSetRiverFoundationParams(int tileBuffer, float heightOffset) -- sets up river foundation parameters: the terrain buffer around the river, and the height of the banks above water level"	ds	1
+00b67050	rmRiverReveal(int riverID, int extraTiles) -- reveals a river plus the specified number of extra tiles around it.	"rmRiverReveal(int riverID, int extraTiles) -- reveals a river plus the specified number of extra tiles around it."	ds	1
+00b670e4	rmRiverAvoid(riverID, riverID2, minDist)	"rmRiverAvoid(riverID, riverID2, minDist)"	ds	1
+00b67120	rmRiverAddShallows(riverID, count, radius);	"rmRiverAddShallows(riverID, count, radius);"	ds	1
+00b67160	rmRiverAddShallow(riverID, distancePct);	"rmRiverAddShallow(riverID, distancePct);"	ds	1
+00b671a0	rmRiverSetShallowRadius(riverID, radius);	"rmRiverSetShallowRadius(riverID, radius);"	ds	1
+00b671e8	rmRiverSetBankNoiseParams(riverID, frequency, octaves, persistence, sineLength, sineAmt, variation);	"rmRiverSetBankNoiseParams(riverID, frequency, octaves, persistence, sineLength, sineAmt, variation);"	ds	1
+00b67270	rmRiverAddWaypoint(riverID, xFraction, zFraction): Add waypoint to a river.  Don't mix with rmRiverSetConnections or rmRiverConnectRiver	"rmRiverAddWaypoint(riverID, xFraction, zFraction): Add waypoint to a river.  Don't mix with rmRiverSetConnections or rmRiverConnectRiver"	ds	1
+00b67310	rmRiverConnectRiver(riverID, riverID, pct, end);	"rmRiverConnectRiver(riverID, riverID, pct, end);"	ds	1
+00b67358	rmRiverSetConnections(riverID, start, end);	"rmRiverSetConnections(riverID, start, end);"	ds	1
+00b673a0	rmRiverCreate(int areaID, string waterType, int breaks, int offset, int minR, int maxR): make a river dude.	"rmRiverCreate(int areaID, string waterType, int breaks, int offset, int minR, int maxR): make a river dude."	ds	1
+00b67420	rmAddAreaCliffEdgeAvoidClass(int areaID, int avoidID, float minDist): Adds a class for an area's cliff edge to avoid.	"rmAddAreaCliffEdgeAvoidClass(int areaID, int avoidID, float minDist): Adds a class for an area's cliff edge to avoid."	ds	1
+00b674b8	rmSetAreaCliffHeight(int areaID, float val, float variance, float ramp): Set an area's cliff height.	"rmSetAreaCliffHeight(int areaID, float val, float variance, float ramp): Set an area's cliff height."	ds	1
+00b67538	rmSetAreaCliffEdge(int areaID, int count, float size, float variance, float spacing, int mapEdge): Set cliff edge parameters for an area.	"rmSetAreaCliffEdge(int areaID, int count, float size, float variance, float spacing, int mapEdge): Set cliff edge parameters for an area."	ds	1
+00b675d8	rmSetAreaCliffPainting(int areaID, bool paintGround, bool paintOutsideEdge, bool paintSide, float minSideHeight, bool paintInsideEdge): Set cliff painting options for an area.	"rmSetAreaCliffPainting(int areaID, bool paintGround, bool paintOutsideEdge, bool paintSide, float minSideHeight, bool paintInsideEdge): Set cliff painting options for an area."	ds	1
+00b676a0	rmSetAreaCliffType(int areaID, string cliffName): Sets the cliff type for an area.	"rmSetAreaCliffType(int areaID, string cliffName): Sets the cliff type for an area."	ds	1
+00b677f8	rmSetAreaWaterType(int areaID, string waterName): Sets the water type for an area.	"rmSetAreaWaterType(int areaID, string waterName): Sets the water type for an area."	ds	1
+00b67860	rmSetAreaForestUnderbrush(int areaID, float density): Sets the forest density for an area.	"rmSetAreaForestUnderbrush(int areaID, float density): Sets the forest density for an area."	ds	1
+00b678d8	rmSetAreaForestClumpiness(int areaID, float density): Sets the forest density for an area.	"rmSetAreaForestClumpiness(int areaID, float density): Sets the forest density for an area."	ds	1
+00b67950	rmSetAreaForestDensity(int areaID, float density): Sets the forest density for an area.	"rmSetAreaForestDensity(int areaID, float density): Sets the forest density for an area."	ds	1
+00b67a10	rmSetAreaForestType(int areaID, string forestName): Sets the forest type for an area.	"rmSetAreaForestType(int areaID, string forestName): Sets the forest type for an area."	ds	1
+00b67a80	rmSetAreaWarnFailure(int areaID, bool warn): Sets whether the area build process will warn if it fails.	"rmSetAreaWarnFailure(int areaID, bool warn): Sets whether the area build process will warn if it fails."	ds	1
+00b67b00	rmSetAreaBaseHeight(int areaID, float height): Sets the base height for an area.	"rmSetAreaBaseHeight(int areaID, float height): Sets the base height for an area."	ds	1
+00b67b68	rmPaintAreaTerrainByAngle(long areaID, string terrain, float minAngle, float maxAngle, float outerRange): Paints the area's tiles in the specified angle range with specified terrain (with outerRange buffer if feathering is desired).	"rmPaintAreaTerrainByAngle(long areaID, string terrain, float minAngle, float maxAngle, float outerRange): Paints the area's tiles in the specified angle range with specified terrain (with outerRange buffer if feathering is desired)."	ds	1
+00b67c70	rmPaintAreaTerrainByHeight(long areaID, string terrain, float minHeight, float maxHeight, float outerRange): Paints the area's tiles in the specified height range with specified terrain (with outerRange buffer if feathering is desired).	"rmPaintAreaTerrainByHeight(long areaID, string terrain, float minHeight, float maxHeight, float outerRange): Paints the area's tiles in the specified height range with specified terrain (with outerRange buffer if feathering is desired)."	ds	1
+00b67d80	rmPaintAreaTerrain(int areaID): Paints the terrain for a specified area.	"rmPaintAreaTerrain(int areaID): Paints the terrain for a specified area."	ds	1
+00b67de0	rmSetAreaMix(int areaID, string mixName): Sets the mix for an area.  Overrides terrain type if it is also set.	"rmSetAreaMix(int areaID, string mixName): Sets the mix for an area.  Overrides terrain type if it is also set."	ds	1
+00b67e60	rmSetAreaTerrainType(int areaID, string terrainTypeName): Sets the terrain type for an area.	"rmSetAreaTerrainType(int areaID, string terrainTypeName): Sets the terrain type for an area."	ds	1
+00b67ed8	rmBuildAllAreas(): Simulatenously builds all unbuilt areas.	"rmBuildAllAreas(): Simulatenously builds all unbuilt areas."	ds	1
+00b67f24	rmBuildArea(int areaID): Builds the specified area.	"rmBuildArea(int areaID): Builds the specified area."	ds	1
+00b67f68	rmSetAreaLocTeam(int areaID, int teamID): Set the area location to team's location.	"rmSetAreaLocTeam(int areaID, int teamID): Set the area location to team's location."	ds	1
+00b67fd0	rmSetAreaLocPlayer(int areaID, int playerID): Set the area location to player's location.	"rmSetAreaLocPlayer(int areaID, int playerID): Set the area location to player's location."	ds	1
+00b68040	rmSetAreaLocation(int areaID, float xFraction, float zFraction): Set the area location.	"rmSetAreaLocation(int areaID, float xFraction, float zFraction): Set the area location."	ds	1
+00b680b0	rmSetAreaEdgeFilling(int areaID, int borderSize): Enable edge filling and set a border search size (for Carolina and similar maps with a big continent).	"rmSetAreaEdgeFilling(int areaID, int borderSize): Enable edge filling and set a border search size (for Carolina and similar maps with a big continent)."	ds	1
+00b68168	rmSetAreaSize(float minFraction, float maxFraction): Set the area size to a min/max fraction of the map.	"rmSetAreaSize(float minFraction, float maxFraction): Set the area size to a min/max fraction of the map."	ds	1
+00b681e4	rmCreateArea(string name, int parentAreaID): Creates an area.	"rmCreateArea(string name, int parentAreaID): Creates an area."	ds	1
+00b68238	rmZFractionToMeters(float meters): Converts meters a fraction of the map in the z direction to meters.	"rmZFractionToMeters(float meters): Converts meters a fraction of the map in the z direction to meters."	ds	1
+00b682b8	rmXFractionToMeters(float meters): Converts a fraction of the map in the x direction to meters.	"rmXFractionToMeters(float meters): Converts a fraction of the map in the x direction to meters."	ds	1
+00b68330	rmZMetersToFraction(float meters): Converts meters into a fraction of the map in the z direction.	"rmZMetersToFraction(float meters): Converts meters into a fraction of the map in the z direction."	ds	1
+00b683a8	rmXMetersToFraction(float meters): Converts meters into a fraction of the map in the x direction.	"rmXMetersToFraction(float meters): Converts meters into a fraction of the map in the x direction."	ds	1
+00b68420	rmTilesToMeters(int tiles): Converts a number of tiles to a distance in meters.	"rmTilesToMeters(int tiles): Converts a number of tiles to a distance in meters."	ds	1
+00b68480	rmMetersToTiles(float meters): Converts a distance in meters to a number of tiles.	"rmMetersToTiles(float meters): Converts a distance in meters to a number of tiles."	ds	1
+00b684e8	rmDegreesToRadians(float degrees): Converts an angle in degrees to radians.	"rmDegreesToRadians(float degrees): Converts an angle in degrees to radians."	ds	1
+00b68548	rmZTilesToFraction(int tiles): Converts tile count in the z direction to fraction of map.	"rmZTilesToFraction(int tiles): Converts tile count in the z direction to fraction of map."	ds	1
+00b685b8	rmZFractionToTiles(float fraction): Converts an fraction of the map in the z direction to tile count.	"rmZFractionToTiles(float fraction): Converts an fraction of the map in the z direction to tile count."	ds	1
+00b68638	rmXTilesToFraction(int tiles): Converts tile count in the x direction to fraction of map.	"rmXTilesToFraction(int tiles): Converts tile count in the x direction to fraction of map."	ds	1
+00b686a8	rmXFractionToTiles(float fraction): Converts an fraction of the map in the x direction to tile count.	"rmXFractionToTiles(float fraction): Converts an fraction of the map in the x direction to tile count."	ds	1
+00b68728	rmAreaTilesToFraction(int tiles): Converts area tile count to fraction of map.	"rmAreaTilesToFraction(int tiles): Converts area tile count to fraction of map."	ds	1
+00b68790	rmAreaFractionToTiles(float fraction): Converts an area from fraction of the map to tile count.	"rmAreaFractionToTiles(float fraction): Converts an area from fraction of the map to tile count."	ds	1
+00b68808	rmSetMapClusteringNoiseParams(float minFrequency, int octaves, float persistence): sets up cluster system; standard inputs to noise generator used to determine cluster placement.	"rmSetMapClusteringNoiseParams(float minFrequency, int octaves, float persistence): sets up cluster system; standard inputs to noise generator used to determine cluster placement."	ds	1
+00b688e0	rmSetMapClusteringObjectParams(int minObjectCount, int maxObjectCount, float maxPosOffset): sets up cluster system; min/max objects per tile (default: 0-3), and max random offset when placing (default: 0.5 tiles).	"rmSetMapClusteringObjectParams(int minObjectCount, int maxObjectCount, float maxPosOffset): sets up cluster system; min/max objects per tile (default: 0-3), and max random offset when placing (default: 0.5 tiles)."	ds	1
+00b689d8	rmSetMapClusteringPlacementParams(float paintThreshold, float placeMinVal, float placeMaxVal, int type): sets up cluster system; valid ranges are from -1.0 to 1.0 and are compared to the internal noise field for deciding where to paint terrain and place clusters. Type is cClusterLand, or cClusterWater, or cClusterShallowWater, or cClusterEverywhere.	"rmSetMapClusteringPlacementParams(float paintThreshold, float placeMinVal, float placeMaxVal, int type): sets up cluster system; valid ranges are from -1.0 to 1.0 and are compared to the internal noise field for deciding where to paint terrain and place clusters. Type is cClusterLand, or cClusterWater, or cClusterShallowWater, or cClusterEverywhere."	ds	1
+00b68b60	rmPlaceMapClusters(string terrain, string protounit): place object clusters (of the specified protounit) around the map, and also optionally paint with the specified terrain.	"rmPlaceMapClusters(string terrain, string protounit): place object clusters (of the specified protounit) around the map, and also optionally paint with the specified terrain."	ds	1
+00b68c28	rmSetMapElevationHeightBlend(int blend): Sets how much to smooth the overall terrain after initializing with noise.	"rmSetMapElevationHeightBlend(int blend): Sets how much to smooth the overall terrain after initializing with noise."	ds	1
+00b68cc0	rmAddMapTerrainByAngleInfo(string terrain, float minSlope, float maxSlope, float outerRange): Adds a terrain to paint on tiles that are sloped between the specified angles (0 degrees is flat terrain, 90 degrees is sheer terrain), modified by a random number between 0.0 and outerRange.	"rmAddMapTerrainByAngleInfo(string terrain, float minSlope, float maxSlope, float outerRange): Adds a terrain to paint on tiles that are sloped between the specified angles (0 degrees is flat terrain, 90 degrees is sheer terrain), modified by a random number between 0.0 and outerRange."	ds	1
+00b68e00	rmAddMapTerrainByHeightInfo(string terrain, float minHeight, float maxHeight, float outerRange): Adds a terrain to paint between the specified heights, modified by a random number between 0.0 and outerRange.	"rmAddMapTerrainByHeightInfo(string terrain, float minHeight, float maxHeight, float outerRange): Adds a terrain to paint between the specified heights, modified by a random number between 0.0 and outerRange."	ds	1
+00b68ef0	rmSetBaseTerrainMix(string mixName): Initializes the base terrain with the requested mix.  Call before rmTerrainInitialize.	"rmSetBaseTerrainMix(string mixName): Initializes the base terrain with the requested mix.  Call before rmTerrainInitialize."	ds	1
+00b68f80	rmSetMapElevationParameters(int type, float freq, int octaves, float persistence, float variation): Sets up terrain for initializing with a noise layer.	"rmSetMapElevationParameters(int type, float freq, int octaves, float persistence, float variation): Sets up terrain for initializing with a noise layer."	ds	1
+00b69038	rmSetSeaType(string name): Sets the sea type for the map.  This is used if terrain is initialized to water.	"rmSetSeaType(string name): Sets the sea type for the map.  This is used if terrain is initialized to water."	ds	1
+00b690b4	rmGetSeaLevel(): Gets the sea level for the map.	"rmGetSeaLevel(): Gets the sea level for the map."	ds	1
+00b690f8	rmSetSeaLevel(): Sets the sea level for the map.	"rmSetSeaLevel(): Sets the sea level for the map."	ds	1
+00b691d4	rmSetMapSize( int x, int z ): Sets the size of the map.	"rmSetMapSize( int x, int z ): Sets the size of the map."	ds	1
+00b69220	rmGetIsFFA(): Returns true if this map is set to be a FFA game which means each player on their own team.	"rmGetIsFFA(): Returns true if this map is set to be a FFA game which means each player on their own team."	ds	1
+00b69298	rmGetNomadStart(): Returns true if this map is to place a covered wagon instead of a town center.	"rmGetNomadStart(): Returns true if this map is to place a covered wagon instead of a town center."	ds	1
+00b69310	rmRandInt(int min, int max): Returns a random integer between min and max.	"rmRandInt(int min, int max): Returns a random integer between min and max."	ds	1
+00b69368	rmRandFloat(float min, float max): Returns a random float between min and max.	"rmRandFloat(float min, float max): Returns a random float between min and max."	ds	1
+00b693c4	rmEchoInfo( string echoString, int level ): Random map echo.	"rmEchoInfo( string echoString, int level ): Random map echo."	ds	1
+00b69410	rmEchoError( string echoString, int level ): Random map echo.	"rmEchoError( string echoString, int level ): Random map echo."	ds	1
+00b69460	rmEchoWarning( string echoString, int level ): Random map echo.	"rmEchoWarning( string echoString, int level ): Random map echo."	ds	1
+00bc8b60	rmCreateGrouping -- missing name.	"rmCreateGrouping -- missing name."	ds	1
+00bc8b84	rmCreateGrouping -- missing filename.	"rmCreateGrouping -- missing filename."	ds	1
+00bc8be4	rmRandInt -- min greater than max.	"rmRandInt -- min greater than max."	ds	1
+00b60b40	rmSetOceanReveal	"rmSetOceanReveal"	ds	2
+00b60bc4	rmSetNuggetDifficulty	"rmSetNuggetDifficulty"	ds	2
+00b60c8c	rmAddAreaCliffRandomWaypoints	"rmAddAreaCliffRandomWaypoints"	ds	2
+00b60d3c	rmAddAreaCliffWaypoint	"rmAddAreaCliffWaypoint"	ds	2
+00b60dc0	rmFindCloserArea	"rmFindCloserArea"	ds	2
+00b60dd4	rmFindClosestPointVector	"rmFindClosestPointVector"	ds	2
+00b60df0	rmFindClosestPoint(float xFraction, float zFraction, float maxDistance): Finds closest point satisfying the preset constraints.	"rmFindClosestPoint(float xFraction, float zFraction, float maxDistance): Finds closest point satisfying the preset constraints."	ds	2
+00b60e70	rmFindClosestPoint	"rmFindClosestPoint"	ds	2
+00b60ed8	rmClearClosestPointConstraints	"rmClearClosestPointConstraints"	ds	2
+00b60f54	rmAddClosestPointConstraint	"rmAddClosestPointConstraint"	ds	2
+00b60fc0	rmEnableLocalWater	"rmEnableLocalWater"	ds	2
+00b61028	rmIsMapType	"rmIsMapType"	ds	2
+00b610ac	rmSetMapType	"rmSetMapType"	ds	2
+00b6110c	rmGetUnitPosition	"rmGetUnitPosition"	ds	2
+00b61174	rmGetHomeCityLevel	"rmGetHomeCityLevel"	ds	2
+00b611e8	rmGetHighHomeCityLevel	"rmGetHighHomeCityLevel"	ds	2
+00b61270	rmGetAverageHomeCityLevel	"rmGetAverageHomeCityLevel"	ds	2
+00b612ec	rmGetLowHomeCityLevel	"rmGetLowHomeCityLevel"	ds	2
+00b61370	rmSetHomeCityWaterSpawnPoint	"rmSetHomeCityWaterSpawnPoint"	ds	2
+00b613f4	rmSetHomeCityGatherPoint	"rmSetHomeCityGatherPoint"	ds	2
+00b61484	rmBuildTradeRoute	"rmBuildTradeRoute"	ds	2
+00b61518	rmGetTradeRouteWayPoint	"rmGetTradeRouteWayPoint"	ds	2
+00b615ac	rmCreateTradeRouteWaypointsInArea	"rmCreateTradeRouteWaypointsInArea"	ds	2
+00b61668	rmAddRandomTradeRouteWaypointsVector	"rmAddRandomTradeRouteWaypointsVector"	ds	2
+00b61740	rmAddRandomTradeRouteWaypoints	"rmAddRandomTradeRouteWaypoints"	ds	2
+00b617d4	rmAddTradeRouteWaypointVector	"rmAddTradeRouteWaypointVector"	ds	2
+00b6187c	rmAddTradeRouteWaypoint	"rmAddTradeRouteWaypoint"	ds	2
+00b618c4	rmCreateTradeRoute	"rmCreateTradeRoute"	ds	2
+00b61938	rmAddGroupingToClass	"rmAddGroupingToClass"	ds	2
+00b619b8	rmSetGroupingMaxDistance	"rmSetGroupingMaxDistance"	ds	2
+00b61a40	rmSetGroupingMinDistance	"rmSetGroupingMinDistance"	ds	2
+00b61ae4	rmPlaceGroupingInArea	"rmPlaceGroupingInArea"	ds	2
+00b61b7c	rmPlaceGroupingAtPoint	"rmPlaceGroupingAtPoint"	ds	2
+00b61c2c	rmPlaceGroupingAtLoc	"rmPlaceGroupingAtLoc"	ds	2
+00b61cb0	rmAddGroupingConstraint	"rmAddGroupingConstraint"	ds	2
+00b61d0c	rmCreateGrouping	"rmCreateGrouping"	ds	2
+00b61d44	rmSetIgnoreForceToGaia	"rmSetIgnoreForceToGaia"	ds	2
+00b61d88	rmDefineConstant	"rmDefineConstant"	ds	2
+00b61dd4	rmGetUnitPlacedOfPlayer	"rmGetUnitPlacedOfPlayer"	ds	2
+00b61e18	rmGetUnitPlaced	"rmGetUnitPlaced"	ds	2
+00b61e50	rmGetNumberUnitsPlaced	"rmGetNumberUnitsPlaced"	ds	2
+00b61ea4	rmAddUnitsToArmy	"rmAddUnitsToArmy"	ds	2
+00b61ee4	rmCreateArmy	"rmCreateArmy"	ds	2
+00b61f4c	rmSetTriggerEffectParamArmy	"rmSetTriggerEffectParamArmy"	ds	2
+00b61fb0	rmSetTriggerEffectParamFloat	"rmSetTriggerEffectParamFloat"	ds	2
+00b62014	rmSetTriggerEffectParamInt	"rmSetTriggerEffectParamInt"	ds	2
+00b62074	rmSetTriggerEffectParam	"rmSetTriggerEffectParam"	ds	2
+00b620b4	rmAddTriggerEffect	"rmAddTriggerEffect"	ds	2
+00b62120	rmSetTriggerConditionParamArmy	"rmSetTriggerConditionParamArmy"	ds	2
+00b6218c	rmSetTriggerConditionParamFloat	"rmSetTriggerConditionParamFloat"	ds	2
+00b621f8	rmSetTriggerConditionParamInt	"rmSetTriggerConditionParamInt"	ds	2
+00b62260	rmSetTriggerConditionParam	"rmSetTriggerConditionParam"	ds	2
+00b622a8	rmAddTriggerCondition	"rmAddTriggerCondition"	ds	2
+00b622dc	rmSetTriggerLoop	"rmSetTriggerLoop"	ds	2
+00b62320	rmSetTriggerRunImmediately	"rmSetTriggerRunImmediately"	ds	2
+00b6235c	rmSetTriggerActive	"rmSetTriggerActive"	ds	2
+00b62394	rmSetTriggerPriority	"rmSetTriggerPriority"	ds	2
+00b623cc	rmTriggerID	"rmTriggerID"	ds	2
+00b623fc	rmSwitchToTrigger	"rmSwitchToTrigger"	ds	2
+00b62434	rmCreateTrigger	"rmCreateTrigger"	ds	2
+00b62464	rmSetVPFile	"rmSetVPFile"	ds	2
+00b62508	rmSetStatusText	"rmSetStatusText"	ds	2
+00b62594	rmAddConnectionEndConstraint	"rmAddConnectionEndConstraint"	ds	2
+00b62638	rmAddConnectionStartConstraint	"rmAddConnectionStartConstraint"	ds	2
+00b626c8	rmAddConnectionConstraint	"rmAddConnectionConstraint"	ds	2
+00b62748	rmAddConnectionToClass	"rmAddConnectionToClass"	ds	2
+00b627a4	rmBuildConnection	"rmBuildConnection"	ds	2
+00b62824	rmSetConnectionBaseTerrainCost	"rmSetConnectionBaseTerrainCost"	ds	2
+00b628c4	rmSetConnectionTerrainCost	"rmSetConnectionTerrainCost"	ds	2
+00b62974	rmAddConnectionTerrainReplacement	"rmAddConnectionTerrainReplacement"	ds	2
+00b62a48	rmSetConnectionSmoothDistance	"rmSetConnectionSmoothDistance"	ds	2
+00b62ae4	rmSetConnectionHeightBlend	"rmSetConnectionHeightBlend"	ds	2
+00b62b68	rmSetConnectionWarnFailure	"rmSetConnectionWarnFailure"	ds	2
+00b62bdc	rmSetConnectionCoherence	"rmSetConnectionCoherence"	ds	2
+00b62c58	rmSetConnectionBaseHeight	"rmSetConnectionBaseHeight"	ds	2
+00b62ce0	rmSetConnectionWidth	"rmSetConnectionWidth"	ds	2
+00b62d68	rmSetConnectionPositionVariance	"rmSetConnectionPositionVariance"	ds	2
+00b62ddc	rmAddConnectionArea	"rmAddConnectionArea"	ds	2
+00b62e70	rmSetConnectionType	"rmSetConnectionType"	ds	2
+00b62ebc	rmCreateConnection	"rmCreateConnection"	ds	2
+00b62f78	rmPlaceObjectDefInRandomAreaOfClass	"rmPlaceObjectDefInRandomAreaOfClass"	ds	2
+00b63058	rmPlaceObjectDefAtRandomAreaOfClass	"rmPlaceObjectDefAtRandomAreaOfClass"	ds	2
+00b63108	rmPlaceObjectDefInArea	"rmPlaceObjectDefInArea"	ds	2
+00b631b8	rmPlaceObjectDefAtAreaLoc	"rmPlaceObjectDefAtAreaLoc"	ds	2
+00b63244	rmPlaceObjectDefPerPlayer	"rmPlaceObjectDefPerPlayer"	ds	2
+00b632d8	rmSetObjectDefTradeRouteID	"rmSetObjectDefTradeRouteID"	ds	2
+00b63384	rmPlaceObjectDefAtPoint	"rmPlaceObjectDefAtPoint"	ds	2
+00b63444	rmPlaceObjectDefAtLoc	"rmPlaceObjectDefAtLoc"	ds	2
+00b634d8	rmAddObjectDefItemByTypeID	"rmAddObjectDefItemByTypeID"	ds	2
+00b6356c	rmAddObjectDefItem	"rmAddObjectDefItem"	ds	2
+00b635f8	rmSetObjectDefForceFullRotation	"rmSetObjectDefForceFullRotation"	ds	2
+00b63678	rmSetObjectDefAllowOverlap	"rmSetObjectDefAllowOverlap"	ds	2
+00b63700	rmSetObjectDefHerdAngle	"rmSetObjectDefHerdAngle"	ds	2
+00b63784	rmSetObjectDefCreateHerd	"rmSetObjectDefCreateHerd"	ds	2
+00b63804	rmSetObjectDefGarrisonStartingUnits	"rmSetObjectDefGarrisonStartingUnits"	ds	2
+00b63890	rmSetObjectDefGarrisonSecondaryUnits	"rmSetObjectDefGarrisonSecondaryUnits"	ds	2
+00b6392c	rmSetObjectDefMaxDistance	"rmSetObjectDefMaxDistance"	ds	2
+00b639bc	rmSetObjectDefMinDistance	"rmSetObjectDefMinDistance"	ds	2
+00b63a68	rmCreateStartingUnitsObjectDef	"rmCreateStartingUnitsObjectDef"	ds	2
+00b63ac8	rmCreateObjectDef	"rmCreateObjectDef"	ds	2
+00b63b2c	rmConstraintID	"rmConstraintID"	ds	2
+00b63b78	rmClassID	"rmClassID"	ds	2
+00b63bec	rmAddObjectDefToClass	"rmAddObjectDefToClass"	ds	2
+00b63c5c	rmAddAreaToClass	"rmAddAreaToClass"	ds	2
+00b63cbc	rmDefineClass	"rmDefineClass"	ds	2
+00b63d3c	rmAddObjectDefConstraint	"rmAddObjectDefConstraint"	ds	2
+00b63dc8	rmAddFairLocConstraint	"rmAddFairLocConstraint"	ds	2
+00b63e64	rmCreateMaxHeightConstraint	"rmCreateMaxHeightConstraint"	ds	2
+00b63f24	rmCreateHCGPEnemyConstraint	"rmCreateHCGPEnemyConstraint"	ds	2
+00b63fe0	rmCreateHCGPAllyConstraint	"rmCreateHCGPAllyConstraint"	ds	2
+00b64098	rmCreateHCGPSelfConstraint	"rmCreateHCGPSelfConstraint"	ds	2
+00b64134	rmCreateHCGPConstraint	"rmCreateHCGPConstraint"	ds	2
+00b641b0	rmAddAreaConstraint	"rmAddAreaConstraint"	ds	2
+00b6423c	rmCreateTradeRouteDistanceConstraint	"rmCreateTradeRouteDistanceConstraint"	ds	2
+00b642e4	rmCreateCornerConstraint	"rmCreateCornerConstraint"	ds	2
+00b643a8	rmCreateTerrainMaxDistanceConstraint	"rmCreateTerrainMaxDistanceConstraint"	ds	2
+00b64470	rmCreateTerrainDistanceConstraint	"rmCreateTerrainDistanceConstraint"	ds	2
+00b64508	rmCreateTypeDistanceConstraint	"rmCreateTypeDistanceConstraint"	ds	2
+00b6459c	rmCreateClassDistanceConstraint	"rmCreateClassDistanceConstraint"	ds	2
+00b6464c	rmCreateCliffRampMaxDistanceConstraint	"rmCreateCliffRampMaxDistanceConstraint"	ds	2
+00b646fc	rmCreateCliffRampDistanceConstraint	"rmCreateCliffRampDistanceConstraint"	ds	2
+00b647b0	rmCreateCliffRampConstraint	"rmCreateCliffRampConstraint"	ds	2
+00b64858	rmCreateCliffEdgeMaxDistanceConstraint	"rmCreateCliffEdgeMaxDistanceConstraint"	ds	2
+00b64900	rmCreateCliffEdgeDistanceConstraint	"rmCreateCliffEdgeDistanceConstraint"	ds	2
+00b649b4	rmCreateCliffEdgeConstraint	"rmCreateCliffEdgeConstraint"	ds	2
+00b64a4c	rmCreateEdgeMaxDistanceConstraint	"rmCreateEdgeMaxDistanceConstraint"	ds	2
+00b64ae4	rmCreateEdgeDistanceConstraint	"rmCreateEdgeDistanceConstraint"	ds	2
+00b64b88	rmCreateEdgeConstraint	"rmCreateEdgeConstraint"	ds	2
+00b64c18	rmCreateAreaMaxDistanceConstraint	"rmCreateAreaMaxDistanceConstraint"	ds	2
+00b64cb0	rmCreateAreaDistanceConstraint	"rmCreateAreaDistanceConstraint"	ds	2
+00b64d48	rmCreateAreaConstraint	"rmCreateAreaConstraint"	ds	2
+00b64dc0	rmCreateAreaOverlapConstraint	"rmCreateAreaOverlapConstraint"	ds	2
+00b64ea4	rmCreatePieConstraint	"rmCreatePieConstraint"	ds	2
+00b64f4c	rmCreateBoxConstraint	"rmCreateBoxConstraint"	ds	2
+00b64fb0	rmSetTeamArea	"rmSetTeamArea"	ds	2
+00b65014	rmGetNumberPlayersOnTeam	"rmGetNumberPlayersOnTeam"	ds	2
+00b65080	rmGetPlayerCulture	"rmGetPlayerCulture"	ds	2
+00b650e8	rmGetPlayerCiv	"rmGetPlayerCiv"	ds	2
+00b65144	rmGetPlayerTeam	"rmGetPlayerTeam"	ds	2
+00b6518c	rmGetPlayerName	"rmGetPlayerName"	ds	2
+00b65228	rmMultiplyPlayerResource	"rmMultiplyPlayerResource"	ds	2
+00b652b4	rmAddPlayerResource	"rmAddPlayerResource"	ds	2
+00b65330	rmSetPlayerResource	"rmSetPlayerResource"	ds	2
+00b653a0	rmFairLocZFraction	"rmFairLocZFraction"	ds	2
+00b65410	rmFairLocXFraction	"rmFairLocXFraction"	ds	2
+00b65474	rmGetNumberFairLocs	"rmGetNumberFairLocs"	ds	2
+00b654bc	rmResetFairLocs	"rmResetFairLocs"	ds	2
+00b65508	rmPlaceFairLocs	"rmPlaceFairLocs"	ds	2
+00b655e4	rmAddFairLoc	"rmAddFairLoc"	ds	2
+00b65648	rmPlayerLocZFraction	"rmPlayerLocZFraction"	ds	2
+00b656b0	rmPlayerLocXFraction	"rmPlayerLocXFraction"	ds	2
+00b65714	rmSetPlayerArea	"rmSetPlayerArea"	ds	2
+00b65784	rmPlacePlayer	"rmPlacePlayer"	ds	2
+00b65838	rmPlacePlayersRiver	"rmPlacePlayersRiver"	ds	2
+00b658dc	rmPlacePlayersLine	"rmPlacePlayersLine"	ds	2
+00b65968	rmPlacePlayersSquare	"rmPlacePlayersSquare"	ds	2
+00b659f8	rmPlacePlayersCircular	"rmPlacePlayersCircular"	ds	2
+00b65a7c	rmSetPlacementSection	"rmSetPlacementSection"	ds	2
+00b65acc	rmSetPlacementTeam	"rmSetPlacementTeam"	ds	2
+00b65b2c	rmSetTeamSpacingModifier	"rmSetTeamSpacingModifier"	ds	2
+00b65bc8	rmSetPlayerPlacementArea	"rmSetPlayerPlacementArea"	ds	2
+00b65c5c	rmSetPlayerLocation	"rmSetPlayerLocation"	ds	2
+00b65d18	rmAddMerc	"rmAddMerc"	ds	2
+00b65d58	rmGetCivID	"rmGetCivID"	ds	2
+00b65dc0	rmSetSubCiv	"rmSetSubCiv"	ds	2
+00b65e20	rmAllocateSubCivs	"rmAllocateSubCivs"	ds	2
+00b65e68	rmSetGaiaCiv	"rmSetGaiaCiv"	ds	2
+00b65ee4	rmDoLightingEffect	"rmDoLightingEffect"	ds	2
+00b65f44	rmDoLightingFade	"rmDoLightingFade"	ds	2
+00b65f8c	rmSetLightingSet	"rmSetLightingSet"	ds	2
+00b65fd4	rmFillMapCorners	"rmFillMapCorners"	ds	2
+00b66058	rmTerrainInitialize	"rmTerrainInitialize"	ds	2
+00b660c8	rmSetWindMagnitude	"rmSetWindMagnitude"	ds	2
+00b66148	rmSetGlobalStormLength	"rmSetGlobalStormLength"	ds	2
+00b66198	rmSetGlobalRain	"rmSetGlobalRain"	ds	2
+00b661e0	rmSetGlobalSnow	"rmSetGlobalSnow"	ds	2
+00b66290	rmSetAreaReveal	"rmSetAreaReveal"	ds	2
+00b66340	rmSetAreaElevationNoiseBias	"rmSetAreaElevationNoiseBias"	ds	2
+00b663e8	rmSetAreaElevationEdgeFalloffDist	"rmSetAreaElevationEdgeFalloffDist"	ds	2
+00b664a0	rmSetAreaElevationVariation	"rmSetAreaElevationVariation"	ds	2
+00b66544	rmSetAreaElevationPersistence	"rmSetAreaElevationPersistence"	ds	2
+00b665d0	rmSetAreaElevationOctaves	"rmSetAreaElevationOctaves"	ds	2
+00b6666c	rmSetAreaElevationMinFrequency	"rmSetAreaElevationMinFrequency"	ds	2
+00b66718	rmSetAreaElevationType	"rmSetAreaElevationType"	ds	2
+00b667b4	rmAddAreaTerrainReplacement	"rmAddAreaTerrainReplacement"	ds	2
+00b66834	rmAddAreaRemoveType	"rmAddAreaRemoveType"	ds	2
+00b668d8	rmAddAreaInfluenceSegment	"rmAddAreaInfluenceSegment"	ds	2
+00b66960	rmAddAreaInfluencePoint	"rmAddAreaInfluencePoint"	ds	2
+00b669b4	rmAreaID	"rmAreaID"	ds	2
+00b66a2c	rmSetAreaHeightBlend	"rmSetAreaHeightBlend"	ds	2
+00b66af0	rmSetAreaSmoothDistance	"rmSetAreaSmoothDistance"	ds	2
+00b66b54	rmSetAreaCoherence	"rmSetAreaCoherence"	ds	2
+00b66bb8	rmSetAreaMaxBlobDistance	"rmSetAreaMaxBlobDistance"	ds	2
+00b66c28	rmSetAreaMinBlobDistance	"rmSetAreaMinBlobDistance"	ds	2
+00b66c98	rmSetAreaMaxBlobs	"rmSetAreaMaxBlobs"	ds	2
+00b66d00	rmSetAreaMinBlobs	"rmSetAreaMinBlobs"	ds	2
+00b66d90	rmSetAreaTerrainLayerVariance	"rmSetAreaTerrainLayerVariance"	ds	2
+00b66e24	rmAddAreaTerrainLayer	"rmAddAreaTerrainLayer"	ds	2
+00b66ebc	rmSetAreaObeyWorldCircleConstraint	"rmSetAreaObeyWorldCircleConstraint"	ds	2
+00b66f58	rmSetWorldCircleConstraint	"rmSetWorldCircleConstraint"	ds	2
+00b67034	rmSetRiverFoundationParams	"rmSetRiverFoundationParams"	ds	2
+00b670c4	rmRiverReveal	"rmRiverReveal"	ds	2
+00b67110	rmRiverAvoid	"rmRiverAvoid"	ds	2
+00b6714c	rmRiverAddShallows	"rmRiverAddShallows"	ds	2
+00b6718c	rmRiverAddShallow	"rmRiverAddShallow"	ds	2
+00b671cc	rmRiverSetShallowRadius	"rmRiverSetShallowRadius"	ds	2
+00b67250	rmRiverSetBankNoiseParams	"rmRiverSetBankNoiseParams"	ds	2
+00b672fc	rmRiverAddWaypoint	"rmRiverAddWaypoint"	ds	2
+00b67344	rmRiverConnectRiver	"rmRiverConnectRiver"	ds	2
+00b67384	rmRiverSetConnections	"rmRiverSetConnections"	ds	2
+00b6740c	rmRiverCreate	"rmRiverCreate"	ds	2
+00b67498	rmAddAreaCliffEdgeAvoidClass	"rmAddAreaCliffEdgeAvoidClass"	ds	2
+00b67520	rmSetAreaCliffHeight	"rmSetAreaCliffHeight"	ds	2
+00b675c4	rmSetAreaCliffEdge	"rmSetAreaCliffEdge"	ds	2
+00b67688	rmSetAreaCliffPainting	"rmSetAreaCliffPainting"	ds	2
+00b676f4	rmSetAreaCliffType	"rmSetAreaCliffType"	ds	2
+00b677dc	rmGetAreaClosestPoint	"rmGetAreaClosestPoint"	ds	2
+00b6784c	rmSetAreaWaterType	"rmSetAreaWaterType"	ds	2
+00b678bc	rmSetAreaForestUnderbrush	"rmSetAreaForestUnderbrush"	ds	2
+00b67934	rmSetAreaForestClumpiness	"rmSetAreaForestClumpiness"	ds	2
+00b679a8	rmSetAreaForestDensity	"rmSetAreaForestDensity"	ds	2
+00b67a68	rmSetAreaForestType	"rmSetAreaForestType"	ds	2
+00b67ae8	rmSetAreaWarnFailure	"rmSetAreaWarnFailure"	ds	2
+00b67b54	rmSetAreaBaseHeight	"rmSetAreaBaseHeight"	ds	2
+00b67c54	rmPaintAreaTerrainByAngle	"rmPaintAreaTerrainByAngle"	ds	2
+00b67d60	rmPaintAreaTerrainByHeight	"rmPaintAreaTerrainByHeight"	ds	2
+00b67dcc	rmPaintAreaTerrain	"rmPaintAreaTerrain"	ds	2
+00b67e50	rmSetAreaMix	"rmSetAreaMix"	ds	2
+00b67ec0	rmSetAreaTerrainType	"rmSetAreaTerrainType"	ds	2
+00b67f14	rmBuildAllAreas	"rmBuildAllAreas"	ds	2
+00b67f58	rmBuildArea	"rmBuildArea"	ds	2
+00b67fbc	rmSetAreaLocTeam	"rmSetAreaLocTeam"	ds	2
+00b6802c	rmSetAreaLocPlayer	"rmSetAreaLocPlayer"	ds	2
+00b68098	rmSetAreaLocation	"rmSetAreaLocation"	ds	2
+00b6814c	rmSetAreaEdgeFilling	"rmSetAreaEdgeFilling"	ds	2
+00b681d4	rmSetAreaSize	"rmSetAreaSize"	ds	2
+00b68224	rmCreateArea	"rmCreateArea"	ds	2
+00b682a0	rmZFractionToMeters	"rmZFractionToMeters"	ds	2
+00b68318	rmXFractionToMeters	"rmXFractionToMeters"	ds	2
+00b68394	rmZMetersToFraction	"rmZMetersToFraction"	ds	2
+00b6840c	rmXMetersToFraction	"rmXMetersToFraction"	ds	2
+00b68470	rmTilesToMeters	"rmTilesToMeters"	ds	2
+00b684d4	rmMetersToTiles	"rmMetersToTiles"	ds	2
+00b68534	rmDegreesToRadians	"rmDegreesToRadians"	ds	2
+00b685a4	rmZTilesToFraction	"rmZTilesToFraction"	ds	2
+00b68620	rmZFractionToTiles	"rmZFractionToTiles"	ds	2
+00b68694	rmXTilesToFraction	"rmXTilesToFraction"	ds	2
+00b68710	rmXFractionToTiles	"rmXFractionToTiles"	ds	2
+00b68778	rmAreaTilesToFraction	"rmAreaTilesToFraction"	ds	2
+00b687f0	rmAreaFractionToTiles	"rmAreaFractionToTiles"	ds	2
+00b688bc	rmSetMapClusteringNoiseParams	"rmSetMapClusteringNoiseParams"	ds	2
+00b689b8	rmSetMapClusteringObjectParams	"rmSetMapClusteringObjectParams"	ds	2
+00b68b38	rmSetMapClusteringPlacementParams	"rmSetMapClusteringPlacementParams"	ds	2
+00b68c10	rmPlaceMapClusters	"rmPlaceMapClusters"	ds	2
+00b68c9c	rmSetMapElevationHeightBlend	"rmSetMapElevationHeightBlend"	ds	2
+00b68de0	rmAddMapTerrainByAngleInfo	"rmAddMapTerrainByAngleInfo"	ds	2
+00b68ed0	rmAddMapTerrainByHeightInfo	"rmAddMapTerrainByHeightInfo"	ds	2
+00b68f6c	rmSetBaseTerrainMix	"rmSetBaseTerrainMix"	ds	2
+00b6901c	rmSetMapElevationParameters	"rmSetMapElevationParameters"	ds	2
+00b690a4	rmSetSeaType	"rmSetSeaType"	ds	2
+00b690e8	rmGetSeaLevel	"rmGetSeaLevel"	ds	2
+00b6912c	rmSetSeaLevel	"rmSetSeaLevel"	ds	2
+00b69178	rmGetMapZSize	"rmGetMapZSize"	ds	2
+00b691c4	rmGetMapXSize	"rmGetMapXSize"	ds	2
+00b6920c	rmSetMapSize	"rmSetMapSize"	ds	2
+00b6928c	rmGetIsFFA	"rmGetIsFFA"	ds	2
+00b692fc	rmGetNomadStart	"rmGetNomadStart"	ds	2
+00b6935c	rmRandInt	"rmRandInt"	ds	2
+00b693b8	rmRandFloat	"rmRandFloat"	ds	2
+00b69404	rmEchoInfo	"rmEchoInfo"	ds	2
+00b69450	rmEchoError	"rmEchoError"	ds	2
+00b694a0	rmEchoWarning	"rmEchoWarning"	ds	2
+00b670d4	rmRiverBuild	"rmRiverBuild"	ds	3
