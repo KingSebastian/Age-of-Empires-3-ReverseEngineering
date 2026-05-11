@@ -1,0 +1,500 @@
+00bb38f8	trEdit-CondEffPanel-notbox	"trEdit-CondEffPanel-notbox"	ds	1
+00bb3914	trEdit-CondEffPanel-orbox	"trEdit-CondEffPanel-orbox"	ds	1
+00bb3930	trEdit-CondEffPanel-name	"trEdit-CondEffPanel-name"	ds	1
+00bb394c	trEdit-CondEffPanel-custom	"trEdit-CondEffPanel-custom"	ds	1
+00bb3968	trEdit-CondEffPanel-type	"trEdit-CondEffPanel-type"	ds	1
+00bb3984	trEdit-CondEffPanel-delbtn	"trEdit-CondEffPanel-delbtn"	ds	1
+00bb39a0	trEdit-CondEffPanel-copybtn	"trEdit-CondEffPanel-copybtn"	ds	1
+00bb39bc	trEdit-CondEffPanel-insbtn	"trEdit-CondEffPanel-insbtn"	ds	1
+00bb39d8	trEdit-CondEffPanel-list	"trEdit-CondEffPanel-list"	ds	1
+00bb39f4	trEdit-Effect-list	"trEdit-Effect-list"	ds	1
+00bb3a08	trEdit-Condition-list	"trEdit-Condition-list"	ds	1
+00bb3a20	trEdit-Trigger-priority	"trEdit-Trigger-priority"	ds	1
+00bb3a38	trEdit-Trigger-name	"trEdit-Trigger-name"	ds	1
+00bb3a4c	trEdit-Trigger-loopbtn	"trEdit-Trigger-loopbtn"	ds	1
+00bb3a64	trEdit-Trigger-runimmediatelybtn	"trEdit-Trigger-runimmediatelybtn"	ds	1
+00bb3a88	trEdit-Trigger-activebtn	"trEdit-Trigger-activebtn"	ds	1
+00bb3aa4	trEdit-Trigger-RadioButtons	"trEdit-Trigger-RadioButtons"	ds	1
+00bb3ac0	trEdit-Trigger-delbtn	"trEdit-Trigger-delbtn"	ds	1
+00bb3ad8	trEdit-Trigger-copybtn	"trEdit-Trigger-copybtn"	ds	1
+00bb3af0	trEdit-Trigger-insbtn	"trEdit-Trigger-insbtn"	ds	1
+00bb3b08	trEdit-Trigger-list	"trEdit-Trigger-list"	ds	1
+00bb3b1c	trEdit-CondEffPanel	"trEdit-CondEffPanel"	ds	1
+00bb3b30	trEdit-Trigger-group	"trEdit-Trigger-group"	ds	1
+00bb3b48	trEdit-Triggers	"trEdit-Triggers"	ds	1
+00bce4f8	trShowSPCNote(<Title> <Text>): Displays the SPC Note Dlg with the specified title and text.	"trShowSPCNote(<Title> <Text>): Displays the SPC Note Dlg with the specified title and text."	ds	1
+00bce578	trSetShadowFarClip( <enable>, <distance> ): Enable or disables the shadow far clippping plane.	"trSetShadowFarClip( <enable>, <distance> ): Enable or disables the shadow far clippping plane."	ds	1
+00bce5f0	trTradeRouteSetLevel(traderouteindex, level) : Sets the specified trade route to the specified level from a trigger.	"trTradeRouteSetLevel(traderouteindex, level) : Sets the specified trade route to the specified level from a trigger."	ds	1
+00bce680	trTradeRouteToggleState(position): Enable or disables the unit from showing.	"trTradeRouteToggleState(position): Enable or disables the unit from showing."	ds	1
+00bce6e8	trTradeRouteSetPosition(position): Places train on a specified position on the route.	"trTradeRouteSetPosition(position): Places train on a specified position on the route."	ds	1
+00bce758	trAICommsTrain(sendToPlayerID, unitTypeName): tell player sendToPlayerID to train Units of type unitTypeName, sent via player Comms.	"trAICommsTrain(sendToPlayerID, unitTypeName): tell player sendToPlayerID to train Units of type unitTypeName, sent via player Comms."	ds	1
+00bce7f0	trAICommsClaim(sendToPlayerID): tell player sendToPlayerID to claim TradePost at (locX, locY, locZ), sent via player Comms.	"trAICommsClaim(sendToPlayerID): tell player sendToPlayerID to claim TradePost at (locX, locY, locZ), sent via player Comms."	ds	1
+00bce880	trAICommsCancelOrder(sendToPlayerID): tell player sendToPlayerID to cancel order, sent via player Comms.	"trAICommsCancelOrder(sendToPlayerID): tell player sendToPlayerID to cancel order, sent via player Comms."	ds	1
+00bce908	trAICommsRequestTribute(fromPlayerID, resource, amount): fromPlayerID will send resource of x amount, sent via player Comms.	"trAICommsRequestTribute(fromPlayerID, resource, amount): fromPlayerID will send resource of x amount, sent via player Comms."	ds	1
+00bce9a0	trAICommsDefendPoint(playerID, defendX, defendY, defendZ): playerID will defend point(defendX, defendY, defendZ), sent via player Comms.	"trAICommsDefendPoint(playerID, defendX, defendY, defendZ): playerID will defend point(defendX, defendY, defendZ), sent via player Comms."	ds	1
+00bcea48	trAICommsAttackUnits(playerID, armyToAttack): playerID will attack armyToAttack, sent via player Comms.	"trAICommsAttackUnits(playerID, armyToAttack): playerID will attack armyToAttack, sent via player Comms."	ds	1
+00bceac8	trAttackUnits(srcArmyname, armyToAttack, planname): srcArmy units will attack armyToAttack in the given planname.	"trAttackUnits(srcArmyname, armyToAttack, planname): srcArmy units will attack armyToAttack in the given planname."	ds	1
+00bceb50	trDefendUnits(srcArmyname, defendedArmyname, planname, evaluationFrequency, gatherdistance): srcArmy units will defend defendedArmyUnits in the given planname.	"trDefendUnits(srcArmyname, defendedArmyname, planname, evaluationFrequency, gatherdistance): srcArmy units will defend defendedArmyUnits in the given planname."	ds	1
+00bcec00	trAddArmyToPlan(armyname, planname): Adds the units in the specified army to the specified plan.	"trAddArmyToPlan(armyname, planname): Adds the units in the specified army to the specified plan."	ds	1
+00bcec74	trKillAIPlan(playerID, planName) : No help 	"trKillAIPlan(playerID, planName) : No help "	ds	1
+00bcecb0	trCreateAttackPlan(armyName, PlanName, attackPlayerID, attackX, attackY, attackZ, engageRange, evaluationFrequency) : No help 	"trCreateAttackPlan(armyName, PlanName, attackPlayerID, attackX, attackY, attackZ, engageRange, evaluationFrequency) : No help "	ds	1
+00bced48	trCreateDefendPlan(armyName, defendPlanName, defendX, defendY, defendZ, engageRange, evaluationFrequency, gatherdistance) : No help 	"trCreateDefendPlan(armyName, defendPlanName, defendX, defendY, defendZ, engageRange, evaluationFrequency, gatherdistance) : No help "	ds	1
+00bcedf8	trUnitMakeInvulnerable( <enable> ) : Makes a unit invulnerable to damage.  Turn it off to return the unit to normal.	"trUnitMakeInvulnerable( <enable> ) : Makes a unit invulnerable to damage.  Turn it off to return the unit to normal."	ds	1
+00bcee88	trActivateTrigger(<eventID>) : Activates (sets active = true) the trigger specified by the given eventID.	"trActivateTrigger(<eventID>) : Activates (sets active = true) the trigger specified by the given eventID."	ds	1
+00bcef08	trDisableTrigger(<eventID>) : Disables (sets active = false) the trigger specified by the given eventID.	"trDisableTrigger(<eventID>) : Disables (sets active = false) the trigger specified by the given eventID."	ds	1
+00bcef88	trCameraPanWithUnit( <enable> <trigger ID>) : Moves the camera in the same direction that a particular unit moves.	"trCameraPanWithUnit( <enable> <trigger ID>) : Moves the camera in the same direction that a particular unit moves."	ds	1
+00bcf010	trCameraLockOnUnit( <enable> <time to orient> <trigger ID>) : Orients the camera to the selected unit, and keeps it locked on that unit. ): puts the camera in the specified location.	"trCameraLockOnUnit( <enable> <time to orient> <trigger ID>) : Orients the camera to the selected unit, and keeps it locked on that unit. ): puts the camera in the specified location."	ds	1
+00bcf0e0	trUnitFaceUnit( <unitScenarioName> <eventID> : Moves the selected unit(s) to face the given unit.	"trUnitFaceUnit( <unitScenarioName> <eventID> : Moves the selected unit(s) to face the given unit."	ds	1
+00bcf228	trVPAnnualAwards(enable): enables/disables the award of VP's each year.	"trVPAnnualAwards(enable): enables/disables the award of VP's each year."	ds	1
+00bcf288	trPlayerVPCount(playerID): returns the number of victory points for the player.	"trPlayerVPCount(playerID): returns the number of victory points for the player."	ds	1
+00bcf2e8	trGrantVP(player, number): Grants a number of Scenario VP to a player	"trGrantVP(player, number): Grants a number of Scenario VP to a player"	ds	1
+00bcf340	trQuestVarEcho(varname, value) : chats out the value of one of the trigger scratch variables	"trQuestVarEcho(varname, value) : chats out the value of one of the trigger scratch variables"	ds	1
+00bcf3b0	trQuestVarGet(varname) : retrieve value of a trigger scratch variable, returns zero if unset	"trQuestVarGet(varname) : retrieve value of a trigger scratch variable, returns zero if unset"	ds	1
+00bcf420	trQuestVarSetFromRand(varname, minval, maxval, round) : sets one of the trigger scratch variables within a random range	"trQuestVarSetFromRand(varname, minval, maxval, round) : sets one of the trigger scratch variables within a random range"	ds	1
+00bcf4b0	trQuestVarCopy(var1, var2) : copies value of one of the trigger scratch variables	"trQuestVarCopy(var1, var2) : copies value of one of the trigger scratch variables"	ds	1
+00bcf518	trQuestVarSet(varname, value) : sets one of the trigger scratch variables	"trQuestVarSet(varname, value) : sets one of the trigger scratch variables"	ds	1
+00bcf578	trOverlayText(message, time, x, y, width, background) : puts up a big movie-credits style text overlay, optionally in a strange location, and now with a background	"trOverlayText(message, time, x, y, width, background) : puts up a big movie-credits style text overlay, optionally in a strange location, and now with a background"	ds	1
+00bcf630	trDamageUnitsInArea(player, unitType, dist, damage): All units within dist of the selected ref object that match type take dmg	"trDamageUnitsInArea(player, unitType, dist, damage): All units within dist of the selected ref object that match type take dmg"	ds	1
+00bcf6c8	trDamageUnit(amt): does a specific amount of damage to HP in instant typeless damage.	"trDamageUnit(amt): does a specific amount of damage to HP in instant typeless damage."	ds	1
+00bcf730	trDamageUnitPercent(percent): does % percent of a unit's total HP in instant typeless damage.	"trDamageUnitPercent(percent): does % percent of a unit's total HP in instant typeless damage."	ds	1
+00bcf7a8	trModifyProtounit(unit, player, field, delta): modifies proto unit data for this scenario only.	"trModifyProtounit(unit, player, field, delta): modifies proto unit data for this scenario only."	ds	1
+00bcf820	trShowChoiceDialog(maintext, choice1, event1, choice2, event2) : displays dialog with 2 choices, and activates a trigger in response	"trShowChoiceDialog(maintext, choice1, event1, choice2, event2) : displays dialog with 2 choices, and activates a trigger in response"	ds	1
+00bcf8d8	trShowImageDialog(texture, subtitle) : displays a custom image in a dialog, with a subtitle	"trShowImageDialog(texture, subtitle) : displays a custom image in a dialog, with a subtitle"	ds	1
+00bcf948	trEchoStatValue(player, stat) : fetch a stat value from the KB and echo to chat	"trEchoStatValue(player, stat) : fetch a stat value from the KB and echo to chat"	ds	1
+00bcf9a8	trGetStatValue(player, stat) : fetch a stat value from the KB	"trGetStatValue(player, stat) : fetch a stat value from the KB"	ds	1
+00bcf9f8	trChatHistoryClear: forces the chat history to reset	"trChatHistoryClear: forces the chat history to reset"	ds	1
+00bcfa48	trChatHistoryContains(text): returns whether or not the current chat history has any instance (substring) of this text	"trChatHistoryContains(text): returns whether or not the current chat history has any instance (substring) of this text"	ds	1
+00bcfad8	trUnitChangeName(name): set an override name for a specific unit	"trUnitChangeName(name): set an override name for a specific unit"	ds	1
+00bcfb30	trRevealEntireMap -- shows whole map, similar to how revealed mode works	"trRevealEntireMap -- shows whole map, similar to how revealed mode works"	ds	1
+00bcfb90	trIsMovieNotPlaying() -- returns false if a movie is currently playing	"trIsMovieNotPlaying() -- returns false if a movie is currently playing"	ds	1
+00bcfbec	trPlayMovie(<FileName>) -- plays movies from the AVI directory	"trPlayMovie(<FileName>) -- plays movies from the AVI directory"	ds	1
+00bcfc44	trClearCounterDisplay()	"trClearCounterDisplay()"	ds	1
+00bcfc74	trSetCounterDisplay(text)	"trSetCounterDisplay(text)"	ds	1
+00bcfca4	trSetPauseInObjectiveWindow()	"trSetPauseInObjectiveWindow()"	ds	1
+00bcfce0	trSetPauseOnAgeUpgrade()	"trSetPauseOnAgeUpgrade()"	ds	1
+00bcfd18	trForbidProtounit(player, protoname): adds protounit to the forbidden list	"trForbidProtounit(player, protoname): adds protounit to the forbidden list"	ds	1
+00bcfd78	trUnforbidProtounit(player, protoname): removes protounit from the forbidden list	"trUnforbidProtounit(player, protoname): removes protounit from the forbidden list"	ds	1
+00bcfde0	trGetWorldDifficulty()	"trGetWorldDifficulty()"	ds	1
+00bcfe10	trGetSelectedUnitID(int index)	"trGetSelectedUnitID(int index)"	ds	1
+00bcfe44	trGetNumberSelectedUnitIDs()	"trGetNumberSelectedUnitIDs()"	ds	1
+00bcfe80	trAIFunc(<playerID> <functionName> <param>: Makes the camera shake.	"trAIFunc(<playerID> <functionName> <param>: Makes the camera shake."	ds	1
+00bcfed0	trArmyPlayerDefakify(armyname) : Defakifies the army.	"trArmyPlayerDefakify(armyname) : Defakifies the army."	ds	1
+00bcff20	trUnitPlayerDefakify() : Sets the selected unit as not having a fake player	"trUnitPlayerDefakify() : Sets the selected unit as not having a fake player"	ds	1
+00bcff88	trArmyPlayerFakify(armyname, fakeplayerindex) : Fakifies the army to the specified fake player index.	"trArmyPlayerFakify(armyname, fakeplayerindex) : Fakifies the army to the specified fake player index."	ds	1
+00bd0008	trUnitPlayerFakify(fakePlayerIndex) : Sets the selected unit as having the fake player with the specified index (0-7)	"trUnitPlayerFakify(fakePlayerIndex) : Sets the selected unit as having the fake player with the specified index (0-7)"	ds	1
+00bd0098	trPlayerGrantResources(player, resource, amount): advances the campaign.	"trPlayerGrantResources(player, resource, amount): advances the campaign."	ds	1
+00bd0100	trCampaignPlayCurrent(): plays the current scenario in the campaign	"trCampaignPlayCurrent(): plays the current scenario in the campaign"	ds	1
+00bd0160	trCampaignAdvanceProgress(): advances the user progress through the campaign.(updates user profile only)	"trCampaignAdvanceProgress(): advances the user progress through the campaign.(updates user profile only)"	ds	1
+00bd01e8	trCampaignAdvance(): advances the campaign (advance user profile, AND plays the next scenario).	"trCampaignAdvance(): advances the campaign (advance user profile, AND plays the next scenario)."	ds	1
+00bd025c	trModeEnter(<name>): enters the mode specified.	"trModeEnter(<name>): enters the mode specified."	ds	1
+00bd0298	trIsGadgetVisible(<name>): returns true if gadget is real.	"trIsGadgetVisible(<name>): returns true if gadget is real."	ds	1
+00bd02e8	trPlayerKillAllBuildings(<playerID> Kills all of the buildings of a given player.	"trPlayerKillAllBuildings(<playerID> Kills all of the buildings of a given player."	ds	1
+00bd0358	trPlayerKillAllUnits(<playerID> Kills all of the units of a given player.	"trPlayerKillAllUnits(<playerID> Kills all of the units of a given player."	ds	1
+00bd03c0	trPlayerResetBlackMapForAllPlayers(Resets the black map for all HUMAN players.	"trPlayerResetBlackMapForAllPlayers(Resets the black map for all HUMAN players."	ds	1
+00bd0438	trPlayerResetBlackMap(<playerID>: Resets the black map for a given HUMAN player.	"trPlayerResetBlackMap(<playerID>: Resets the black map for a given HUMAN player."	ds	1
+00bd04a4	trCameraShake(<duration> <strength>: Makes the camera shake.	"trCameraShake(<duration> <strength>: Makes the camera shake."	ds	1
+00bd04f8	trMinimapFlare(<playerID> <duration> <position> <flash>): Sends a Minimap flare to a certain player.	"trMinimapFlare(<playerID> <duration> <position> <flash>): Sends a Minimap flare to a certain player."	ds	1
+00bd0570	trRateResearch(void): restore all rates to normal.	"trRateResearch(void): restore all rates to normal."	ds	1
+00bd05b4	trRateResearch(<rate>): modify research rate.	"trRateResearch(<rate>): modify research rate."	ds	1
+00bd05f4	trRateTrain(<rate>): modify training rate.	"trRateTrain(<rate>): modify training rate."	ds	1
+00bd062c	trRateConstruction(<rate>): modify construction rate.	"trRateConstruction(<rate>): modify construction rate."	ds	1
+00bd0678	trUIFadeToColor(<r> <g> <b> <duration> <delay> <inout>): fade in/out using color specified.	"trUIFadeToColor(<r> <g> <b> <duration> <delay> <inout>): fade in/out using color specified."	ds	1
+00bd06e8	trUIFlashCategory(<category> <flash>): flashes a UI element (maybe).	"trUIFlashCategory(<category> <flash>): flashes a UI element (maybe)."	ds	1
+00bd0744	trUIFlash(<proto name> <flash>): flashes a UI element (maybe).	"trUIFlash(<proto name> <flash>): flashes a UI element (maybe)."	ds	1
+00bd0794	trUIFlash(<tech id> <flash>): flashes a UI element (maybe).	"trUIFlash(<tech id> <flash>): flashes a UI element (maybe)."	ds	1
+00bd07e0	trUIStopFlash(<gadget name>): stops the flashing of a UI element.	"trUIStopFlash(<gadget name>): stops the flashing of a UI element."	ds	1
+00bd0838	trUIFlash(<gadget name> <flashLimit> <colorR> <colorG> <colorB>): flashes a UI element.	"trUIFlash(<gadget name> <flashLimit> <colorR> <colorG> <colorB>): flashes a UI element."	ds	1
+00bd08a0	trHasNuggetBeenCollected : Returns true if the nugget has been collected, the playerID is an optional parameter for querying if the specific player has collected it.	"trHasNuggetBeenCollected : Returns true if the nugget has been collected, the playerID is an optional parameter for querying if the specific player has collected it."	ds	1
+00bd0968	trGetNumberNuggetsGathered : Returns the number of nuggets gathered by the specified player.	"trGetNumberNuggetsGathered : Returns the number of nuggets gathered by the specified player."	ds	1
+00bd09e8	trFormationScale(scale): scales the formation size of formations in the game.	"trFormationScale(scale): scales the formation size of formations in the game."	ds	1
+00bd0a50	trForceNonCinematicModels(): forces models to be in non cinematic mode	"trForceNonCinematicModels(): forces models to be in non cinematic mode"	ds	1
+00bd0ab4	trCinematicDoAbort(): aborts the cinematic.	"trCinematicDoAbort(): aborts the cinematic."	ds	1
+00bd0af4	trCinematicAbort(): returns the abort cinematic status.	"trCinematicAbort(): returns the abort cinematic status."	ds	1
+00bd0b40	trCounterAbort(name): abort a counter.	"trCounterAbort(name): abort a counter."	ds	1
+00bd0b78	trCounterAddUnit(name, playerid, count, message, event): start a counter that may or may not fire an event.	"trCounterAddUnit(name, playerid, count, message, event): start a counter that may or may not fire an event."	ds	1
+00bd0bf8	trCounterAddUnit(name, playerid, count, protounit, message, event): start a counter that may or may not fire an event.	"trCounterAddUnit(name, playerid, count, protounit, message, event): start a counter that may or may not fire an event."	ds	1
+00bd0c90	trCounterAddTimeMs(name, start, stop, message, event): start a counter that may or may not fire an event.	"trCounterAddTimeMs(name, start, stop, message, event): start a counter that may or may not fire an event."	ds	1
+00bd0d10	trCounterAddTime(name, start, stop, message, event): start a counter that may or may not fire an event.	"trCounterAddTime(name, start, stop, message, event): start a counter that may or may not fire an event."	ds	1
+00bd0d90	trSetLighting(setname, fadetime): fades to the specified lighting set over fadetime.	"trSetLighting(setname, fadetime): fades to the specified lighting set over fadetime."	ds	1
+00bd0df8	trArmyDispatch(<parameters>): creates the units in the army specified.	"trArmyDispatch(<parameters>): creates the units in the army specified."	ds	1
+00bd0e50	trArmySelectInt(int playerID, int armyID): selects the units in the army specified.	"trArmySelectInt(int playerID, int armyID): selects the units in the army specified."	ds	1
+00bd0eb8	trArmySelect(army info string): selects the units in the army specified.	"trArmySelect(army info string): selects the units in the army specified."	ds	1
+00bd0f14	trStopGameRecord: add help string.	"trStopGameRecord: add help string."	ds	1
+00bd0f4c	trStartGameRecord: add help string.	"trStartGameRecord: add help string."	ds	1
+00bd0f88	trSetFogAndBlackmap(<true/false> <true/false>): turn fog and black map on/off.	"trSetFogAndBlackmap(<true/false> <true/false>): turn fog and black map on/off."	ds	1
+00bd0fec	trRenderRain(<float percent>): controls rain rendering.	"trRenderRain(<float percent>): controls rain rendering."	ds	1
+00bd1034	trRenderSnow(<float percent>): controls snow rendering.	"trRenderSnow(<float percent>): controls snow rendering."	ds	1
+00bd1080	trRenderSky(<true/false> <skyName>): turn sky rendering on/off and set which sky to use.	"trRenderSky(<true/false> <skyName>): turn sky rendering on/off and set which sky to use."	ds	1
+00bd10f8	trShowCampaignDlg(NextCampaign): .	"trShowCampaignDlg(NextCampaign): ."	ds	1
+00bd1138	trShowWinLose(text, soundfile): message and sound.	"trShowWinLose(text, soundfile): message and sound."	ds	1
+00bd117c	trYouLose(text): player loses, specifies message.	"trYouLose(text): player loses, specifies message."	ds	1
+00bd11c0	trYouWin(directToMenu): player wins.  If you set directToMenu to true, you go directly to Campaign Menu.	"trYouWin(directToMenu): player wins.  If you set directToMenu to true, you go directly to Campaign Menu."	ds	1
+00bd1238	trTechSetStatus(playerID techID status): sets the tech status for the player.	"trTechSetStatus(playerID techID status): sets the tech status for the player."	ds	1
+00bd1298	trTechStatusCheck(playerID, techID, techStatus): returns true if tech's status is techStatus.	"trTechStatusCheck(playerID, techID, techStatus): returns true if tech's status is techStatus."	ds	1
+00bd1310	trTechStatusResearching(playerID techID): returns true if tech is being researched for player.	"trTechStatusResearching(playerID techID): returns true if tech is being researched for player."	ds	1
+00bd1388	trTechStatusActive(playerID techID): returns true if tech is active for player.	"trTechStatusActive(playerID techID): returns true if tech is active for player."	ds	1
+00bd13f0	trGameLoadScenario(<dialog message>): pop up a dialog allowing choice to load a scenario.	"trGameLoadScenario(<dialog message>): pop up a dialog allowing choice to load a scenario."	ds	1
+00bd1460	trGameLoadScenario(<scenario name>): start a game using scenario.	"trGameLoadScenario(<scenario name>): start a game using scenario."	ds	1
+00bd14b8	trGamePause(<true/false>): pause or unpause the game.	"trGamePause(<true/false>): pause or unpause the game."	ds	1
+00bd14fc	trWriteToLog(message): Writes text to the Age3Log	"trWriteToLog(message): Writes text to the Age3Log"	ds	1
+00bd1540	trChatSendSpoofedToPlayer(fromID toID message): Changes the chat status, but does not append player.  Goes to specific player.	"trChatSendSpoofedToPlayer(fromID toID message): Changes the chat status, but does not append player.  Goes to specific player."	ds	1
+00bd15e0	trChatSendSpoofed(fromID message): Changes the chat status, but does not append player.	"trChatSendSpoofed(fromID message): Changes the chat status, but does not append player."	ds	1
+00bd1650	trChatSendToPlayer(fromID toID message): Changes the chat status for one specific player.	"trChatSendToPlayer(fromID toID message): Changes the chat status for one specific player."	ds	1
+00bd16c0	trChatSend(fromID message): Changes the chat status.	"trChatSend(fromID message): Changes the chat status."	ds	1
+00bd170c	trChatSetStatus(<onOff>): Changes the chat status.	"trChatSetStatus(<onOff>): Changes the chat status."	ds	1
+00bd1750	trMessageSetText(<text><timeout>): displays the message text.	"trMessageSetText(<text><timeout>): displays the message text."	ds	1
+00bd17a8	trCamTrackPlay(<duration> <eventID>): plays the current camera track.	"trCamTrackPlay(<duration> <eventID>): plays the current camera track."	ds	1
+00bd1800	trCamTrackLoad(<filename>): Loads a camera track.	"trCamTrackLoad(<filename>): Loads a camera track."	ds	1
+00bd1848	trMusicSetMood(<moodID>): Changes the music to mood associated with mood id.	"trMusicSetMood(<moodID>): Changes the music to mood associated with mood id."	ds	1
+00bd18a8	trMusicSetCurrentMusicSet(): sets the current music set.	"trMusicSetCurrentMusicSet(): sets the current music set."	ds	1
+00bd1900	trMusicStop(): Stops the current music.	"trMusicStop(): Stops the current music."	ds	1
+00bd1934	trMusicPlayCurrent(): Plays the current music.	"trMusicPlayCurrent(): Plays the current music."	ds	1
+00bd1978	trMusicPlay(<filename> <duration>): Plays the music file.	"trMusicPlay(<filename> <duration>): Plays the music file."	ds	1
+00bd19c0	trSoundPlayDialogue(<stringID>, <eventID>, <ignoreOnAbort>, <seconds>): Plays the sound associated with the dialogue.	"trSoundPlayDialogue(<stringID>, <eventID>, <ignoreOnAbort>, <seconds>): Plays the sound associated with the dialogue."	ds	1
+00bd1a50	trSoundPlayDialog(<filename>, <event>, <ignoreOnAbort>, <subtitle>, <portrait>): Plays the sound associated with the filename.	"trSoundPlayDialog(<filename>, <event>, <ignoreOnAbort>, <subtitle>, <portrait>): Plays the sound associated with the filename."	ds	1
+00bd1ae8	trUnBlockAllAmbientSounds(): Unblocks all ambient sounds that were previously blocked from playing	"trUnBlockAllAmbientSounds(): Unblocks all ambient sounds that were previously blocked from playing"	ds	1
+00bd1b68	trBlockAllAmbientSounds(): blocks all ambient sounds from this point forward	"trBlockAllAmbientSounds(): blocks all ambient sounds from this point forward"	ds	1
+00bd1bd0	trUnblockAllSounds(): Unblocks all sounds that were previously blocked from playing	"trUnblockAllSounds(): Unblocks all sounds that were previously blocked from playing"	ds	1
+00bd1c38	trBlockAllSounds(excludeDialog): Blocks all sounds from playing from this point forward	"trBlockAllSounds(excludeDialog): Blocks all sounds from playing from this point forward"	ds	1
+00bd1ca8	trFadeOutAllSounds(<duration>): Fades out all sounds over a given duration	"trFadeOutAllSounds(<duration>): Fades out all sounds over a given duration"	ds	1
+00bd1d08	trPlayNextMusicTrack(): Plays the next song in the music play list.	"trPlayNextMusicTrack(): Plays the next song in the music play list."	ds	1
+00bd1d68	trFadeOutMusic(<duration>): Fades out current music over a given duration.	"trFadeOutMusic(<duration>): Fades out current music over a given duration."	ds	1
+00bd1dc8	trSoundTimer(long milliseconds, long eventID) creates a high performance sound timer and passes the eventID as data.	"trSoundTimer(long milliseconds, long eventID) creates a high performance sound timer and passes the eventID as data."	ds	1
+00bd1e50	trSoundPlayPaused(<filename>): Plays the sound associated with the filename.	"trSoundPlayPaused(<filename>): Plays the sound associated with the filename."	ds	1
+00bd1eb8	trSoundPlayFN(<filename>): Plays the sound associated with the filename.	"trSoundPlayFN(<filename>): Plays the sound associated with the filename."	ds	1
+00bd1f14	trLetterBox(<onOff>): Turns letter box mode on or off.	"trLetterBox(<onOff>): Turns letter box mode on or off."	ds	1
+00bd1f58	trSetObscuredUnits( <bool> ): Sets whether or not units can be drawn obscured or not.	"trSetObscuredUnits( <bool> ): Sets whether or not units can be drawn obscured or not."	ds	1
+00bd1fc8	trSetUnitIdleProcessing( <bool> ): Sets whether or not units can do their idle processing.	"trSetUnitIdleProcessing( <bool> ): Sets whether or not units can do their idle processing."	ds	1
+00bd203c	trEventFire(<eventID>): cause an event to occur.	"trEventFire(<eventID>): cause an event to occur."	ds	1
+00bd2080	trEventSetHandler(<eventID> <handler>): sets a handler function for an event id.	"trEventSetHandler(<eventID> <handler>): sets a handler function for an event id."	ds	1
+00bd20e8	trSetCinematicUnitSpeaking(objectScenarioName, speaking, duration): Sets the unit as speaking or not.	"trSetCinematicUnitSpeaking(objectScenarioName, speaking, duration): Sets the unit as speaking or not."	ds	1
+00bd2170	trPlayerGetPopulation(playerID): returns the player population.	"trPlayerGetPopulation(playerID): returns the player population."	ds	1
+00bd21c8	trPlayerAtPopCap(playerID): returns true if player is at pop cap.	"trPlayerAtPopCap(playerID): returns true if player is at pop cap."	ds	1
+00bd2220	trObjectiveDiscover(objectiveID, playSound): 'Discovers' a previously unknown (to the player) objective.	"trObjectiveDiscover(objectiveID, playSound): 'Discovers' a previously unknown (to the player) objective."	ds	1
+00bd22a0	trObjectiveShow(objectiveID): Shows the specified objective on the UI.	"trObjectiveShow(objectiveID): Shows the specified objective on the UI."	ds	1
+00bd22f8	trObjectiveHide(objectiveID): Hides the specified objective on the UI.	"trObjectiveHide(objectiveID): Hides the specified objective on the UI."	ds	1
+00bd2350	trObjectiveComplete(objectiveID, forceComplete, playSound): Completes the specified objective.  Forces a reoccurring objective complete if forceComplete is true.	"trObjectiveComplete(objectiveID, forceComplete, playSound): Completes the specified objective.  Forces a reoccurring objective complete if forceComplete is true."	ds	1
+00bd2408	trPlayerSetActive(playerID): sets the active player.	"trPlayerSetActive(playerID): sets the active player."	ds	1
+00bd2458	trBuildingIsOnCursor(protoname) : Returns true if the proto unit specified is on the cursor and is a building.	"trBuildingIsOnCursor(protoname) : Returns true if the proto unit specified is on the cursor and is a building."	ds	1
+00bd24e0	trPlayerCountBuildingInProgress(playerID protoname): returns true if building is being built.	"trPlayerCountBuildingInProgress(playerID protoname): returns true if building is being built."	ds	1
+00bd2560	trPlayerModifiedLOS(playerID cansee playerID): Adds/removes LOS between players.	"trPlayerModifiedLOS(playerID cansee playerID): Adds/removes LOS between players."	ds	1
+00bd25c8	trPlayerGetDiplomacy(playerID playerID): gets the diplomacy status between players.	"trPlayerGetDiplomacy(playerID playerID): gets the diplomacy status between players."	ds	1
+00bd2638	trPlayerSetDiplomacy(playerID playerID status): sets the diplomacy status between players.	"trPlayerSetDiplomacy(playerID playerID status): sets the diplomacy status between players."	ds	1
+00bd26ac	trEndGame: Signal that the game has ended.	"trEndGame: Signal that the game has ended."	ds	1
+00bd26e8	trSetPlayerWon: call this when a player has won on the local machine (meaning that this func must be called synchronously on all machines, it will not pass around a command.)	"trSetPlayerWon: call this when a player has won on the local machine (meaning that this func must be called synchronously on all machines, it will not pass around a command.)"	ds	1
+00bd27a8	trSetPlayerDefeated: call this when a player is defeated on the local machine (meaning that this func must be called synchronously on all machines, it will not pass around a command.)	"trSetPlayerDefeated: call this when a player is defeated on the local machine (meaning that this func must be called synchronously on all machines, it will not pass around a command.)"	ds	1
+00bd2878	trPlayerActive(playerID): returns true/false if the player is active.	"trPlayerActive(playerID): returns true/false if the player is active."	ds	1
+00bd28d0	trPlayerDefeated(playerID): returns true/false if the player has been defeated.	"trPlayerDefeated(playerID): returns true/false if the player has been defeated."	ds	1
+00bd2938	trPlayerCurrentXPCount(playerID): Returns the current (not total) XP for the player.	"trPlayerCurrentXPCount(playerID): Returns the current (not total) XP for the player."	ds	1
+00bd29a8	trPlayerResourceCount(playerID, resource): returns the number of resources for the player.	"trPlayerResourceCount(playerID, resource): returns the number of resources for the player."	ds	1
+00bd2a20	trPlayerToggleAllowNewCWSpawning(playerID, allowSpawning) : Toggles whether the player can spawn new covered wagons.	"trPlayerToggleAllowNewCWSpawning(playerID, allowSpawning) : Toggles whether the player can spawn new covered wagons."	ds	1
+00bd2ac0	trPlayerToggleAllowTCSpawning(playerID, allowSpawning) : Toggles whether the player's TC can spawn units.	"trPlayerToggleAllowTCSpawning(playerID, allowSpawning) : Toggles whether the player's TC can spawn units."	ds	1
+00bd2b50	trPlayerTribute(from, resource, amount to): tributes resources to a player.	"trPlayerTribute(from, resource, amount to): tributes resources to a player."	ds	1
+00bd2bb8	trPlayerUnitCountSpecific(playerID, protoName): returns the number of units for the player.	"trPlayerUnitCountSpecific(playerID, protoName): returns the number of units for the player."	ds	1
+00bd2c40	trPlayerUnitAndBuildingCount(playerID): returns the number of units and buildings for the player.	"trPlayerUnitAndBuildingCount(playerID): returns the number of units and buildings for the player."	ds	1
+00bd2cc8	trPlayerBuildingCount(playerID): returns the number of buildings for the player.	"trPlayerBuildingCount(playerID): returns the number of buildings for the player."	ds	1
+00bd2d38	trPlayerUnitCount(playerID): returns the number of units for the player.	"trPlayerUnitCount(playerID): returns the number of units for the player."	ds	1
+00bd2d98	trSetUserControls(<active>): sets the player controls on or off.	"trSetUserControls(<active>): sets the player controls on or off."	ds	1
+00bd2df0	trSetCurrentPlayerStatus(<active>): sets the current player as active or inactive.	"trSetCurrentPlayerStatus(<active>): sets the current player as active or inactive."	ds	1
+00bd2e60	trCurrentPlayer(): returns the current player.	"trCurrentPlayer(): returns the current player."	ds	1
+00bd2ea0	trWaypointAddUnit( <unitScenarioName> ): Adds the unit's position as a waypoint in the trigger selection system.	"trWaypointAddUnit( <unitScenarioName> ): Adds the unit's position as a waypoint in the trigger selection system."	ds	1
+00bd2f28	trWaypointAddPoint( <vector> ): Adds the waypoint into the trigger selection system.	"trWaypointAddPoint( <vector> ): Adds the waypoint into the trigger selection system."	ds	1
+00bd2f98	trWaypointClear( void ): Clears the waypoints in the trigger selection system.	"trWaypointClear( void ): Clears the waypoints in the trigger selection system."	ds	1
+00bd2ff8	trCameraCut( pos, dir, up, right ): puts the camera in the specified location.	"trCameraCut( pos, dir, up, right ): puts the camera in the specified location."	ds	1
+00bd3054	trUnitSetStance : set the stance for the given set of units.	"trUnitSetStance : set the stance for the given set of units."	ds	1
+00bd30a8	trUnitIsOwnedBy(playerID): determines if the selected units are owned by the player specified.	"trUnitIsOwnedBy(playerID): determines if the selected units are owned by the player specified."	ds	1
+00bd3118	trUnitTypeIsSelected : returns if the specified unit is selected.	"trUnitTypeIsSelected : returns if the specified unit is selected."	ds	1
+00bd3174	trUnitIsSelected : returns if the specified unit is selected.	"trUnitIsSelected : returns if the specified unit is selected."	ds	1
+00bd31c8	trUnitEjectContained : ejects all contained units.	"trUnitEjectContained : ejects all contained units."	ds	1
+00bd3218	trUnitGetIsContained(protounit) : returns true if this unit is contained by the specified protounit.	"trUnitGetIsContained(protounit) : returns true if this unit is contained by the specified protounit."	ds	1
+00bd3298	trUnitGetContained : returns the number of units contained.	"trUnitGetContained : returns the number of units contained."	ds	1
+00bd32e8	trUnitChangeProtoUnit : changes the proto unit for a given set of units.	"trUnitChangeProtoUnit : changes the proto unit for a given set of units."	ds	1
+00bd3350	trUnitHighlight(seconds) : does something to highlight the units selected.	"trUnitHighlight(seconds) : does something to highlight the units selected."	ds	1
+00bd33b0	trUnitTeleport : moves units from current position to position specified	"trUnitTeleport : moves units from current position to position specified"	ds	1
+00bd340c	trUnitPercentDamaged : returns the percent damaged as 0 to 100	"trUnitPercentDamaged : returns the percent damaged as 0 to 100"	ds	1
+00bd3468	trUnitPercentComplete : returns the percent complete as 0 to 100	"trUnitPercentComplete : returns the percent complete as 0 to 100"	ds	1
+00bd34c8	trUnitConvert(playerID): converts the selected units to player.	"trUnitConvert(playerID): converts the selected units to player."	ds	1
+00bd3518	trUnitHasLOS(playerID): returns true if the player can see the selected unit, otherwise returns false.	"trUnitHasLOS(playerID): returns true if the player can see the selected unit, otherwise returns false."	ds	1
+00bd3590	trUnitVisToPlayer(playerID): returns true if the player can see the selected unit, and it is on screen.	"trUnitVisToPlayer(playerID): returns true if the player can see the selected unit, and it is on screen."	ds	1
+00bd3610	trUnitSetHP( <hitpoints> ): set the hitpoints for all selected units.	"trUnitSetHP( <hitpoints> ): set the hitpoints for all selected units."	ds	1
+00bd3664	trUnitSetHeading( <degrees> ): sets the units heading.	"trUnitSetHeading( <degrees> ): sets the units heading."	ds	1
+00bd36b0	trUnitGetHeading( <scenarioName> ): returns the units heading.	"trUnitGetHeading( <scenarioName> ): returns the units heading."	ds	1
+00bd3708	trUnitCreate( <protoName> <scenarioName> <x> <y> <z> <heading> <playerID> ): creates a new unit.	"trUnitCreate( <protoName> <scenarioName> <x> <y> <z> <heading> <playerID> ): creates a new unit."	ds	1
+00bd377c	trUnitDestroy(void): destroys the selected unit(s).	"trUnitDestroy(void): destroys the selected unit(s)."	ds	1
+00bd37c0	trUnitDelete( remove ): removes or kills the selected unit(s).	"trUnitDelete( remove ): removes or kills the selected unit(s)."	ds	1
+00bd3810	trUnitDead( void ): Returns true if all selected units are dead.	"trUnitDead( void ): Returns true if all selected units are dead."	ds	1
+00bd3860	trUnitAlive( void ): Returns true if all selected units are alive.	"trUnitAlive( void ): Returns true if all selected units are alive."	ds	1
+00bd38b0	trUnitSetAnimation( <AnimName> <versionIndex> <loop> <eventID> <destroyOnNextControlAction> ): Sets the cinematic animation version for the selected unit(s).	"trUnitSetAnimation( <AnimName> <versionIndex> <loop> <eventID> <destroyOnNextControlAction> ): Sets the cinematic animation version for the selected unit(s)."	ds	1
+00bd3968	trUnitCinematicRemoveControlAction() - Removes the current control action so the next thing can take effect immediately.  (For IGC)	"trUnitCinematicRemoveControlAction() - Removes the current control action so the next thing can take effect immediately.  (For IGC)"	ds	1
+00bd3a10	trCountUnitsInArea(centerUnit, matchPlayer, matchType, range)	"trCountUnitsInArea(centerUnit, matchPlayer, matchType, range)"	ds	1
+00bd3a68	trUnitDistanceToUnitID( <unitID> ): Returns the shortest distance between the trRT units and the given unit.	"trUnitDistanceToUnitID( <unitID> ): Returns the shortest distance between the trRT units and the given unit."	ds	1
+00bd3af0	trUnitDistanceToUnit( <unitScenarioName> ): Returns the shortest distance between the trRT units and the given unit.	"trUnitDistanceToUnit( <unitScenarioName> ): Returns the shortest distance between the trRT units and the given unit."	ds	1
+00bd3b80	trUnitDistanceToPoint( <x> <y> <z> ): Returns the shortest distance between the trRT units and the point.	"trUnitDistanceToPoint( <x> <y> <z> ): Returns the shortest distance between the trRT units and the point."	ds	1
+00bd3c08	trImmediateUnitGarrison( <unitScenarioName> ): Instantly garrisons units inside another unit without considering distance.	"trImmediateUnitGarrison( <unitScenarioName> ): Instantly garrisons units inside another unit without considering distance."	ds	1
+00bd3ca0	trShowWorldView(playerID): Sets the view to the world if the player specified is the current player.	"trShowWorldView(playerID): Sets the view to the world if the player specified is the current player."	ds	1
+00bd3d18	trShowHCView(playerID): Sets the view to the HC if the player specified is the current player.	"trShowHCView(playerID): Sets the view to the HC if the player specified is the current player."	ds	1
+00bd3d88	trPlayerSetHCAccess(playerID, hcAccess): Sets whether the player has access to the HC.	"trPlayerSetHCAccess(playerID, hcAccess): Sets whether the player has access to the HC."	ds	1
+00bd3df8	trPlayerSetAge(playerID, age, displayEffect): Sets the age of the specified player.	"trPlayerSetAge(playerID, age, displayEffect): Sets the age of the specified player."	ds	1
+00bd3e60	trUnitGarrison( <unitScenarioName> <eventID> ): Tasks the selected unit(s) to garrision into another unit.	"trUnitGarrison( <unitScenarioName> <eventID> ): Tasks the selected unit(s) to garrision into another unit."	ds	1
+00bd3ef0	trUnitDoWorkOnUnit( <unitScenarioName> <eventID> ): Tasks the selected unit(s) to perform work on the given unit.	"trUnitDoWorkOnUnit( <unitScenarioName> <eventID> ): Tasks the selected unit(s) to perform work on the given unit."	ds	1
+00bd3f78	trUnitBuildUnit( <protoUnitName> <BVector position (x,y,z): Selects units and makes the build a unit at specified location	"trUnitBuildUnit( <protoUnitName> <BVector position (x,y,z): Selects units and makes the build a unit at specified location"	ds	1
+00bd4008	trUnitMoveFromArea( <x> <y> <z> <eventID> <bAttackMove> <player> <unitType> <radius>): Moves all matching units near the selected unit(s) to the given position.	"trUnitMoveFromArea( <x> <y> <z> <eventID> <bAttackMove> <player> <unitType> <radius>): Moves all matching units near the selected unit(s) to the given position."	ds	1
+00bd40c0	trCreateRevealer(playerID, revealerName, position, revealerLOS, blackmapOnly) : Creates a revealer with the given attributes.	"trCreateRevealer(playerID, revealerName, position, revealerLOS, blackmapOnly) : Creates a revealer with the given attributes."	ds	1
+00bd4158	trSetRevealerActiveState(revealerName, active) : Finds the specified revealer and sets it to active or inactive.	"trSetRevealerActiveState(revealerName, active) : Finds the specified revealer and sets it to active or inactive."	ds	1
+00bd41e8	trUnitMoveToUnit( <unitScenarioName> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>): Moves the selected unit(s) to the spot occupied by the given unit.	"trUnitMoveToUnit( <unitScenarioName> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>): Moves the selected unit(s) to the spot occupied by the given unit."	ds	1
+00bd42a0	trUnitMoveToPoint( <x> <y> <z> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>): Moves the selected unit(s) to the given position.	"trUnitMoveToPoint( <x> <y> <z> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>): Moves the selected unit(s) to the given position."	ds	1
+00bd4340	trObjectGettingWorked(objectScenarioName): Returns true if the object is currently being worked.	"trObjectGettingWorked(objectScenarioName): Returns true if the object is currently being worked."	ds	1
+00bd43c0	trIsPlayerSendingHCShipment(<targetHCPlayerID>) : Returns true when the player sends a shipment from home city.	"trIsPlayerSendingHCShipment(<targetHCPlayerID>) : Returns true when the player sends a shipment from home city."	ds	1
+00bd4450	trHasPlayerSentHCShipment(<targetHCPlayerID>) : Returns true when the player has sent a shipment from the home city.	"trHasPlayerSentHCShipment(<targetHCPlayerID>) : Returns true when the player has sent a shipment from the home city."	ds	1
+00bd44e8	trIsPlayerSelectingHCBuilding(<hcBuildingName>) : Returns true if the current player is selecting the building in their HC which has the specified name.	"trIsPlayerSelectingHCBuilding(<hcBuildingName>) : Returns true if the current player is selecting the building in their HC which has the specified name."	ds	1
+00bd45a8	trIsPlayerVisitingHC(<targetHCPlayerID>) : Returns true if the current player is looking at (visiting) the home city of the player specified by the player ID passed in.	"trIsPlayerVisitingHC(<targetHCPlayerID>) : Returns true if the current player is looking at (visiting) the home city of the player specified by the player ID passed in."	ds	1
+00bd4670	trPlayerControlsSocket(playerID, objectScenarioName): Returns true if the specified player is built on the specified socket.	"trPlayerControlsSocket(playerID, objectScenarioName): Returns true if the specified player is built on the specified socket."	ds	1
+00bd4708	trUnitSelectByID( <unitID> ): 'Selects' the unit in the trigger selection system.	"trUnitSelectByID( <unitID> ): 'Selects' the unit in the trigger selection system."	ds	1
+00bd4770	trUnitSelect( <unitScenarioName> ): 'Selects' the unit in the trigger selection system.	"trUnitSelect( <unitScenarioName> ): 'Selects' the unit in the trigger selection system."	ds	1
+00bd47d8	trUnitSelectClear( void ): Clears the units in the trigger selection system.	"trUnitSelectClear( void ): Clears the units in the trigger selection system."	ds	1
+00bd4840	trTimeMS( void ): Returns the current gametime in Milliseconds.	"trTimeMS( void ): Returns the current gametime in Milliseconds."	ds	1
+00bd488c	trTime( void ): Returns the current gametime in Seconds.	"trTime( void ): Returns the current gametime in Seconds."	ds	1
+00bd48d0	trDelayedRuleActivation( <rulename> ): adds a rule to the runtime to be activated on the next update.	"trDelayedRuleActivation( <rulename> ): adds a rule to the runtime to be activated on the next update."	ds	1
+00bd4950	trEcho( <echoString> ): Trigger echo.	"trEcho( <echoString> ): Trigger echo."	ds	1
+00bd4a14	trUnitDistanceToUnit("%s")	"trUnitDistanceToUnit(\"%s\")"	ds	1
+00bd4a30	trUnitDistanceToUnitID(%d)	"trUnitDistanceToUnitID(%d)"	ds	1
+00bd4a4c	trUnitDistanceToUnit("	"trUnitDistanceToUnit(\""	ds	1
+00bd4a64	trUnitSelect("%s")	"trUnitSelect(\"%s\")"	ds	1
+00bd4a78	trUnitSelectByID(%d)	"trUnitSelectByID(%d)"	ds	1
+00bd4a90	trUnitSelect("	"trUnitSelect(\""	ds	1
+00bce564	trShowSPCNote	"trShowSPCNote"	ds	2
+00bce5d8	trSetShadowFarClip	"trSetShadowFarClip"	ds	2
+00bce668	trTradeRouteSetLevel	"trTradeRouteSetLevel"	ds	2
+00bce6d0	trTradeRouteToggleState	"trTradeRouteToggleState"	ds	2
+00bce740	trTradeRouteSetPosition	"trTradeRouteSetPosition"	ds	2
+00bce7e0	trAICommsTrain	"trAICommsTrain"	ds	2
+00bce86c	trAICommsClaim	"trAICommsClaim"	ds	2
+00bce8ec	trAICommsCancelOrder	"trAICommsCancelOrder"	ds	2
+00bce988	trAICommsRequestTribute	"trAICommsRequestTribute"	ds	2
+00bcea2c	trAICommsDefendPoint	"trAICommsDefendPoint"	ds	2
+00bceab0	trAICommsAttackUnits	"trAICommsAttackUnits"	ds	2
+00bceb3c	trAttackUnits	"trAttackUnits"	ds	2
+00bcebf0	trDefendUnits	"trDefendUnits"	ds	2
+00bcec64	trAddArmyToPlan	"trAddArmyToPlan"	ds	2
+00bceca0	trKillAIPlan	"trKillAIPlan"	ds	2
+00bced30	trCreateAttackPlan	"trCreateAttackPlan"	ds	2
+00bcede4	trCreateDefendPlan	"trCreateDefendPlan"	ds	2
+00bcee70	trUnitMakeInvulnerable	"trUnitMakeInvulnerable"	ds	2
+00bceef4	trActivateTrigger	"trActivateTrigger"	ds	2
+00bcef74	trDisableTrigger	"trDisableTrigger"	ds	2
+00bceffc	trCameraPanWithUnit	"trCameraPanWithUnit"	ds	2
+00bcf0c8	trCameraLockOnUnit	"trCameraLockOnUnit"	ds	2
+00bcf144	trUnitFaceUnit	"trUnitFaceUnit"	ds	2
+00bcf270	trVPAnnualAwards	"trVPAnnualAwards"	ds	2
+00bcf2d8	trPlayerVPCount	"trPlayerVPCount"	ds	2
+00bcf330	trGrantVP	"trGrantVP"	ds	2
+00bcf3a0	trQuestVarEcho	"trQuestVarEcho"	ds	2
+00bcf410	trQuestVarGet	"trQuestVarGet"	ds	2
+00bcf498	trQuestVarSetFromRand	"trQuestVarSetFromRand"	ds	2
+00bcf508	trQuestVarCopy	"trQuestVarCopy"	ds	2
+00bcf568	trQuestVarSet	"trQuestVarSet"	ds	2
+00bcf61c	trOverlayText	"trOverlayText"	ds	2
+00bcf6b0	trDamageUnitsInArea	"trDamageUnitsInArea"	ds	2
+00bcf720	trDamageUnit	"trDamageUnit"	ds	2
+00bcf790	trDamageUnitPercent	"trDamageUnitPercent"	ds	2
+00bcf808	trModifyProtounit	"trModifyProtounit"	ds	2
+00bcf8c4	trShowChoiceDialog	"trShowChoiceDialog"	ds	2
+00bcf934	trShowImageDialog	"trShowImageDialog"	ds	2
+00bcf998	trEchoStatValue	"trEchoStatValue"	ds	2
+00bcf9e8	trGetStatValue	"trGetStatValue"	ds	2
+00bcfa30	trChatHistoryClear	"trChatHistoryClear"	ds	2
+00bcfac0	trChatHistoryContains	"trChatHistoryContains"	ds	2
+00bcfb1c	trUnitChangeName	"trUnitChangeName"	ds	2
+00bcfb7c	trRevealEntireMap	"trRevealEntireMap"	ds	2
+00bcfbd8	trIsMovieNotPlaying	"trIsMovieNotPlaying"	ds	2
+00bcfc38	trPlayMovie	"trPlayMovie"	ds	2
+00bcfc5c	trClearCounterDisplay	"trClearCounterDisplay"	ds	2
+00bcfc90	trSetCounterDisplay	"trSetCounterDisplay"	ds	2
+00bcfcc4	trSetPauseInObjectiveWindow	"trSetPauseInObjectiveWindow"	ds	2
+00bcfcfc	trSetPauseOnAgeUpgrade	"trSetPauseOnAgeUpgrade"	ds	2
+00bcfd64	trForbidProtounit	"trForbidProtounit"	ds	2
+00bcfdcc	trUnforbidProtounit	"trUnforbidProtounit"	ds	2
+00bcfdf8	trGetWorldDifficulty	"trGetWorldDifficulty"	ds	2
+00bcfe30	trGetSelectedUnitID	"trGetSelectedUnitID"	ds	2
+00bcfe64	trGetNumberSelectedUnitIDs	"trGetNumberSelectedUnitIDs"	ds	2
+00bcfec4	trAIFunc	"trAIFunc"	ds	2
+00bcff08	trArmyPlayerDefakify	"trArmyPlayerDefakify"	ds	2
+00bcff6c	trUnitPlayerDefakify	"trUnitPlayerDefakify"	ds	2
+00bcfff0	trArmyPlayerFakify	"trArmyPlayerFakify"	ds	2
+00bd0080	trUnitPlayerFakify	"trUnitPlayerFakify"	ds	2
+00bd00e4	trPlayerGrantResources	"trPlayerGrantResources"	ds	2
+00bd0144	trCampaignPlayCurrent	"trCampaignPlayCurrent"	ds	2
+00bd01cc	trCampaignAdvanceProgress	"trCampaignAdvanceProgress"	ds	2
+00bd0248	trCampaignAdvance	"trCampaignAdvance"	ds	2
+00bd028c	trModeEnter	"trModeEnter"	ds	2
+00bd02d4	trIsGadgetVisible	"trIsGadgetVisible"	ds	2
+00bd033c	trPlayerKillAllBuildings	"trPlayerKillAllBuildings"	ds	2
+00bd03a4	trPlayerKillAllUnits	"trPlayerKillAllUnits"	ds	2
+00bd0410	trPlayerResetBlackMapForAllPlayers	"trPlayerResetBlackMapForAllPlayers"	ds	2
+00bd048c	trPlayerResetBlackMap	"trPlayerResetBlackMap"	ds	2
+00bd04e4	trCameraShake	"trCameraShake"	ds	2
+00bd0560	trMinimapFlare	"trMinimapFlare"	ds	2
+00bd05a4	trRatesNormal	"trRatesNormal"	ds	2
+00bd05e4	trRateResearch	"trRateResearch"	ds	2
+00bd0620	trRateTrain	"trRateTrain"	ds	2
+00bd0664	trRateConstruction	"trRateConstruction"	ds	2
+00bd06d4	trUIFadeToColor	"trUIFadeToColor"	ds	2
+00bd0730	trUIFlashCategory	"trUIFlashCategory"	ds	2
+00bd0784	trUIFlashTrain	"trUIFlashTrain"	ds	2
+00bd07d0	trUIFlashTech	"trUIFlashTech"	ds	2
+00bd0824	trUIStopFlash	"trUIStopFlash"	ds	2
+00bd0890	trUIFlash	"trUIFlash"	ds	2
+00bd0948	trHasNuggetBeenCollected	"trHasNuggetBeenCollected"	ds	2
+00bd09c8	trGetNumberNuggetsGathered	"trGetNumberNuggetsGathered"	ds	2
+00bd0a38	trFormationScale	"trFormationScale"	ds	2
+00bd0a98	trForceNonCinematicModels	"trForceNonCinematicModels"	ds	2
+00bd0ae0	trCinematicDoAbort	"trCinematicDoAbort"	ds	2
+00bd0b2c	trCinematicAbort	"trCinematicAbort"	ds	2
+00bd0b68	trCounterAbort	"trCounterAbort"	ds	2
+00bd0be4	trCounterAddXP	"trCounterAddXP"	ds	2
+00bd0c7c	trCounterAddUnit	"trCounterAddUnit"	ds	2
+00bd0cfc	trCounterAddTimeMs	"trCounterAddTimeMs"	ds	2
+00bd0d78	trCounterAddTime	"trCounterAddTime"	ds	2
+00bd0de8	trSetLighting	"trSetLighting"	ds	2
+00bd0e40	trArmyDispatch	"trArmyDispatch"	ds	2
+00bd0ea4	trArmySelectInt	"trArmySelectInt"	ds	2
+00bd0f04	trArmySelect	"trArmySelect"	ds	2
+00bd0f38	trStopGameRecord	"trStopGameRecord"	ds	2
+00bd0f70	trStartGameRecord	"trStartGameRecord"	ds	2
+00bd0fd8	trSetFogAndBlackmap	"trSetFogAndBlackmap"	ds	2
+00bd1024	trRenderRain	"trRenderRain"	ds	2
+00bd106c	trRenderSnow	"trRenderSnow"	ds	2
+00bd10ec	trRenderSky	"trRenderSky"	ds	2
+00bd1124	trShowCampaignDlg	"trShowCampaignDlg"	ds	2
+00bd116c	trShowWinLose	"trShowWinLose"	ds	2
+00bd11b0	trYouLose	"trYouLose"	ds	2
+00bd122c	trYouWin	"trYouWin"	ds	2
+00bd1288	trTechSetStatus	"trTechSetStatus"	ds	2
+00bd12f8	trTechStatusCheck	"trTechStatusCheck"	ds	2
+00bd1370	trTechStatusResearching	"trTechStatusResearching"	ds	2
+00bd13d8	trTechStatusActive	"trTechStatusActive"	ds	2
+00bd144c	trBranchScenario	"trBranchScenario"	ds	2
+00bd14a4	trGameLoadScenario	"trGameLoadScenario"	ds	2
+00bd14f0	trGamePause	"trGamePause"	ds	2
+00bd1530	trWriteToLog	"trWriteToLog"	ds	2
+00bd15c0	trChatSendSpoofedToPlayer	"trChatSendSpoofedToPlayer"	ds	2
+00bd1638	trChatSendSpoofed	"trChatSendSpoofed"	ds	2
+00bd16ac	trChatSendToPlayer	"trChatSendToPlayer"	ds	2
+00bd1700	trChatSend	"trChatSend"	ds	2
+00bd1740	trChatSetStatus	"trChatSetStatus"	ds	2
+00bd1790	trMessageSetText	"trMessageSetText"	ds	2
+00bd17f0	trCamTrackPlay	"trCamTrackPlay"	ds	2
+00bd1834	trCamTrackLoad	"trCamTrackLoad"	ds	2
+00bd1898	trMusicSetMood	"trMusicSetMood"	ds	2
+00bd18e4	trMusicSetCurrentMusicSet	"trMusicSetCurrentMusicSet"	ds	2
+00bd1928	trMusicStop	"trMusicStop"	ds	2
+00bd1964	trMusicPlayCurrent	"trMusicPlayCurrent"	ds	2
+00bd19b4	trMusicPlay	"trMusicPlay"	ds	2
+00bd1a38	trSoundPlayDialogue	"trSoundPlayDialogue"	ds	2
+00bd1ad0	trSoundPlayDialog	"trSoundPlayDialog"	ds	2
+00bd1b4c	trUnBlockAllAmbientSounds	"trUnBlockAllAmbientSounds"	ds	2
+00bd1bb8	trBlockAllAmbientSounds	"trBlockAllAmbientSounds"	ds	2
+00bd1c24	trUnblockAllSounds	"trUnblockAllSounds"	ds	2
+00bd1c90	trBlockAllSounds	"trBlockAllSounds"	ds	2
+00bd1cf4	trFadeOutAllSounds	"trFadeOutAllSounds"	ds	2
+00bd1d4c	trPlayNextMusicTrack	"trPlayNextMusicTrack"	ds	2
+00bd1db4	trFadeOutMusic	"trFadeOutMusic"	ds	2
+00bd1e40	trSoundTimer	"trSoundTimer"	ds	2
+00bd1ea0	trSoundPlayPaused	"trSoundPlayPaused"	ds	2
+00bd1f04	trSoundPlayFN	"trSoundPlayFN"	ds	2
+00bd1f4c	trLetterBox	"trLetterBox"	ds	2
+00bd1fb0	trSetObscuredUnits	"trSetObscuredUnits"	ds	2
+00bd2024	trSetUnitIdleProcessing	"trSetUnitIdleProcessing"	ds	2
+00bd2070	trEventFire	"trEventFire"	ds	2
+00bd20d4	trEventSetHandler	"trEventSetHandler"	ds	2
+00bd2150	trSetCinematicUnitSpeaking	"trSetCinematicUnitSpeaking"	ds	2
+00bd21b0	trPlayerGetPopulation	"trPlayerGetPopulation"	ds	2
+00bd220c	trPlayerAtPopCap	"trPlayerAtPopCap"	ds	2
+00bd228c	trObjectiveDiscover	"trObjectiveDiscover"	ds	2
+00bd22e8	trObjectiveShow	"trObjectiveShow"	ds	2
+00bd2340	trObjectiveHide	"trObjectiveHide"	ds	2
+00bd23f4	trObjectiveComplete	"trObjectiveComplete"	ds	2
+00bd2440	trPlayerSetActive	"trPlayerSetActive"	ds	2
+00bd24c8	trBuildingIsOnCursor	"trBuildingIsOnCursor"	ds	2
+00bd2540	trPlayerCountBuildingInProgress	"trPlayerCountBuildingInProgress"	ds	2
+00bd25b4	trPlayerModifyLOS	"trPlayerModifyLOS"	ds	2
+00bd261c	trPlayerGetDiplomacy	"trPlayerGetDiplomacy"	ds	2
+00bd2694	trPlayerSetDiplomacy	"trPlayerSetDiplomacy"	ds	2
+00bd26d8	trEndGame	"trEndGame"	ds	2
+00bd2798	trSetPlayerWon	"trSetPlayerWon"	ds	2
+00bd2860	trSetPlayerDefeated	"trSetPlayerDefeated"	ds	2
+00bd28c0	trPlayerActive	"trPlayerActive"	ds	2
+00bd2920	trPlayerDefeated	"trPlayerDefeated"	ds	2
+00bd2990	trPlayerCurrentXPCount	"trPlayerCurrentXPCount"	ds	2
+00bd2a04	trPlayerResourceCount	"trPlayerResourceCount"	ds	2
+00bd2a98	trPlayerToggleAllowNewCWSpawning	"trPlayerToggleAllowNewCWSpawning"	ds	2
+00bd2b2c	trPlayerToggleAllowTCSpawning	"trPlayerToggleAllowTCSpawning"	ds	2
+00bd2ba4	trPlayerTribute	"trPlayerTribute"	ds	2
+00bd2c24	trPlayerUnitCountSpecific	"trPlayerUnitCountSpecific"	ds	2
+00bd2ca4	trPlayerUnitAndBuildingCount	"trPlayerUnitAndBuildingCount"	ds	2
+00bd2d1c	trPlayerBuildingCount	"trPlayerBuildingCount"	ds	2
+00bd2d84	trPlayerUnitCount	"trPlayerUnitCount"	ds	2
+00bd2ddc	trSetUserControls	"trSetUserControls"	ds	2
+00bd2e44	trSetCurrentPlayerStatus	"trSetCurrentPlayerStatus"	ds	2
+00bd2e90	trCurrentPlayer	"trCurrentPlayer"	ds	2
+00bd2f14	trWaypointAddUnit	"trWaypointAddUnit"	ds	2
+00bd2f80	trWaypointAddPoint	"trWaypointAddPoint"	ds	2
+00bd2fe8	trWaypointClear	"trWaypointClear"	ds	2
+00bd3048	trCameraCut	"trCameraCut"	ds	2
+00bd3094	trUnitSetStance	"trUnitSetStance"	ds	2
+00bd3108	trUnitIsOwnedBy	"trUnitIsOwnedBy"	ds	2
+00bd315c	trUnitTypeIsSelected	"trUnitTypeIsSelected"	ds	2
+00bd31b4	trUnitIsSelected	"trUnitIsSelected"	ds	2
+00bd31fc	trUnitEjectContained	"trUnitEjectContained"	ds	2
+00bd3280	trUnitGetIsContained	"trUnitGetIsContained"	ds	2
+00bd32d4	trUnitGetContained	"trUnitGetContained"	ds	2
+00bd3334	trUnitChangeProtoUnit	"trUnitChangeProtoUnit"	ds	2
+00bd339c	trUnitHighlight	"trUnitHighlight"	ds	2
+00bd33fc	trUnitTeleport	"trUnitTeleport"	ds	2
+00bd344c	trUnitPercentDamaged	"trUnitPercentDamaged"	ds	2
+00bd34ac	trUnitPercentComplete	"trUnitPercentComplete"	ds	2
+00bd3508	trUnitConvert	"trUnitConvert"	ds	2
+00bd3580	trUnitHasLOS	"trUnitHasLOS"	ds	2
+00bd35f8	trUnitVisToPlayer	"trUnitVisToPlayer"	ds	2
+00bd3658	trUnitSetHP	"trUnitSetHP"	ds	2
+00bd369c	trUnitSetHeading	"trUnitSetHeading"	ds	2
+00bd36f0	trUnitGetHeading	"trUnitGetHeading"	ds	2
+00bd376c	trUnitCreate	"trUnitCreate"	ds	2
+00bd37b0	trUnitDestroy	"trUnitDestroy"	ds	2
+00bd3800	trUnitDelete	"trUnitDelete"	ds	2
+00bd3854	trUnitDead	"trUnitDead"	ds	2
+00bd38a4	trUnitAlive	"trUnitAlive"	ds	2
+00bd3950	trUnitSetAnimation	"trUnitSetAnimation"	ds	2
+00bd39ec	trUnitCinematicRemoveControlAction	"trUnitCinematicRemoveControlAction"	ds	2
+00bd3a50	trCountUnitsInArea	"trCountUnitsInArea"	ds	2
+00bd3ad8	trUnitDistanceToUnitID	"trUnitDistanceToUnitID"	ds	2
+00bd3b68	trUnitDistanceToUnit	"trUnitDistanceToUnit"	ds	2
+00bd3bec	trUnitDistanceToPoint	"trUnitDistanceToPoint"	ds	2
+00bd3c84	trImmediateUnitGarrison	"trImmediateUnitGarrison"	ds	2
+00bd3d08	trShowWorldView	"trShowWorldView"	ds	2
+00bd3d78	trShowHCView	"trShowHCView"	ds	2
+00bd3de0	trPlayerSetHCAccess	"trPlayerSetHCAccess"	ds	2
+00bd3e4c	trPlayerSetAge	"trPlayerSetAge"	ds	2
+00bd3ecc	trUnitGarrison	"trUnitGarrison"	ds	2
+00bd3f64	trUnitDoWorkOnUnit	"trUnitDoWorkOnUnit"	ds	2
+00bd3ff4	trUnitBuildUnit	"trUnitBuildUnit"	ds	2
+00bd40ac	trUnitMoveFromArea	"trUnitMoveFromArea"	ds	2
+00bd4140	trCreateRevealer	"trCreateRevealer"	ds	2
+00bd41cc	trSetRevealerActiveState	"trSetRevealerActiveState"	ds	2
+00bd428c	trUnitMoveToUnit	"trUnitMoveToUnit"	ds	2
+00bd432c	trUnitMoveToPoint	"trUnitMoveToPoint"	ds	2
+00bd43a4	trObjectGettingWorked	"trObjectGettingWorked"	ds	2
+00bd4430	trIsPlayerSendingHCShipment	"trIsPlayerSendingHCShipment"	ds	2
+00bd44c8	trHasPlayerSentHCShipment	"trHasPlayerSentHCShipment"	ds	2
+00bd4584	trIsPlayerSelectingHCBuilding	"trIsPlayerSelectingHCBuilding"	ds	2
+00bd4654	trIsPlayerVisitingHC	"trIsPlayerVisitingHC"	ds	2
+00bd46f0	trPlayerControlsSocket	"trPlayerControlsSocket"	ds	2
+00bd475c	trUnitSelectByID	"trUnitSelectByID"	ds	2
+00bd47c8	trUnitSelect	"trUnitSelect"	ds	2
+00bd4828	trUnitSelectClear	"trUnitSelectClear"	ds	2
+00bd4880	trTimeMS	"trTimeMS"	ds	2
+00bd48c8	trTime	"trTime"	ds	2
+00bd4938	trDelayedRuleActivation	"trDelayedRuleActivation"	ds	2
+00bd4978	trEcho	"trEcho"	ds	2
+00bcf218	trCreateTreaty	"trCreateTreaty"	ds	3
+00bd3edc	trShowDamage	"trShowDamage"	ds	3

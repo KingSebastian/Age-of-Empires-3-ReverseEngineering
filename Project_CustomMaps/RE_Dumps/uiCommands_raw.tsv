@@ -1,0 +1,588 @@
+00b5c8c8	uiDefaultProgressBar.xml	u"uiDefaultProgressBar.xml"	unicode	1
+00b6a930	uiPowerCircleMenu([on]) : turn on/off gamepad power panel circle menu.	"uiPowerCircleMenu([on]) : turn on/off gamepad power panel circle menu."	ds	1
+00b6a990	uiCommandCircleMenu([on]) : turn on/off gamepad command panel circle menu.	"uiCommandCircleMenu([on]) : turn on/off gamepad command panel circle menu."	ds	1
+00b6a9f0	uiCommandPanelExecute : gamepad command panel execute.	"uiCommandPanelExecute : gamepad command panel execute."	ds	1
+00b6aa40	uiCommandPanelMove([x], [y]) : move between selections in the command panel.	"uiCommandPanelMove([x], [y]) : move between selections in the command panel."	ds	1
+00b6aaa8	uiCommandPanelControl([on]) : turn on/off gamepad command panel control.	"uiCommandPanelControl([on]) : turn on/off gamepad command panel control."	ds	1
+00b6ac2c	uiBMultiplayerSave: stop playing stupid music at 11pm.	"uiBMultiplayerSave: stop playing stupid music at 11pm."	ds	1
+00b6ac78	uiInitOptionsScreenProfileEditDialog: initializes the Profile Edit Dialog inside the OptionsScreen	"uiInitOptionsScreenProfileEditDialog: initializes the Profile Edit Dialog inside the OptionsScreen"	ds	1
+00b6ad04	uiSaveCampaignGameBrowser: show the in-game menu.	"uiSaveCampaignGameBrowser: show the in-game menu."	ds	1
+00b6b60c	uiNewScenario : creates a new blank scenario	"uiNewScenario : creates a new blank scenario"	ds	1
+00b6b64c	uiHidePlayerSummaryDialog : Hides the player summary dialog.	"uiHidePlayerSummaryDialog : Hides the player summary dialog."	ds	1
+00b6b6a8	uiShowPlayerSummaryDialog : Shows the player summary dialog.	"uiShowPlayerSummaryDialog : Shows the player summary dialog."	ds	1
+00b6b704	uiHideTributeDialog : maximizes main UI	"uiHideTributeDialog : maximizes main UI"	ds	1
+00b6b740	uiShowTributeDialog : minimizes main UI and brings up the minimized UI	"uiShowTributeDialog : minimizes main UI and brings up the minimized UI"	ds	1
+00b6b79c	uiRefreshEditorMenu: reconstitutes the entire editor menu	"uiRefreshEditorMenu: reconstitutes the entire editor menu"	ds	1
+00b6b7ec	uiZoomToMinimapEvent2 : zooms to the most recent minimap event	"uiZoomToMinimapEvent2 : zooms to the most recent minimap event"	ds	1
+00b6b844	uiZoomToMinimapEvent : zooms to the most recent minimap event	"uiZoomToMinimapEvent : zooms to the most recent minimap event"	ds	1
+00b6b89c	uiToggleEditor : turns off and on the scenario editor UI.	"uiToggleEditor : turns off and on the scenario editor UI."	ds	1
+00b6b8e8	uiToggleGame : turns off and on the game UI.	"uiToggleGame : turns off and on the game UI."	ds	1
+00b6b928	uiSpecialPowerAtPointer: intended for ui use only.  Use a special power at targeted location.	"uiSpecialPowerAtPointer: intended for ui use only.  Use a special power at targeted location."	ds	1
+00b6d6c0	uiEnterGameMenuModeIfNotResigned : Wrapper that enters GameMenu mode if the player isn't resigned.	"uiEnterGameMenuModeIfNotResigned : Wrapper that enters GameMenu mode if the player isn't resigned."	ds	1
+00b6e814	uiMinimizeStats()	"uiMinimizeStats()"	ds	1
+00b6e838	uiShowCommandPanel()	"uiShowCommandPanel()"	ds	1
+00b6e864	uiShowDetailedHelp()	"uiShowDetailedHelp()"	ds	1
+00b6e890	uiShowStatPanel()	"uiShowStatPanel()"	ds	1
+00b6e8b4	uiToggleAdvancedHUD()	"uiToggleAdvancedHUD()"	ds	1
+00b6e8f4	uiFindCrowd([findType],[noLookAt])	"uiFindCrowd([findType],[noLookAt])"	ds	1
+00b6e924	uiResetScreenSelect : resets screen selection.	"uiResetScreenSelect : resets screen selection."	ds	1
+00b6e968	uiScreenSelect([modifier]) : screen selection.	"uiScreenSelect([modifier]) : screen selection."	ds	1
+00b6e9a8	uiForceShift([on]) : Force shift key on or off.	"uiForceShift([on]) : Force shift key on or off."	ds	1
+00b6e9e8	uiCenterPointer : Centers mouse pointer.	"uiCenterPointer : Centers mouse pointer."	ds	1
+00b6ea24	uiCircleSelectResize([x],[y]) : Circle selection resizing.	"uiCircleSelectResize([x],[y]) : Circle selection resizing."	ds	1
+00b6ea78	uiCircleSelect([on],[doubleClick],[leaveSelected]) : Start/stop circle selection.	"uiCircleSelect([on],[doubleClick],[leaveSelected]) : Start/stop circle selection."	ds	1
+00b6eae0	uiMapPointerGoto([activeCheck]) : Jump to map pointer location.	"uiMapPointerGoto([activeCheck]) : Jump to map pointer location."	ds	1
+00b6eb34	uiMapPointerControl([x],[y],[doGoto]) : Moves the map pointer.	"uiMapPointerControl([x],[y],[doGoto]) : Moves the map pointer."	ds	1
+00b6eb88	uiCameraControl([x],[y]) : Controls camera with gamepad stick.	"uiCameraControl([x],[y]) : Controls camera with gamepad stick."	ds	1
+00b6ebd8	uiCameraScroll([fast],[x],[y]) : Scrolls the game view.	"uiCameraScroll([fast],[x],[y]) : Scrolls the game view."	ds	1
+00b6eca8	uiVPAccelClick([unitID]) : Shows the VP accel building from the unitID.	"uiVPAccelClick([unitID]) : Shows the VP accel building from the unitID."	ds	1
+00b6ed00	uiFindAlliedNatives() : finds allied natives of the current player in order, so that it can be called repeatedly to cycle.	"uiFindAlliedNatives() : finds allied natives of the current player in order, so that it can be called repeatedly to cycle."	ds	1
+00b6ed90	uiFindGatherersNotGathering () : finds the gatherer unit that's not gathering in the arbitrary order of unit ID, so that it can be called repeatedly to cycle.	"uiFindGatherersNotGathering () : finds the gatherer unit that's not gathering in the arbitrary order of unit ID, so that it can be called repeatedly to cycle."	ds	1
+00b6ee50	uiFindResourceGatherers ([typeName]) : finds the next resource gatherer unit of the given resource type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle.	"uiFindResourceGatherers ([typeName]) : finds the next resource gatherer unit of the given resource type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle."	ds	1
+00b6ef78	uiExpireCurrentObjectiveNotification: Causes the currently displaying objective notification to fade out (or disappear), depending on the param passed in.	"uiExpireCurrentObjectiveNotification: Causes the currently displaying objective notification to fade out (or disappear), depending on the param passed in."	ds	1
+00b6f068	uiPoliticianUI: Used to activate the politician UI	"uiPoliticianUI: Used to activate the politician UI"	ds	1
+00b6f0ac	uiSendIngameChat: used direcly by UI	"uiSendIngameChat: used direcly by UI"	ds	1
+00b6f0fc	uiSpewDownKeys: spews all down keys.	"uiSpewDownKeys: spews all down keys."	ds	1
+00b6f134	uiReleaseDownKeys: pops up all downed keys.	"uiReleaseDownKeys: pops up all downed keys."	ds	1
+00b6f174	uiShowChatWindow()	"uiShowChatWindow()"	ds	1
+00b6f19c	uiSetHCNotifyText : Adds notify text, can play a sound too.	"uiSetHCNotifyText : Adds notify text, can play a sound too."	ds	1
+00b6f1f0	uiAddChatNotification : Adds a notification to the game's chat output, can play a sound too.	"uiAddChatNotification : Adds a notification to the game's chat output, can play a sound too."	ds	1
+00b6f268	uiClearChat(clearOnly) : Clears the chat and resets to recent mode.  clearOnly == true if you don't want it to populate the chat, but only clear it.	"uiClearChat(clearOnly) : Clears the chat and resets to recent mode.  clearOnly == true if you don't want it to populate the chat, but only clear it."	ds	1
+00b6f310	uiChatDisplayModeToHistory : Toggles the chat display mode to history mode.	"uiChatDisplayModeToHistory : Toggles the chat display mode to history mode."	ds	1
+00b6f378	uiChatDisplayModeToRecent : Toggles the chat display mode to recent mode.	"uiChatDisplayModeToRecent : Toggles the chat display mode to recent mode."	ds	1
+00b6f3e0	uiChatDisplayModeToggle : Toggles the chat display mode.	"uiChatDisplayModeToggle : Toggles the chat display mode."	ds	1
+00b6f438	uiChatScrollForward([integerKeyState]) : Scrolls chat forward one.	"uiChatScrollForward([integerKeyState]) : Scrolls chat forward one."	ds	1
+00b6f490	uiChatScrollBack([integerKeyState]) : Scrolls chat back one.	"uiChatScrollBack([integerKeyState]) : Scrolls chat back one."	ds	1
+00b6f4e8	uiSetBuildingPlacementRender(id, on) : controls rendering of the building placement info for the given ID	"uiSetBuildingPlacementRender(id, on) : controls rendering of the building placement info for the given ID"	ds	1
+00b6f578	uiShowAIDebugInfoEscrow : brings up the escrow info for the given ID	"uiShowAIDebugInfoEscrow : brings up the escrow info for the given ID"	ds	1
+00b6f5d8	uiShowAIDebugInfoKBUnitPick : brings up the kbUnitPick info for the given ID	"uiShowAIDebugInfoKBUnitPick : brings up the kbUnitPick info for the given ID"	ds	1
+00b6f648	uiShowAIDebugInfoKBArmy : brings up the kbArmy info for the given ID	"uiShowAIDebugInfoKBArmy : brings up the kbArmy info for the given ID"	ds	1
+00b6f6a8	uiSetKBArmyRender( int id, bool [set]: render the kbArmy info for the given ID. If not set given, will not render the army.	"uiSetKBArmyRender( int id, bool [set]: render the kbArmy info for the given ID. If not set given, will not render the army."	ds	1
+00b6f738	uiShowAIDebugInfoKBResource : brings up the kbResource info for the given ID	"uiShowAIDebugInfoKBResource : brings up the kbResource info for the given ID"	ds	1
+00b6f7a8	uiSetKBResourceRender( resID, [set]: render the kbResource info for the given ID. If not set given, will not render the resource.	"uiSetKBResourceRender( resID, [set]: render the kbResource info for the given ID. If not set given, will not render the resource."	ds	1
+00b6f848	uiShowAIDebugInfoAttackRoute : brings up the attackRoute info for the given ID	"uiShowAIDebugInfoAttackRoute : brings up the attackRoute info for the given ID"	ds	1
+00b6f8b8	uiSetKBAttackRouteRender: render the attackRoute info for the given ID	"uiSetKBAttackRouteRender: render the attackRoute info for the given ID"	ds	1
+00b6f920	uiShowAIDebugInfoAreaGroup : brings up the area info for the given ID	"uiShowAIDebugInfoAreaGroup : brings up the area info for the given ID"	ds	1
+00b6f988	uiShowAIDebugInfoArea : brings up the area info for the given ID	"uiShowAIDebugInfoArea : brings up the area info for the given ID"	ds	1
+00b6f9e8	uiShowAIDebugInfoBase : brings up the base info for the given ID	"uiShowAIDebugInfoBase : brings up the base info for the given ID"	ds	1
+00b6fa48	uiShowAIDebugInfoKBUnit : brings up the kbunit info for the given ID	"uiShowAIDebugInfoKBUnit : brings up the kbunit info for the given ID"	ds	1
+00b6faa8	uiShowAIDebugInfoProgression : brings up the progression info for the given ID	"uiShowAIDebugInfoProgression : brings up the progression info for the given ID"	ds	1
+00b6fb18	uiShowAIDebugInfoPlacement : brings up the building placement info for the given ID	"uiShowAIDebugInfoPlacement : brings up the building placement info for the given ID"	ds	1
+00b6fb88	uiShowAIDebugInfoPlan : brings up the plan debug text for the given plan ID	"uiShowAIDebugInfoPlan : brings up the plan debug text for the given plan ID"	ds	1
+00b70170	uiLastDetailHelp : goes back to the most recent help entry.	"uiLastDetailHelp : goes back to the most recent help entry."	ds	1
+00b701c0	uiTopicDetailHelp(topicName) : brings up the detail help UI for the given help topic	"uiTopicDetailHelp(topicName) : brings up the detail help UI for the given help topic"	ds	1
+00b70230	uiTechDetailHelp(techID, civ) : brings up the detail help UI for the given tech node ID	"uiTechDetailHelp(techID, civ) : brings up the detail help UI for the given tech node ID"	ds	1
+00b702a0	uiTechDetailHelp(techID) : brings up the detail help UI for the given tech node ID	"uiTechDetailHelp(techID) : brings up the detail help UI for the given tech node ID"	ds	1
+00b70308	uiUnitDetailHelp(protoID, civID) : brings up the detail help UI for the given proto ID, or -1 for current unit selection proto.	"uiUnitDetailHelp(protoID, civID) : brings up the detail help UI for the given proto ID, or -1 for current unit selection proto."	ds	1
+00b703a0	uiToggleTerrainPasteMode: This is not what you are looking for.	"uiToggleTerrainPasteMode: This is not what you are looking for."	ds	1
+00b703fc	uiToggleBrushMask: This is not what you are looking for.	"uiToggleBrushMask: This is not what you are looking for."	ds	1
+00b70450	uiLeaveModeOnUnshift : causes game to return to editMode none when shift hotkey is released	"uiLeaveModeOnUnshift : causes game to return to editMode none when shift hotkey is released"	ds	1
+00b704c4	uiHideCursor: testing only	"uiHideCursor: testing only"	ds	1
+00b704f0	uiSaveGroupingLUA: save some groups.	"uiSaveGroupingLUA: save some groups."	ds	1
+00b70518	uiSaveGrouping: save some groups.	"uiSaveGrouping: save some groups."	ds	1
+00b7054c	uiExportGrouping: save a group.	"uiExportGrouping: save a group."	ds	1
+00b705cc	uiExportTriggers: save some triggers.	"uiExportTriggers: save some triggers."	ds	1
+00b70630	uiImportTriggers: load some triggers.	"uiImportTriggers: load some triggers."	ds	1
+00b7066c	uiSaveTriggers: save some triggers.	"uiSaveTriggers: save some triggers."	ds	1
+00b70690	uiLoadTriggers: load some triggers.	"uiLoadTriggers: load some triggers."	ds	1
+00b70c18	uiToggleCliff() : toggles cliff pieces on or off under the pointer.	"uiToggleCliff() : toggles cliff pieces on or off under the pointer."	ds	1
+00b70c6c	uiUnselectCliff() : de-selects the forest under the pointer.	"uiUnselectCliff() : de-selects the forest under the pointer."	ds	1
+00b70cc0	uiSelectCliffAtPointer() : selects the cliff under the pointer.	"uiSelectCliffAtPointer() : selects the cliff under the pointer."	ds	1
+00b70d18	uiUnselectForest() : de-selects the forest under the pointer.	"uiUnselectForest() : de-selects the forest under the pointer."	ds	1
+00b70d70	uiSelectForestAtPointer() : selects the forest under the pointer.	"uiSelectForestAtPointer() : selects the forest under the pointer."	ds	1
+00b70dd0	uiSetForestType(longForestType) : sets the forest type by index.	"uiSetForestType(longForestType) : sets the forest type by index."	ds	1
+00b70e28	uiSetForestType(stringForestName) : sets the forest type by name.	"uiSetForestType(stringForestName) : sets the forest type by name."	ds	1
+00b70e80	uiSetWaterTypeNum(longWaterType) : sets the water type by index.	"uiSetWaterTypeNum(longWaterType) : sets the water type by index."	ds	1
+00b70ed8	uiSetWaterType(stringWaterName) : sets the water type by name.	"uiSetWaterType(stringWaterName) : sets the water type by name."	ds	1
+00b70f28	uiSetCliffTypeNum(longCliffType) : sets the cliff type by index.	"uiSetCliffTypeNum(longCliffType) : sets the cliff type by index."	ds	1
+00b70f80	uiSetCliffType(stringCliffName) : sets the cliff type by name.	"uiSetCliffType(stringCliffName) : sets the cliff type by name."	ds	1
+00b70fd0	uiCoverTerrainWithWater(floatWaterHeight, floatDepth, waterName) : flattens terrain and paints water over the entire map.	"uiCoverTerrainWithWater(floatWaterHeight, floatDepth, waterName) : flattens terrain and paints water over the entire map."	ds	1
+00b71070	uiHandleUserTab ( listSel, parent ) : handles toggle of user textures	"uiHandleUserTab ( listSel, parent ) : handles toggle of user textures"	ds	1
+00b710c8	uiFindKeyMapping ( stringKeyname ) : finds all key mappings for a given key	"uiFindKeyMapping ( stringKeyname ) : finds all key mappings for a given key"	ds	1
+00b71128	uiDumpUnmappedKeys ( stringContext ) : spews all empty keys out to the console	"uiDumpUnmappedKeys ( stringContext ) : spews all empty keys out to the console"	ds	1
+00b71190	uiDumpAllUnitHotKeyMappings(): spews all hot key mappings that create units to the console	"uiDumpAllUnitHotKeyMappings(): spews all hot key mappings that create units to the console"	ds	1
+00b71208	uiDumpKeyMappings ( stringContext ): spews all key mappings out to the console.	"uiDumpKeyMappings ( stringContext ): spews all key mappings out to the console."	ds	1
+00b7126c	uiClearSelection : deselects all selected units	"uiClearSelection : deselects all selected units"	ds	1
+00b712b0	uiClearMenu : removes any dangling child menus off of the given gadget	"uiClearMenu : removes any dangling child menus off of the given gadget"	ds	1
+00b71308	uiCycleCurrentActivate : acts like the current cycle gadget has been pressed	"uiCycleCurrentActivate : acts like the current cycle gadget has been pressed"	ds	1
+00b71370	uiIgnoreNextKey : used when activating a text box with a key to avoid having that key go into the text box too.	"uiIgnoreNextKey : used when activating a text box with a key to avoid having that key go into the text box too."	ds	1
+00b713f0	uiScrollCliffHeight: intended for ui use only. Increment the height of the cliff brush up/down	"uiScrollCliffHeight: intended for ui use only. Increment the height of the cliff brush up/down"	ds	1
+00b71468	uiChangeCliffModMode: changes the ability to modify vertices on cliff edges: 0-No clamping, 1-Clamp Low Edge, 2-Clamp High Edge, 3 - Clamp All Edges	"uiChangeCliffModMode: changes the ability to modify vertices on cliff edges: 0-No clamping, 1-Clamp Low Edge, 2-Clamp High Edge, 3 - Clamp All Edges"	ds	1
+00b71518	uiChangeBrushCornerMode: changes the ability to modify corner tiles: 0-All, 1-Corners only, 2-No corners	"uiChangeBrushCornerMode: changes the ability to modify corner tiles: 0-All, 1-Corners only, 2-No corners"	ds	1
+00b715a0	uiScrollBrushSize: intended for ui use only. Increament the size of the current brush up/down	"uiScrollBrushSize: intended for ui use only. Increament the size of the current brush up/down"	ds	1
+00b71618	uiChangeBrushSize({p1} {p2} {p3} {p4}) : changes the size of the current brush	"uiChangeBrushSize({p1} {p2} {p3} {p4}) : changes the size of the current brush"	ds	1
+00b71680	uiChangeBrushType( "name") : changes the brush to the named type	"uiChangeBrushType( \"name\") : changes the brush to the named type"	ds	1
+00b716d8	uiSetBrushType( "name" {p1} {p2} {p3} {p4} ) : makes the current brush based on the name and parameters.	"uiSetBrushType( \"name\" {p1} {p2} {p3} {p4} ) : makes the current brush based on the name and parameters."	ds	1
+00b71758	uiApplyLightingSet([integerIndex]) : intended for UI use only.  Applies a Lighting Set	"uiApplyLightingSet([integerIndex]) : intended for UI use only.  Applies a Lighting Set"	ds	1
+00b717c8	uiGuardAtPointer: intended for UI use only.  Sends an guard order.	"uiGuardAtPointer: intended for UI use only.  Sends an guard order."	ds	1
+00b71820	uiPatrolAtPointer: intended for UI use only.  Sends an patrol order.	"uiPatrolAtPointer: intended for UI use only.  Sends an patrol order."	ds	1
+00b71880	uiEjectAtPointer: intended for UI use only.  Sends an ejection command with waypoint for the selected unit.	"uiEjectAtPointer: intended for UI use only.  Sends an ejection command with waypoint for the selected unit."	ds	1
+00b71900	uiEjectGarrisonedUnits: intended for UI use only.  Sends an ejection command for the selected unit.	"uiEjectGarrisonedUnits: intended for UI use only.  Sends an ejection command for the selected unit."	ds	1
+00b7197c	uiRotateClipboard(degrees) : rotate the clipboard by amount.	"uiRotateClipboard(degrees) : rotate the clipboard by amount."	ds	1
+00b719d0	uiSetClipboardRotation(degrees) : sets the clipboard rotation amount.	"uiSetClipboardRotation(degrees) : sets the clipboard rotation amount."	ds	1
+00b71a30	uiPasteFromClipboard() : pastes the contents of the clipboard to the brush selection.	"uiPasteFromClipboard() : pastes the contents of the clipboard to the brush selection."	ds	1
+00b71aa0	uiCopyToClipboard() : copies the brush selection to the clipboard.	"uiCopyToClipboard() : copies the brush selection to the clipboard."	ds	1
+00b71af8	uiMessageBox2([stringID] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit	"uiMessageBox2([stringID] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit"	ds	1
+00b71b88	uiMessageBox([stringText] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit	"uiMessageBox([stringText] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit"	ds	1
+00b71c18	uiCloseDialog: closes (as if clicked on the close button) any active dialog	"uiCloseDialog: closes (as if clicked on the close button) any active dialog"	ds	1
+00b71c78	uiCloseFieldSet : closes (as if clicked on the close button) any active field set	"uiCloseFieldSet : closes (as if clicked on the close button) any active field set"	ds	1
+00b71ce0	uiCycleGadget([integerDelta]) : cycles through the 'active' child gadget of a deluxe gadget.	"uiCycleGadget([integerDelta]) : cycles through the 'active' child gadget of a deluxe gadget."	ds	1
+00b71d50	uiFindType ([typeName]) : finds the next unit (idle or not) of the given type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle.	"uiFindType ([typeName]) : finds the next unit (idle or not) of the given type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle."	ds	1
+00b71e00	uiFindTownBellTC () : finds the next town center that has the town bell active, so that it can be called repeatedly to cycle.	"uiFindTownBellTC () : finds the next town center that has the town bell active, so that it can be called repeatedly to cycle."	ds	1
+00b71e94	uiHandleIdleBanner ([typeName]) : does the right thing.	"uiHandleIdleBanner ([typeName]) : does the right thing."	ds	1
+00b71ee0	uiFindIdleType ([typeName]) : finds the next idle unit of the given type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle.	"uiFindIdleType ([typeName]) : finds the next idle unit of the given type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle."	ds	1
+00b71f90	uiBuildMode([integerType]) : does and editMode and setProtoID, after verifying sufficient resources for the current player.	"uiBuildMode([integerType]) : does and editMode and setProtoID, after verifying sufficient resources for the current player."	ds	1
+00b72018	uiDecPlaceVariation : decrements the variation to place.	"uiDecPlaceVariation : decrements the variation to place."	ds	1
+00b72068	uiIncPlaceVariation : increments the variation to place.	"uiIncPlaceVariation : increments the variation to place."	ds	1
+00b720b8	uiSetProtoID([integerType]) : sets the proto ID to place.	"uiSetProtoID([integerType]) : sets the proto ID to place."	ds	1
+00b72108	uiPlaceAtPointer([boolChangeVariation]): intended for ui use only.  Places unit at pointer location.	"uiPlaceAtPointer([boolChangeVariation]): intended for ui use only.  Places unit at pointer location."	ds	1
+00b72188	uiSetTerrainOverlayColor([float] [float] [float]: intended for ui use only.  Sets the terrain overlay color to the given (R,G,B) color.	"uiSetTerrainOverlayColor([float] [float] [float]: intended for ui use only.  Sets the terrain overlay color to the given (R,G,B) color."	ds	1
+00b72230	uiRemoveTerrainOverlay : intended for ui use only.  Removes the painted terrain overlay at the given mouse position.	"uiRemoveTerrainOverlay : intended for ui use only.  Removes the painted terrain overlay at the given mouse position."	ds	1
+00b722c0	uiPaintTerrainOverlay([integerKeyState]) : intended for ui use only.  Indicates that the paint terrain overlay button has gone up/down.	"uiPaintTerrainOverlay([integerKeyState]) : intended for ui use only.  Indicates that the paint terrain overlay button has gone up/down."	ds	1
+00b72360	uiPaintForest(paint, offset) : intended for ui use only.  Indicates that the paint button has gone up/down.	"uiPaintForest(paint, offset) : intended for ui use only.  Indicates that the paint button has gone up/down."	ds	1
+00b723e0	uiPaint([integerKeyState]) : intended for ui use only.  Indicates that the paint button has gone up/down.	"uiPaint([integerKeyState]) : intended for ui use only.  Indicates that the paint button has gone up/down."	ds	1
+00b72458	uiDeleteUnits([integerKeyState]) : intended for ui use only.  Indicates that the delete units button has gone up/down.	"uiDeleteUnits([integerKeyState]) : intended for ui use only.  Indicates that the delete units button has gone up/down."	ds	1
+00b724e0	uiRoughen([integerKeyState]) : intended for ui use only.  Indicates that the roughen button has gone up/down.	"uiRoughen([integerKeyState]) : intended for ui use only.  Indicates that the roughen button has gone up/down."	ds	1
+00b72560	uiLookAtNumberGroup([integerGroup]): moves the camera to see the given number group.	"uiLookAtNumberGroup([integerGroup]): moves the camera to see the given number group."	ds	1
+00b725d0	uiLookAtProto : moves the camera to see the first instance of proto unit X owned by the current player.	"uiLookAtProto : moves the camera to see the first instance of proto unit X owned by the current player."	ds	1
+00b72648	uiLookAtUnitByName(scenarioName): moves the camera to see the specified Unit.	"uiLookAtUnitByName(scenarioName): moves the camera to see the specified Unit."	ds	1
+00b726b0	uiLookAtAndSelectUnit : moves the camera to see the specified unit and selects it.	"uiLookAtAndSelectUnit : moves the camera to see the specified unit and selects it."	ds	1
+00b7271c	uiLookAtBattle: moves the camera to see the specified battle.	"uiLookAtBattle: moves the camera to see the specified battle."	ds	1
+00b7276c	uiLookAtUnit : moves the camera to see the specified Unit.	"uiLookAtUnit : moves the camera to see the specified Unit."	ds	1
+00b727b8	uiLookAtSelection : moves the camera to see the first selected unit.	"uiLookAtSelection : moves the camera to see the first selected unit."	ds	1
+00b72818	uiOpenRecordGameBrowser: open a record game from the saved game directory	"uiOpenRecordGameBrowser: open a record game from the saved game directory"	ds	1
+00b72880	uiZoomToProto([stringProto]) : zooms to the first instance of proto unit X owned by the current player.	"uiZoomToProto([stringProto]) : zooms to the first instance of proto unit X owned by the current player."	ds	1
+00b728f8	uiSaveSavedGameBrowser: save a game to the saved game directory	"uiSaveSavedGameBrowser: save a game to the saved game directory"	ds	1
+00b72950	uiOpenSavedGameBrowser: open a game from the saved game directory	"uiOpenSavedGameBrowser: open a game from the saved game directory"	ds	1
+00b729b0	uiSaveCameraTrackBrowser: save a camera track to the data directory	"uiSaveCameraTrackBrowser: save a camera track to the data directory"	ds	1
+00b72a10	uiOpenCameraTrackBrowser: open a camera track from the data directory	"uiOpenCameraTrackBrowser: open a camera track from the data directory"	ds	1
+00b72a78	uiClearAllCinematicInfo: clears all cinematic info including model/texture precache info.	"uiClearAllCinematicInfo: clears all cinematic info including model/texture precache info."	ds	1
+00b72aec	uiClearCinematicInfo: clears cinematic trigger info.	"uiClearCinematicInfo: clears cinematic trigger info."	ds	1
+00b72b3c	uiStopBuildCinematic: test a scenario.	"uiStopBuildCinematic: test a scenario."	ds	1
+00b72b7c	uiStartBuildCinematic: test a scenario.	"uiStartBuildCinematic: test a scenario."	ds	1
+00b72ba4	uiStopScenarioTest: test a scenario.	"uiStopScenarioTest: test a scenario."	ds	1
+00b72be0	uiStartScenarioTest: test a scenario.	"uiStartScenarioTest: test a scenario."	ds	1
+00b72c1c	uiScenarioLoad: load a scenario, checking dirty bit on world.	"uiScenarioLoad: load a scenario, checking dirty bit on world."	ds	1
+00b72c6c	uiOpenGrandConquestBrowser: opens a Grand Conquest saved game	"uiOpenGrandConquestBrowser: opens a Grand Conquest saved game"	ds	1
+00b72cc8	uiAsSaveScenarioBrowser: save a scenario to the scenario directory	"uiAsSaveScenarioBrowser: save a scenario to the scenario directory"	ds	1
+00b72d28	uiSaveScenarioBrowser: save a scenario to the scenario directory	"uiSaveScenarioBrowser: save a scenario to the scenario directory"	ds	1
+00b72d70	uiOpenScenarioBrowser: open a scenario from the scenario directory	"uiOpenScenarioBrowser: open a scenario from the scenario directory"	ds	1
+00b72dd0	uiFilterTerrainSelection : filter the current terrain selection.	"uiFilterTerrainSelection : filter the current terrain selection."	ds	1
+00b72e30	uiFlattenTerrainSelection : flatten the current terrain selection.	"uiFlattenTerrainSelection : flatten the current terrain selection."	ds	1
+00b72e90	uiLowerTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the lower terrain selection button has gone up/down.	"uiLowerTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the lower terrain selection button has gone up/down."	ds	1
+00b72f38	uiRaiseTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the raise terrain selection button has gone up/down.	"uiRaiseTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the raise terrain selection button has gone up/down."	ds	1
+00b72fe0	uiTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the terrain selection button has gone up/down.	"uiTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the terrain selection button has gone up/down."	ds	1
+00b73078	uiPaintCliff([integerKeyState]) : intended for ui use only.  Indicates that the paint cliff button has gone up/down.	"uiPaintCliff([integerKeyState]) : intended for ui use only.  Indicates that the paint cliff button has gone up/down."	ds	1
+00b73100	uiPaintWaterArea([integerKeyState]) : intended for ui use only. Painting water area.	"uiPaintWaterArea([integerKeyState]) : intended for ui use only. Painting water area."	ds	1
+00b73170	uiPaintWater([integerKeyState]) : intended for ui use only.  Indicates that the paint water button has gone up/down.	"uiPaintWater([integerKeyState]) : intended for ui use only.  Indicates that the paint water button has gone up/down."	ds	1
+00b731f8	uiSmooth([integerKeyState]) : intended for ui use only.  Indicates that the smooth button has gone up/down.	"uiSmooth([integerKeyState]) : intended for ui use only.  Indicates that the smooth button has gone up/down."	ds	1
+00b73270	uiUniformLowerElevation - lowers the terrain height uniformly in the brush region	"uiUniformLowerElevation - lowers the terrain height uniformly in the brush region"	ds	1
+00b732e0	uiUniformRaiseElevation - raises the terrain height uniformly in the brush region	"uiUniformRaiseElevation - raises the terrain height uniformly in the brush region"	ds	1
+00b73350	uiLowerElevation([integerKeyState]) : intended for ui use only.  Indicates that the lower elevation button has gone up/down.	"uiLowerElevation([integerKeyState]) : intended for ui use only.  Indicates that the lower elevation button has gone up/down."	ds	1
+00b733e8	uiRaiseElevation([integerKeyState]) : intended for ui use only.  Indicates that the raise elevation button has gone up/down.	"uiRaiseElevation([integerKeyState]) : intended for ui use only.  Indicates that the raise elevation button has gone up/down."	ds	1
+00b7347c	uiStopSelectedUnits : stop selected units.	"uiStopSelectedUnits : stop selected units."	ds	1
+00b734c0	uiRemoveSelectedUnit([unitID]) : Removes specified unit, or selected unit if not ID is specified.	"uiRemoveSelectedUnit([unitID]) : Removes specified unit, or selected unit if not ID is specified."	ds	1
+00b7353c	uiDeleteAllSelectedUnits : deletes all selected unit.	"uiDeleteAllSelectedUnits : deletes all selected unit."	ds	1
+00b73590	uiDeleteSelectedUnit2() : deletes selected unit.	"uiDeleteSelectedUnit2() : deletes selected unit."	ds	1
+00b735dc	uiDeleteSelectedUnit() : deletes selected unit.	"uiDeleteSelectedUnit() : deletes selected unit."	ds	1
+00b73628	uiSampleTerrainAtPointer : intended for ui use only.  Samples terrain type at pointer.	"uiSampleTerrainAtPointer : intended for ui use only.  Samples terrain type at pointer."	ds	1
+00b736a0	uiPaintTerrainToSample([integerKeyState]) : intended for ui use only.  Indicates that the sample terrain button has gone up/down.	"uiPaintTerrainToSample([integerKeyState]) : intended for ui use only.  Indicates that the sample terrain button has gone up/down."	ds	1
+00b73740	uiSampleCliffElevationAtPointer : intended for ui use only.  Samples Cliff elevation height at pointer.	"uiSampleCliffElevationAtPointer : intended for ui use only.  Samples Cliff elevation height at pointer."	ds	1
+00b737c8	uiSampleElevationAtPointer : intended for ui use only.  Samples elevation height at pointer.	"uiSampleElevationAtPointer : intended for ui use only.  Samples elevation height at pointer."	ds	1
+00b73848	uiChangeElevationToSample([integerKeyState]) : intended for ui use only.  Indicates that the change elevation to sample button has gone up/down.	"uiChangeElevationToSample([integerKeyState]) : intended for ui use only.  Indicates that the change elevation to sample button has gone up/down."	ds	1
+00b738f8	uiWheelRotateCamera: intended for ui use only.  Rotate with wheel -- i.e. intended to be mapped to wheel	"uiWheelRotateCamera: intended for ui use only.  Rotate with wheel -- i.e. intended to be mapped to wheel"	ds	1
+00b73978	uiWheelRotate: intended for ui use only.  Rotate with wheel -- i.e. intended to be mapped to wheel	"uiWheelRotate: intended for ui use only.  Rotate with wheel -- i.e. intended to be mapped to wheel"	ds	1
+00b739f0	uiWorkAtPointer: intended for ui use only.  Issues "work" at pointer location.	"uiWorkAtPointer: intended for ui use only.  Issues \"work\" at pointer location."	ds	1
+00b73a50	uiMoveSelectionAddButtonUp : intended for ui use only.  Indicates that selection button has been released.	"uiMoveSelectionAddButtonUp : intended for ui use only.  Indicates that selection button has been released."	ds	1
+00b73ad8	uiMoveSelectionAddButtonDown : intended for ui use only.  Indicates that selection button has been pressed.	"uiMoveSelectionAddButtonDown : intended for ui use only.  Indicates that selection button has been pressed."	ds	1
+00b73b68	uiMoveSelectionButtonUp : intended for ui use only.  Indicates that selection button has been released.	"uiMoveSelectionButtonUp : intended for ui use only.  Indicates that selection button has been released."	ds	1
+00b73be8	uiMoveSelectionButtonDown : intended for ui use only.  Indicates that selection button has been pressed.	"uiMoveSelectionButtonDown : intended for ui use only.  Indicates that selection button has been pressed."	ds	1
+00b73c70	uiRotateSelection : intended for ui use only.  rotates the selected UNIT.	"uiRotateSelection : intended for ui use only.  rotates the selected UNIT."	ds	1
+00b73cd0	uiToggleSelectionButton : intended for ui use only.  	"uiToggleSelectionButton : intended for ui use only.  "	ds	1
+00b73d20	uiAddSelectionButtonUp : intended for ui use only.  Indicates that the add selection button has been released.	"uiAddSelectionButtonUp : intended for ui use only.  Indicates that the add selection button has been released."	ds	1
+00b73da8	uiAddSelectionButtonDown : intended for ui use only.  Indicates that the add selection button has been pressed.	"uiAddSelectionButtonDown : intended for ui use only.  Indicates that the add selection button has been pressed."	ds	1
+00b73e38	uiDoubleClickSelect([integerAdd], [checkAction]) : intended for ui use only.  Double click select at pointer location.	"uiDoubleClickSelect([integerAdd], [checkAction]) : intended for ui use only.  Double click select at pointer location."	ds	1
+00b73ec8	uiRemoveFromAnyNumberGroup: removes current selection from any army.	"uiRemoveFromAnyNumberGroup: removes current selection from any army."	ds	1
+00b73f30	uiAddSelectNumberGroup([integerGroup]) : adds the units in the given number group to current selection.	"uiAddSelectNumberGroup([integerGroup]) : adds the units in the given number group to current selection."	ds	1
+00b73fb0	uiSelectNumberGroup([integerGroup]) : selects the units in the given number group.	"uiSelectNumberGroup([integerGroup]) : selects the units in the given number group."	ds	1
+00b74018	uiClearNumberGroup([integerGroup]) : erases the given number group.	"uiClearNumberGroup([integerGroup]) : erases the given number group."	ds	1
+00b74070	uiCreateNumberGroup([integerGroup]) : creates a number group with the currently selected units.	"uiCreateNumberGroup([integerGroup]) : creates a number group with the currently selected units."	ds	1
+00b740e8	uiSelectionButtonUp : intended for ui use only.  Indicates that selection button has been released.	"uiSelectionButtonUp : intended for ui use only.  Indicates that selection button has been released."	ds	1
+00b74160	uiSelectionButtonDown : intended for ui use only.  Indicates that selection button has been pressed.	"uiSelectionButtonDown : intended for ui use only.  Indicates that selection button has been pressed."	ds	1
+00b74310	uiLowerWater([integerKeyState]) : intended for ui use only.  Indicates that the lower water button has gone up/down.	"uiLowerWater([integerKeyState]) : intended for ui use only.  Indicates that the lower water button has gone up/down."	ds	1
+00b74398	uiRaiseWater([integerKeyState]) : intended for ui use only.  Indicates that the raise water button has gone up/down.	"uiRaiseWater([integerKeyState]) : intended for ui use only.  Indicates that the raise water button has gone up/down."	ds	1
+00b74420	uiPaintWaterObjects: Paint objects on the currently selected water.	"uiPaintWaterObjects: Paint objects on the currently selected water."	ds	1
+00b74478	uiUnSelectWater: intended for ui use only.  Unselects currently selected water.	"uiUnSelectWater: intended for ui use only.  Unselects currently selected water."	ds	1
+00b744d8	uiSelectWaterAtPointer: intended for ui use only.  Selects water at pointer location.	"uiSelectWaterAtPointer: intended for ui use only.  Selects water at pointer location."	ds	1
+00b74548	uiWheelRotatePlacedUnit: intended for ui use only.  Rotate placed unit with wheel -- i.e. intended to be mapped to wheel	"uiWheelRotatePlacedUnit: intended for ui use only.  Rotate placed unit with wheel -- i.e. intended to be mapped to wheel"	ds	1
+00b745e0	uiMoveUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the move unit down key has gone up/down.	"uiMoveUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the move unit down key has gone up/down."	ds	1
+00b74668	uiMoveUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the move unit up key has gone up/down.	"uiMoveUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the move unit up key has gone up/down."	ds	1
+00b746f0	uiMoveUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the move unit left key has gone up/down.	"uiMoveUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the move unit left key has gone up/down."	ds	1
+00b74778	uiMoveUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the move unit right key has gone up/down.	"uiMoveUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the move unit right key has gone up/down."	ds	1
+00b74808	uiMoveUnitBackward([integerKeyState]) : intended for ui use only.  Indicates that the move unit backward key has gone up/down.	"uiMoveUnitBackward([integerKeyState]) : intended for ui use only.  Indicates that the move unit backward key has gone up/down."	ds	1
+00b748a0	uiMoveUnitForward([integerKeyState]) : intended for ui use only.  Indicates that the move unit forward key has gone up/down.	"uiMoveUnitForward([integerKeyState]) : intended for ui use only.  Indicates that the move unit forward key has gone up/down."	ds	1
+00b74938	uiRollUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the roll unit left key has gone up/down.	"uiRollUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the roll unit left key has gone up/down."	ds	1
+00b749c0	uiRollUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the roll unit right key has gone up/down.	"uiRollUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the roll unit right key has gone up/down."	ds	1
+00b74a50	uiPitchUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit down key has gone up/down.	"uiPitchUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit down key has gone up/down."	ds	1
+00b74ae0	uiPitchUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit up key has gone up/down.	"uiPitchUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit up key has gone up/down."	ds	1
+00b74b68	uiYawUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit left key has gone up/down.	"uiYawUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit left key has gone up/down."	ds	1
+00b74bf0	uiYawUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit right key has gone up/down.	"uiYawUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit right key has gone up/down."	ds	1
+00b74c78	uiClearCursor : resets the cursor to the basic pointer.	"uiClearCursor : resets the cursor to the basic pointer."	ds	1
+00b74cc0	uiLeaveContext(<stringContext>) : leaves the specified UI context.	"uiLeaveContext(<stringContext>) : leaves the specified UI context."	ds	1
+00b74d18	uiEnterContext(<stringContext>) : enters the specified UI context.	"uiEnterContext(<stringContext>) : enters the specified UI context."	ds	1
+00b74d70	uiSetProtoCursorID(<integerProtoID>) : sets the cursor to a proto-unit.	"uiSetProtoCursorID(<integerProtoID>) : sets the cursor to a proto-unit."	ds	1
+00b74dd0	uiSetProtoCursor(<stringProtoName>, <setPlacement>) : sets the cursor to a proto-unit.	"uiSetProtoCursor(<stringProtoName>, <setPlacement>) : sets the cursor to a proto-unit."	ds	1
+00b74e40	uiEmpowerAtPointer: Commands the selected unit(s) to Empower the target building at the pointer position.	"uiEmpowerAtPointer: Commands the selected unit(s) to Empower the target building at the pointer position."	ds	1
+00b74ec0	uiRepairAtPointer: Commands the selected unit(s) to repair the target building at the pointer position.	"uiRepairAtPointer: Commands the selected unit(s) to repair the target building at the pointer position."	ds	1
+00b74f40	uiGarrisonToPointer: Commands the selected unit(s) to garrison in a building at the pointer position.	"uiGarrisonToPointer: Commands the selected unit(s) to garrison in a building at the pointer position."	ds	1
+00b74fbc	uiHelpAtPointer : Sends out a Help at the pointer position.	"uiHelpAtPointer : Sends out a Help at the pointer position."	ds	1
+00b75008	uiCommsFlareAtPointer : Used when flaring a position for player comms dialog.	"uiCommsFlareAtPointer : Used when flaring a position for player comms dialog."	ds	1
+00b75070	uiFlareAtPointer : Sends out a flare at the pointer position.	"uiFlareAtPointer : Sends out a flare at the pointer position."	ds	1
+00b750c8	uiTransformSelectedUnit: transforms the selected unit into the specified proto unit.	"uiTransformSelectedUnit: transforms the selected unit into the specified proto unit."	ds	1
+00b75138	uiClearGatherPoint: Clears the gather point for the selected unit(s), returning it to a default state.	"uiClearGatherPoint: Clears the gather point for the selected unit(s), returning it to a default state."	ds	1
+00b751b8	uiSetHomeCityWaterSpawnPointAtPointer( void ): Sets the HC spawn point.	"uiSetHomeCityWaterSpawnPointAtPointer( void ): Sets the HC spawn point."	ds	1
+00b75228	uiSetGatherPointAtPointer ( bool homeCity, bool water ): Sets the gather points for the selected unit(s) to the pointer position.	"uiSetGatherPointAtPointer ( bool homeCity, bool water ): Sets the gather points for the selected unit(s) to the pointer position."	ds	1
+00b752c8	uiWheelRotateRiverShallow: intended for ui use only.  Rotate river shallow with wheel -- i.e. intended to be mapped to wheel	"uiWheelRotateRiverShallow: intended for ui use only.  Rotate river shallow with wheel -- i.e. intended to be mapped to wheel"	ds	1
+00b75364	uiRemoveRiverShallow : .	"uiRemoveRiverShallow : ."	ds	1
+00b75398	uiPlaceRiverShallow : .	"uiPlaceRiverShallow : ."	ds	1
+00b753c4	uiCreateRandomRiver : .	"uiCreateRandomRiver : ."	ds	1
+00b753f0	uiCreateRiver : .	"uiCreateRiver : ."	ds	1
+00b75414	uiRemoveRiverWaypoint : .	"uiRemoveRiverWaypoint : ."	ds	1
+00b75448	uiPlaceRiverWaypoint : .	"uiPlaceRiverWaypoint : ."	ds	1
+00b7547c	uiCreateRiverToggleWaypointMode : .	"uiCreateRiverToggleWaypointMode : ."	ds	1
+00b754c0	uiBuildWallAtPointer : instructs the currently selected unit(s) to build the current proto unit cursor building type at the pointer location, with wall-like endpoint behavior.	"uiBuildWallAtPointer : instructs the currently selected unit(s) to build the current proto unit cursor building type at the pointer location, with wall-like endpoint behavior."	ds	1
+00b75588	uiFormationOrientation( ) : Sets the orientation of a formation.	"uiFormationOrientation( ) : Sets the orientation of a formation."	ds	1
+00b755e8	uiBuildAtPointer( ) : instructs the currently selected unit(s) to build the current proto unit cursor building type at the pointer location.	"uiBuildAtPointer( ) : instructs the currently selected unit(s) to build the current proto unit cursor building type at the pointer location."	ds	1
+00b8de98	uiFindType("%S")	u"uiFindType(\"%S\")"	unicode	1
+00b8e224	uiShowAIDebugInfoBase(%d)	u"uiShowAIDebugInfoBase(%d)"	unicode	1
+00b9987c	uiFindType("%s")	u"uiFindType(\"%s\")"	unicode	1
+00b998a0	uiHandleIdleBanner("%s")	u"uiHandleIdleBanner(\"%s\")"	unicode	1
+00b998d4	uiFindTownBellTC()	u"uiFindTownBellTC()"	unicode	1
+00b9a6dc	uiPowerCircleMenu(false)	"uiPowerCircleMenu(false)"	ds	1
+00b9ad64	uiVPAccelClick(%d)	u"uiVPAccelClick(%d)"	unicode	1
+00ba8a18	uiStopBuildCinematic	u"uiStopBuildCinematic"	unicode	1
+00ba9e98	uiChatBrowser.xml	u"uiChatBrowser.xml"	unicode	1
+00baa088	uiChatRoom.xml	u"uiChatRoom.xml"	unicode	1
+00baa580	uiClanPage.xml	u"uiClanPage.xml"	unicode	1
+00baa68c	uiMPESOCommunity.xml	u"uiMPESOCommunity.xml"	unicode	1
+00baa880	uiFriendsChat.xml	u"uiFriendsChat.xml"	unicode	1
+00baaf30	uiHCPage.xml	u"uiHCPage.xml"	unicode	1
+00bab060	uiLadderBrowser.xml	u"uiLadderBrowser.xml"	unicode	1
+00bab204	uiLadderView.xml	u"uiLadderView.xml"	unicode	1
+00bab3c8	uiManageHCDlg.xml	u"uiManageHCDlg.xml"	unicode	1
+00bab8b0	uiPageBrowser.xml	u"uiPageBrowser.xml"	unicode	1
+00bab9dc	uiPasswordDlg.xml	u"uiPasswordDlg.xml"	unicode	1
+00bac038	uiPersonaPage.xml	u"uiPersonaPage.xml"	unicode	1
+00bac8b4	uiQuickSearchPage.xml	u"uiQuickSearchPage.xml"	unicode	1
+00bacbd8	uiMPESOStatus.xml	u"uiMPESOStatus.xml"	unicode	1
+00bb06c0	uiSetForestTypeNum(%d)	u"uiSetForestTypeNum(%d)"	unicode	1
+00bb07f4	uiSetCliffTypeNum(%d)	u"uiSetCliffTypeNum(%d)"	unicode	1
+00bb0cb8	uiToggleBrushMask(%d)	u"uiToggleBrushMask(%d)"	unicode	1
+00bb2410	uiNewScenario()	"uiNewScenario()"	ds	1
+00bb53b0	uiShowAIDebugInfoEscrow(%d)	u"uiShowAIDebugInfoEscrow(%d)"	unicode	1
+00bb55e0	uiShowAIDebugInfoPlacement(%d) uiSetBuildingPlacementRender(%d,true)	u"uiShowAIDebugInfoPlacement(%d) uiSetBuildingPlacementRender(%d,true)"	unicode	1
+00bb56c8	uiSetBuildingPlacementRender(%d,false)	u"uiSetBuildingPlacementRender(%d,false)"	unicode	1
+00bb57f0	uiShowAIDebugInfoProgression(%d)	u"uiShowAIDebugInfoProgression(%d)"	unicode	1
+00bb5af4	uiShowAIDebugInfoArea(%d)	u"uiShowAIDebugInfoArea(%d)"	unicode	1
+00bb5c60	uiShowAIDebugInfoAreaGroup(%d, 1)	u"uiShowAIDebugInfoAreaGroup(%d, 1)"	unicode	1
+00bb5d38	uiShowAIDebugInfoAreaGroup(%d, %d)	u"uiShowAIDebugInfoAreaGroup(%d, %d)"	unicode	1
+00bb5e30	uiShowAIDebugInfoAttackRoute(%d)	u"uiShowAIDebugInfoAttackRoute(%d)"	unicode	1
+00bb5ee8	uiSetKBAttackRouteRender(%d,false)	u"uiSetKBAttackRouteRender(%d,false)"	unicode	1
+00bb5ff0	uiSetKBResourceRender(%d,false)	u"uiSetKBResourceRender(%d,false)"	unicode	1
+00bb60ec	uiShowAIDebugInfoKBArmy(%d)	u"uiShowAIDebugInfoKBArmy(%d)"	unicode	1
+00bb6180	uiSetKBArmyRender(%d,false)	u"uiSetKBArmyRender(%d,false)"	unicode	1
+00bb6258	uiShowAIDebugInfoKBUnitPick(%d)	u"uiShowAIDebugInfoKBUnitPick(%d)"	unicode	1
+00bb6518	uiShowAIDebugInfoKBResource(%d)	u"uiShowAIDebugInfoKBResource(%d)"	unicode	1
+00bb7bec	uiHomeCityTabPanel.xml	u"uiHomeCityTabPanel.xml"	unicode	1
+00bb7c1c	uiHomeCityTabPanelEso.xml	u"uiHomeCityTabPanelEso.xml"	unicode	1
+00bc203c	uiMPConnectDialog.xml	u"uiMPConnectDialog.xml"	unicode	1
+00bc2264	uiMPESOCreateAccountDialog.xml	u"uiMPESOCreateAccountDialog.xml"	unicode	1
+00bc2cb8	uiMPESOGameList.xml	u"uiMPESOGameList.xml"	unicode	1
+00bc2e98	uiMPESOLoginDialog.xml	u"uiMPESOLoginDialog.xml"	unicode	1
+00bc3060	uiMPESOLoadHCInfoDlg.xml	"uiMPESOLoadHCInfoDlg.xml"	ds	1
+00bc3800	uiMPGameSetupPage.xml	u"uiMPGameSetupPage.xml"	unicode	1
+00bc382c	uiMPESOGameSetupPage2.xml	u"uiMPESOGameSetupPage2.xml"	unicode	1
+00bd4e88	uiPoliticianUI(%d, %d)	"uiPoliticianUI(%d, %d)"	ds	1
+00bd54ac	uiForbiddenUnitsTechs.xml	u"uiForbiddenUnitsTechs.xml"	unicode	1
+00bd664c	uiTechDetailHelp(%d)	"uiTechDetailHelp(%d)"	ds	1
+00bd702c	uiHomecityData.xml	u"uiHomecityData.xml"	unicode	1
+00bd83cc	uiPlayerData.xml	u"uiPlayerData.xml"	unicode	1
+00bd8664	uiScenDefeatedDlg.xml	u"uiScenDefeatedDlg.xml"	unicode	1
+00bd8780	uiScenVictoriousDlg.xml	u"uiScenVictoriousDlg.xml"	unicode	1
+00bed804	uiHandleUserTab(%d)	u"uiHandleUserTab(%d)"	unicode	1
+00b5a668	uiShowAIDebugInfoKBUnit(1)	"uiShowAIDebugInfoKBUnit(1)"	ds	2
+00b6a978	uiPowerCircleMenu	"uiPowerCircleMenu"	ds	2
+00b6a9dc	uiCommandCircleMenu	"uiCommandCircleMenu"	ds	2
+00b6aa28	uiCommandPanelExecute	"uiCommandPanelExecute"	ds	2
+00b6aa90	uiCommandPanelMove	"uiCommandPanelMove"	ds	2
+00b6aaf4	uiCommandPanelControl	"uiCommandPanelControl"	ds	2
+00b6ac64	uiBMultiplayerSave	"uiBMultiplayerSave"	ds	2
+00b6acdc	uiInitOptionsScreenProfileEditDialog	"uiInitOptionsScreenProfileEditDialog"	ds	2
+00b6ad38	uiSaveCampaignGameBrowser	"uiSaveCampaignGameBrowser"	ds	2
+00b6b63c	uiNewScenario	"uiNewScenario"	ds	2
+00b6b68c	uiHidePlayerSummaryDialog	"uiHidePlayerSummaryDialog"	ds	2
+00b6b6e8	uiShowPlayerSummaryDialog	"uiShowPlayerSummaryDialog"	ds	2
+00b6b72c	uiHideTributeDialog	"uiHideTributeDialog"	ds	2
+00b6b788	uiShowTributeDialog	"uiShowTributeDialog"	ds	2
+00b6b82c	uiZoomToMinimapEvent2	"uiZoomToMinimapEvent2"	ds	2
+00b6b884	uiZoomToMinimapEvent	"uiZoomToMinimapEvent"	ds	2
+00b6b8d8	uiToggleEditor	"uiToggleEditor"	ds	2
+00b6b918	uiToggleGame	"uiToggleGame"	ds	2
+00b6b988	uiSpecialPowerAtPointer	"uiSpecialPowerAtPointer"	ds	2
+00b6d724	uiEnterGameMenuModeIfNotResigned	"uiEnterGameMenuModeIfNotResigned"	ds	2
+00b6e828	uiMinimizeStats	"uiMinimizeStats"	ds	2
+00b6e850	uiShowCommandPanel	"uiShowCommandPanel"	ds	2
+00b6e87c	uiShowDetailedHelp	"uiShowDetailedHelp"	ds	2
+00b6e8a4	uiShowStatPanel	"uiShowStatPanel"	ds	2
+00b6e8cc	uiToggleAdvancedHUD	"uiToggleAdvancedHUD"	ds	2
+00b6e918	uiFindCrowd	"uiFindCrowd"	ds	2
+00b6e954	uiResetScreenSelect	"uiResetScreenSelect"	ds	2
+00b6e998	uiScreenSelect	"uiScreenSelect"	ds	2
+00b6e9d8	uiForceShift	"uiForceShift"	ds	2
+00b6ea14	uiCenterPointer	"uiCenterPointer"	ds	2
+00b6ea60	uiCircleSelectResize	"uiCircleSelectResize"	ds	2
+00b6eacc	uiCircleSelect	"uiCircleSelect"	ds	2
+00b6eb20	uiMapPointerGoto	"uiMapPointerGoto"	ds	2
+00b6eb74	uiMapPointerControl	"uiMapPointerControl"	ds	2
+00b6ebc8	uiCameraControl	"uiCameraControl"	ds	2
+00b6ec10	uiCameraScroll	"uiCameraScroll"	ds	2
+00b6ecf0	uiVPAccelClick	"uiVPAccelClick"	ds	2
+00b6ed7c	uiFindAlliedNatives	"uiFindAlliedNatives"	ds	2
+00b6ee30	uiFindGatherersNotGathering	"uiFindGatherersNotGathering"	ds	2
+00b6ef0c	uiFindResourceGatherers	"uiFindResourceGatherers"	ds	2
+00b6f014	uiExpireCurrentObjectiveNotification	"uiExpireCurrentObjectiveNotification"	ds	2
+00b6f09c	uiPoliticianUI	"uiPoliticianUI"	ds	2
+00b6f0d4	uiSendIngameChat	"uiSendIngameChat"	ds	2
+00b6f124	uiSpewDownKeys	"uiSpewDownKeys"	ds	2
+00b6f160	uiReleaseDownKeys	"uiReleaseDownKeys"	ds	2
+00b6f188	uiShowChatWindow	"uiShowChatWindow"	ds	2
+00b6f1d8	uiSetHCNotifyText	"uiSetHCNotifyText"	ds	2
+00b6f250	uiAddChatNotification	"uiAddChatNotification"	ds	2
+00b6f300	uiClearChat	"uiClearChat"	ds	2
+00b6f35c	uiChatDisplayModeToHistory	"uiChatDisplayModeToHistory"	ds	2
+00b6f3c4	uiChatDisplayModeToRecent	"uiChatDisplayModeToRecent"	ds	2
+00b6f41c	uiChatDisplayModeToggle	"uiChatDisplayModeToggle"	ds	2
+00b6f47c	uiChatScrollForward	"uiChatScrollForward"	ds	2
+00b6f4d0	uiChatScrollBack	"uiChatScrollBack"	ds	2
+00b6f554	uiSetBuildingPlacementRender	"uiSetBuildingPlacementRender"	ds	2
+00b6f5c0	uiShowAIDebugInfoEscrow	"uiShowAIDebugInfoEscrow"	ds	2
+00b6f628	uiShowAIDebugInfoKBUnitPick	"uiShowAIDebugInfoKBUnitPick"	ds	2
+00b6f690	uiShowAIDebugInfoKBArmy	"uiShowAIDebugInfoKBArmy"	ds	2
+00b6f724	uiSetKBArmyRender	"uiSetKBArmyRender"	ds	2
+00b6f788	uiShowAIDebugInfoKBResource	"uiShowAIDebugInfoKBResource"	ds	2
+00b6f82c	uiSetKBResourceRender	"uiSetKBResourceRender"	ds	2
+00b6f898	uiShowAIDebugInfoAttackRoute	"uiShowAIDebugInfoAttackRoute"	ds	2
+00b6f900	uiSetKBAttackRouteRender	"uiSetKBAttackRouteRender"	ds	2
+00b6f968	uiShowAIDebugInfoAreaGroup	"uiShowAIDebugInfoAreaGroup"	ds	2
+00b6f9cc	uiShowAIDebugInfoArea	"uiShowAIDebugInfoArea"	ds	2
+00b6fa2c	uiShowAIDebugInfoBase	"uiShowAIDebugInfoBase"	ds	2
+00b6fa90	uiShowAIDebugInfoKBUnit	"uiShowAIDebugInfoKBUnit"	ds	2
+00b6faf8	uiShowAIDebugInfoProgression	"uiShowAIDebugInfoProgression"	ds	2
+00b6fb6c	uiShowAIDebugInfoPlacement	"uiShowAIDebugInfoPlacement"	ds	2
+00b6fbd4	uiShowAIDebugInfoPlan	"uiShowAIDebugInfoPlan"	ds	2
+00b701ac	uiLastDetailHelp	"uiLastDetailHelp"	ds	2
+00b70218	uiTopicDetailHelp	"uiTopicDetailHelp"	ds	2
+00b70288	uiTechCivDetailHelp	"uiTechCivDetailHelp"	ds	2
+00b702f4	uiTechDetailHelp	"uiTechDetailHelp"	ds	2
+00b70388	uiUnitDetailHelp	"uiUnitDetailHelp"	ds	2
+00b703e0	uiToggleTerrainPasteMode	"uiToggleTerrainPasteMode"	ds	2
+00b70438	uiToggleBrushMask	"uiToggleBrushMask"	ds	2
+00b704ac	uiLeaveModeOnUnshift	"uiLeaveModeOnUnshift"	ds	2
+00b704e0	uiHideCursor	"uiHideCursor"	ds	2
+00b7053c	uiSaveGrouping	"uiSaveGrouping"	ds	2
+00b7056c	uiExportGrouping	"uiExportGrouping"	ds	2
+00b705f4	uiExportTriggers	"uiExportTriggers"	ds	2
+00b70658	uiImportTriggers	"uiImportTriggers"	ds	2
+00b706b4	uiLoadTriggers	"uiLoadTriggers"	ds	2
+00b70c5c	uiToggleCliff	"uiToggleCliff"	ds	2
+00b70cac	uiUnselectCliff	"uiUnselectCliff"	ds	2
+00b70d00	uiSelectCliffAtPointer	"uiSelectCliffAtPointer"	ds	2
+00b70d58	uiUnselectForest	"uiUnselectForest"	ds	2
+00b70db4	uiSelectForestAtPointer	"uiSelectForestAtPointer"	ds	2
+00b70e14	uiSetForestTypeNum	"uiSetForestTypeNum"	ds	2
+00b70e6c	uiSetForestType	"uiSetForestType"	ds	2
+00b70ec4	uiSetWaterTypeNum	"uiSetWaterTypeNum"	ds	2
+00b70f18	uiSetWaterType	"uiSetWaterType"	ds	2
+00b70f6c	uiSetCliffTypeNum	"uiSetCliffTypeNum"	ds	2
+00b70fc0	uiSetCliffType	"uiSetCliffType"	ds	2
+00b71054	uiCoverTerrainWithWater	"uiCoverTerrainWithWater"	ds	2
+00b710b8	uiHandleUserTab	"uiHandleUserTab"	ds	2
+00b71114	uiFindKeyMapping	"uiFindKeyMapping"	ds	2
+00b71178	uiDumpUnmappedKeys	"uiDumpUnmappedKeys"	ds	2
+00b711ec	uiDumpAllUnitHotKeyMappings	"uiDumpAllUnitHotKeyMappings"	ds	2
+00b71258	uiDumpKeyMappings	"uiDumpKeyMappings"	ds	2
+00b7129c	uiClearSelection	"uiClearSelection"	ds	2
+00b712f8	uiClearMenu	"uiClearMenu"	ds	2
+00b71358	uiCycleCurrentActivate	"uiCycleCurrentActivate"	ds	2
+00b713e0	uiIgnoreNextKey	"uiIgnoreNextKey"	ds	2
+00b71450	uiScrollCliffHeight	"uiScrollCliffHeight"	ds	2
+00b71500	uiChangeCliffModMode	"uiChangeCliffModMode"	ds	2
+00b71584	uiChangeBrushCornerMode	"uiChangeBrushCornerMode"	ds	2
+00b71600	uiScrollBrushSize	"uiScrollBrushSize"	ds	2
+00b71668	uiChangeBrushSize	"uiChangeBrushSize"	ds	2
+00b716c4	uiChangeBrushType	"uiChangeBrushType"	ds	2
+00b71744	uiSetBrushType	"uiSetBrushType"	ds	2
+00b717b0	uiApplyLightingSet	"uiApplyLightingSet"	ds	2
+00b7180c	uiGuardAtPointer	"uiGuardAtPointer"	ds	2
+00b71868	uiPatrolAtPointer	"uiPatrolAtPointer"	ds	2
+00b718ec	uiEjectAtPointer	"uiEjectAtPointer"	ds	2
+00b71964	uiEjectGarrisonedUnits	"uiEjectGarrisonedUnits"	ds	2
+00b719bc	uiRotateClipboard	"uiRotateClipboard"	ds	2
+00b71a18	uiSetClipboardRotation	"uiSetClipboardRotation"	ds	2
+00b71a88	uiPasteFromClipboard	"uiPasteFromClipboard"	ds	2
+00b71ae4	uiCopyToClipboard	"uiCopyToClipboard"	ds	2
+00b71b78	uiMessageBox2	"uiMessageBox2"	ds	2
+00b71c08	uiMessageBox	"uiMessageBox"	ds	2
+00b71c64	uiCloseDialog	"uiCloseDialog"	ds	2
+00b71ccc	uiCloseFieldSet	"uiCloseFieldSet"	ds	2
+00b71d40	uiCycleGadget	"uiCycleGadget"	ds	2
+00b71df0	uiFindType	"uiFindType"	ds	2
+00b71e80	uiFindTownBellTC	"uiFindTownBellTC"	ds	2
+00b71ecc	uiHandleIdleBanner	"uiHandleIdleBanner"	ds	2
+00b71f7c	uiFindIdleType	"uiFindIdleType"	ds	2
+00b7200c	uiBuildMode	"uiBuildMode"	ds	2
+00b72054	uiDecPlaceVariation	"uiDecPlaceVariation"	ds	2
+00b720a4	uiIncPlaceVariation	"uiIncPlaceVariation"	ds	2
+00b720f4	uiSetProtoID	"uiSetProtoID"	ds	2
+00b72170	uiPlaceAtPointer	"uiPlaceAtPointer"	ds	2
+00b72210	uiSetTerrainOverlayColor	"uiSetTerrainOverlayColor"	ds	2
+00b722a8	uiRemoveTerrainOverlay	"uiRemoveTerrainOverlay"	ds	2
+00b72348	uiPaintTerrainOverlay	"uiPaintTerrainOverlay"	ds	2
+00b723cc	uiPaintForest	"uiPaintForest"	ds	2
+00b7244c	uiPaint	"uiPaint"	ds	2
+00b724d0	uiDeleteUnits	"uiDeleteUnits"	ds	2
+00b72550	uiRoughen	"uiRoughen"	ds	2
+00b725b8	uiLookAtNumberGroup	"uiLookAtNumberGroup"	ds	2
+00b72638	uiLookAtProto	"uiLookAtProto"	ds	2
+00b72698	uiLookAtUnitByName	"uiLookAtUnitByName"	ds	2
+00b72704	uiLookAtAndSelectUnit	"uiLookAtAndSelectUnit"	ds	2
+00b7275c	uiLookAtBattle	"uiLookAtBattle"	ds	2
+00b727a8	uiLookAtUnit	"uiLookAtUnit"	ds	2
+00b72800	uiLookAtSelection	"uiLookAtSelection"	ds	2
+00b72864	uiOpenRecordGameBrowser	"uiOpenRecordGameBrowser"	ds	2
+00b728e8	uiZoomToProto	"uiZoomToProto"	ds	2
+00b72938	uiSaveSavedGameBrowser	"uiSaveSavedGameBrowser"	ds	2
+00b72994	uiOpenSavedGameBrowser	"uiOpenSavedGameBrowser"	ds	2
+00b729f4	uiSaveCameraTrackBrowser	"uiSaveCameraTrackBrowser"	ds	2
+00b72a58	uiOpenCameraTrackBrowser	"uiOpenCameraTrackBrowser"	ds	2
+00b72ad4	uiClearAllCinematicInfo	"uiClearAllCinematicInfo"	ds	2
+00b72b24	uiClearCinematicInfo	"uiClearCinematicInfo"	ds	2
+00b72b64	uiStopBuildCinematic	"uiStopBuildCinematic"	ds	2
+00b72bcc	uiStopScenarioTest	"uiStopScenarioTest"	ds	2
+00b72c08	uiStartScenarioTest	"uiStartScenarioTest"	ds	2
+00b72c5c	uiScenarioLoad	"uiScenarioLoad"	ds	2
+00b72cac	uiOpenGrandConquestBrowser	"uiOpenGrandConquestBrowser"	ds	2
+00b72d0c	uiSaveAsScenarioBrowser	"uiSaveAsScenarioBrowser"	ds	2
+00b72db4	uiOpenScenarioBrowser	"uiOpenScenarioBrowser"	ds	2
+00b72e14	uiFilterTerrainSelection	"uiFilterTerrainSelection"	ds	2
+00b72e74	uiFlattenTerrainSelection	"uiFlattenTerrainSelection"	ds	2
+00b72f1c	uiLowerTerrainSelection	"uiLowerTerrainSelection"	ds	2
+00b72fc4	uiRaiseTerrainSelection	"uiRaiseTerrainSelection"	ds	2
+00b73064	uiTerrainSelection	"uiTerrainSelection"	ds	2
+00b730f0	uiPaintCliff	"uiPaintCliff"	ds	2
+00b73158	uiPaintWaterArea	"uiPaintWaterArea"	ds	2
+00b731e8	uiPaintWater	"uiPaintWater"	ds	2
+00b73264	uiSmooth	"uiSmooth"	ds	2
+00b732c4	uiUniformLowerElevation	"uiUniformLowerElevation"	ds	2
+00b73334	uiUniformRaiseElevation	"uiUniformRaiseElevation"	ds	2
+00b733d0	uiLowerElevation	"uiLowerElevation"	ds	2
+00b73468	uiRaiseElevation	"uiRaiseElevation"	ds	2
+00b734a8	uiStopSelectedUnits	"uiStopSelectedUnits"	ds	2
+00b73524	uiRemoveSelectedUnit	"uiRemoveSelectedUnit"	ds	2
+00b73574	uiDeleteAllSelectedUnits	"uiDeleteAllSelectedUnits"	ds	2
+00b735c4	uiDeleteSelectedUnit2	"uiDeleteSelectedUnit2"	ds	2
+00b7360c	uiDeleteSelectedUnit	"uiDeleteSelectedUnit"	ds	2
+00b73680	uiSampleTerrainAtPointer	"uiSampleTerrainAtPointer"	ds	2
+00b73724	uiPaintTerrainToSample	"uiPaintTerrainToSample"	ds	2
+00b737a8	uiSampleCliffElevationAtPointer	"uiSampleCliffElevationAtPointer"	ds	2
+00b73828	uiSampleElevationAtPointer	"uiSampleElevationAtPointer"	ds	2
+00b738dc	uiChangeElevationToSample	"uiChangeElevationToSample"	ds	2
+00b73964	uiWheelRotateCamera	"uiWheelRotateCamera"	ds	2
+00b739dc	uiWheelRotate	"uiWheelRotate"	ds	2
+00b73a40	uiWorkAtPointer	"uiWorkAtPointer"	ds	2
+00b73abc	uiMoveSelectionAddButtonUp	"uiMoveSelectionAddButtonUp"	ds	2
+00b73b44	uiMoveSelectionAddButtonDown	"uiMoveSelectionAddButtonDown"	ds	2
+00b73bd0	uiMoveSelectionButtonUp	"uiMoveSelectionButtonUp"	ds	2
+00b73c54	uiMoveSelectionButtonDown	"uiMoveSelectionButtonDown"	ds	2
+00b73cbc	uiRotateSelection	"uiRotateSelection"	ds	2
+00b73d08	uiToggleSelectionButton	"uiToggleSelectionButton"	ds	2
+00b73d90	uiAddSelectionButtonUp	"uiAddSelectionButtonUp"	ds	2
+00b73e18	uiAddSelectionButtonDown	"uiAddSelectionButtonDown"	ds	2
+00b73eb0	uiDoubleClickSelect	"uiDoubleClickSelect"	ds	2
+00b73f10	uiRemoveFromAnyNumberGroup	"uiRemoveFromAnyNumberGroup"	ds	2
+00b73f98	uiAddSelectNumberGroup	"uiAddSelectNumberGroup"	ds	2
+00b74004	uiSelectNumberGroup	"uiSelectNumberGroup"	ds	2
+00b7405c	uiClearNumberGroup	"uiClearNumberGroup"	ds	2
+00b740d0	uiCreateNumberGroup	"uiCreateNumberGroup"	ds	2
+00b7414c	uiSelectionButtonUp	"uiSelectionButtonUp"	ds	2
+00b741c8	uiSelectionButtonDown	"uiSelectionButtonDown"	ds	2
+00b74260	uiRotateWaterRight	"uiRotateWaterRight"	ds	2
+00b742f8	uiRotateWaterLeft	"uiRotateWaterLeft"	ds	2
+00b74388	uiLowerWater	"uiLowerWater"	ds	2
+00b74410	uiRaiseWater	"uiRaiseWater"	ds	2
+00b74464	uiPaintWaterObjects	"uiPaintWaterObjects"	ds	2
+00b744c8	uiUnSelectWater	"uiUnSelectWater"	ds	2
+00b74530	uiSelectWaterAtPointer	"uiSelectWaterAtPointer"	ds	2
+00b745c4	uiWheelRotatePlacedUnit	"uiWheelRotatePlacedUnit"	ds	2
+00b74658	uiMoveUnitDown	"uiMoveUnitDown"	ds	2
+00b746dc	uiMoveUnitUp	"uiMoveUnitUp"	ds	2
+00b74768	uiMoveUnitLeft	"uiMoveUnitLeft"	ds	2
+00b747f4	uiMoveUnitRight	"uiMoveUnitRight"	ds	2
+00b74888	uiMoveUnitBackward	"uiMoveUnitBackward"	ds	2
+00b74920	uiMoveUnitForward	"uiMoveUnitForward"	ds	2
+00b749b0	uiRollUnitLeft	"uiRollUnitLeft"	ds	2
+00b74a3c	uiRollUnitRight	"uiRollUnitRight"	ds	2
+00b74acc	uiPitchUnitDown	"uiPitchUnitDown"	ds	2
+00b74b58	uiPitchUnitUp	"uiPitchUnitUp"	ds	2
+00b74be0	uiYawUnitLeft	"uiYawUnitLeft"	ds	2
+00b74c68	uiYawUnitRight	"uiYawUnitRight"	ds	2
+00b74cb0	uiClearCursor	"uiClearCursor"	ds	2
+00b74d04	uiLeaveContext	"uiLeaveContext"	ds	2
+00b74d5c	uiEnterContext	"uiEnterContext"	ds	2
+00b74db8	uiSetProtoCursorID	"uiSetProtoCursorID"	ds	2
+00b74e28	uiSetProtoCursor	"uiSetProtoCursor"	ds	2
+00b74eac	uiEmpowerAtPointer	"uiEmpowerAtPointer"	ds	2
+00b74f28	uiRepairAtPointer	"uiRepairAtPointer"	ds	2
+00b74fa8	uiGarrisonToPointer	"uiGarrisonToPointer"	ds	2
+00b74ff8	uiHelpAtPointer	"uiHelpAtPointer"	ds	2
+00b75058	uiCommsFlareAtPointer	"uiCommsFlareAtPointer"	ds	2
+00b750b0	uiFlareAtPointer	"uiFlareAtPointer"	ds	2
+00b75120	uiTransformSelectedUnit	"uiTransformSelectedUnit"	ds	2
+00b751a0	uiClearGatherPoint	"uiClearGatherPoint"	ds	2
+00b75200	uiSetHomeCityWaterSpawnPointAtPointer	"uiSetHomeCityWaterSpawnPointAtPointer"	ds	2
+00b752ac	uiSetGatherPointAtPointer	"uiSetGatherPointAtPointer"	ds	2
+00b75348	uiWheelRotateRiverShallow	"uiWheelRotateRiverShallow"	ds	2
+00b75380	uiRemoveRiverShallow	"uiRemoveRiverShallow"	ds	2
+00b753b0	uiPlaceRiverShallow	"uiPlaceRiverShallow"	ds	2
+00b753dc	uiCreateRandomRiver	"uiCreateRandomRiver"	ds	2
+00b75404	uiCreateRiver	"uiCreateRiver"	ds	2
+00b75430	uiRemoveRiverWaypoint	"uiRemoveRiverWaypoint"	ds	2
+00b75464	uiPlaceRiverWaypoint	"uiPlaceRiverWaypoint"	ds	2
+00b754a0	uiCreateRiverToggleWaypointMode	"uiCreateRiverToggleWaypointMode"	ds	2
+00b75570	uiBuildWallAtPointer	"uiBuildWallAtPointer"	ds	2
+00b755cc	uiFormationOrientation	"uiFormationOrientation"	ds	2
+00b75678	uiBuildAtPointer	"uiBuildAtPointer"	ds	2
+00bc30c0	uiMPESOScreen.xml	u"uiMPESOScreen.xml"	unicode	2
+00bc3a6c	uiMPLoginScreen.xml	u"uiMPLoginScreen.xml"	unicode	2
+00b6b7d8	uiRefreshEditorMenu	"uiRefreshEditorMenu"	ds	3
+00b6c150	uiStartBuildCinematic	"uiStartBuildCinematic"	ds	3
+00b6e7bc	uiSaveScenarioBrowser	"uiSaveScenarioBrowser"	ds	3
+00b6e7d4	uiSaveTriggers	"uiSaveTriggers"	ds	3
+00b6e7f4	uiSaveGroupingLUA	"uiSaveGroupingLUA"	ds	3
+00b6e8e0	uiResetFindCrowd	"uiResetFindCrowd"	ds	3
+00b6ec20	uiDeleteCameraStartLoc	"uiDeleteCameraStartLoc"	ds	3
+00b6ec38	uiShowCameraStartLoc	"uiShowCameraStartLoc"	ds	3
+00b6ec50	uiSetCameraStartLoc	"uiSetCameraStartLoc"	ds	3
+00b6ef24	uiSelectTransportUnit	"uiSelectTransportUnit"	ds	3
+00b6ef3c	uiRemoveTradeRouteWaypoint	"uiRemoveTradeRouteWaypoint"	ds	3
+00b6ef58	uiPlaceTradeRouteWaypoint	"uiPlaceTradeRouteWaypoint"	ds	3
+00b6f03c	uiShowObjectivesDialog	"uiShowObjectivesDialog"	ds	3
+00b6f0e8	uiShowVoteDialog	"uiShowVoteDialog"	ds	3
+00b70580	uiTriggerResetSounds	"uiTriggerResetSounds"	ds	3
+00b70598	uiTriggerResetParameters	"uiTriggerResetParameters"	ds	3
+00b705b4	uiTriggerSelectLocation	"uiTriggerSelectLocation"	ds	3
+00bd4ed8	uiBuildMode(%d)	"uiBuildMode(%d)"	ds	3
+00bb0750	uiSetWaterTypeNum(%d)	u"uiSetWaterTypeNum(%d)"	unicode	4
+00bb54d4	uiShowAIDebugInfoPlan(%d)	u"uiShowAIDebugInfoPlan(%d)"	unicode	4
+00bd6b34	uiSetHCNotifyText(%d, %d)	"uiSetHCNotifyText(%d, %d)"	ds	4
+00bd97f0	uiLookAtAndSelectUnit(%d)	u"uiLookAtAndSelectUnit(%d)"	unicode	5

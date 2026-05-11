@@ -1,0 +1,144 @@
+00b6c8e0	breakTreaty() : break your treaties	"breakTreaty() : break your treaties"	ds	1
+00b6c904	breakTreaty	"breakTreaty"	ds	2
+00b6c3a8	cancelTrainReinforcement( int armyID ) : Cancel training of a reinforcement.	"cancelTrainReinforcement( int armyID ) : Cancel training of a reinforcement."	ds	1
+00b6c9e0	cancelRepairUnit(int unitID): Cancels the auto repair on the specified unit.	"cancelRepairUnit(int unitID): Cancels the auto repair on the specified unit."	ds	1
+00b6d210	cancelAutoPatcher() : Cancel the auto patcher.	"cancelAutoPatcher() : Cancel the auto patcher."	ds	1
+00b6c3f8	cancelTrainReinforcement	"cancelTrainReinforcement"	ds	2
+00b6ca30	cancelRepairUnit	"cancelRepairUnit"	ds	2
+00b6d240	cancelAutoPatcher	"cancelAutoPatcher"	ds	2
+00b6e51c	cancelResearchInSelected	"cancelResearchInSelected"	ds	2
+00b6e5a4	cancelTrainInSelected	"cancelTrainInSelected"	ds	2
+00b5ba74	configDefined	u"configDefined"	unicode	1
+00b79630	configHelpPrefix([symbolFilter]) : show all formally defined config variables that start with the filter string, or use no parameters for a full list.	"configHelpPrefix([symbolFilter]) : show all formally defined config variables that start with the filter string, or use no parameters for a full list."	ds	1
+00b796e0	configHelp([symbolFilter]) : show all formally defined config variables that contain the filter string, or use no parameters for a full list.	"configHelp([symbolFilter]) : show all formally defined config variables that contain the filter string, or use no parameters for a full list."	ds	1
+00b7977c	configGetByID(<intValue>) : look up config by enum ID	"configGetByID(<intValue>) : look up config by enum ID"	ds	1
+00b79818	configToggle(<stringName>) : defined var becomes undefined, and vice versa	"configToggle(<stringName>) : defined var becomes undefined, and vice versa"	ds	1
+00b79874	configUndef(stringName) : un-defines a config variable	"configUndef(stringName) : un-defines a config variable"	ds	1
+00b798b8	configDef(<stringName>) : defines a config variable	"configDef(<stringName>) : defines a config variable"	ds	1
+00b798f8	configSetFloat(<stringName> <floatValue>) : sets a config var to a floating point value	"configSetFloat(<stringName> <floatValue>) : sets a config var to a floating point value"	ds	1
+00b79960	configSetInt(<stringName> <integerValue>) : sets a config var to an integer value	"configSetInt(<stringName> <integerValue>) : sets a config var to an integer value"	ds	1
+00b799c8	configSet(<stringName> <stringValue>) : sets a particular config var to a string value	"configSet(<stringName> <stringValue>) : sets a particular config var to a string value"	ds	1
+00b79a2c	configDump : sends to output a list of all current config vars	"configDump : sends to output a list of all current config vars"	ds	1
+00bed620	configToggle("	u"configToggle(\""	unicode	1
+00b796c8	configHelpPrefix	"configHelpPrefix"	ds	2
+00b79770	configHelp	"configHelp"	ds	2
+00b797b4	configGetByID	"configGetByID"	ds	2
+00b79864	configToggle	"configToggle"	ds	2
+00b798ac	configUndef	"configUndef"	ds	2
+00b798ec	configDef	"configDef"	ds	2
+00b79950	configSetFloat	"configSetFloat"	ds	2
+00b799b4	configSetInt	"configSetInt"	ds	2
+00b79a20	configSet	"configSet"	ds	2
+00b79a6c	configDump	"configDump"	ds	2
+00b5cb14	configIndex	"configIndex"	ds	3
+00b6c910	convertCoveredWagon() : Convert a covered wagon into a Town Center	"convertCoveredWagon() : Convert a covered wagon into a Town Center"	ds	1
+00b6c954	convertCoveredWagon	"convertCoveredWagon"	ds	2
+00b519f8	createFunction	"createFunction"	ds	0
+00b5d078	createRiverShallow	"createRiverShallow"	ds	3
+00b5d08c	createRiver	"createRiver"	ds	3
+00b6d940	displayType([integerState]) : with no arg, cycles through the various status display modes.  otherwise sets display type	"displayType([integerState]) : with no arg, cycles through the various status display modes.  otherwise sets display type"	ds	1
+00b8711c	displayAspectRatio	"displayAspectRatio"	ds	1
+00b60a30	displayNameID	"displayNameID"	ds	2
+00b6d9bc	displayType	"displayType"	ds	2
+00b7e08c	displayName	"displayName"	ds	3
+00b5a96c	gadgetUnreal("	u"gadgetUnreal(\""	unicode	1
+00b70880	gadgetFlash(<stringName> <flash>) : turns gadget flashing on/off.	"gadgetFlash(<stringName> <flash>) : turns gadget flashing on/off."	ds	1
+00b708d0	gadgetRefresh(<stringName>) : refresh the contents of the named gadget.	"gadgetRefresh(<stringName>) : refresh the contents of the named gadget."	ds	1
+00b70998	gadgetRealIfNotMP(<stringName>) : makes real the named gadget.	"gadgetRealIfNotMP(<stringName>) : makes real the named gadget."	ds	1
+00b709ec	gadgetUnreal(<stringName>) : makes un-real the named gadget.	"gadgetUnreal(<stringName>) : makes un-real the named gadget."	ds	1
+00b70a3c	gadgetReal(<stringName>) : makes real the named gadget.	"gadgetReal(<stringName>) : makes real the named gadget."	ds	1
+00b70a80	gadgetWheelScroll: ui use.  Scrolling function for hooking wheel to gadget scrolling	"gadgetWheelScroll: ui use.  Scrolling function for hooking wheel to gadget scrolling"	ds	1
+00b70aec	gadgetScrollRight : scrolls the gadget to the Right one unit	"gadgetScrollRight : scrolls the gadget to the Right one unit"	ds	1
+00b70b40	gadgetScrollLeft : scrolls the gadget to the left one unit	"gadgetScrollLeft : scrolls the gadget to the left one unit"	ds	1
+00b70b90	gadgetScrollDown : scrolls the gadget up one unit	"gadgetScrollDown : scrolls the gadget up one unit"	ds	1
+00b70bd8	gadgetScrollUp : scrolls the gadget up one unit	"gadgetScrollUp : scrolls the gadget up one unit"	ds	1
+00b99900	gadgetToggle("objectivesdialog-screen")	u"gadgetToggle(\"objectivesdialog-screen\")"	unicode	1
+00bb5270	gadgetUnreal("pregame-messagedialog") %S	u"gadgetUnreal(\"pregame-messagedialog\") %S"	unicode	1
+00bb5308	gadgetUnreal("ingame-messagedialog") %S	u"gadgetUnreal(\"ingame-messagedialog\") %S"	unicode	1
+00b708c4	gadgetFlash	"gadgetFlash"	ds	2
+00b70918	gadgetRefresh	"gadgetRefresh"	ds	2
+00b70928	gadgetToggleIfNotMP	"gadgetToggleIfNotMP"	ds	2
+00b70940	gadgetToggle(<stringName>) : toggles the reality of the named gadget.	"gadgetToggle(<stringName>) : toggles the reality of the named gadget."	ds	2
+00b70988	gadgetToggle	"gadgetToggle"	ds	2
+00b709d8	gadgetRealIfNotMP	"gadgetRealIfNotMP"	ds	2
+00b70a2c	gadgetUnreal	"gadgetUnreal"	ds	2
+00b70a74	gadgetReal	"gadgetReal"	ds	2
+00b70ad8	gadgetWheelScroll	"gadgetWheelScroll"	ds	2
+00b70b2c	gadgetScrollRight	"gadgetScrollRight"	ds	2
+00b70b7c	gadgetScrollLeft	"gadgetScrollLeft"	ds	2
+00b70bc4	gadgetScrollDown	"gadgetScrollDown"	ds	2
+00b70c08	gadgetScrollUp	"gadgetScrollUp"	ds	2
+00b60a74	helpTextID	"helpTextID"	ds	1
+00b6d4d0	helpText( string helptextSubstring ) - Lists all of the commands that contain the given substring in their help text.	"helpText( string helptextSubstring ) - Lists all of the commands that contain the given substring in their help text."	ds	1
+00b6d5b0	helpPrefix( string commandPrefix ) - Lists all of the commands that start with the given prefix	"helpPrefix( string commandPrefix ) - Lists all of the commands that start with the given prefix"	ds	1
+00b6d610	helpPrefix	"helpPrefix"	ds	2
+00b53b5c	helpText	"helpText"	ds	6
+00b6cbf8	homeCityShipEject( int playerID, int buildingID, int puid, int index ) : Cancels the given unit out of the ship.	"homeCityShipEject( int playerID, int buildingID, int puid, int index ) : Cancels the given unit out of the ship."	ds	1
+00b6ced0	homeCityTransport( int playerID ) : Transports units from the home city.	"homeCityTransport( int playerID ) : Transports units from the home city."	ds	1
+00b6cf30	homeCityTrain2( int playerID, int cardIndex ) : Sends the given HC card in the home city.	"homeCityTrain2( int playerID, int cardIndex ) : Sends the given HC card in the home city."	ds	1
+00b6cfa0	homeCityTrain( int playerID, int buildingID, int puid ) : Trains the given PUID from the given home city building.	"homeCityTrain( int playerID, int buildingID, int puid ) : Trains the given PUID from the given home city building."	ds	1
+00bd5b38	homeCityResearchByIDOutsideGame(%d, %d)	u"homeCityResearchByIDOutsideGame(%d, %d)"	unicode	1
+00bd5b88	homeCityResearchByID(%d, %d)	u"homeCityResearchByID(%d, %d)"	unicode	1
+00bd9828	homeCityShipEject(%d, %d, %d, %d)	u"homeCityShipEject(%d, %d, %d, %d)"	unicode	1
+00bd6b1c	homeCityTrain2(%d, %d)	"homeCityTrain2(%d, %d)"	ds	2
+00b6cb08	loadUserDefinedGrouping(string groupingName) : Loads a grouping from the user writable grouping directory.	"loadUserDefinedGrouping(string groupingName) : Loads a grouping from the user writable grouping directory."	ds	1
+00b6cb90	loadGrouping( string groupingName ) : Loads a grouping.  No parameter pops up dialog.	"loadGrouping( string groupingName ) : Loads a grouping.  No parameter pops up dialog."	ds	1
+00b6db88	loadLightingSet([name] [apply]) : loads the specified lighting set	"loadLightingSet([name] [apply]) : loads the specified lighting set"	ds	1
+00b79258	loadCamera(<stringFilename>) : load camera from file.	"loadCamera(<stringFilename>) : load camera from file."	ds	1
+00b793a0	loadRecentFile(<stringFilename>) : loads the file named, interpreting whether it is a scenario, savegame, etc. dynamically	"loadRecentFile(<stringFilename>) : loads the file named, interpreting whether it is a scenario, savegame, etc. dynamically"	ds	1
+00b79430	loadCampaignScenario(<stringFilename>) : loads in a campaign scenario file.	"loadCampaignScenario(<stringFilename>) : loads in a campaign scenario file."	ds	1
+00b79498	loadTutorial(<stringFilename>, <loadMode>, <loadImage>, <textID>) : loads in a tutorial scenario file.	"loadTutorial(<stringFilename>, <loadMode>, <loadImage>, <textID>) : loads in a tutorial scenario file."	ds	1
+00b79510	loadScenario(<stringFilename>) : loads in a scenario file.	"loadScenario(<stringFilename>) : loads in a scenario file."	ds	1
+00b7955c	loadGame(<stringFilename>) : loads in a saved game.	"loadGame(<stringFilename>) : loads in a saved game."	ds	1
+00b99278	loadRecentFile("%s")	u"loadRecentFile(\"%s\")"	unicode	1
+00bce260	loadScenario("%S")	u"loadScenario(\"%S\")"	unicode	1
+00bcc3a4	loadCampaignScenario("%s")	u"loadCampaignScenario(\"%s\")"	unicode	5
+00b6ab74	modelDestroyAll()	"modelDestroyAll()"	ds	1
+00b6ab98	modelSetAnim(anim Index)	"modelSetAnim(anim Index)"	ds	1
+00b6abc4	modelLoad(model XML file name)	"modelLoad(model XML file name)"	ds	1
+00b6d620	modeToggleBetweenIfNotMP(<stringMode1> <stringMode2>) : toggles between the two modes only if we're not in a BMultiplayer game.	"modeToggleBetweenIfNotMP(<stringMode1> <stringMode2>) : toggles between the two modes only if we're not in a BMultiplayer game."	ds	1
+00b6d79c	modeEnter(<stringMode>) : enters the named mode.	"modeEnter(<stringMode>) : enters the named mode."	ds	1
+00bce288	modeEnter("Credits")	"modeEnter(\"Credits\")"	ds	1
+00b77208	renderFriendOrFoe([integerState]) : with no arg, toggles friend or foe colors.  otherwise, sets it	"renderFriendOrFoe([integerState]) : with no arg, toggles friend or foe colors.  otherwise, sets it"	ds	1
+00b77280	renderTrilinear([integerState]) : sets trilinear filtering on/off	"renderTrilinear([integerState]) : sets trilinear filtering on/off"	ds	1
+00b774cc	renderAnisotropic([integerState]) : sets desired anisotropy	"renderAnisotropic([integerState]) : sets desired anisotropy"	ds	1
+00b77520	renderAreaGroupID([playerID], <areaGroupID> [integerState]) : sets the render state of the given area (no integerState toggles).	"renderAreaGroupID([playerID], <areaGroupID> [integerState]) : sets the render state of the given area (no integerState toggles)."	ds	1
+00b775b8	renderAreaID([playerID], <areaID> [integerState]) : sets the render state of the given area (no integerState toggles).	"renderAreaID([playerID], <areaID> [integerState]) : sets the render state of the given area (no integerState toggles)."	ds	1
+00b77640	renderAreaDangerLevels(int playerID, int state): draws areas and color-codes them by danger level.	"renderAreaDangerLevels(int playerID, int state): draws areas and color-codes them by danger level."	ds	1
+00b776c0	renderAreas([playerID], [integerState]) : sets the render state for all areas (no arg toggles).	"renderAreas([playerID], [integerState]) : sets the render state for all areas (no arg toggles)."	ds	1
+00b77730	renderBaseID([playerID], <areaID> [integerState]) : sets the render state of the given base (no integerState toggles).	"renderBaseID([playerID], <areaID> [integerState]) : sets the render state of the given base (no integerState toggles)."	ds	1
+00b777b8	renderRefresh([integerState]) : with no arg, changes refresh rate to 75hz in fullscreen.  otherwise, sets fullscreen refresh to value	"renderRefresh([integerState]) : with no arg, changes refresh rate to 75hz in fullscreen.  otherwise, sets fullscreen refresh to value"	ds	1
+00b77850	renderWindow([integerState]) : with no arg, toggles window/fullscreen.  otherwise, sets mode to window(1)/fullscreen(0)	"renderWindow([integerState]) : with no arg, toggles window/fullscreen.  otherwise, sets mode to window(1)/fullscreen(0)"	ds	1
+00bb5a30	renderBaseID(%d, %d, %d)	u"renderBaseID(%d, %d, %d)"	unicode	1
+00bb5b9c	renderAreaID(%d, %d, %d)	u"renderAreaID(%d, %d, %d)"	unicode	1
+00b6b2c0	setSunPosition( [integerSunInclination] [integerSunRotation] [boolRelative] ) sets the sun height above the horizon and position in the world, The bool tells if the changes are relative	"setSunPosition( [integerSunInclination] [integerSunRotation] [boolRelative] ) sets the sun height above the horizon and position in the world, The bool tells if the changes are relative"	ds	1
+00b6c2c8	setDropTerrainMips( int num ) : Set mip levels to skip for terrain category textures.	"setDropTerrainMips( int num ) : Set mip levels to skip for terrain category textures."	ds	1
+00b6c338	setDropDefaultMips( int num ) : Set mip levels to skip for default category textures.	"setDropDefaultMips( int num ) : Set mip levels to skip for default category textures."	ds	1
+00b6c6d0	setWorldTooltipRectDims1024(minX, minY, maxX, maxY) : Sets the world tooltip restricted screen rectangle to the given dimensions relative to 1024x768 resolution.	"setWorldTooltipRectDims1024(minX, minY, maxX, maxY) : Sets the world tooltip restricted screen rectangle to the given dimensions relative to 1024x768 resolution."	ds	1
+00b6c968	setHomeCityGatherUnit(int unitID): Sets the home city gather point to the specified unit.	"setHomeCityGatherUnit(int unitID): Sets the home city gather point to the specified unit."	ds	1
+00b6d300	setGraphicDetail(<detailLevel>) : Sets the graphic detail.  (0 = HIGH, 1 = MEDIUM, 2 = LOW)	"setGraphicDetail(<detailLevel>) : Sets the graphic detail.  (0 = HIGH, 1 = MEDIUM, 2 = LOW)"	ds	1
+00b6d370	setMinimapUnitFilter() : sets the minimap filter for units	"setMinimapUnitFilter() : sets the minimap filter for units"	ds	1
+00b6dc88	setTerrainLightingParams([bumpScale] [specularPower] [specularIntensity] [terrainMetalness]):sets Terrain Lighting Params	"setTerrainLightingParams([bumpScale] [specularPower] [specularIntensity] [terrainMetalness]):sets Terrain Lighting Params"	ds	1
+00b6dd20	setBloomFeedbackParams([currentFrameContribution] [lastFrameContribution]):sets bloom feedback params	"setBloomFeedbackParams([currentFrameContribution] [lastFrameContribution]):sets bloom feedback params"	ds	1
+00b6dda0	setBloomStreakParams([streakCount] [Passes] [ElementOffset] [Exposure] [Intensity] [Falloff] [streakRed] [streakGreen] [streakBlue] [threshold]):sets bloom streak params	"setBloomStreakParams([streakCount] [Passes] [ElementOffset] [Exposure] [Intensity] [Falloff] [streakRed] [streakGreen] [streakBlue] [threshold]):sets bloom streak params"	ds	1
+00b6de68	setLDRBloomParams([bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomSigma]):sets LDR Bloom params	"setLDRBloomParams([bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomSigma]):sets LDR Bloom params"	ds	1
+00b6def0	setBloomParams([bloomThreshold] [bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomPass] [bloomSigma]):sets tonemap params	"setBloomParams([bloomThreshold] [bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomPass] [bloomSigma]):sets tonemap params"	ds	1
+00b6df90	setToneMapParams([exposure] [dispGamma] [greyFStops] [kneeLow] [kneeHigh] [ditherNoiseInten]):sets tonemap params	"setToneMapParams([exposure] [dispGamma] [greyFStops] [kneeLow] [kneeHigh] [ditherNoiseInten]):sets tonemap params"	ds	1
+00b706c8	setGameFadeIn(<r> <g> <b> <duration> <delay> <inout>): turn fade in on/off, set color duration.	"setGameFadeIn(<r> <g> <b> <duration> <delay> <inout>): turn fade in on/off, set color duration."	ds	1
+00b76cc4	setBumpScale([scale]) : sets scene bump scale	"setBumpScale([scale]) : sets scene bump scale"	ds	1
+00b76d08	setFogParams([planarfogColorR] [planarfogColorG] [planarfogColorB] [planarfogDensity] [planarfogHeight]) : set Planar Height Params	"setFogParams([planarfogColorR] [planarfogColorG] [planarfogColorB] [planarfogDensity] [planarfogHeight]) : set Planar Height Params"	ds	1
+00b76da0	setSceneLightParams([sunIntensity] [power] [specIntensity] [metalness] [fogColorR] [fogColorG] [fogColorB] [fogDensity] [fogStart]) : sets scene light params	"setSceneLightParams([sunIntensity] [power] [specIntensity] [metalness] [fogColorR] [fogColorG] [fogColorB] [fogDensity] [fogStart]) : sets scene light params"	ds	1
+00b76e58	setHemiLight([topColorR] [topColorG] [topColorB] [bottomColorR] [bottomColorG] [bottomColorB] [axisYaw] [axisPitch] [intensity] [unitIntensity] [terrainIntensity]) : sets a hemilight	"setHemiLight([topColorR] [topColorG] [topColorB] [bottomColorR] [bottomColorG] [bottomColorB] [axisYaw] [axisPitch] [intensity] [unitIntensity] [terrainIntensity]) : sets a hemilight"	ds	1
+00b772d8	setSuperSampleFilterIndex([int]) : sets supersample filter kernel	"setSuperSampleFilterIndex([int]) : sets supersample filter kernel"	ds	1
+00b77338	setSuperSampleFilterScales([floatX], [floatY]) : sets supersample kernel scales(1.0 = normal, less = blurrier, higher = sharper)	"setSuperSampleFilterScales([floatX], [floatY]) : sets supersample kernel scales(1.0 = normal, less = blurrier, higher = sharper)"	ds	1
+00b773d8	setSuperSampleFactors([floatX], [floatY]) : sets HDR supersampling factors (1.0 to 2.0, both 1.0 is off)	"setSuperSampleFactors([floatX], [floatY]) : sets HDR supersampling factors (1.0 to 2.0, both 1.0 is off)"	ds	1
+00b77460	setHDRMultisampleFactor([int]) : sets HDR multisample factor [1,8] - 1 is disabled	"setHDRMultisampleFactor([int]) : sets HDR multisample factor [1,8] - 1 is disabled"	ds	1
+00b778d8	setShadowRotationOp( [bool] ): controls shadow projection rotation optimization	"setShadowRotationOp( [bool] ): controls shadow projection rotation optimization"	ds	1
+00b7793c	setShadowSnapping( [bool] ): controls shadow matrix snapping	"setShadowSnapping( [bool] ): controls shadow matrix snapping"	ds	1
+00b77990	setShadowBiasMul( [biasMultiplier] ): set the shadow buffer bias multipler (supaScreenshot only)	"setShadowBiasMul( [biasMultiplier] ): set the shadow buffer bias multipler (supaScreenshot only)"	ds	1
+00b77a08	setShadowQuality( [qualityLevel] ): set the quality level of shadows	"setShadowQuality( [qualityLevel] ): set the quality level of shadows"	ds	1
+00baf5b8	setWorldTooltipRectDims1024() - Dims must be within resolution 1024x768.  Current dims are min(%d,%d) max(%d,%d)	u"setWorldTooltipRectDims1024() - Dims must be within resolution 1024x768.  Current dims are min(%d,%d) max(%d,%d)"	unicode	1
+00b6c818	toggleWorldTooltipClipRect() : Toggles whether or not world tooltips are using the restricted screen rectangle.	"toggleWorldTooltipClipRect() : Toggles whether or not world tooltips are using the restricted screen rectangle."	ds	1
+00b6d090	toggleHomeCityViewTech( ) : Toggles tech home city view for the current player.	"toggleHomeCityViewTech( ) : Toggles tech home city view for the current player."	ds	1
+00b6d0f8	toggleHomeCityView( ) : Toggles home city view for the current player.	"toggleHomeCityView( ) : Toggles home city view for the current player."	ds	1
+00b77a64	toggleShadows(void) : toggle shadows on/off	"toggleShadows(void) : toggle shadows on/off"	ds	1
