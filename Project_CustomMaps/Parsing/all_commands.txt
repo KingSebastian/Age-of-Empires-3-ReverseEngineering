@@ -1,0 +1,1540 @@
+long aiActivateOpportunity(int opportunityID, bool flag) : activates or deactivates an opportunity on the player's opp list.
+void aiAttemptResign() : asks the player if its ok to resign
+void aiAutoSavegame(string filename) : Saves the auto, debugging savegames (THIS DOESN'T REALLY DO ANYTHING).
+aiBreakAtStart()
+bool aiBreakTreaty(int escrowID) : breaks the treaty using funds from the given escrow.
+aiBreakpointGo(int playerID) : Restart XS execution after the current breakpoint.
+aiBreakpointSet(int playerID, string filename, int lineNumber, bool on) : Sets a breakpoint.
+bool aiBuildWall(int buildingID, int escrowID) : builds walls around the specified building's colony using the specified escrow.
+bool aiBuyResourceOnMarket(int resourceID) : buys (+100) the given resource.
+int aiCalculateMostHatedPlayerID(int comparePlayerID) : Returns the playerID for the player the AI thinks it should be attacking.
+bool aiCanBuildWall(int buildingID, int escrowID) : returns whether it is allowed to build a wall around the specified building's colony, and whether the player can afford it from the specified escrow.
+bool aiCastGodPowerAtPosition(int godPowerTechID, vector pos) : Casts the given God power tech, at the specified position.
+bool aiCastGodPowerAtUnit(int godPowerTechID, int unitID) : Casts the given God power tech, at the specified unit.
+void aiChat(int playerID, string chatString) : CP AI chat to playerID.
+aiChatHistory()
+aiCommsAllowChat(bool flag) : enables or disables the chats from this ai player.
+long aiCommsGetChatTargetType(int sentenceID) : get target type for specified sentence.
+long aiCommsGetChatVerb(int sentenceID) : get chat verb for specified sentence.
+long aiCommsGetSendingPlayer(int sentenceID) : get sending player for specified sentence.
+long aiCommsGetTargetListCount(int sentenceID) : get number of items in target list for specified sentence.
+long aiCommsGetTargetListItem(int sentenceID, int index) : get index item from specified sentence.
+vector aiCommsGetTargetLocation(int sentenceID) : get target location from specified sentence.
+void aiCommsSendReply(int sentenceID, int responseID) : send a reply to a sentence.
+int aiCommsSendStatement(targetPlayerID, int promptType) : Sends a statement to the designated player.
+int aiCommsSendStatementWithVector(targetPlayerID, int promptType, vector v) : Sends a statement to the designated player. Adds a location flare.
+bool aiCommsSetEventHandler(string handlerFunctionName) : Sets the handler for the communications system (invalid name unsets the handler).
+long aiCreateOpportunity(int type, int targettype, int targetID, int targetPlayerID, int source) : adds an opportunity to the list and returns the id.
+aiDebug()
+aiDebugBattles()
+long aiDestroyOpportunity(int opportunityID) : remove an opportunity on the player's opp list.
+aiDifficulty()
+bool aiDoesWallExist(int buildingID) : returns whether a wall exists around the specified building's colony.
+void aiEcho(string echoString) : CP AI echo.
+void aiErrorMessage(string errorString) : CP AI error.
+int aiFindBestAttackGodPowerPlan() : find a valid god power plan to attach to an attack plan
+void aiFindBestOpportunity() : finds the best currently scored opp.
+int aiFindBestTownDefenseGodPowerPlan() : find a valid god power plan to use for town defense
+aiGathererDistribution()
+bool aiGetAllowBuildings(void) : Returns allow buildings on/off.
+float aiGetAttackResponseDistance(void) : Returns the attack response distance.
+int aiGetAutoFarmEscrowID(void) : Returns the auto Farm escrow ID.
+int aiGetAutoGatherEscrowID(void) : Returns the auto gather escrow ID.
+bool aiGetAutosaveOn() : returns whether or not its cool to turn ai autosaves on.
+int aiGetAvailableEconomyPop(void) : Returns the available economy pop for this player.
+aiGetAvailableMilitaryPop()
+int aiGetCaptainPlayerID(int playerID) : Returns the captain for the given player's team.
+int aiGetCurrentEconomyPop(void) : Returns the current economy pop for this player.
+void aiGetCurrentResourceNeed(int resourceID) : returns the current resource need for the given resource.
+float aiGetEconomyPercentage(void) : Returns the economy priority percentage.
+aiGetEconomyPop()
+float aiGetExploreDangerThreshold() : gets the ai's Explore Danger Threshold value.
+aiGetFallenExplorerID()
+int aiGetFarmLimit(void) : Returns the per plan farm build limit.
+int aiGetGameMode(void) : Returns the game's mode.
+int aiGetGameType() : returns the current game type (e.g., cGameTypeScenario, cGameTypeRandom, etc).
+int aiGetGodPowerProtoIDForTechID(int techID) : translate a granted tech id into a protopower id
+int aiGetGodPowerTechIDForSlot(int slotID) : Get the god power tech id from the given slot.
+int aiGetGodPowerType(int protoPowerID) : get the type for a ProtoPower
+vector aiGetHCGatherPoint(void) : Returns the HCGP.
+int aiGetLastCollectedNuggetEffect(int playerID) : Gets the last collected nugget's effect
+int aiGetLastCollectedNuggetType(int playerID) : Gets the last collected nugget's type
+float aiGetMarketBuyCost(int resourceID) : Returns the amount required to buy 100 units of the given resource.
+float aiGetMarketSellCost(int resourceID) : Returns the amount received for selling 100 units of the given resource.
+int aiGetMaxLOSProtoUnitLimit() : gets the limit for how many LOS Protounits the AI can build
+float aiGetMilitaryPercentage(void) : Returns the militarypriority percentage.
+aiGetMilitaryPop()
+int aiGetMinNumberNeedForGatheringAggressives() : gets the min number of needed units to gather aggressive animals.
+int aiGetMinNumberWantForGatheringAggressives() : gets the min number of wanted units to gather aggressive animals.
+aiGetMostHatedPlayerID()
+int aiGetNumberIdlePlans(int planType) : Gets the of idle plans of the given type.
+long aiGetNumberTeams() : returns the number of teams in the game.
+vector aiGetOpportunityLocation(int opportunityID) : gets the location from this opportunity
+float aiGetOpportunityRadius(int opportunityID) : gets the radius from this opportunity
+long aiGetOpportunitySourceID(int opportunityID) : gets the source id from this opportunity
+long aiGetOpportunitySourceType(int opportunityID) : gets the source type from this opportunity
+long aiGetOpportunityTargetID(int opportunityID) : gets the target id from this opportunity
+long aiGetOpportunityTargetPlayerID(int opportunityID) : gets the target playerID from this opportunity
+long aiGetOpportunityTargetType(int opportunityID) : gets the target type from this opportunity
+long aiGetOpportunityType(int opportunityID) : gets the type from this opportunity
+bool aiGetPauseAllAgeUpgrades() : gets the pause all age upgrades flag from the AI.
+string aiGetPersonality(void) : Gets the player's personality.
+int aiGetPoliticianChoice(int age) : Gets the scripts choice for the AgeX Politician.
+int aiGetPoliticianListByIndex(int age, int index) : Gets the index'th Politicans avaiable for AgeX.
+int aiGetPoliticianListCount(int age) : Gets the number of Politicans avaiable for AgeX.
+int aiGetPopNeeds() : gets the current Pop needs of all the plans.
+int aiGetResourceBreakdownNumberPlans(int resourceTypeID, int resourceSubTypeID, int baseID) : Gets the number of plans for the given breakdown.
+float aiGetResourceBreakdownPercentage(int resourceTypeID, int resourceSubTypeID, int baseID) : Gets the percentage for the given breakdown.
+int aiGetResourceBreakdownPlanPriority(int resourceTypeID, int resourceSubTypeID, int baseID) : Gets the priority of the plans for the given breakdown.
+float aiGetResourceGathererPercentage(int resourceID, int rgpIndex) : Returns the resource gatherer percentage for the given resource.
+float aiGetResourceGathererPercentageWeight(int rgpIndex) : Returns the RGP weight.
+long aiGetScore(int playerID) : returns the score for the given player.
+bool aiGetWallRadius(int buildingID) : returns the wall radius for the specified building's colony.
+bool aiGetWaterMap() : Tells us if the AI thinks this is a water map or not.
+int aiGetWorldDifficulty(void) : Returns the world difficulty level.
+string aiGetWorldDifficultyName(int level) : Returns the name of the level.
+int aiGoalGetIDByIndex(int goalType, int goalState, bool active, int index) : Returns the ID of matching goal.
+int aiGoalGetNumber(int goalType, int goalState, bool active) : Returns the number of matching goals.
+bool aiHCCardsBuyCard(int cardIndex) : Buy this card now
+bool aiHCCardsCanIBuyThisCard(int deckIndex, int cardIndex) : Can I buy this card now?
+long aiHCCardsFindBestCard(int cardType, int levelPref, int resourcePref) : Get the best card using the optional cardtype and optional resourcePreference
+long aiHCCardsGetCardAgePrereq(int cardIndex) : For this cardIndex, get the age prereq.
+aiHCCardsGetCardCount()
+long aiHCCardsGetCardLevel(int cardIndex) : For this cardIndex, get the age prereq.
+long aiHCCardsGetCardTechID() : For this cardIndex, get the TechID.
+long aiHCCardsGetCardUnitCount() : For this cardIndex, get the UnitCount.
+long aiHCCardsGetCardUnitType() : For this cardIndex, get the UnitType.
+long aiHCCardsGetTotal() : Returns the number of cards in the Current HC.
+bool aiHCCardsIsCardBought(int cardIndex) : Has the cardindex been bought yet?
+bool aiHCDeckActivate(long deckIndex) : Makes the deckIndex the current active HC deck.
+long aiHCDeckAddCardToDeck(long deckIndex, long cardIndex) : Adds the card given to the givenHC Deck.
+bool aiHCDeckCanPlayCard(long cardIndex) : Can we play this card from the given deck?
+aiHCDeckCardGetCardCount()
+bool aiHCDeckCreate(string) : Create a new HC Deck with the given name.
+long aiHCDeckGetCardAgePrereq(long deckIndex, long cardIndex) : For this card, get the age prereq
+long aiHCDeckGetCardLevel(long deckIndex, long cardIndex) : For this card, get the level
+long aiHCDeckGetCardTechID(long deckIndex, long cardIndex) : For this card, get the techID
+long aiHCDeckGetCardUnitCount(long deckIndex, long cardIndex) : For this card, get the unit Count
+long aiHCDeckGetCardUnitType(long deckIndex, long cardIndex) : For this card, get the unitType
+long aiHCDeckGetNumberCards(long deckIndex) : Returns the number of cards in the Current HC Deck.
+bool aiHCDeckPlayCard(long cardIndex) : play this card.
+long aiHCGetNumberDecks() : Returns the number of decks in the Current HC.
+aiIsMapType()
+bool aiIsMultiplayer() : returns true, if this is a multiplayer game.
+aiMapNameOverride()
+void aiNormalizeResourceGathererPercentageWeights(void) : Normalizes all of the resource gatherer percentages weights to 1.0.
+void aiNormalizeResourceGathererPercentages(int rgpIndex) : Normalizes all of the resource gatherer percentages to 1.0.
+int aiNumberUnassignedUnits(int typeID) : Returns the number of unassigned units of the given type.
+int aiNumberUnassignedUnitsByGoal(int goalID) : Returns the number of unassigned units based on the goal's unit type(s).
+aiOpportunities()
+aiPastResourceNeeds()
+int aiPersonalityCreatePlayerHistory(void) : Creates are player history for the given playername.
+bool aiPersonalityGetDidIWinLastGameVS(int playerHistoryIndex)
+int aiPersonalityGetGameFirstAttackTime(int playerHistoryIndex, int gameIndex) : Returns the 1st attacktime from the gameIndex game.
+aiPersonalityGetGameResource()
+aiPersonalityGetGameUnitCount()
+int aiPersonalityGetNumberPlayerHistories(void) : Returns the number of player's in the Personality's history.
+int aiPersonalityGetPlayerGamesPlayed(int playerHistoryIndex, int playerRelation) : Returns the number of games played against/with the given the playerHistoryIndex.
+int aiPersonalityGetPlayerHistoryIndex(string searchPlayerName) : Returns a playerHistoryIndex if this personality has played searchPlayerName before.
+string aiPersonalityGetPlayerHistoryName(int index) : Returns the name of the index'th player in the Personality's history.
+float aiPersonalityGetPlayerUserVar(int playerHistoryIndex, string userVarName) : Returns the user value, given the playerHistoryIndex and the userVarName.
+float aiPersonalityGetRushBoom(void) : Returns the rush boom scale for this ai.
+int aiPersonalityGetTotalGameWins(int playerHistoryIndex, int playerRelation) : Returns the total games the given player has won against this AI
+aiPersonalityOverride()
+bool aiPersonalityResetPlayerHistory(int playerHistoryIndex) : Resets the given player history.
+bool aiPersonalitySetPlayerUserVar(int playerHistoryIndex, string userVarName, float val) : sets the value, given the playerHistoryIndex, userVarName (max 255 chars), and value.
+bool aiPlanAddUnit(int planID, int unitID) : Adds a unit to the plan.
+bool aiPlanAddUnitType(int planID, int unitTypeID, int numberNeed, int numberWant, int numberMax) : Adds a unit type to the plan.
+bool aiPlanAddUserVariableBool(int planID, int planVariableIndex, string name, int numberValues) : Adds the variable to the given plan.
+bool aiPlanAddUserVariableFloat(int planID, int planVariableIndex, string name, int numberValues) : Adds the variable to the given plan.
+bool aiPlanAddUserVariableInt(int planID, int planVariableIndex, string name, int numberValues) : Adds the variable to the given plan.
+bool aiPlanAddUserVariableString(int planID, int planVariableIndex, string name, int numberValues) : Adds the variable to the given plan.
+bool aiPlanAddUserVariableVector(int planID, int planVariableIndex, string name, int numberValues) : Adds the variable to the given plan.
+bool aiPlanAddWaypoint(int planID, vector waypoint) : Adds the waypoint to the given plan.
+int aiPlanCreate(string planName, int typeName) : Creates a plan of the given name and type.
+bool aiPlanDestroy(int planID) : Destroys the given plan.
+bool aiPlanDestroyByName(string name) : Destroys the plan of the given name.
+aiPlanGetActive()
+int aiPlanGetActualPriority(int planID) : Returns the priority of the given plan.
+aiPlanGetAllowUnderAttackResponse()
+bool aiPlanGetAttack(int planID) : Gets the attack flag of the given plan.
+int aiPlanGetBaseID(int planID) : gets the plan's base id.
+int aiPlanGetDesiredPriority(int planID) : Returns the priority of the given plan.
+bool aiPlanGetEconomy(int planID) : Gets the economy flag of the given plan.
+int aiPlanGetEscrowID(int planID) : Gets the escrow for the plan.
+int aiPlanGetID(string name) : Returns the ID of the plan with the given name.
+int aiPlanGetIDByActiveIndex(int activeIndex) : Returns the ID of the plan with the given active index.
+int aiPlanGetIDByIndex(int planType, int planState, bool active, int index) : Returns the ID of matching plan.
+int aiPlanGetIDByTypeAndVariableType(int planType, int varType, int varID, bool active) : Returns the ID of the plan with the given parms.
+int aiPlanGetIDSubStr(string searchStr) : Returns the ID of the first plan containing the given string in its name.
+vector aiPlanGetInitialPosition(int planID) : Returns the initial positon that was set for this plan.
+vector aiPlanGetLocation(int planID) : Returns the location for this plan.
+bool aiPlanGetMilitary(int planID) : Gets the military flag of the given plan.
+string aiPlanGetName(int planID) : Returns the name of the given plan.
+aiPlanGetNoMoreUnits()
+int aiPlanGetNumber(int planType, int planState, bool active) : Returns the number of matching plans.
+int aiPlanGetNumberUnits(int planID, int unitTypeID) : Returns the number of units currently assigned in the given plan.
+int aiPlanGetNumberUserVariableValues(int planID, int planVariableIndex) : Returns the number of values for this variable index.
+int aiPlanGetNumberVariableValues(int planID, int planVariableIndex) : Returns the number of values for this variable index.
+aiPlanGetOrphan()
+int aiPlanGetState(int planID) : Returns the state of the given plan.
+int aiPlanGetType(int planID) : Returns the type of the given plan.
+float aiPlanGetUnitCost(int planID, bool considerHitPoints) : gets total aiCost of plan's units, weighted for HP if requested.
+int aiPlanGetUnitStance(int planID) : Gets the unit stance of the given plan.
+bool aiPlanGetUserVariableBool(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+float aiPlanGetUserVariableFloat(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+int aiPlanGetUserVariableInt(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+string aiPlanGetUserVariableString(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+vector aiPlanGetUserVariableVector(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+bool aiPlanGetVariableBool(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+float aiPlanGetVariableFloat(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+int aiPlanGetVariableInt(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+string aiPlanGetVariableString(int planID, int planVariableIndex) : Gets the given variable of the given plan.
+vector aiPlanGetVariableVector(int planID, int planVariableIndex, int valueIndex) : Gets the given variable of the given plan.
+bool aiPlanRemoveUserVariable(int planID, int planVariableIndex) : Removes the user variable.
+aiPlanRemoveUserVariableValue()
+bool aiPlanRemoveUserVariables(int planID) : Removes all of the user variables from the given plan.
+aiPlanRemoveVariableValue()
+bool aiPlanSetActive(int planID, bool active) : Sets active on/off for the given plan.
+bool aiPlanSetAllowUnderAttackResponse(int planID, bool uAR) : Sets under attack response on/off for the given plan.
+bool aiPlanSetAttack(int planID, bool v) : Sets attack flag on/off for the given plan.
+bool aiPlanSetBaseID(int planID, int baseID) : sets the plan's base id.
+bool aiPlanSetDesiredPriority(int planID, int priority) : Sets the priority of the given plan.
+bool aiPlanSetEconomy(int planID, bool v) : Sets economy on/off for the given plan.
+bool aiPlanSetEscrowID(int planID, int escrowID) : Sets the escrow for the plan.
+bool aiPlanSetEventHandler(int planID, int eventType, string handlerName) : Sets event handler function for the given plan and event.
+void aiPlanSetInitialPosition(int planID, vector initialPosition) : Sets the initial positon for this plan.
+bool aiPlanSetMilitary(int planID, bool v) : Sets military on/off for the given plan.
+bool aiPlanSetNoMoreUnits(int planID, bool v) : Sets noMoreUnits on/off for the given plan.
+bool aiPlanSetNumberUserVariableValues(int planID, int planVariableIndex, int numberValues, bool clearCurrentValues) : Sets the number of values for this variable.
+bool aiPlanSetNumberVariableValues(int planID, int planVariableIndex, int numberValues, bool clearCurrentValues) : Sets the number of values for this variable.
+bool aiPlanSetOrphan(int planID, bool orphan) : Sets orphan on/off for the given plan.
+bool aiPlanSetRequiresAllNeedUnits(int planID, bool rANU) : Sets 'requiresAllNeedUnits' on/off for the given plan.
+bool aiPlanSetUnitStance(int planID, int stance) : Sets unit stance for the given plan.
+bool aiPlanSetUserVariableBool(int planID, int planVariableIndex, int valueIndex, bool value) : Sets the given variable of the given plan.
+bool aiPlanSetUserVariableFloat(int planID, int planVariableIndex, int valueIndex, float value) : Sets the given variable of the given plan.
+bool aiPlanSetUserVariableInt(int planID, int planVariableIndex, int valueIndex, int value) : Sets the given variable of the given plan.
+bool aiPlanSetUserVariableString(int planID, int planVariableIndex, int valueIndex, string value) : Sets the given variable of the given plan.
+bool aiPlanSetUserVariableVector(int planID, int planVariableIndex, int valueIndex, vector value) : Sets the given variable of the given plan.
+bool aiPlanSetVariableBool(int planID, int planVariableIndex, int valueIndex, bool value) : Sets the given variable of the given plan.
+bool aiPlanSetVariableFloat(int planID, int planVariableIndex, int valueIndex, float value) : Sets the given variable of the given plan.
+bool aiPlanSetVariableInt(int planID, int planVariableIndex, int valueIndex, int value) : Sets the given variable of the given plan.
+bool aiPlanSetVariableString(int planID, int planVariableIndex, int valueIndex, string value) : Sets the given variable of the given plan.
+bool aiPlanSetVariableVector(int planID, int planVariableIndex, int valueIndex, vector value) : Sets the given variable of the given plan.
+bool aiPlanSetWaypoints(int planID, int pathID) : Sets the waypoints of the given plan to the waypoints of the given path.
+aiPopDistribution()
+bool aiPopulatePoliticianList() : Call this to make the AI fill out what Politicians are available.
+void aiQueueAutoSavegame(int saveNumber) : Queues the auto savegame.
+int aiRandInt(int max) : Returns a random number (mod'ed by max if provided).
+vector aiRandLocation(void) : Returns a random location guaranteed to be on the map.
+void aiRandSetSeed(int seed) : Sets the seed of the random number generator.
+bool aiRansomExplorer(int explorerID, int escrowID, int sourceBuildingID) : ransoms the specified explorer using funds from the specified escrow account and spawns it from the specified building.
+bool aiRemoveResourceBreakdown(int resourceTypeID, int resourceSubTypeID, int baseID) : Removes the given breakdown.
+void aiResign() : reigns the current player..
+bool aiResourceIsLocked(int resourceID) : Is this Escrow resource locked.
+void aiResourceLock(int resourceID) : Prevent a resource from being spent by the AI.
+void aiResourceUnlock(int resourceID) : Allow a resource to be spent by the AI.
+bool aiSellResourceOnMarket(int resourceID) : sells (+100) the given resource.
+void aiSendChatToAllies(string chatString) : CP AI chat to allies.
+void aiSendChatToEnemies(string chatString) : CP AI chat to enemies.
+void aiSendChatToEveryone(string chatString) : CP AI chat to everyone.
+void aiSet(string filename, int playerID) : Sets playerID's AI to the given filename.
+void aiSetAllowBuildings(bool v) : Sets allow buildings on/off.
+void aiSetAttackResponseDistance(float v) : Set the attack response distance.
+void aiSetAutoFarmEscrowID(int escrowID) : Sets the auto Farm escrow ID.
+void aiSetAutoGatherEscrowID(int escrowID) : Sets the auto gather escrow ID.
+bool aiSetAutoGatherMilitaryUnits(bool v) : Turns auto gathering of military units at bases on/off.
+void aiSetDefaultStance(int defaultStance) : Sets your default stance for all of your units.
+void aiSetEconomyPercentage(float v) : Set the economy priority percentage.
+aiSetEconomyPop()
+bool aiSetExploreDangerThreshold(float value) : sets the ai's Explore Danger Threshold value.
+void aiSetFarmLimit(int limit) : Sets the per plan farm build limit.
+bool aiSetHCGatherPoint(vector point) : Sets the HCGP.
+bool aiSetHandler(string handlerFunctionName, int type) : Sets the handler for given type of event.
+void aiSetMaxLOSProtoUnitLimit(int limit) : sets the limit for how many LOS Protounits the AI can build
+void aiSetMilitaryPercentage(float v) : Set the military priority percentage.
+aiSetMilitaryPop()
+void aiSetMinArmySize(long v) : sets the min number of units in an attack army.
+void aiSetMinNumberNeedForGatheringAggressvies(long v) : sets the min number of needed units to gather aggressive animals.
+void aiSetMinNumberWantForGatheringAggressives(long v) : sets the min number of wanted units to gather aggressive animals.
+aiSetMostHatedPlayerID()
+void aiSetOpportunityLocation(int opportunityID, vector location) : sets the location for this opp.
+void aiSetOpportunityRadius(int opportunityID, float radius) : sets the radius for this opp.
+bool aiSetOpportunityScore(long oppID, long permission, float affordable, float classscore, float instance, float total) : sets the score for this opp.
+void aiSetOpportunityTargetID(int opportunityID, int targetType) : sets the target id for this opp.
+void aiSetOpportunityTargetType(int opportunityID, int targetType) : sets the target type for this opp.
+void aiSetPauseAllAgeUpgrades(bool v) : sets the pause all age upgrades flag in the AI.
+void aiSetPoliticianChoice(int age, int puid) : Sets the scripts choice for the AgeX Politician.
+void aiSetRandomMap(bool v) : Sets the RM bool in the AI.
+bool aiSetResourceBreakdown(int resourceTypeID, int resourceSubTypeID, int numberPlans, int planPriority, float percentage, int baseID) : Sets a subtype breakdown for a resource.
+void aiSetResourceGathererPercentage(int resourceID, float value, bool normalize, int rgpIndex) : Sets the resource gatherer percentage for the given resource (if normalized is true, the percentages will be normalized to 1.0).
+void aiSetResourceGathererPercentageWeight(int rgpIndex, float weight) : Sets the RGP weight.
+void aiSetWaterMap(bool v) : Tells the AI if this is a water map or not.
+void aiSetWorldDifficulty(int v) : Sets the world difficulty level.
+aiShowBPValueText()
+void aiSwitchMainBase(int newBaseID, bool force) : switch the newBaseID to be the main base.
+bool aiTaskUnitBuild(int unitID, int buildingTypeID, vector position) : Does a lightweight (no plan) build tasking of the given unit to build the given building.
+bool aiTaskUnitDelete(int unitID) : Deletes the given unit.
+bool aiTaskUnitMove(int unitID, vector position) : Does a lightweight (no plan) move tasking of the given unit to the given location.
+bool aiTaskUnitResearch(int unitID, int techID) : Does a lightweight (no plan) research tasking of the given unit for the given tech ID.
+bool aiTaskUnitSpecialPower(int unitID, int powerID, vector position) : Does a lightweight (no plan) research tasking of the given unit for the given special power.
+bool aiTaskUnitTrain(int unitID, int unitTypeID) : Does a lightweight (no plan) train tasking of the given unit for the given target unit type.
+bool aiTaskUnitWork(int unitID, int targetUnitID) : Does a lightweight (no plan) work tasking of the given unit on the given target unit.
+aiTimedStats()
+bool aiTreatyActive() : checks whether the given player has a treaty.
+bool aiTribute(int playerID, int resourceID, float amount) : Tributes the given player.
+int aiUnitGetTactic(int unitID) : gets the specified unit's current tactic.
+bool aiUnitSetTactic(int unitID, int tacticID) : sets the specified tactic on the specified unit.
+breakTreaty() : break your treaties
+cameraBackward([integerKeyState]) : intended for ui use only.  Indicates that camera backward key has gone up or down.
+cameraDown([integerKeyState]) : intended for ui use only.  Indicates that camera down key has gone up or down.
+cameraDump() : debug command to spew info about the current state of the game camera
+cameraForward([integerKeyState]) : intended for ui use only.  Indicates that camera forward key has gone up or down.
+cameraLeft([integerKeyState]) : intended for ui use only.  Indicates that camera left key has gone up or down.
+cameraLocalYawLeft([integerKeyState]) : intended for ui use only.  Indicates that camera 'Local Yaw left' key has gone up or down.
+cameraLocalYawRight([integerKeyState]) : intended for ui use only.  Indicates that camera 'Local Yaw right' key has gone up or down.
+cameraMovementLock()
+cameraNice() : puts the camera in a reasonable orientation.
+cameraPitchBackward([integerKeyState]) : intended for ui use only.  Indicates that camera pitch backward key has gone up or down.
+cameraPitchForward([integerKeyState]) : intended for ui use only.  Indicates that camera pitch forward key has gone up or down.
+cameraRight([integerKeyState]) : intended for ui use only.  Indicates that camera right key has gone up or down.
+cameraRollLeft([integerKeyState]) : intended for ui use only.  Indicates that camera roll left key has gone up or down.
+cameraRollRight([integerKeyState]) : intended for ui use only.  Indicates that camera roll right key has gone up or down.
+cameraRotate(<integerState>) : sets whether camera limiting is on.
+cameraUp([integerKeyState]) : intended for ui use only.  Indicates that camera up key has gone up or down.
+cameraWorldBackward([integerKeyState]) : intended for ui use only.  Indicates that camera world backward key has gone up or down.
+cameraWorldBackwardLeft([integerKeyState]) : intended for ui use only.  Indicates that camera world backward & left key has gone up or down.
+cameraWorldBackwardRight([integerKeyState]) : intended for ui use only.  Indicates that camera world backward & right key has gone up or down.
+cameraWorldForward([integerKeyState]) : intended for ui use only.  Indicates that camera world forward key has gone up or down.
+cameraWorldForwardLeft([integerKeyState]) : intended for ui use only.  Indicates that camera world forward & left key has gone up or down.
+cameraWorldForwardRight([integerKeyState]) : intended for ui use only.  Indicates that camera world forward & right key has gone up or down.
+cameraYawLeft([integerKeyState]) : intended for ui use only.  Indicates that camera yaw left key has gone up or down.
+cameraYawRight([integerKeyState]) : intended for ui use only.  Indicates that camera yaw right key has gone up or down.
+cancelAutoPatcher() : Cancel the auto patcher.
+cancelRepairUnit(int unitID) : Cancels the auto repair on the specified unit.
+cancelResearchInSelected()
+cancelTrainInSelected()
+cancelTrainReinforcement(int armyID) : Cancel training of a reinforcement.
+configDef(<stringName>) : defines a config variable
+configDefined()
+configDump() : sends to output a list of all current config vars
+configGetByID(<intValue>) : look up config by enum ID
+configHelp([symbolFilter]) : show all formally defined config variables that contain the filter string, or use no parameters for a full list.
+configHelpPrefix([symbolFilter]) : show all formally defined config variables that start with the filter string, or use no parameters for a full list.
+configIndex()
+configSet(<stringName> <stringValue>) : sets a particular config var to a string value
+configSetFloat(<stringName> <floatValue>) : sets a config var to a floating point value
+configSetInt(<stringName> <integerValue>) : sets a config var to an integer value
+configToggle(<stringName>) : defined var becomes undefined, and vice versa
+configUndef()
+convertCoveredWagon() : Convert a covered wagon into a Town Center
+createFunction()
+createRiver()
+createRiverShallow()
+displayAspectRatio()
+displayName()
+displayNameID()
+displayType([integerState]) : with no arg, cycles through the various status display modes.  otherwise sets display type
+gadgetFlash(<stringName> <flash>) : turns gadget flashing on/off.
+gadgetReal(<stringName>) : makes real the named gadget.
+gadgetRealIfNotMP(<stringName>) : makes real the named gadget.
+gadgetRefresh(<stringName>) : refresh the contents of the named gadget.
+gadgetScrollDown() : scrolls the gadget up one unit
+gadgetScrollLeft() : scrolls the gadget to the left one unit
+gadgetScrollRight() : scrolls the gadget to the Right one unit
+gadgetScrollUp() : scrolls the gadget up one unit
+gadgetToggle(<stringName>) : toggles the reality of the named gadget.
+gadgetToggleIfNotMP()
+gadgetUnreal(<stringName>) : makes un-real the named gadget.
+gadgetWheelScroll() : ui use.  Scrolling function for hooking wheel to gadget scrolling
+helpPrefix()
+helpText()
+helpTextID()
+homeCityResearchByID(%d, %d)
+homeCityResearchByIDOutsideGame(%d, %d)
+homeCityShipEject(int playerID, int buildingID, int puid, int index) : Cancels the given unit out of the ship.
+homeCityTrain(int playerID, int buildingID, int puid) : Trains the given PUID from the given home city building.
+homeCityTrain2(int playerID, int cardIndex) : Sends the given HC card in the home city.
+homeCityTransport(int playerID) : Transports units from the home city.
+bool kbAddAttackRouteIgnoreID(int ignoreAreaID) : ignore this area when finding the route.
+bool kbAddAttackRouteIgnoreType(int ignoreAreaTypeID) : ignore this areatype when finding the route.
+bool kbAddAttackRouteSector(int sector) : add a new sector to path to.
+void kbAreaCalculate() : Creates areas and area groups. DO THIS BEFORE ANYTHING ELSE IN YOUR SCRIPT.
+int kbAreaFindBestGatherAreaID(int unitTypeID) : Returns the Area ID of the best area to gather the given unit type.
+kbAreaGetBorderAreaID()
+vector kbAreaGetCenter(int areaID) : Returns the center of the given area.
+int kbAreaGetClosetArea(vector position, int areaType, int areaType1, float minDistance) : Returns the Area ID of the closest area, of the given types, to given postion.
+int kbAreaGetIDByPosition(vector position) : Returns the ID of the given area.
+int kbAreaGetNumber(void) : Returns the number of areas.
+int kbAreaGetNumberBlackTiles(int areaID) : Returns the number of black tiles in the given area.
+int kbAreaGetNumberBorderAreas(int areaID) : Returns the number of border areas for the given area.
+int kbAreaGetNumberFogTiles(int areaID) : Returns the number of fog tiles in the given area.
+int kbAreaGetNumberTiles(int areaID) : Returns the number of tiles in the given area.
+int kbAreaGetNumberUnits(int areaID) : Returns the number of units in the given area.
+int kbAreaGetNumberVisibleTiles(int areaID) : Returns the number of visible tiles in the given area.
+int kbAreaGetType(int areaID) : Returns the Type of area.
+kbAreaGetUnitID()
+kbAreaGetVPSiteID()
+int kbAreaGetVisibilityChangeTime(int areaID) : Returns the gametime of the last visibility change for the given area.
+vector kbAreaGroupGetCenter(int groupID) : Returns the center of the given areaGroup.
+int kbAreaGroupGetIDByPosition(vector position) : Returns the ID of the given area group.
+kbArmyDebugText()
+bool kbAttackRouteAddPath(int attackRouteID, int pathID) : Rreturns true if path was added to attack route.
+bool kbBaseAddUnit(int playerID, int baseID, int unitID) : Adds the given unit to the base.
+int kbBaseCreate(int playerID, string name, vector position, float distance) : Creates a base.
+bool kbBaseDestroy(int playerID, int baseID) : Destroys the given base.
+void kbBaseDestroyAll(int playerID) : Destroys all of the bases for the given player.
+int kbBaseFindCreateResourceBase(int resourceType, int resourceSubType, int parentBaseID) : Finds/Creates a 'forward' military base against the given enemy base.
+kbBaseFindForwardMilitaryBase()
+bool kbBaseGetActive(int playerID, int baseID) : Gets the active flag of the base.
+vector kbBaseGetBackVector(int playerID, int baseID) : Gets the back vector of the base.
+bool kbBaseGetEconomy(int playerID, int baseID) : Gets the economy flag of the base.
+bool kbBaseGetForward(int playerID, int baseID) : Gets the forward flag of the base.
+vector kbBaseGetFrontVector(int playerID, int baseID) : Gets the front vector of the base.
+int kbBaseGetIDByIndex(int playerID, int index) : Returns the BaseID for the given base.
+kbBaseGetLastKnownDamageLocation()
+vector kbBaseGetLocation(int playerID, int baseID) : Gets the last known damage location of the base.
+bool kbBaseGetMain(int playerID, int baseID) : Gets the main flag of the base.
+int kbBaseGetMainID(int playerID) : Gets the main base ID for the player.
+float kbBaseGetMaximumResourceDistance(int playerID, int baseID) : Gets the maximum resource distance of the base.
+bool kbBaseGetMilitary(int playerID, int baseID) : Gets the military flag of the base.
+vector kbBaseGetMilitaryGatherPoint(int playerID, int baseID) : Gets the military gather point of the base.
+int kbBaseGetNextID(void) : Returns the ID of the next base that will be created.
+int kbBaseGetNumber(int playerID) : Returns the number of bases for the given player.
+int kbBaseGetNumberUnits(int playerID, int baseID, int relation, int unitTypeID) : Returns the number of units that match the criteria.
+int kbBaseGetOwner(int baseID) : Returns the player ID of the specified base's owner.
+bool kbBaseGetSettlement(int playerID, int baseID) : Gets the settlement flag of the base.
+int kbBaseGetTimeUnderAttack(int playerID, int baseID) : Returns the number of continuous seconds the base has been under attack.
+bool kbBaseGetUnderAttack(int playerID, int baseID) : Gets the under attack flag of the base.
+bool kbBaseRemoveUnit(int playerID, int baseID, int unitID) : Removes the given unit to the base.
+bool kbBaseSetActive(int playerID, int baseID, bool active) : Sets the active flag of the base.
+bool kbBaseSetEconomy(int playerID, int baseID, bool Economy) : Sets the economy flag of the base.
+bool kbBaseSetForward(int playerID, int baseID, bool forward) : Sets the forward flag of the base.
+bool kbBaseSetFrontVector(int playerID, int baseID, vector frontVector) : Sets the front (and back) of the base.
+bool kbBaseSetMain(int playerID, int baseID, bool main) : Sets the main flag of the base.
+void kbBaseSetMaximumResourceDistance(int playerID, int baseID, float distance) : Sets the maximum resource distance of the base.
+bool kbBaseSetMilitary(int playerID, int baseID, bool military) : Sets the military flag of the base.
+bool kbBaseSetMilitaryGatherPoint(int playerID, int baseID, vector gatherPoint) : Sets the military gather point of the base.
+bool kbBaseSetSettlement(int playerID, int baseID, bool settlement) : Sets the settlement flag of the base.
+bool kbBuildingPlacementAddAreaGroupID(int areaGroupID) : Adds the AreaGroup ID to the current BP.
+kbBuildingPlacementAddAreaID()
+bool kbBuildingPlacementAddPositionInfluence(vector position, float value, float distance) : Adds the position influence for the current building placement.
+bool kbBuildingPlacementAddUnitInfluence(int typeID, float value, float distance, long kbResourceID) : Adds the unit influence for the current building placement.
+int kbBuildingPlacementCreate(string name) : Creates a building placement; returns the ID.
+bool kbBuildingPlacementDestroy(int id) : Destroys the given building placement.
+vector kbBuildingPlacementGetResultPosition(int bpID) : Returns the vector result position for given BP ID.
+float kbBuildingPlacementGetResultValue(int bpID) : Returns the result value for given BP ID.
+bool kbBuildingPlacementResetResults(void) : Resets the current building placement.
+bool kbBuildingPlacementSelect(int id) : Selects the given building placement.
+bool kbBuildingPlacementSetBaseID(int baseID, int locationPref) : Sets the base ID and location preference for the current building placement.
+bool kbBuildingPlacementSetBuildingType(int buildingTypeID) : Sets the building type for the current building placement.
+kbBuildingPlacementSetCenterPosition()
+bool kbBuildingPlacementSetEventHandler(int eventType, string handlerName) : Sets event handler function for the current BP and event.
+bool kbBuildingPlacementSetMinimumValue(float minimumValue) : Sets the minimum acceptable value for evaluated spots in the BP.
+bool kbBuildingPlacementStart(void) : Starts the placement of current building.
+bool kbCanAffordTech(int techID, int escrowID) : Returns true if the player can afford the tech.
+bool kbCanAffordUnit(int protoUnitTypeID, int escrowID) : Returns true if the player can afford the proto unit.
+bool kbCanPath2(vector pointA, vector pointB, long protoUnitTypeID, float range) : Returns true if the given unit type can path from pointA to pointB.
+bool kbCanSimPath(vector pointA, vector pointB, long protoUnitTypeID, float range) : Returns true if the given unit type can path from pointA to pointB.
+int kbCreateAttackRoute(string name, int startAreaID, int goalAreaID, int numInitialRoutes) : Returns the Route ID if successful.
+int kbCreateAttackRouteWithPath(string name, vector startPt, vector endPt) : Returns the Route ID if successful.
+int kbCreateTechProgression(string techName, string name) : Creates a tech progression of the given name.
+int kbCreateUnitProgression(string unitName, string name) : Creates a unit progression of the given name.
+bool kbDestroyAttackRoute(int routeID) : Returns true if the route was deleted.
+void kbDump(int player1, int player2) : KB dump for player2's units from player1's perspective.
+void kbDumpType(int player1, int player2, string typeName) : KB dump for player2's units of the given type from player1's perspective.
+void kbDumpVPSiteInfo() : blogs out info about all VP sites.
+bool kbEscrowAllocateCurrentResources(void) : Reallocates the current resource stockpile into the escrows.
+int kbEscrowCreate(string name, int resourceID, float percentage, int parentID) : Creates an escrow.
+bool kbEscrowDestroy(int escrowID, bool promoteChildren) : Destroys an escrow.
+bool kbEscrowFlush(int escrowID, int resourceID, bool flushChildren) : Removes all credits (and puts them into the root escrow) of the given resource type from the given escrow.
+float kbEscrowGetAmount(int escrowID, int resourceID) : Returns the amount of credits in the given escrow for the given resource.
+int kbEscrowGetID(string name) : Returns the ID of the named escrow.
+float kbEscrowGetPercentage(int escrowID, int resourceID) : Returns the percentage of the escrow.
+bool kbEscrowSetCap(int escrowID, int resourceID, float cap) : Sets the cap of the escrow.
+bool kbEscrowSetPercentage(int escrowID, int resourceID, float percentage) : Sets the percentage of the escrow.
+int kbFindAreaGroup(int groupType, float surfaceAreaRatio, int compareAreaID) : returns the visible area group that matches the given criteria.
+int kbFindAreaGroupByLocation(int groupType, float relativeX, float relativeZ) : returns the visible area group that matches the given criteria.
+int kbFindBestBuildingToRepair(vector position, float distance, float healthRatio, int repairUnderAttackUnitTypeID) : returns the id of the best building to repair.
+long kbFindClosestBase(long playerRelation, vector location) : gets the nearest base of player relation from the location.
+float kbGetAICostWeight(int resourceID) : Returns the AI cost weight for the given resource.
+int kbGetAge(void) : Returns the current age for the current player.
+int kbGetAgeForPlayer(int id) : Returns the current age for the player specified.
+float kbGetAmountValidResources(int baseID, int resourceTypeID, int resourceSubTypeID, float distance) : Returns the resource amount of valid KB resources for the resource types.
+int kbGetAttackRouteID(long startAreaID, long goalAreaID) : Returns the id of the routes from area1 to area2.
+float kbGetAutoBaseCreate(void) : Returns the auto base creation distance.
+kbGetAutoBaseCreateDistance()
+float kbGetAutoBaseDetect(void) : Returns the auto base creation distance.
+kbGetAutoBaseDetectDistance()
+int kbGetBlockID(string blockName) : Returns the UnitID of the cinematic block.
+vector kbGetBlockPosition(string blockName) : Returns the position of the cinematic block.
+kbGetBuildLimit()
+int kbGetCiv(void) : Returns the civilization for the player.
+int kbGetCivForPlayer(void) : Returns the civ for the given player.
+string kbGetCivName(int civID) : Returns the civ name for the given civ.
+float kbGetCombatEfficiency(int playerID1, int unitTypeID1, int playerID2, int unitTypeID2) : Returns the combat efficiency of the comparison (in terms of playerID1's units).
+string kbGetCulture(int cultureID) : Returns the culture name for the given culture.
+int kbGetCultureForPlayer(void) : Returns the culture for the given player.
+kbGetCultureName()
+long kbGetHCLevel(int playerID) : Returns the current HomeCity Level of the given player.
+vector kbGetMapCenter(void) : Returns the center vector of the map.
+float kbGetMapXSize(void) : Returns the X size of the map.
+float kbGetMapZSize(void) : Returns the Z size of the map.
+int kbGetNumAttackRoutes(long startAreaID, long goalAreaID) : Returns num paths from start to goal area.
+int kbGetNumberMutualAllies(void) : Returns the number of mutual allies.
+int kbGetNumberValidResources(int baseID, int resourceTypeID, int resourceSubTypeID, float distance) : Returns the number of valid KB resources for the resource types.
+int kbGetNumberValidResourcesByPlan(int planID, int baseID) : Returns the number of valid KB resources for the given plan/base.
+float kbGetPlayerHandicap(int playerID) : Returns the player's handicap multiplier (ie., 1.0 = no handicap).
+string kbGetPlayerName(<playerID>) : Returns the player's name.
+int kbGetPlayerTeam(<playerID>) : Returns the player's team number.
+int kbGetPop(void) : Returns the current population for the player.
+int kbGetPopCap(void) : Returns the current population cap for the player.
+int kbGetPopCapAddition(int player, int unitTypeID) : Returns amount of pop cap addition provided by the given unit type (ONLY WORKS ON BASE UNIT TYPES).
+int kbGetPopSlots(int player, int unitTypeID) : Returns the number of pop slots this unit takes (ONLY WORKS ON BASE UNIT TYPES).
+int kbGetPopulationSlotsByQueryID(int queryID) : Returns the number of pop slots currently occupied by the results in the given query.
+int kbGetPopulationSlotsByUnitTypeID(int playerID, int unitTypeID) : Returns the number of pop slots currently occupied by this unit type.
+float kbGetProtoUnitAICost(int protoUnitTypeID) : Returns the AI cost for the given protoUnit type ID.
+int kbGetProtoUnitID(string name) : Returns the ID of the protounit.
+string kbGetProtoUnitName(int protoUnitTypeID) : Returns the name of the protounit ID.
+int kbGetRandomEnabledPUID(int unitTypeID, int escrowID) : Returns a random, valid PUID that's of the given type.
+float kbGetResourceIncome(int resourceID, float seconds, bool relative) : Returns the resource income over the last X seconds.
+float kbGetTargetSelectorFactor(int type) : gets the TargetSelector Factor value.
+float kbGetTechAICost(int techID) : Returns the AI cost for the given tech ID.
+string kbGetTechName(int techID) : Returns the name of the tech ID.
+float kbGetTechPercentComplete(int techID) : Returns the percent complete for the the requested tech of the current player.
+int kbGetTownAreaID(void) : Returns the area ID of the main town.
+vector kbGetTownLocation(void) : Returns the location of the main town.
+int kbGetUnitBaseTypeID(int unitID) : Returns the base type ID of the unit.
+string kbGetUnitTypeName(int unitTypeID) : Returns the name of the unit type.
+int kbGetVPGeneratorByScoreType(int siteType) : returns the protounit ID for the VP generator that corresponds to this type of VP site.
+bool kbHasPlayerLost(<playerID>) : Returns the player's lost status.
+bool kbIsGameOver() : Returns whether the game is over or not.
+bool kbIsPlayerAlly(int playerID) : Returns true if the given player is an ally.
+bool kbIsPlayerEnemy(int playerID) : Returns true if the given player is an enemy.
+bool kbIsPlayerHuman(int playerID) : Returns true if the given player is a a human player.
+bool kbIsPlayerMutualAlly(int playerID) : Returns true if the given player is a mutual ally.
+bool kbIsPlayerNeutral(int playerID) : Returns true if the given player is a neutral player.
+bool kbIsPlayerResigned(<playerID>) : Returns the player's resigned status.
+bool kbIsPlayerValid(int playerID) : Returns true if the given player is a valid player (i.e. it exists in the game).
+bool kbLocationVisible(vector location) : Returns true if the location is currently visible to the player.
+void kbLookAtAllUnitsOnMap(void) : Cheats and looks at all of the units on the map.  This will format your harddrive if you're not authorized to use it.
+bool kbMakeAttackRoutes() : find all the paths to the sector specified.
+float kbMaximumResourceGet(int resourceID) : Returns the maximum amount of the given resource you can have.
+bool kbPathAddWaypoint(int pathID, vector waypoint) : Adds the waypoint to the given path.
+int kbPathCreate(string name) : Creates a path with the given name.
+bool kbPathDestroy(int pathID) : Destroys the given path.
+kbPathGetIDByIndex()
+float kbPathGetLength(int pathID) : Returns the length of the given path.
+string kbPathGetName(int pathID) : Returns the name of the given path.
+int kbPathGetNumber(void) : Returns the number of paths.
+int kbPathGetNumberWaypoints(int pathID) : Returns the number of waypoints in the given path.
+vector kbPathGetWaypoint(int pathID, long waypointNumber) : Returns the appropriate waypoint from the given path.
+kbProgessionGetTotalResourceCost()
+int kbProgressionGetNodeData(int progressionID, int nodeIndex) : Returns the data at nodeIndex, either UnitID or TechID, depending on the type.
+int kbProgressionGetNodeType(int progressionID, int nodeIndex) : Returns the type of node at the given index, either Unit type or Tech type.
+int kbProgressionGetTotalNodes(int progressionID) : Returns the total number of steps to complete the progression.
+bool kbProtoUnitAvailable(int protoUnitID) : Returns true if the protoUnit is currently available.
+bool kbProtoUnitIsType(int playerID, int protoUnitID, int unitTypeID) : Returns true if the protounit is of the unitTypeID.
+float kbResourceGet(int resourceID) : Returns the current amount of the given resource.
+long kbResourceGetXP(int playerID) : Returns the current amount XP the given player has.
+kbResourcesDebugText()
+bool kbSetAICostWeight(int resourceID, float weight) : Sets the weight this resource type is given during AI cost calculuations.
+void kbSetAutoBaseCreate(bool v) : Sets the auto base creation value.
+void kbSetAutoBaseCreateDistance(float v) : Sets the auto base creation distance.
+void kbSetAutoBaseDetect(bool v) : Sets the auto base detection value.
+void kbSetAutoBaseDetectDistance(float v) : Sets the auto base creation distance.
+void kbSetForwardBasePosition(vector position)
+void kbSetPlayerHandicap(int playerID, float handicap) : Sets the indicated player's handicap multiplier (ie., 1.0 = no handicap).
+int kbSetTargetSelectorFactor(int type, float val) : sets the TargetSelector Factor value.
+bool kbSetTownLocation(vector location) : Sets the location of the main town.
+bool kbSetupForResource(int baseID, int resourceID, float distance, float amount) : Returns true if amount of resource is within distance of a dropsite.
+bool kbTargetSelectorAddQueryResults(int queryID) : Sets the list of potential targets to the results in the given query.
+bool kbTargetSelectorAddUnitType(int protoUnitTypeID) : Add the UAIT for the given BASE unit type as a filter.
+int kbTargetSelectorCreate(string name) : Creates a target selector; returns the ID.
+bool kbTargetSelectorDestroy(int id) : Destroys the given target selector.
+int kbTargetSelectorGetNumberResults(void) : Returns the number of results in the given target selector.
+int kbTargetSelectorGetResultValue(int index) : Returns the result value for given index of the current target selector.
+bool kbTargetSelectorResetResults(void) : Resets the current target selector.
+bool kbTargetSelectorSelect(int id) : Selects the given target selector.
+bool kbTargetSelectorStart(void) : Starts the current target selector.
+float kbTechCostPerResource(int techID, int resourceID) : returns the cost of the tech for the given resource.
+int kbTechGetStatus(int techID) : Returns the current tech status for the current player of the requested tech.
+void kbTechTreeDump(void) : Dumps the current state of the KBTT.
+int kbTechTreeGetCheapestEconUpgrade(int resourceUnitTypeID) : gets cheapest researchable econ upgrade, optionally for specified resource unit type.
+int kbTechTreeGetCheapestUnitUpgrade(int unitTypeID) : gets cheapest researchable unit upgrade, optionally for specified unit/unit line.
+float kbTotalResourceGet(int resourceID) : Returns the total amount of the given resource gathered to this point in the game.
+float kbUnitCostPerResource(int protoUnitID, int resourceID) : returns the cost of the protounit for the given resource.
+int kbUnitCount(int player, int unitTypeID, int stateID) : Returns a quick unit count of units for a player.
+void kbUnitCountConsole(int playerID1, int playerID2, string unitType, string state(s) : Returns a quick unit count of player2's units from player1's perspective.
+int kbUnitGetActionType(int unitID) : Returns the actionTypeID of the unit.
+int kbUnitGetAreaID(int unitID) : Returns the area ID for this unit ID.
+int kbUnitGetArmyID(int unitID) : Returns the army ID for this unit ID.
+int kbUnitGetBaseID(int unitID) : Returns the base ID for this unit ID.
+float kbUnitGetCurrentAICost(int unitID) : Returns the current AI cost (worth) for this unit ID.
+float kbUnitGetCurrentHitpoints(int unitID) : Returns the current hitpoints for this unit ID.
+float kbUnitGetHealth(int unitID) : Returns the health for this unit ID.
+float kbUnitGetMaximumAICost(int unitID) : Returns the maximum AI cost (worth) for this unit ID.
+float kbUnitGetMaximumHitpoints(int unitID) : Returns the maximum hitpoints for this unit ID.
+int kbUnitGetMovementType(int unitTypeID) : Returns the movementType for this unitTypeID.
+int kbUnitGetNumberWorkers(int unitID) : Returns the number of units currently working on the given unit.
+int kbUnitGetPlanID(int unitID) : Returns the plan ID for this unit ID.
+int kbUnitGetPlayerID(int unitID) : Returns the player ID for this unit ID.
+vector kbUnitGetPosition(int unitID) : Returns the position for this unit ID.
+int kbUnitGetProtoUnitID(int unitID) : Returns the unit's protounit ID.
+int kbUnitGetTargetUnitID(int unitID) : Returns the target unit ID of the given unit.
+kbUnitGetWorkerID()
+bool kbUnitIsType(int unitID, long unitTypeID) : Returns true if the unit is of the unitTypeID.
+bool kbUnitPickAddCombatEfficiencyType(int upID, int typeID, float weight) : Adds an enemy unit typeID to the unit pick combat efficiency calculation.
+bool kbUnitPickAdjustPreferenceFactor(int upID, int unitTypeID, float baseFactorAdjustment) : Adjusts the preferenceFactor for that unit type (uses 50.0 as the base if the UP doesn't exist yet).
+int kbUnitPickCreate(string name) : Creates a unit pick.
+kbUnitPickDebugText()
+bool kbUnitPickDestroy(int upID) : Destroys the given unit pick.
+int kbUnitPickGetAttackUnitType(int upID) : Gets the unit pick attack unit type.
+kbUnitPickGetDesiredNumberBuildings()
+int kbUnitPickGetDesiredNumberUnitTypes(int upID) : Gets the unit pick desired number unit types.
+int kbUnitPickGetGoalCombatEfficiencyType(int upID) : Gets the unit pick attack unit type.
+int kbUnitPickGetMaximumNumberUnits(int upID) : Gets the unit pick maximum number units.
+int kbUnitPickGetMaximumPop(int upID) : Gets the unit pick maximum pop.
+int kbUnitPickGetMinimumNumberUnits(int upID) : Gets the unit pick minimum number units.
+int kbUnitPickGetMinimumPop(int upID) : Gets the unit pick minimum pop.
+int kbUnitPickGetNumberResults(int upID) : Returns the number of unit pick results.
+float kbUnitPickGetPreferenceWeight(int upID) : Gets the unit pick preference weight.
+kbUnitPickGetResult()
+bool kbUnitPickResetAll(int upID) : Resets all of the unit pick data.
+bool kbUnitPickResetCombatEfficiencyTypes(int upID) : Resets the enemy unit typeIDs for the unit pick combat efficiency calculation.
+bool kbUnitPickResetResults(int upID) : Resets the unit pick results.
+int kbUnitPickRun(int upID) : Runs the unit pick.
+bool kbUnitPickSetAttackUnitType(int upID, int type) : Sets the unit pick attack unit type.
+bool kbUnitPickSetCombatEfficiencyWeight(int upID) : Sets the unit pick combat efficiency weight.
+bool kbUnitPickSetCostWeight(int upID) : Sets the unit pick cost weight.
+kbUnitPickSetDesiredNumberBuildings()
+bool kbUnitPickSetDesiredNumberUnitTypes(int upID, int number, int numberBuildings, bool degradeNumberBuildings) : Sets the unit pick desired number unit types.
+bool kbUnitPickSetEnemyPlayerID(int upID, int playerID) : Sets the unit pick enemy player ID.
+bool kbUnitPickSetGoalCombatEfficiencyType(int upID, int type) : Sets the unit pick attack unit type.
+bool kbUnitPickSetMaximumNumberUnits(int upID, int number) : Sets the unit pick desired number unit types.
+bool kbUnitPickSetMaximumPop(int upID, int number) : Sets the unit pick desired max pop.
+bool kbUnitPickSetMinimumNumberUnits(int upID, int number) : Sets the unit pick desired number unit types.
+bool kbUnitPickSetMinimumPop(int upID, int number) : Sets the unit pick desired min pop.
+bool kbUnitPickSetMovementType(int upID, int movementType) : Sets the unit pick movement type.
+bool kbUnitPickSetPreferenceFactor(int upID, int unitTypeID, float preferenceFactor) : Sets the preferenceFactor for that unit type.
+bool kbUnitPickSetPreferenceWeight(int upID, float v) : Sets the unit pick preference weight.
+int kbUnitQueryCreate(string name) : Creates a unit query, returns the query ID.
+bool kbUnitQueryDestroy(long queryID) : Destroys the given unit query.
+int kbUnitQueryExecute(long queryID) : Executes the current query; returns number of results.
+int kbUnitQueryExecuteOnQuery(long currentQueryID, int previousQueryID) : Executes the current query on the previous query's results; returns the new number of results.
+int kbUnitQueryExecuteOnQueryByName(long currentQueryID, string previousQueryName) : Executes the current query on the previous query's results; returns the new number of results.
+kbUnitQueryGetResult()
+float kbUnitQueryGetUnitCost(int queryID, bool considerHealth) : gets total aiCost of query's units, weighted for HP if requested.
+float kbUnitQueryGetUnitHitpoints(int queryID, bool considerHealth) : gets HP of query's units, using current HP if requested.
+int kbUnitQueryNumberResults(long queryID) : Returns the number of results in the current query.
+bool kbUnitQueryResetData(long queryID) : Resets the given unit query data AND results.
+bool kbUnitQueryResetResults(long queryID) : Resets the given unit query results.
+bool kbUnitQuerySetActionType(long queryID, int actionTypeID) : Sets query data.
+bool kbUnitQuerySetAreaGroupID(long queryID, int areaGroupID) : Sets query data.
+bool kbUnitQuerySetAreaID(long queryID, int areaID) : Sets query data.
+bool kbUnitQuerySetArmyID(long queryID, int armyID) : Sets query data.
+bool kbUnitQuerySetAscendingSort(long queryID, bool v) : If parm is true, results are sorted in ascending distance order from the query position.
+bool kbUnitQuerySetBaseID(long queryID, int baseID) : Sets query data.
+bool kbUnitQuerySetIgnoreKnockedOutUnits(long queryID, bool v) : Sets query data.
+bool kbUnitQuerySetMaximumDistance(long queryID, float distance) : Sets query data.
+bool kbUnitQuerySetPlayerID(long queryID, int playerID, bool resetQueryData) : Sets query data.
+bool kbUnitQuerySetPlayerRelation(long queryID, int playerRelation) : Sets query data.
+bool kbUnitQuerySetPosition(long queryID, vector v) : Sets query data.
+bool kbUnitQuerySetSeeableOnly(long queryID, bool seeableOnly) : Sets query data.
+bool kbUnitQuerySetState(long queryID, int state) : Sets query data.
+bool kbUnitQuerySetUnitType(long queryID, int unitTypeID) : Sets query data.
+bool kbUnitVisible(int unitID) : Returns true if the unit is currently visible to the player.
+int kbVPSiteGetLocation(int siteID) : returns the specified VP site's world location.
+int kbVPSiteGetOwnerPlayerID(int siteID) : returns the specified VP site's owning player.
+int kbVPSiteGetState(int siteID) : returns the specified VP site's state.
+int kbVPSiteGetType(int siteID) : returns the specified VP site's type (e.g., native, trade, etc).
+int kbVPSiteQuery(int scoreType, int playerRelationOrID, int siteState) : returns ID for an array containing VP site IDs that match the specified parameters.
+loadCamera(<stringFilename>) : load camera from file.
+loadCampaignScenario(<stringFilename>) : loads in a campaign scenario file.
+loadGame(<stringFilename>) : loads in a saved game.
+loadGrouping(string groupingName) : Loads a grouping.  No parameter pops up dialog.
+loadLightingSet([name] [apply]) : loads the specified lighting set
+loadRecentFile(<stringFilename>) : loads the file named, interpreting whether it is a scenario, savegame, etc. dynamically
+loadScenario(<stringFilename>) : loads in a scenario file.
+loadTutorial(<stringFilename>, <loadMode>, <loadImage>, <textID>) : loads in a tutorial scenario file.
+loadUserDefinedGrouping(string groupingName) : Loads a grouping from the user writable grouping directory.
+modeEnter(<stringMode>) : enters the named mode.
+modeToggleBetweenIfNotMP(<stringMode1> <stringMode2>) : toggles between the two modes only if we're not in a BMultiplayer game.
+modelDestroyAll()
+modelLoad(model XML file name)
+modelSetAnim(anim Index)
+renderAnisotropic([integerState]) : sets desired anisotropy
+renderAreaGroupID([playerID], <areaGroupID> [integerState]) : sets the render state of the given area (no integerState toggles).
+renderAreaID(%d, %d, %d) : sets the render state of the given area (no integerState toggles).
+renderAreas([playerID], [integerState]) : sets the render state for all areas (no arg toggles).
+renderBaseID(%d, %d, %d) : sets the render state of the given base (no integerState toggles).
+renderFriendOrFoe([integerState]) : with no arg, toggles friend or foe colors.  otherwise, sets it
+renderRefresh([integerState]) : with no arg, changes refresh rate to 75hz in fullscreen.  otherwise, sets fullscreen refresh to value
+renderTrilinear([integerState]) : sets trilinear filtering on/off
+renderWindow([integerState]) : with no arg, toggles window/fullscreen.  otherwise, sets mode to window(1)/fullscreen(0)
+rmAddAreaCliffEdgeAvoidClass(int areaID, int avoidID, float minDist) : Adds a class for an area's cliff edge to avoid.
+rmAddAreaCliffRandomWaypoints(int areaID, float endXFraction, float endZFraction, int count, float maxVariation) : Adds random waypoints to the specified cliff valley area.
+rmAddAreaCliffWaypoint(int areaID, float xFraction, float zFraction) : Adds the given waypoint to the specified cliff area (for valleys).
+bool rmAddAreaConstraint(int areaID, int constraintID) : Add specified constraint to an area.
+rmAddAreaInfluencePoint(int areaID, float xFraction, float zFraction) : Adds an area influence point.
+rmAddAreaInfluenceSegment(int areaID, float xFraction1, float zFraction1, float xFraction2, float zFraction2) : Adds an area influence segment.
+rmAddAreaRemoveType(int areaID, string typeName) : Add an unit type that the specified area removes.
+rmAddAreaTerrainLayer(int areaID, string terrain, float minDist, float maxDist) : Adds a terrain layer to an area.
+rmAddAreaTerrainReplacement(int areaID, string terrainTypeName, string newTypeName) : Adds a terrain replacement rule to the area.
+bool rmAddAreaToClass(int areaID, int classID) : Add given area to specified class.
+rmAddClosestPointConstraint(int constraintID) : Adds constraint to closest point finder.
+rmAddConnectionArea(int connectionID, int areaID) : Adds an area to the connection.
+bool rmAddConnectionConstraint(int connectionID, int constraintID) : Add specified constraint to a connection.
+bool rmAddConnectionEndConstraint(int connectionID, int constraintID) : Add specified constraint for a connection end point.
+bool rmAddConnectionStartConstraint(int connectionID, int constraintID) : Add specified constraint for a connection start point.
+rmAddConnectionTerrainReplacement(int connectionID, string terrainTypeName, string newTypeName) : Adds a terrain replacement rule to the connection.
+rmAddConnectionToClass(int connectionID, int classID) : Adds the connection to specified class.
+int rmAddFairLoc(string unitName, bool forward, bool inside, float minPlayerDist, float maxPlayerDist, float locDist, float edgeDist, bool playerArea, bool teamArea) : Adds some fairLoc placement info.
+bool rmAddFairLocConstraint(int fairLocID, int constraintID) : Add specified constraint to a fairLoc placement.
+bool rmAddGroupingConstraint(int GroupingID, int constraintID) : Add specified constraint to a grouping.
+bool rmAddGroupingToClass(int GroupingID, int classID) : Add given grouping to specified class.
+rmAddMapTerrainByAngleInfo(string terrain, float minSlope, float maxSlope, float outerRange) : Adds a terrain to paint on tiles that are sloped between the specified angles (0 degrees is flat terrain, 90 degrees is sheer terrain), modified by a random number between 0.0 and outerRange.
+rmAddMapTerrainByHeightInfo(string terrain, float minHeight, float maxHeight, float outerRange) : Adds a terrain to paint between the specified heights, modified by a random number between 0.0 and outerRange.
+rmAddMerc(string unitName, float count, float minCount, float maxCount, float countIncrement, bool multipleUses) : Adds mercs of to the merc manager for this game.
+bool rmAddObjectDefConstraint(int defID, int constraintID) : Add specified constraint to given object def.
+rmAddObjectDefItem(int defID, string unitName, int count, float clusterDistance) : Add item to object definition.
+rmAddObjectDefItemByTypeID(int defID, int unitTypeID, int count, float clusterDistance) : Add item to object definition.
+bool rmAddObjectDefToClass(int objectDefID, int classID) : Add given object def to specified class.
+rmAddPlayerResource(int playerID, string resourceName, float amount) : Adds to a player's resource amount.
+rmAddRandomTradeRouteWaypoints(int tradeRouteID, float endXFraction, float endZFraction, int count, float maxVariation) : Adds random waypoints to the specified trade route.
+rmAddRandomTradeRouteWaypointsVector(int tradeRouteID, vector v, int count, float maxVariation) : Adds random waypoints to the specified trade route.
+rmAddTradeRouteWaypoint(int tradeRouteID, float xFraction, float zFraction) : Adds the given waypoint to the specified trade route.
+rmAddTradeRouteWaypointVector(int tradeRouteID, vector v) : Adds the given waypoint to the specified trade route.
+rmAddTriggerCondition(string conditionType)
+rmAddTriggerEffect(string effectType)
+rmAddUnitsToArmy(int playerID, int armyID, int objectDefID)
+rmAllocateSubCivs(int number) : Allocates the number of sub civs in the world.
+rmAreaFractionToTiles(float fraction) : Converts an area from fraction of the map to tile count.
+rmAreaID(string name) : Gets area ID for given area name.
+rmAreaTilesToFraction(int tiles) : Converts area tile count to fraction of map.
+rmBuildAllAreas() : Simulatenously builds all unbuilt areas.
+rmBuildArea(int areaID) : Builds the specified area.
+rmBuildConnection(int connectionID) : Builds the given connection.
+rmBuildTradeRoute(int tradeRouteID, string terrainTypeName) : Builds the trade route with the given terrain type.
+rmClassID(string name) : Gets class ID for given class name.
+rmClearClosestPointConstraints() : Clears constraints for closest point finder.
+rmConstraintID(string name) : Gets constraint ID for given constraint name.
+rmCreateArea(string name, int parentAreaID) : Creates an area.
+int rmCreateAreaConstraint(string name, int areaID) : Make a constraint that forces something to remain within an area.
+int rmCreateAreaDistanceConstraint(string name, int areaID, float distance) : Make an area distance constraint.
+int rmCreateAreaMaxDistanceConstraint(string name, int areaID, float distance) : Make an area max distance constraint.
+int rmCreateAreaOverlapConstraint(string name, int areaID) : Make an area overlap constraint.
+rmCreateArmy(int playerID, string armyName)
+int rmCreateBoxConstraint(string name, float startX, float startZ, float endX, float endZ, float bufferFraction) : Make a box constraint.
+int rmCreateClassDistanceConstraint(string name, int classID, float distance) : Make a class distance constraint.
+int rmCreateCliffEdgeConstraint(string name, int areaID) : Make a constraint that forces something to remain within an area's cliff edge.
+int rmCreateCliffEdgeDistanceConstraint(string name, int areaID, float distance) : Make an area cliff edge distance constraint.
+int rmCreateCliffEdgeMaxDistanceConstraint(string name, int areaID, float distance) : Make an area cliff edge max distance constraint.
+int rmCreateCliffRampConstraint(string name, int areaID) : Make a constraint that forces something to remain within an area's cliff ramp edge.
+int rmCreateCliffRampDistanceConstraint(string name, int areaID, float distance) : Make an area cliff ramp edge distance constraint.
+int rmCreateCliffRampMaxDistanceConstraint(string name, int areaID, float distance) : Make an area cliff ramp edge max distance constraint.
+rmCreateConnection(string name) : Creates an connection.
+int rmCreateCornerConstraint(string name, int corner, bool outside) : Make a constraint to pass if in or out of a corner.
+int rmCreateEdgeConstraint(string name, int areaID) : Make a constraint that forces something to remain within an area's edge.
+int rmCreateEdgeDistanceConstraint(string name, int areaID, float distance) : Make an area edge distance constraint.
+int rmCreateEdgeMaxDistanceConstraint(string name, int areaID, float distance) : Make an area edge max distance constraint.
+rmCreateGrouping(string name, string filename) : Creates a grouping.
+bool rmCreateHCGPAllyConstraint(string name, long playerID, float minDistance) : Create home city gather point constraint to avoid given player's ally's HCGPs.
+bool rmCreateHCGPConstraint(string name, float minDistance) : Create home city gather point constraint to avoid all HCGPs.
+bool rmCreateHCGPEnemyConstraint(string name, long playerID, float minDistance) : Create home city gather point constraint to avoid given player's enemy's HCGPs.
+bool rmCreateHCGPSelfConstraint(string name, long playerID, float minDistance) : Create home city gather point constraint to avoid given player's HCGP.
+int rmCreateMaxHeightConstraint(string name, float height) : Make an max height constraint (terrain must be less than given height).
+rmCreateObjectDef(string name) : Creates an object definition.
+int rmCreatePieConstraint(string name, float xFraction, float zFraction, float insideRadius, float outsideRadius, float minAngle, float maxAngle, float bufferFraction) : Makes a 'pie' constraint.
+rmCreateStartingUnitsObjectDef(float clusterDistance) : Creates special object definition for starting units with the given cluster distance.
+int rmCreateTerrainDistanceConstraint(string name, string type, bool passable, float distance) : Make a constraint to avoid terrain with certain a passability.
+int rmCreateTerrainMaxDistanceConstraint(string name, string type, bool passable, float distance) : Make a constraint to be close to terrain with certain a passability.
+rmCreateTradeRoute() : Creates a trade route.
+int rmCreateTradeRouteDistanceConstraint(string name, float minDistance) : Make a constraint to avoid trade routes.
+rmCreateTradeRouteWaypointsInArea(int tradeRouteID, int areaID, float length) : Creates a trade route in the specified area.
+rmCreateTrigger(string triggerName)
+int rmCreateTypeDistanceConstraint(string name, int classID, float distance) : Make a type distance constraint.
+int rmDefineClass(string className) : Define a class with the given name.
+rmDefineConstant(string name, int value)
+rmDegreesToRadians(float degrees) : Converts an angle in degrees to radians.
+rmDoLightingEffect("lightSetName", blendInTime, effectTime, blendOutTime) : applies a lighting set effect.
+rmDoLightingFade("lightSetName", fadeTime) : applies a lighting set fade.
+rmEchoError(string echoString, int level) : Random map echo.
+rmEchoInfo(string echoString, int level) : Random map echo.
+rmEchoWarning(string echoString, int level) : Random map echo.
+rmEnableLocalWater(bool enable) : Enables / disables local water disturbances.
+float rmFairLocXFraction(int playerID, int index) : Gets a player's fairLoc x fraction.
+float rmFairLocZFraction(int playerID, int index) : Gets a player's fairLoc z fraction.
+rmFillMapCorners() : Fill map corners with blackmap.
+rmFindCloserArea(float xFraction, float zFraction, int area1, int area2) : Returns which area is closer.
+rmFindClosestPoint(float xFraction, float zFraction, float maxDistance) : Finds closest point satisfying the preset constraints.
+rmFindClosestPointVector()
+vector rmGetAreaClosestPoint(int areaID, vector point, float pullback, int constraintID) : Returns the point in areaID that's closest to the given point, optionally requiring that it pass the given constraint.
+int rmGetAverageHomeCityLevel(void) : Returns the average (rounded down) HC Level of the players in the game.
+rmGetCivID(string civName) : Returns the civ ID.
+int rmGetHighHomeCityLevel(void) : Returns the highest HC Level of the players in the game.
+int rmGetHomeCityLevel(int playerID) : Returns the HC Level of the given player.
+rmGetIsFFA() : Returns true if this map is set to be a FFA game which means each player on their own team.
+int rmGetLowHomeCityLevel(void) : Returns the lowest HC Level of the players in the game.
+int rmGetMapXSize(void) : Returns the X size of the map.
+int rmGetMapZSize(void) : Returns the Z size of the map.
+rmGetNomadStart() : Returns true if this map is to place a covered wagon instead of a town center.
+int rmGetNumberFairLocs(int playerID) : Gets a player's number of fairLocs.
+rmGetNumberPlayersOnTeam(int teamID) : Gets the number of players on the given team.
+rmGetNumberUnitsPlaced(int objectDefID)
+rmGetPlayerCiv(int playerID) : Gets the civilization the specified player is on.
+rmGetPlayerCulture(int playerID) : Gets the culture the specified player is on.
+rmGetPlayerName(int playerID) : Gets a player's name.
+rmGetPlayerTeam(int playerID) : Gets the team the specified player is on.
+rmGetSeaLevel() : Gets the sea level for the map.
+rmGetTradeRouteWayPoint(int tradeRouteID, float fraction) : Retrieves a waypoint along the trade route based on the fraction.
+rmGetUnitPlaced(int objectDefID, int index)
+rmGetUnitPlacedOfPlayer(int objectDefID, int playerID)
+vector rmGetUnitPosition(int unitID) : Returns the position of the unit.
+rmIsMapType(string type) : Returns true if the map belongs to the given type.
+rmMetersToTiles(float meters) : Converts a distance in meters to a number of tiles.
+rmMultiplyPlayerResource(int playerID, string resourceName, float factor) : Multiplys a player's resource amount by the given factor.
+rmPaintAreaTerrain(int areaID) : Paints the terrain for a specified area.
+rmPaintAreaTerrainByAngle(long areaID, string terrain, float minAngle, float maxAngle, float outerRange) : Paints the area's tiles in the specified angle range with specified terrain (with outerRange buffer if feathering is desired).
+rmPaintAreaTerrainByHeight(long areaID, string terrain, float minHeight, float maxHeight, float outerRange) : Paints the area's tiles in the specified height range with specified terrain (with outerRange buffer if feathering is desired).
+bool rmPlaceFairLocs() : Sets fairLoc placement locations.
+bool rmPlaceGroupingAtLoc(int groupingID, int playerID, float xFraction, float zFraction, int placeCount) : Place grouping at specified location.
+bool rmPlaceGroupingAtPoint(int groupingID, int playerID, vector point, int placeCount) : Place grouping at specified point.
+rmPlaceGroupingInArea(int groupingID, int playerID, int areaID, int placeCount) : Place grouping for the player in the given area.
+rmPlaceMapClusters(string terrain, string protounit) : place object clusters (of the specified protounit) around the map, and also optionally paint with the specified terrain.
+rmPlaceObjectDefAtAreaLoc(int defID, int playerID, int areaID, int placeCount) : Place object definition for the player at the given area's location.
+rmPlaceObjectDefAtLoc(int defID, int playerID, float xFraction, float zFraction, int placeCount) : Place object definition at specific location for given player.
+rmPlaceObjectDefAtPoint(int defID, int playerID, vector point, int placeCount) : Place object definition at specific point for given player.
+rmPlaceObjectDefAtRandomAreaOfClass(int defID, int playerID, int classID, int placeCount) : Place object definition for the player at the location of a random area in the given class.
+rmPlaceObjectDefInArea(int defID, int playerID, int areaID, int placeCount) : Place object definition for the player in the given area.
+rmPlaceObjectDefInRandomAreaOfClass(int defID, int playerID, int classID, int placeCount) : Place object definition for the player in a random area in the given class.
+rmPlaceObjectDefPerPlayer(int defID, bool playerOwned, int placeCount) : Place object definition per player.
+rmPlacePlayer(int playerID, float xFraction, float zFraction) : Sets one player location.
+rmPlacePlayersCircular(float minFraction, float maxFraction, float angleVariation) : Makes a circle of player locations.
+rmPlacePlayersLine(float x1, float z1, float x2, float z2, float distVariation, float spacingVariation) : Makes a line of player locations.
+rmPlacePlayersRiver(int riverID, float distVariation, float spacingVariation, float edgeDistance) : Makes a line of player locations along the specified river.
+rmPlacePlayersSquare(float dist, float distVariation, float spacingVariationfloat) : Makes a square of player locations.
+rmPlayerLocXFraction(int playerID) : Gets a player's start location x fraction.
+rmPlayerLocZFraction(int playerID) : Gets a player's start location z fraction.
+rmRandFloat(float min, float max) : Returns a random float between min and max.
+rmRandInt(int min, int max) : Returns a random integer between min and max.
+rmResetFairLocs() : Resets fairLoc placment info.
+rmRiverAddShallow(riverID, distancePct)
+rmRiverAddShallows(riverID, count, radius)
+rmRiverAddWaypoint(riverID, xFraction, zFraction) : Add waypoint to a river.  Don't mix with rmRiverSetConnections or rmRiverConnectRiver
+rmRiverAvoid(riverID, riverID2, minDist)
+rmRiverBuild()
+rmRiverConnectRiver(riverID, riverID, pct, end)
+rmRiverCreate(int areaID, string waterType, int breaks, int offset, int minR, int maxR) : make a river dude.
+rmRiverReveal()
+rmRiverSetBankNoiseParams(riverID, frequency, octaves, persistence, sineLength, sineAmt, variation)
+rmRiverSetConnections(riverID, start, end)
+rmRiverSetShallowRadius(riverID, radius)
+rmSetAreaBaseHeight(int areaID, float height) : Sets the base height for an area.
+rmSetAreaCliffEdge(int areaID, int count, float size, float variance, float spacing, int mapEdge) : Set cliff edge parameters for an area.
+rmSetAreaCliffHeight(int areaID, float val, float variance, float ramp) : Set an area's cliff height.
+rmSetAreaCliffPainting(int areaID, bool paintGround, bool paintOutsideEdge, bool paintSide, float minSideHeight, bool paintInsideEdge) : Set cliff painting options for an area.
+rmSetAreaCliffType(int areaID, string cliffName) : Sets the cliff type for an area.
+rmSetAreaCoherence()
+rmSetAreaEdgeFilling(int areaID, int borderSize) : Enable edge filling and set a border search size (for Carolina and similar maps with a big continent).
+rmSetAreaElevationEdgeFalloffDist(int areaID, float dist) : Sets the area elevation noise to falloff as it gets closer to the area edge.
+rmSetAreaElevationMinFrequency(int areaID, float freq) : Sets the area elevation variation noise frequency (best >0 and <1).
+rmSetAreaElevationNoiseBias()
+rmSetAreaElevationOctaves(int areaID, int octaves) : Sets the area elevation variation noise octaves.
+rmSetAreaElevationPersistence(int areaID, float persistence) : Sets the area elevation variation noise persistence (best >0 and <1).
+rmSetAreaElevationType(int areaID, int type) : Sets the area elevation variation type (cElevNormal, cElevFractalSum, cElevTurbulence).
+rmSetAreaElevationVariation()
+rmSetAreaForestClumpiness(int areaID, float density) : Sets the forest density for an area.
+rmSetAreaForestDensity(int areaID, float density) : Sets the forest density for an area.
+rmSetAreaForestType(int areaID, string forestName) : Sets the forest type for an area.
+rmSetAreaForestUnderbrush(int areaID, float density) : Sets the forest density for an area.
+rmSetAreaHeightBlend(int areaID, int heightBlend) : Sets how smoothly area height blends into surroundings.
+rmSetAreaLocPlayer(int areaID, int playerID) : Set the area location to player's location.
+rmSetAreaLocTeam(int areaID, int teamID) : Set the area location to team's location.
+rmSetAreaLocation(int areaID, float xFraction, float zFraction) : Set the area location.
+rmSetAreaMaxBlobDistance(int areaID, float dist) : Sets maximum blob distance.
+rmSetAreaMaxBlobs(int areaID, int blobs) : Sets maximum number of area blobs.
+rmSetAreaMinBlobDistance(int areaID, float dist) : Sets minimum blob distance.
+rmSetAreaMinBlobs(int areaID, int blobs) : Sets minimum number of area blobs.
+rmSetAreaMix(int areaID, string mixName) : Sets the mix for an area.  Overrides terrain type if it is also set.
+rmSetAreaObeyWorldCircleConstraint(int areaID, bool constrain) : Determines whether an area obeys world circle constraint.
+rmSetAreaReveal()
+rmSetAreaSize(float minFraction, float maxFraction) : Set the area size to a min/max fraction of the map.
+rmSetAreaSmoothDistance(int areaID, int smoothDistance) : Sets area edge smoothing distance (distance is number of neighboring points to consider in each direction).
+rmSetAreaTerrainLayerVariance(int areaID, bool variance) : Specifies if the area should vary the terrain layer edges.
+rmSetAreaTerrainType(int areaID, string terrainTypeName) : Sets the terrain type for an area.
+rmSetAreaWarnFailure(int areaID, bool warn) : Sets whether the area build process will warn if it fails.
+rmSetAreaWaterType(int areaID, string waterName) : Sets the water type for an area.
+rmSetBaseTerrainMix(string mixName) : Initializes the base terrain with the requested mix.  Call before rmTerrainInitialize.
+rmSetConnectionBaseHeight(int connectionID, float width) : Sets the base height of a connection.
+rmSetConnectionBaseTerrainCost(int connectionID, float cost) : Sets the base terrain cost for a connection.
+rmSetConnectionCoherence()
+rmSetConnectionHeightBlend(int connectionID, float width) : Sets how smoothly connection height blends into surroundings.
+rmSetConnectionPositionVariance(int connectionID, float variance) : Sets the position variance of a connection.
+rmSetConnectionSmoothDistance(int connectionID, float width) : Sets connection edge smoothing distance (distance is number of neighboring points to consider in each direction).
+rmSetConnectionTerrainCost(int connectionID, string terrainTypeName, float cost) : Sets the terrain cost for a connection.
+rmSetConnectionType(int connectionID, int connectionType, bool connectAll, float connectPercentage) : Sets the connection type.
+rmSetConnectionWarnFailure(int connectionID, bool warn) : Sets whether a connection warns on failure.
+rmSetConnectionWidth(int connectionID, float width, float variance) : Sets the width of a connection.
+rmSetGaiaCiv(int civ) : Sets Gaia's civilization
+rmSetGlobalRain(percent) : sets the global rain percent.
+rmSetGlobalSnow(percent) : sets the global snow percent.
+rmSetGlobalStormLength(length, timeBetweenStorms) : sets storm length and time between storm in seconds.
+rmSetGroupingMaxDistance(int defID, float dist) : Set the maximum distance for the grouping (in meters).
+rmSetGroupingMinDistance(int defID, float dist) : Set the minimum distance for the grouping (in meters).
+bool rmSetHomeCityGatherPoint(int playerID, vector point) : Sets the HCGP for the given player.
+bool rmSetHomeCityWaterSpawnPoint(int playerID, vector point) : Sets the HCWSP for the given player.
+rmSetIgnoreForceToGaia(bool val)
+rmSetLightingSet(string name) : Sets a lighting set
+rmSetMapClusteringNoiseParams(float minFrequency, int octaves, float persistence) : sets up cluster system; standard inputs to noise generator used to determine cluster placement.
+rmSetMapClusteringObjectParams()
+rmSetMapClusteringPlacementParams()
+rmSetMapElevationHeightBlend(int blend) : Sets how much to smooth the overall terrain after initializing with noise.
+rmSetMapElevationParameters(int type, float freq, int octaves, float persistence, float variation) : Sets up terrain for initializing with a noise layer.
+rmSetMapSize(int x, int z) : Sets the size of the map.
+rmSetMapType(string type) : Indicates that this map is of a certain type (it can be multiple types simultaneously.
+rmSetNuggetDifficulty(int minLevel, int maxLevel) : Sets the min/max difficulty levels for placing nuggets.
+rmSetObjectDefAllowOverlap(int defID, bool on) : Lets objects overlap within this object def.
+rmSetObjectDefCreateHerd(int defID, bool on) : Creates a herd out of all units placed in this object def.
+rmSetObjectDefForceFullRotation(int defID, bool on) : Forces things in this object def to get full arbitrary rotation.
+rmSetObjectDefGarrisonSecondaryUnits(int defID, bool on) : Turn on the garrison secondary units flag.
+rmSetObjectDefGarrisonStartingUnits(int defID, bool on) : Turn on the garrison starting units flag.
+rmSetObjectDefHerdAngle(int defID, float angle) : Set a herd angle(clockwise from +z) in the object def.
+rmSetObjectDefMaxDistance(int defID, float dist) : Set the maximum distance for the object definition (in meters).
+rmSetObjectDefMinDistance(int defID, float dist) : Set the minimum distance for the object definition (in meters).
+rmSetObjectDefTradeRouteID(int defID, int tradeRouteID) : Set the trade route for all objects in this object definition.
+rmSetOcean(bool reveal) : Sets whether or not to reveal oceans.
+rmSetOceanReveal()
+rmSetPlacementSection(float fromPercent, float toPercent) : Sets the section of the placement line to use.
+rmSetPlacementTeam(int teamID) : Sets the team to place.
+rmSetPlayerArea(int playerID, int areaID) : Sets a player's 'official' area.
+rmSetPlayerLocation()
+rmSetPlayerLocation (int playerID, float xFraction, float zFraction)() : Manually sets a player's starting location.
+rmSetPlayerPlacementArea(float minX, float minZ, float maxX, float maxZ) : Sets the area of the map to use for player placement.
+rmSetPlayerResource(int playerID, string resourceName, float amount) : Sets a player's resource amount.
+rmSetRiverFoundationParams()
+rmSetSeaLevel() : Sets the sea level for the map.
+rmSetSeaType(string name) : Sets the sea type for the map.  This is used if terrain is initialized to water.
+rmSetStatusText(status, progress) : Sets the friendly cool loading screen text.
+rmSetSubCiv(int index, string civName, bool big) : Sets a given sub civ in the world.
+rmSetTeamArea(int teamID, int areaID) : Sets a team's 'official' area.
+rmSetTeamSpacingModifier(float modifier) : Sets the team spacing modifier.
+rmSetTriggerActive(bool active)
+rmSetTriggerConditionParam(string paramName, string value, bool add)
+rmSetTriggerConditionParamArmy(string paramName, int playerID, int armyID, bool add)
+rmSetTriggerConditionParamFloat(string paramName, float value, bool add)
+rmSetTriggerConditionParamInt(string paramName, int value, bool add)
+rmSetTriggerEffectParam(string paramName, string value, bool add)
+rmSetTriggerEffectParamArmy(string paramName, int playerID, int armyID, bool add)
+rmSetTriggerEffectParamFloat(string paramName, float value, bool add)
+rmSetTriggerEffectParamInt(string paramName, int value, bool add)
+rmSetTriggerLoop(bool loop)
+rmSetTriggerPriority(int priority)
+rmSetTriggerRunImmediately(bool runImmediately)
+rmSetVPFile(string filename)
+rmSetWindMagnitude(float magnitude) : sets the global wind magnitude (1.0f is default).
+rmSetWorldCircleConstraint(bool constrain) : sets whether RM activities should be constrained to the main world circle.
+rmSwitchToTrigger(int triggerID)
+rmTerrainInitialize(string baseTerrain, float height) : Initializes the terrain to the base type and height.
+rmTilesToMeters(int tiles) : Converts a number of tiles to a distance in meters.
+rmTriggerID(string triggerName)
+rmXFractionToMeters(float meters) : Converts a fraction of the map in the x direction to meters.
+rmXFractionToTiles(float fraction) : Converts an fraction of the map in the x direction to tile count.
+rmXMetersToFraction(float meters) : Converts meters into a fraction of the map in the x direction.
+rmXTilesToFraction(int tiles) : Converts tile count in the x direction to fraction of map.
+rmZFractionToMeters(float meters) : Converts meters a fraction of the map in the z direction to meters.
+rmZFractionToTiles(float fraction) : Converts an fraction of the map in the z direction to tile count.
+rmZMetersToFraction(float meters) : Converts meters into a fraction of the map in the z direction.
+rmZTilesToFraction(int tiles) : Converts tile count in the z direction to fraction of map.
+setBloomFeedbackParams([currentFrameContribution] [lastFrameContribution]) : sets bloom feedback params
+setBloomParams([bloomThreshold] [bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomPass] [bloomSigma]) : sets tonemap params
+setBloomStreakParams([streakCount] [Passes] [ElementOffset] [Exposure] [Intensity] [Falloff] [streakRed] [streakGreen] [streakBlue] [threshold]) : sets bloom streak params
+setBumpScale([scale]) : sets scene bump scale
+setDropDefaultMips(int num) : Set mip levels to skip for default category textures.
+setDropTerrainMips(int num) : Set mip levels to skip for terrain category textures.
+setFogParams([planarfogColorR] [planarfogColorG] [planarfogColorB] [planarfogDensity] [planarfogHeight]) : set Planar Height Params
+setGameFadeIn(<r> <g> <b> <duration> <delay> <inout>) : turn fade in on/off, set color duration.
+setGraphicDetail(<detailLevel>) : Sets the graphic detail.  (0 = HIGH, 1 = MEDIUM, 2 = LOW)
+setHemiLight([topColorR] [topColorG] [topColorB] [bottomColorR] [bottomColorG] [bottomColorB] [axisYaw] [axisPitch] [intensity] [unitIntensity] [terrainIntensity]) : sets a hemilight
+setHomeCityGatherUnit(int unitID) : Sets the home city gather point to the specified unit.
+setLDRBloomParams([bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomSigma]) : sets LDR Bloom params
+setMinimapUnitFilter() : sets the minimap filter for units
+setSceneLightParams([sunIntensity] [power] [specIntensity] [metalness] [fogColorR] [fogColorG] [fogColorB] [fogDensity] [fogStart]) : sets scene light params
+setShadowBiasMul([biasMultiplier]) : set the shadow buffer bias multipler (supaScreenshot only)
+setShadowQuality([qualityLevel]) : set the quality level of shadows
+setShadowRotationOp([bool]) : controls shadow projection rotation optimization
+setShadowSnapping([bool]) : controls shadow matrix snapping
+setSunPosition([integerSunInclination] [integerSunRotation] [boolRelative])
+setSuperSampleFactors([floatX], [floatY]) : sets HDR supersampling factors (1.0 to 2.0, both 1.0 is off)
+setSuperSampleFilterIndex([int]) : sets supersample filter kernel
+setSuperSampleFilterScales([floatX], [floatY]) : sets supersample kernel scales(1.0 = normal, less = blurrier, higher = sharper)
+setTerrainLightingParams([bumpScale] [specularPower] [specularIntensity] [terrainMetalness]) : sets Terrain Lighting Params
+setToneMapParams([exposure] [dispGamma] [greyFStops] [kneeLow] [kneeHigh] [ditherNoiseInten]) : sets tonemap params
+setWorldTooltipRectDims1024(minX, minY, maxX, maxY) : Sets the world tooltip restricted screen rectangle to the given dimensions relative to 1024x768 resolution.
+toggleHomeCityView() : Toggles home city view for the current player.
+toggleHomeCityViewTech() : Toggles tech home city view for the current player.
+toggleShadows() : toggle shadows on/off
+toggleWorldTooltipClipRect() : Toggles whether or not world tooltips are using the restricted screen rectangle.
+trAICommsAttackUnits(playerID, armyToAttack) : playerID will attack armyToAttack, sent via player Comms.
+trAICommsCancelOrder(sendToPlayerID) : tell player sendToPlayerID to cancel order, sent via player Comms.
+trAICommsClaim(sendToPlayerID) : tell player sendToPlayerID to claim TradePost at (locX, locY, locZ), sent via player Comms.
+trAICommsDefendPoint(playerID, defendX, defendY, defendZ) : playerID will defend point(defendX, defendY, defendZ), sent via player Comms.
+trAICommsRequestTribute(fromPlayerID, resource, amount) : fromPlayerID will send resource of x amount, sent via player Comms.
+trAICommsTrain(sendToPlayerID, unitTypeName) : tell player sendToPlayerID to train Units of type unitTypeName, sent via player Comms.
+trAIFunc()
+trAIFunc(<playerID> <functionName> <param>() : Makes the camera shake.
+trActivateTrigger(<eventID>) : Activates (sets active = true) the trigger specified by the given eventID.
+trAddArmyToPlan(armyname, planname) : Adds the units in the specified army to the specified plan.
+trArmyDispatch(<parameters>) : creates the units in the army specified.
+trArmyPlayerDefakify(armyname) : Defakifies the army.
+trArmyPlayerFakify(armyname, fakeplayerindex) : Fakifies the army to the specified fake player index.
+trArmySelect(army info string) : selects the units in the army specified.
+trArmySelectInt(int playerID, int armyID) : selects the units in the army specified.
+trAttackUnits(srcArmyname, armyToAttack, planname) : srcArmy units will attack armyToAttack in the given planname.
+trBlockAllAmbientSounds() : blocks all ambient sounds from this point forward
+trBlockAllSounds(excludeDialog) : Blocks all sounds from playing from this point forward
+trBranchScenario()
+trBuildingIsOnCursor(protoname) : Returns true if the proto unit specified is on the cursor and is a building.
+trCamTrackLoad(<filename>) : Loads a camera track.
+trCamTrackPlay(<duration> <eventID>) : plays the current camera track.
+trCameraCut(pos, dir, up, right) : puts the camera in the specified location.
+trCameraLockOnUnit(<enable> <time to orient> <trigger ID>) : Orients the camera to the selected unit, and keeps it locked on that unit. ): puts the camera in the specified location.
+trCameraPanWithUnit(<enable> <trigger ID>) : Moves the camera in the same direction that a particular unit moves.
+trCameraShake()
+trCameraShake(<duration> <strength>) : Makes the camera shake.
+trCampaignAdvance() : advances the campaign (advance user profile, AND plays the next scenario).
+trCampaignAdvanceProgress() : advances the user progress through the campaign.(updates user profile only)
+trCampaignPlayCurrent() : plays the current scenario in the campaign
+trChatHistoryClear() : forces the chat history to reset
+trChatHistoryContains(text) : returns whether or not the current chat history has any instance (substring) of this text
+trChatSend(fromID message) : Changes the chat status.
+trChatSendSpoofed(fromID message) : Changes the chat status, but does not append player.
+trChatSendSpoofedToPlayer(fromID toID message) : Changes the chat status, but does not append player.  Goes to specific player.
+trChatSendToPlayer(fromID toID message) : Changes the chat status for one specific player.
+trChatSetStatus(<onOff>) : Changes the chat status.
+trCinematicAbort() : returns the abort cinematic status.
+trCinematicDoAbort() : aborts the cinematic.
+trClearCounterDisplay()
+trCountUnitsInArea(centerUnit, matchPlayer, matchType, range)
+trCounterAbort(name) : abort a counter.
+trCounterAddTime(name, start, stop, message, event) : start a counter that may or may not fire an event.
+trCounterAddTimeMs(name, start, stop, message, event) : start a counter that may or may not fire an event.
+trCounterAddUnit(name, playerid, count, protounit, message, event) : start a counter that may or may not fire an event.
+trCounterAddXP()
+trCreateAttackPlan(armyName, PlanName, attackPlayerID, attackX, attackY, attackZ, engageRange, evaluationFrequency) : No help
+trCreateDefendPlan(armyName, defendPlanName, defendX, defendY, defendZ, engageRange, evaluationFrequency, gatherdistance) : No help
+trCreateRevealer(playerID, revealerName, position, revealerLOS, blackmapOnly) : Creates a revealer with the given attributes.
+trCreateTreaty()
+trCurrentPlayer() : returns the current player.
+trDamageUnit(amt) : does a specific amount of damage to HP in instant typeless damage.
+trDamageUnitPercent(percent) : does % percent of a unit's total HP in instant typeless damage.
+trDamageUnitsInArea(player, unitType, dist, damage) : All units within dist of the selected ref object that match type take dmg
+trDefendUnits(srcArmyname, defendedArmyname, planname, evaluationFrequency, gatherdistance) : srcArmy units will defend defendedArmyUnits in the given planname.
+trDelayedRuleActivation(<rulename>) : adds a rule to the runtime to be activated on the next update.
+trDisableTrigger(<eventID>) : Disables (sets active = false) the trigger specified by the given eventID.
+trEcho(<echoString>) : Trigger echo.
+trEchoStatValue(player, stat) : fetch a stat value from the KB and echo to chat
+trEndGame() : Signal that the game has ended.
+trEventFire(<eventID>) : cause an event to occur.
+trEventSetHandler(<eventID> <handler>) : sets a handler function for an event id.
+trFadeOutAllSounds(<duration>) : Fades out all sounds over a given duration
+trFadeOutMusic(<duration>) : Fades out current music over a given duration.
+trForbidProtounit(player, protoname) : adds protounit to the forbidden list
+trForceNonCinematicModels() : forces models to be in non cinematic mode
+trFormationScale(scale) : scales the formation size of formations in the game.
+trGameLoadScenario(<dialog message>) : pop up a dialog allowing choice to load a scenario.
+trGamePause(<true/false>) : pause or unpause the game.
+trGetNumberNuggetsGathered() : Returns the number of nuggets gathered by the specified player.
+trGetNumberSelectedUnitIDs()
+trGetSelectedUnitID(int index)
+trGetStatValue(player, stat) : fetch a stat value from the KB
+trGetWorldDifficulty()
+trGrantVP(player, number) : Grants a number of Scenario VP to a player
+trHasNuggetBeenCollected() : Returns true if the nugget has been collected, the playerID is an optional parameter for querying if the specific player has collected it.
+trHasPlayerSentHCShipment(<targetHCPlayerID>) : Returns true when the player has sent a shipment from the home city.
+trImmediateUnitGarrison(<unitScenarioName>) : Instantly garrisons units inside another unit without considering distance.
+trIsGadgetVisible(<name>) : returns true if gadget is real.
+trIsMovieNotPlaying()
+trIsPlayerSelectingHCBuilding(<hcBuildingName>) : Returns true if the current player is selecting the building in their HC which has the specified name.
+trIsPlayerSendingHCShipment(<targetHCPlayerID>) : Returns true when the player sends a shipment from home city.
+trIsPlayerVisitingHC(<targetHCPlayerID>) : Returns true if the current player is looking at (visiting) the home city of the player specified by the player ID passed in.
+trKillAIPlan(playerID, planName) : No help
+trLetterBox(<onOff>) : Turns letter box mode on or off.
+trMessageSetText(<text><timeout>) : displays the message text.
+trMinimapFlare(<playerID> <duration> <position> <flash>) : Sends a Minimap flare to a certain player.
+trModeEnter(<name>) : enters the mode specified.
+trModifyProtounit(unit, player, field, delta) : modifies proto unit data for this scenario only.
+trMusicPlay(<filename> <duration>) : Plays the music file.
+trMusicPlayCurrent() : Plays the current music.
+trMusicSetCurrentMusicSet() : sets the current music set.
+trMusicSetMood(<moodID>) : Changes the music to mood associated with mood id.
+trMusicStop() : Stops the current music.
+trObjectGettingWorked(objectScenarioName) : Returns true if the object is currently being worked.
+trObjectiveComplete(objectiveID, forceComplete, playSound) : Completes the specified objective.  Forces a reoccurring objective complete if forceComplete is true.
+trObjectiveDiscover(objectiveID, playSound) : 'Discovers' a previously unknown (to the player) objective.
+trObjectiveHide(objectiveID) : Hides the specified objective on the UI.
+trObjectiveShow(objectiveID) : Shows the specified objective on the UI.
+trOverlayText()
+trPlayMovie()
+trPlayNextMusicTrack() : Plays the next song in the music play list.
+trPlayerActive(playerID) : returns true/false if the player is active.
+trPlayerAtPopCap(playerID) : returns true if player is at pop cap.
+trPlayerBuildingCount(playerID) : returns the number of buildings for the player.
+trPlayerControlsSocket(playerID, objectScenarioName) : Returns true if the specified player is built on the specified socket.
+trPlayerCountBuildingInProgress(playerID protoname) : returns true if building is being built.
+trPlayerCurrentXPCount(playerID) : Returns the current (not total) XP for the player.
+trPlayerDefeated(playerID) : returns true/false if the player has been defeated.
+trPlayerGetDiplomacy(playerID playerID) : gets the diplomacy status between players.
+trPlayerGetPopulation(playerID) : returns the player population.
+trPlayerGrantResources(player, resource, amount) : advances the campaign.
+trPlayerKillAllBuildings()
+trPlayerKillAllBuildings(<playerID>) : Kills all of the buildings of a given player.()
+trPlayerKillAllUnits()
+trPlayerKillAllUnits(<playerID>) : Kills all of the units of a given player.()
+trPlayerModifiedLOS(playerID cansee playerID) : Adds/removes LOS between players.
+trPlayerModifyLOS()
+trPlayerResetBlackMap()
+trPlayerResetBlackMap(<playerID>) : Resets the black map for a given HUMAN player.
+trPlayerResetBlackMapForAllPlayers() : Resets the black map for all HUMAN players.
+trPlayerResourceCount(playerID, resource) : returns the number of resources for the player.
+trPlayerSetActive(playerID) : sets the active player.
+trPlayerSetAge(playerID, age, displayEffect) : Sets the age of the specified player.
+trPlayerSetDiplomacy(playerID playerID status) : sets the diplomacy status between players.
+trPlayerSetHCAccess(playerID, hcAccess) : Sets whether the player has access to the HC.
+trPlayerToggleAllowNewCWSpawning(playerID, allowSpawning) : Toggles whether the player can spawn new covered wagons.
+trPlayerToggleAllowTCSpawning(playerID, allowSpawning) : Toggles whether the player's TC can spawn units.
+trPlayerTribute(from, resource, amount to) : tributes resources to a player.
+trPlayerUnitAndBuildingCount(playerID) : returns the number of units and buildings for the player.
+trPlayerUnitCount(playerID) : returns the number of units for the player.
+trPlayerUnitCountSpecific(playerID, protoName) : returns the number of units for the player.
+trPlayerVPCount(playerID) : returns the number of victory points for the player.
+trQuestVarCopy(var1, var2) : copies value of one of the trigger scratch variables
+trQuestVarEcho(varname, value) : chats out the value of one of the trigger scratch variables
+trQuestVarGet(varname) : retrieve value of a trigger scratch variable, returns zero if unset
+trQuestVarSet(varname, value) : sets one of the trigger scratch variables
+trQuestVarSetFromRand(varname, minval, maxval, round) : sets one of the trigger scratch variables within a random range
+trRateConstruction(<rate>) : modify construction rate.
+trRateResearch(<rate>) : restore all rates to normal.
+trRateTrain(<rate>) : modify training rate.
+trRatesNormal()
+trRenderRain(<float percent>) : controls rain rendering.
+trRenderSky(<true/false> <skyName>) : turn sky rendering on/off and set which sky to use.
+trRenderSnow(<float percent>) : controls snow rendering.
+trRevealEntireMap()
+trSetCinematicUnitSpeaking(objectScenarioName, speaking, duration) : Sets the unit as speaking or not.
+trSetCounterDisplay(text)
+trSetCurrentPlayerStatus(<active>) : sets the current player as active or inactive.
+trSetFogAndBlackmap(<true/false> <true/false>) : turn fog and black map on/off.
+trSetLighting(setname, fadetime) : fades to the specified lighting set over fadetime.
+trSetObscuredUnits(<bool>) : Sets whether or not units can be drawn obscured or not.
+trSetPauseInObjectiveWindow()
+trSetPauseOnAgeUpgrade()
+trSetPlayerDefeated() : call this when a player is defeated on the local machine (meaning that this func must be called synchronously on all machines, it will not pass around a command.)
+trSetPlayerWon() : call this when a player has won on the local machine (meaning that this func must be called synchronously on all machines, it will not pass around a command.)
+trSetRevealerActiveState(revealerName, active) : Finds the specified revealer and sets it to active or inactive.
+trSetShadowFarClip(<enable>, <distance>) : Enable or disables the shadow far clippping plane.
+trSetUnitIdleProcessing(<bool>) : Sets whether or not units can do their idle processing.
+trSetUserControls(<active>) : sets the player controls on or off.
+trShowCampaignDlg(NextCampaign) : .
+trShowChoiceDialog(maintext, choice1, event1, choice2, event2) : displays dialog with 2 choices, and activates a trigger in response
+trShowDamage()
+trShowHCView(playerID) : Sets the view to the HC if the player specified is the current player.
+trShowImageDialog(texture, subtitle) : displays a custom image in a dialog, with a subtitle
+trShowSPCNote(<Title> <Text>) : Displays the SPC Note Dlg with the specified title and text.
+trShowWinLose(text, soundfile) : message and sound.
+trShowWorldView(playerID) : Sets the view to the world if the player specified is the current player.
+trSoundPlayDialog(<filename>, <event>, <ignoreOnAbort>, <subtitle>, <portrait>) : Plays the sound associated with the filename.
+trSoundPlayDialogue(<stringID>, <eventID>, <ignoreOnAbort>, <seconds>) : Plays the sound associated with the dialogue.
+trSoundPlayFN(<filename>) : Plays the sound associated with the filename.
+trSoundPlayPaused(<filename>) : Plays the sound associated with the filename.
+trSoundTimer(long milliseconds, long eventID)
+trStartGameRecord() : add help string.
+trStopGameRecord() : add help string.
+trTechSetStatus(playerID techID status) : sets the tech status for the player.
+trTechStatusActive(playerID techID) : returns true if tech is active for player.
+trTechStatusCheck(playerID, techID, techStatus) : returns true if tech's status is techStatus.
+trTechStatusResearching(playerID techID) : returns true if tech is being researched for player.
+trTime(void) : Returns the current gametime in Seconds.
+trTimeMS(void) : Returns the current gametime in Milliseconds.
+trTradeRouteSetLevel(traderouteindex, level) : Sets the specified trade route to the specified level from a trigger.
+trTradeRouteSetPosition(position) : Places train on a specified position on the route.
+trTradeRouteToggleState(position) : Enable or disables the unit from showing.
+trUIFadeToColor(<r> <g> <b> <duration> <delay> <inout>) : fade in/out using color specified.
+trUIFlash(<proto name> <flash>) : flashes a UI element (maybe).
+trUIFlashCategory(<category> <flash>) : flashes a UI element (maybe).
+trUIFlashTech()
+trUIFlashTrain()
+trUIStopFlash(<gadget name>) : stops the flashing of a UI element.
+trUnBlockAllAmbientSounds() : Unblocks all ambient sounds that were previously blocked from playing
+trUnblockAllSounds() : Unblocks all sounds that were previously blocked from playing
+trUnforbidProtounit(player, protoname) : removes protounit from the forbidden list
+trUnitAlive(void) : Returns true if all selected units are alive.
+trUnitBuildUnit(<protoUnitName> <BVector position (x, y, z)>) : Selects units and makes the build a unit at specified location
+trUnitChangeName(name) : set an override name for a specific unit
+trUnitChangeProtoUnit() : changes the proto unit for a given set of units.
+trUnitCinematicRemoveControlAction()
+trUnitConvert(playerID) : converts the selected units to player.
+trUnitCreate(<protoName> <scenarioName> <x> <y> <z> <heading> <playerID>) : creates a new unit.
+trUnitDead(void) : Returns true if all selected units are dead.
+trUnitDelete(remove) : removes or kills the selected unit(s).
+trUnitDestroy() : destroys the selected unit(s).
+trUnitDistanceToPoint(<x> <y> <z>) : Returns the shortest distance between the trRT units and the point.
+trUnitDistanceToUnit(<unitScenarioName>) : Returns the shortest distance between the trRT units and the given unit.
+trUnitDistanceToUnitID(<unitID>) : Returns the shortest distance between the trRT units and the given unit.
+trUnitDoWorkOnUnit(<unitScenarioName> <eventID>) : Tasks the selected unit(s) to perform work on the given unit.
+trUnitEjectContained() : ejects all contained units.
+trUnitFaceUnit(<unitScenarioName> <eventID>) : Moves the selected unit(s) to face the given unit.
+trUnitGarrison(<unitScenarioName> <eventID>) : Tasks the selected unit(s) to garrision into another unit.
+trUnitGetContained() : returns the number of units contained.
+trUnitGetHeading(<scenarioName>) : returns the units heading.
+trUnitGetIsContained(protounit) : returns true if this unit is contained by the specified protounit.
+trUnitHasLOS(playerID) : returns true if the player can see the selected unit, otherwise returns false.
+trUnitHighlight(seconds) : does something to highlight the units selected.
+trUnitIsOwnedBy(playerID) : determines if the selected units are owned by the player specified.
+trUnitIsSelected() : returns if the specified unit is selected.
+trUnitMakeInvulnerable(<enable>) : Makes a unit invulnerable to damage.  Turn it off to return the unit to normal.
+trUnitMoveFromArea(<x> <y> <z> <eventID> <bAttackMove> <player> <unitType> <radius>) : Moves all matching units near the selected unit(s) to the given position.
+trUnitMoveToPoint(<x> <y> <z> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>) : Moves the selected unit(s) to the given position.
+trUnitMoveToUnit(<unitScenarioName> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>) : Moves the selected unit(s) to the spot occupied by the given unit.
+trUnitPercentComplete() : returns the percent complete as 0 to 100
+trUnitPercentDamaged() : returns the percent damaged as 0 to 100
+trUnitPlayerDefakify() : Sets the selected unit as not having a fake player
+trUnitPlayerFakify()
+trUnitSelect(<unitScenarioName>) : 'Selects' the unit in the trigger selection system.
+trUnitSelectByID(<unitID>) : 'Selects' the unit in the trigger selection system.
+trUnitSelectClear(void) : Clears the units in the trigger selection system.
+trUnitSetAnimation(<AnimName> <versionIndex> <loop> <eventID> <destroyOnNextControlAction>) : Sets the cinematic animation version for the selected unit(s).
+trUnitSetHP(<hitpoints>) : set the hitpoints for all selected units.
+trUnitSetHeading(<degrees>) : sets the units heading.
+trUnitSetStance() : set the stance for the given set of units.
+trUnitTeleport() : moves units from current position to position specified
+trUnitTypeIsSelected() : returns if the specified unit is selected.
+trUnitVisToPlayer(playerID) : returns true if the player can see the selected unit, and it is on screen.
+trVPAnnualAwards(enable) : enables/disables the award of VP's each year.
+trWaypointAddPoint(<vector>) : Adds the waypoint into the trigger selection system.
+trWaypointAddUnit(<unitScenarioName>) : Adds the unit's position as a waypoint in the trigger selection system.
+trWaypointClear(void) : Clears the waypoints in the trigger selection system.
+trWriteToLog(message) : Writes text to the Age3Log
+trYouLose(text) : player loses, specifies message.
+trYouWin(directToMenu) : player wins.  If you set directToMenu to true, you go directly to Campaign Menu.
+uiAddChatNotification() : Adds a notification to the game's chat output, can play a sound too.
+uiAddSelectNumberGroup([integerGroup]) : adds the units in the given number group to current selection.
+uiAddSelectionButtonDown() : intended for ui use only.  Indicates that the add selection button has been pressed.
+uiAddSelectionButtonUp() : intended for ui use only.  Indicates that the add selection button has been released.
+uiApplyLightingSet([integerIndex]) : intended for UI use only.  Applies a Lighting Set
+uiAsSaveScenarioBrowser() : save a scenario to the scenario directory
+uiBMultiplayerSave() : stop playing stupid music at 11pm.
+uiBuildAtPointer() : instructs the currently selected unit(s) to build the current proto unit cursor building type at the pointer location.
+uiBuildMode([integerType]) : does and editMode and setProtoID, after verifying sufficient resources for the current player.
+uiBuildWallAtPointer()
+uiCameraControl([x], [y]) : Controls camera with gamepad stick.
+uiCameraScroll([fast], [x], [y]) : Scrolls the game view.
+uiCenterPointer() : Centers mouse pointer.
+uiChangeBrushCornerMode()
+uiChangeBrushSize({p1} {p2} {p3} {p4}) : changes the size of the current brush
+uiChangeBrushType("name") : changes the brush to the named type
+uiChangeCliffModMode()
+uiChangeElevationToSample([integerKeyState]) : intended for ui use only.  Indicates that the change elevation to sample button has gone up/down.
+uiChatDisplayModeToHistory() : Toggles the chat display mode to history mode.
+uiChatDisplayModeToRecent() : Toggles the chat display mode to recent mode.
+uiChatDisplayModeToggle() : Toggles the chat display mode.
+uiChatScrollBack([integerKeyState]) : Scrolls chat back one.
+uiChatScrollForward([integerKeyState]) : Scrolls chat forward one.
+uiCircleSelect([on], [doubleClick], [leaveSelected]) : Start/stop circle selection.
+uiCircleSelectResize([x], [y]) : Circle selection resizing.
+uiClearAllCinematicInfo() : clears all cinematic info including model/texture precache info.
+uiClearChat(clearOnly) : Clears the chat and resets to recent mode.  clearOnly == true if you don't want it to populate the chat, but only clear it.
+uiClearCinematicInfo() : clears cinematic trigger info.
+uiClearCursor() : resets the cursor to the basic pointer.
+uiClearGatherPoint() : Clears the gather point for the selected unit(s), returning it to a default state.
+uiClearMenu() : removes any dangling child menus off of the given gadget
+uiClearNumberGroup([integerGroup]) : erases the given number group.
+uiClearSelection() : deselects all selected units
+uiCloseDialog() : closes (as if clicked on the close button) any active dialog
+uiCloseFieldSet() : closes (as if clicked on the close button) any active field set
+uiCommandCircleMenu([on]) : turn on/off gamepad command panel circle menu.
+uiCommandPanelControl([on]) : turn on/off gamepad command panel control.
+uiCommandPanelExecute() : gamepad command panel execute.
+uiCommandPanelMove([x], [y]) : move between selections in the command panel.
+uiCommsFlareAtPointer() : Used when flaring a position for player comms dialog.
+uiCopyToClipboard() : copies the brush selection to the clipboard.
+uiCoverTerrainWithWater(floatWaterHeight, floatDepth, waterName) : flattens terrain and paints water over the entire map.
+uiCreateNumberGroup([integerGroup]) : creates a number group with the currently selected units.
+uiCreateRandomRiver() : .
+uiCreateRiver() : .
+uiCreateRiverToggleWaypointMode() : .
+uiCycleCurrentActivate() : acts like the current cycle gadget has been pressed
+uiCycleGadget([integerDelta]) : cycles through the 'active' child gadget of a deluxe gadget.
+uiDecPlaceVariation() : decrements the variation to place.
+uiDeleteAllSelectedUnits() : deletes all selected unit.
+uiDeleteCameraStartLoc()
+uiDeleteSelectedUnit() : deletes selected unit.
+uiDeleteSelectedUnit2() : deletes selected unit.
+uiDeleteUnits([integerKeyState]) : intended for ui use only.  Indicates that the delete units button has gone up/down.
+uiDoubleClickSelect([integerAdd], [checkAction]) : intended for ui use only.  Double click select at pointer location.
+uiDumpAllUnitHotKeyMappings() : spews all hot key mappings that create units to the console
+uiDumpKeyMappings ( stringContext ) : spews all key mappings out to the console.
+uiDumpUnmappedKeys ( stringContext ) : spews all empty keys out to the console
+uiEjectAtPointer() : intended for UI use only.  Sends an ejection command with waypoint for the selected unit.
+uiEjectGarrisonedUnits() : intended for UI use only.  Sends an ejection command for the selected unit.
+uiEmpowerAtPointer() : Commands the selected unit(s) to Empower the target building at the pointer position.
+uiEnterContext(<stringContext>) : enters the specified UI context.
+uiEnterGameMenuModeIfNotResigned() : Wrapper that enters GameMenu mode if the player isn't resigned.
+uiExpireCurrentObjectiveNotification() : Causes the currently displaying objective notification to fade out (or disappear), depending on the param passed in.
+uiExportGrouping() : save a group.
+uiExportTriggers() : save some triggers.
+uiFilterTerrainSelection() : filter the current terrain selection.
+uiFindAlliedNatives() : finds allied natives of the current player in order, so that it can be called repeatedly to cycle.
+uiFindCrowd([findType], [noLookAt])
+uiFindGatherersNotGathering () : finds the gatherer unit that's not gathering in the arbitrary order of unit ID, so that it can be called repeatedly to cycle.
+uiFindIdleType ([typeName]) : finds the next idle unit of the given type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle.
+uiFindKeyMapping ( stringKeyname ) : finds all key mappings for a given key
+uiFindResourceGatherers()
+uiFindResourceGatherers ([typeName]) : finds the next resource gatherer unit of the given resource type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle.
+uiFindTownBellTC () : finds the next town center that has the town bell active, so that it can be called repeatedly to cycle.
+uiFindType("%S")
+uiFindType ([typeName]) : finds the next unit (idle or not) of the given type in the arbitrary order of unit ID, so that it can be called repeatedly to cycle.
+uiFlareAtPointer() : Sends out a flare at the pointer position.
+uiFlattenTerrainSelection() : flatten the current terrain selection.
+uiForceShift([on]) : Force shift key on or off.
+uiFormationOrientation() : Sets the orientation of a formation.
+uiGarrisonToPointer() : Commands the selected unit(s) to garrison in a building at the pointer position.
+uiGuardAtPointer() : intended for UI use only.  Sends an guard order.
+uiHandleIdleBanner ([typeName]) : does the right thing.
+uiHandleUserTab(%d)
+uiHandleUserTab ( listSel, parent )() : handles toggle of user textures
+uiHelpAtPointer() : Sends out a Help at the pointer position.
+uiHideCursor() : testing only
+uiHidePlayerSummaryDialog() : Hides the player summary dialog.
+uiHideTributeDialog() : maximizes main UI
+uiIgnoreNextKey() : used when activating a text box with a key to avoid having that key go into the text box too.
+uiImportTriggers() : load some triggers.
+uiIncPlaceVariation() : increments the variation to place.
+uiInitOptionsScreenProfileEditDialog() : initializes the Profile Edit Dialog inside the OptionsScreen
+uiLastDetailHelp() : goes back to the most recent help entry.
+uiLeaveContext(<stringContext>) : leaves the specified UI context.
+uiLeaveModeOnUnshift() : causes game to return to editMode none when shift hotkey is released
+uiLoadTriggers() : load some triggers.
+uiLookAtAndSelectUnit(%d) : moves the camera to see the specified unit and selects it.
+uiLookAtBattle() : moves the camera to see the specified battle.
+uiLookAtNumberGroup([integerGroup]) : moves the camera to see the given number group.
+uiLookAtProto() : moves the camera to see the first instance of proto unit X owned by the current player.
+uiLookAtSelection() : moves the camera to see the first selected unit.
+uiLookAtUnit() : moves the camera to see the specified Unit.
+uiLookAtUnitByName(scenarioName) : moves the camera to see the specified Unit.
+uiLowerElevation([integerKeyState]) : intended for ui use only.  Indicates that the lower elevation button has gone up/down.
+uiLowerTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the lower terrain selection button has gone up/down.
+uiLowerWater([integerKeyState]) : intended for ui use only.  Indicates that the lower water button has gone up/down.
+uiMapPointerControl([x], [y], [doGoto]) : Moves the map pointer.
+uiMapPointerGoto([activeCheck]) : Jump to map pointer location.
+uiMessageBox([stringText] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit
+uiMessageBox2([stringID] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit
+uiMinimizeStats()
+uiMoveSelectionAddButtonDown() : intended for ui use only.  Indicates that selection button has been pressed.
+uiMoveSelectionAddButtonUp() : intended for ui use only.  Indicates that selection button has been released.
+uiMoveSelectionButtonDown() : intended for ui use only.  Indicates that selection button has been pressed.
+uiMoveSelectionButtonUp() : intended for ui use only.  Indicates that selection button has been released.
+uiMoveUnitBackward([integerKeyState]) : intended for ui use only.  Indicates that the move unit backward key has gone up/down.
+uiMoveUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the move unit down key has gone up/down.
+uiMoveUnitForward([integerKeyState]) : intended for ui use only.  Indicates that the move unit forward key has gone up/down.
+uiMoveUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the move unit left key has gone up/down.
+uiMoveUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the move unit right key has gone up/down.
+uiMoveUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the move unit up key has gone up/down.
+uiNewScenario() : creates a new blank scenario
+uiOpenCameraTrackBrowser() : open a camera track from the data directory
+uiOpenGrandConquestBrowser() : opens a Grand Conquest saved game
+uiOpenRecordGameBrowser() : open a record game from the saved game directory
+uiOpenSavedGameBrowser() : open a game from the saved game directory
+uiOpenScenarioBrowser() : open a scenario from the scenario directory
+uiPaint([integerKeyState]) : intended for ui use only.  Indicates that the paint button has gone up/down.
+uiPaintCliff([integerKeyState]) : intended for ui use only.  Indicates that the paint cliff button has gone up/down.
+uiPaintForest(paint, offset) : intended for ui use only.  Indicates that the paint button has gone up/down.
+uiPaintTerrainOverlay([integerKeyState]) : intended for ui use only.  Indicates that the paint terrain overlay button has gone up/down.
+uiPaintTerrainToSample([integerKeyState]) : intended for ui use only.  Indicates that the sample terrain button has gone up/down.
+uiPaintWater([integerKeyState]) : intended for ui use only.  Indicates that the paint water button has gone up/down.
+uiPaintWaterArea([integerKeyState]) : intended for ui use only. Painting water area.
+uiPaintWaterObjects() : Paint objects on the currently selected water.
+uiPasteFromClipboard() : pastes the contents of the clipboard to the brush selection.
+uiPatrolAtPointer() : intended for UI use only.  Sends an patrol order.
+uiPitchUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit down key has gone up/down.
+uiPitchUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit up key has gone up/down.
+uiPlaceAtPointer([boolChangeVariation]) : intended for ui use only.  Places unit at pointer location.
+uiPlaceRiverShallow() : .
+uiPlaceRiverWaypoint() : .
+uiPlaceTradeRouteWaypoint()
+uiPoliticianUI(%d, %d) : Used to activate the politician UI
+uiPowerCircleMenu([on]) : turn on/off gamepad power panel circle menu.
+uiRaiseElevation([integerKeyState]) : intended for ui use only.  Indicates that the raise elevation button has gone up/down.
+uiRaiseTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the raise terrain selection button has gone up/down.
+uiRaiseWater([integerKeyState]) : intended for ui use only.  Indicates that the raise water button has gone up/down.
+uiRefreshEditorMenu() : reconstitutes the entire editor menu
+uiReleaseDownKeys() : pops up all downed keys.
+uiRemoveFromAnyNumberGroup() : removes current selection from any army.
+uiRemoveRiverShallow() : .
+uiRemoveRiverWaypoint() : .
+uiRemoveSelectedUnit([unitID]) : Removes specified unit, or selected unit if not ID is specified.
+uiRemoveTerrainOverlay() : intended for ui use only.  Removes the painted terrain overlay at the given mouse position.
+uiRemoveTradeRouteWaypoint()
+uiRepairAtPointer() : Commands the selected unit(s) to repair the target building at the pointer position.
+uiResetFindCrowd()
+uiResetScreenSelect() : resets screen selection.
+uiRollUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the roll unit left key has gone up/down.
+uiRollUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the roll unit right key has gone up/down.
+uiRotateClipboard(degrees) : rotate the clipboard by amount.
+uiRotateSelection() : intended for ui use only.  rotates the selected UNIT.
+uiRotateWaterLeft()
+uiRotateWaterRight()
+uiRoughen([integerKeyState]) : intended for ui use only.  Indicates that the roughen button has gone up/down.
+uiSampleCliffElevationAtPointer() : intended for ui use only.  Samples Cliff elevation height at pointer.
+uiSampleElevationAtPointer() : intended for ui use only.  Samples elevation height at pointer.
+uiSampleTerrainAtPointer() : intended for ui use only.  Samples terrain type at pointer.
+uiSaveAsScenarioBrowser()
+uiSaveCameraTrackBrowser() : save a camera track to the data directory
+uiSaveCampaignGameBrowser()
+uiSaveGrouping() : save some groups.
+uiSaveGroupingLUA() : save some groups.
+uiSaveSavedGameBrowser() : save a game to the saved game directory
+uiSaveScenarioBrowser() : save a scenario to the scenario directory
+uiSaveTriggers() : save some triggers.
+uiScenarioLoad() : load a scenario, checking dirty bit on world.
+uiScreenSelect([modifier]) : screen selection.
+uiScrollBrushSize() : intended for ui use only. Increament the size of the current brush up/down
+uiScrollCliffHeight() : intended for ui use only. Increment the height of the cliff brush up/down
+uiSelectCliffAtPointer() : selects the cliff under the pointer.
+uiSelectForestAtPointer() : selects the forest under the pointer.
+uiSelectNumberGroup([integerGroup]) : selects the units in the given number group.
+uiSelectTransportUnit()
+uiSelectWaterAtPointer() : intended for ui use only.  Selects water at pointer location.
+uiSelectionButtonDown() : intended for ui use only.  Indicates that selection button has been pressed.
+uiSelectionButtonUp() : intended for ui use only.  Indicates that selection button has been released.
+uiSendIngameChat() : used direcly by UI
+uiSetBrushType("name" {p1} {p2} {p3} {p4}) : makes the current brush based on the name and parameters.
+uiSetBuildingPlacementRender(id, on) : controls rendering of the building placement info for the given ID
+uiSetCameraStartLoc()
+uiSetCliffType(stringCliffName) : sets the cliff type by name.
+uiSetCliffTypeNum(longCliffType) : sets the cliff type by index.
+uiSetClipboardRotation(degrees) : sets the clipboard rotation amount.
+uiSetForestType(longForestType) : sets the forest type by index.
+uiSetForestTypeNum(%d)
+uiSetGatherPointAtPointer()
+uiSetGatherPointAtPointer ( bool homeCity, bool water ) : Sets the gather points for the selected unit(s) to the pointer position.
+uiSetHCNotifyText(%d, %d) : Adds notify text, can play a sound too.
+uiSetHomeCityWaterSpawnPointAtPointer(void) : Sets the HC spawn point.
+uiSetKBArmyRender( int id, bool [set]) : render the kbArmy info for the given ID. If not set given, will not render the army.
+uiSetKBAttackRouteRender(%d, false) : render the attackRoute info for the given ID
+uiSetKBResourceRender(int resID, bool [set]) : render the kbResource info for the given ID. If not set given, will not render the resource.
+uiSetProtoCursor()
+uiSetProtoCursorID()
+uiSetProtoID([integerType]) : sets the proto ID to place.
+uiSetTerrainOverlayColor()
+uiSetTerrainOverlayColor([float] [float] [float]) : intended for ui use only.  Sets the terrain overlay color to the given (R,G,B) color.
+uiSetWaterType(stringWaterName) : sets the water type by name.
+uiSetWaterTypeNum(longWaterType) : sets the water type by index.
+uiShowAIDebugInfoArea(%d) : brings up the area info for the given ID
+uiShowAIDebugInfoAreaGroup(%d, 1) : brings up the area info for the given ID
+uiShowAIDebugInfoAttackRoute(%d) : brings up the attackRoute info for the given ID
+uiShowAIDebugInfoBase(%d) : brings up the base info for the given ID
+uiShowAIDebugInfoEscrow(%d) : brings up the escrow info for the given ID
+uiShowAIDebugInfoKBArmy(%d) : brings up the kbArmy info for the given ID
+uiShowAIDebugInfoKBResource(%d) : brings up the kbResource info for the given ID
+uiShowAIDebugInfoKBUnit(1) : brings up the kbunit info for the given ID
+uiShowAIDebugInfoKBUnitPick(%d) : brings up the kbUnitPick info for the given ID
+uiShowAIDebugInfoPlacement(%d) : brings up the building placement info for the given ID
+uiShowAIDebugInfoPlan(%d) : brings up the plan debug text for the given plan ID
+uiShowAIDebugInfoProgression(%d) : brings up the progression info for the given ID
+uiShowCameraStartLoc()
+uiShowChatWindow()
+uiShowCommandPanel()
+uiShowDetailedHelp()
+uiShowObjectivesDialog()
+uiShowPlayerSummaryDialog() : Shows the player summary dialog.
+uiShowStatPanel()
+uiShowTributeDialog() : minimizes main UI and brings up the minimized UI
+uiShowVoteDialog()
+uiSmooth([integerKeyState]) : intended for ui use only.  Indicates that the smooth button has gone up/down.
+uiSpecialPowerAtPointer() : intended for ui use only.  Use a special power at targeted location.
+uiSpewDownKeys() : spews all down keys.
+uiStartBuildCinematic() : test a scenario.
+uiStartScenarioTest() : test a scenario.
+uiStopBuildCinematic() : test a scenario.
+uiStopScenarioTest() : test a scenario.
+uiStopSelectedUnits() : stop selected units.
+uiTechCivDetailHelp()
+uiTechDetailHelp(techID, civ) : brings up the detail help UI for the given tech node ID
+uiTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the terrain selection button has gone up/down.
+uiToggleAdvancedHUD()
+uiToggleBrushMask(%d) : This is not what you are looking for.
+uiToggleCliff() : toggles cliff pieces on or off under the pointer.
+uiToggleEditor() : turns off and on the scenario editor UI.
+uiToggleGame() : turns off and on the game UI.
+uiToggleSelectionButton() : intended for ui use only.
+uiToggleTerrainPasteMode() : This is not what you are looking for.
+uiTopicDetailHelp(topicName) : brings up the detail help UI for the given help topic
+uiTransformSelectedUnit() : transforms the selected unit into the specified proto unit.
+uiTriggerResetParameters()
+uiTriggerResetSounds()
+uiTriggerSelectLocation()
+uiUnSelectWater() : intended for ui use only.  Unselects currently selected water.
+uiUniformLowerElevation()
+uiUniformRaiseElevation()
+uiUnitDetailHelp()
+uiUnselectCliff()
+uiUnselectForest()
+uiVPAccelClick([unitID]) : Shows the VP accel building from the unitID.
+uiWheelRotate()
+uiWheelRotateCamera()
+uiWheelRotatePlacedUnit()
+uiWheelRotateRiverShallow()
+uiWorkAtPointer() : intended for ui use only.  Issues "work" at pointer location.
+uiYawUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit left key has gone up/down.
+uiYawUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit right key has gone up/down.
+uiZoomToMinimapEvent() : zooms to the most recent minimap event
+uiZoomToMinimapEvent2() : zooms to the most recent minimap event
+uiZoomToProto([stringProto]) : zooms to the first instance of proto unit X owned by the current player.
+void aiBreakpointGo()
+void aiBreakpointSet()
+bool xsAddRuntimeEvent(string foo, string bar, int something) : Setups a runtime event.  Don't use this.
+int xsArrayCreateBool(int size, bool defaultValue, string name) : creates a sized and named boolean array, returning an arrayID.
+int xsArrayCreateFloat(int size, float defaultValue, string name) : creates a sized and named float array, returning an arrayID.
+int xsArrayCreateInt(int size, int defaultValue, string name) : creates a sized and named integer array, returning an arrayID.
+int xsArrayCreateString(int size, string defaultValue, string name) : creates a sized and named string array, returning an arrayID.
+int xsArrayCreateVector(int size, vector defaultValue, string name) : creates a sized and named vector array, returning an arrayID.
+xsArrayGetBool()
+float xsArrayGetFloat(int arrayID, int index) : Gets the value at the specified index in the requested array.
+bool xsArrayGetInt(int arrayID, int index) : Gets the value at the specified index in the requested array.
+int xsArrayGetSize(int arrayID) : Gets the specified array's size.
+string xsArrayGetString(int arrayID, int index) : Gets the value at the specified index in the requested array.
+vector xsArrayGetVector(int arrayID, int index) : Gets the value at the specified index in the requested array.
+int xsArraySetBool(int arrayID, int index, bool value) : Sets a value at the specified index in the requested array.
+int xsArraySetFloat(int arrayID, int index, float value) : Sets a value at the specified index in the requested array.
+int xsArraySetInt(int arrayID, int index, int value) : Sets a value at the specified index in the requested array.
+int xsArraySetString(int arrayID, int index, string value) : Sets a value at the specified index in the requested array.
+int xsArraySetVector(int arrayID, int index, vector value) : Sets a value at the specified index in the requested array.
+void xsDisableRule(string ruleName) : Disables the given rule.
+void xsDisableRuleGroup(string ruleGroupName) : Disables all rules in the given rule group.
+void xsDisableSelf(void) : Disables the current rule.
+int xsDumpArrays() : blogs out all XS arrays.
+void xsEnableRule(string ruleName) : Enables the given rule.
+void xsEnableRuleGroup(string ruleGroupName) : Enables all rule in the given rule group.
+int xsGetContextPlayer(void) : Returns the current context player ID.
+xsGetFunctionID()
+int xsGetFuntionID(string functionName) : Runs the secret XSFID for the function. USE WITH CAUTION.
+int xsGetTime(void) : Returns the current gametime (in milliseconds).
+bool xsIsRuleEnabled(string ruleName) : Returns true if the rule is enabled.
+void xsIsRuleGroupEnabled(string ruleGroupName) : Returns true if the rule group is enabled.
+void xsSetContextPlayer(int playerID) : Sets the current context player ID (DO NOT DO THIS IF YOU DO NOT KNOW WHAT YOU ARE DOING).
+void xsSetRuleMaxInterval(string ruleName, int interval) : Sets the max interval of the given rule.
+void xsSetRuleMaxIntervalSelf(int interval) : Sets the max interval of the current rule.
+void xsSetRuleMinInterval(string ruleName, int interval) : Sets the min interval of the given rule.
+void xsSetRuleMinIntervalSelf(int interval) : Sets the min interval of the current rule.
+void xsSetRulePriority(string ruleName, int priority) : Sets the priority of the given rule.
+void xsSetRulePrioritySelf(int priority) : Sets the priority of the current rule.
+float xsVectorGetX(vector v) : Returns the x component of the given vector.
+float xsVectorGetY(vector v) : Returns the y component of the given vector.
+float xsVectorGetZ(vector v) : Returns the z component of the given vector.
+float xsVectorLength(vector v) : Returns the length of the given vector.
+float xsVectorNormalize(vector v) : Returns the normalized version of the given vector.
+float xsVectorSet(float x, float y, float z) : Set the 3 components into a vector, returns the new vector.
+float xsVectorSetX(vector v, float x) : Set the x component of the given vector, returns the new vector.
+float xsVectorSetY(vector v, float y) : Set the y component of the given vector, returns the new vector.
+float xsVectorSetZ(vector v, float z) : Set the z component of the given vector, returns the new vector.
