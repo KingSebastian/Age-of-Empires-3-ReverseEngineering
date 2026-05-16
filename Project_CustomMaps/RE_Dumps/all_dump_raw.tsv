@@ -1,0 +1,879 @@
+00b5a338	AIDebugShowPlansToggle()	"AIDebugShowPlansToggle()"	ds	1
+00b5a36c	AIDebugShowBattlesToggle()	"AIDebugShowBattlesToggle()"	ds	1
+00b5a3a4	AIDebugShowChatHistoryToggle()	"AIDebugShowChatHistoryToggle()"	ds	1
+00b5a3e8	AIDebugShowOpportunitiesToggle()	"AIDebugShowOpportunitiesToggle()"	ds	1
+00b5a444	AIDebugShowBasesToggle()	"AIDebugShowBasesToggle()"	ds	1
+00b5a478	AIDebugTimedStatsToggle()	"AIDebugTimedStatsToggle()"	ds	1
+00b5a4b0	AIDebugPastResourceNeedToggle()	"AIDebugPastResourceNeedToggle()"	ds	1
+00b5a4fc	AIDebugToggleBPText()	"AIDebugToggleBPText()"	ds	1
+00b5a554	AIDebugPopToggle()	"AIDebugPopToggle()"	ds	1
+00b5a58c	AIDebugGathererToggle()	"AIDebugGathererToggle()"	ds	1
+00b5a5dc	AIDebugOutputToggle()	"AIDebugOutputToggle()"	ds	1
+00b5a96c	gadgetUnreal("	u"gadgetUnreal(\""	unicode	1
+00b60b00	rmSetOcean(bool reveal): Sets whether or not to reveal oceans.	"rmSetOcean(bool reveal): Sets whether or not to reveal oceans."	ds	1
+00b60b58	rmSetNuggetDifficulty(int minLevel, int maxLevel): Sets the min/max difficulty levels for placing nuggets.	"rmSetNuggetDifficulty(int minLevel, int maxLevel): Sets the min/max difficulty levels for placing nuggets."	ds	1
+00b60be0	rmAddAreaCliffRandomWaypoints(int areaID, float endXFraction, float endZFraction, int count, float maxVariation): Adds random waypoints to the specified cliff valley area.	"rmAddAreaCliffRandomWaypoints(int areaID, float endXFraction, float endZFraction, int count, float maxVariation): Adds random waypoints to the specified cliff valley area."	ds	1
+00b60cb0	rmAddAreaCliffWaypoint(int areaID, float xFraction, float zFraction): Adds the given waypoint to the specified cliff area (for valleys).	"rmAddAreaCliffWaypoint(int areaID, float xFraction, float zFraction): Adds the given waypoint to the specified cliff area (for valleys)."	ds	1
+00b60d58	rmFindCloserArea(float xFraction, float zFraction, int area1, int area2): Returns which area is closer.	"rmFindCloserArea(float xFraction, float zFraction, int area1, int area2): Returns which area is closer."	ds	1
+00b60e88	rmClearClosestPointConstraints(): Clears constraints for closest point finder.	"rmClearClosestPointConstraints(): Clears constraints for closest point finder."	ds	1
+00b60ef8	rmAddClosestPointConstraint( int constraintID ): Adds constraint to closest point finder.	"rmAddClosestPointConstraint( int constraintID ): Adds constraint to closest point finder."	ds	1
+00b60f70	rmEnableLocalWater( bool enable ): Enables / disables local water disturbances.	"rmEnableLocalWater( bool enable ): Enables / disables local water disturbances."	ds	1
+00b60fd8	rmIsMapType( string type ): Returns true if the map belongs to the given type.	"rmIsMapType( string type ): Returns true if the map belongs to the given type."	ds	1
+00b61038	rmSetMapType( string type ): Indicates that this map is of a certain type (it can be multiple types simultaneously.	"rmSetMapType( string type ): Indicates that this map is of a certain type (it can be multiple types simultaneously."	ds	1
+00b61410	rmBuildTradeRoute(int tradeRouteID, string terrainTypeName): Builds the trade route with the given terrain type.	"rmBuildTradeRoute(int tradeRouteID, string terrainTypeName): Builds the trade route with the given terrain type."	ds	1
+00b61498	rmGetTradeRouteWayPoint(int tradeRouteID, float fraction): Retrieves a waypoint along the trade route based on the fraction.	"rmGetTradeRouteWayPoint(int tradeRouteID, float fraction): Retrieves a waypoint along the trade route based on the fraction."	ds	1
+00b61530	rmCreateTradeRouteWaypointsInArea(int tradeRouteID, int areaID, float length): Creates a trade route in the specified area.	"rmCreateTradeRouteWaypointsInArea(int tradeRouteID, int areaID, float length): Creates a trade route in the specified area."	ds	1
+00b615d0	rmAddRandomTradeRouteWaypointsVector(int tradeRouteID, vector v, int count, float maxVariation): Adds random waypoints to the specified trade route.	"rmAddRandomTradeRouteWaypointsVector(int tradeRouteID, vector v, int count, float maxVariation): Adds random waypoints to the specified trade route."	ds	1
+00b61690	rmAddRandomTradeRouteWaypoints(int tradeRouteID, float endXFraction, float endZFraction, int count, float maxVariation): Adds random waypoints to the specified trade route.	"rmAddRandomTradeRouteWaypoints(int tradeRouteID, float endXFraction, float endZFraction, int count, float maxVariation): Adds random waypoints to the specified trade route."	ds	1
+00b61760	rmAddTradeRouteWaypointVector(int tradeRouteID, vector v): Adds the given waypoint to the specified trade route.	"rmAddTradeRouteWaypointVector(int tradeRouteID, vector v): Adds the given waypoint to the specified trade route."	ds	1
+00b617f8	rmAddTradeRouteWaypoint(int tradeRouteID, float xFraction, float zFraction): Adds the given waypoint to the specified trade route.	"rmAddTradeRouteWaypoint(int tradeRouteID, float xFraction, float zFraction): Adds the given waypoint to the specified trade route."	ds	1
+00b61894	rmCreateTradeRoute(): Creates a trade route.	"rmCreateTradeRoute(): Creates a trade route."	ds	1
+00b61950	rmSetGroupingMaxDistance(int defID, float dist): Set the maximum distance for the grouping (in meters).	"rmSetGroupingMaxDistance(int defID, float dist): Set the maximum distance for the grouping (in meters)."	ds	1
+00b619d8	rmSetGroupingMinDistance(int defID, float dist): Set the minimum distance for the grouping (in meters).	"rmSetGroupingMinDistance(int defID, float dist): Set the minimum distance for the grouping (in meters)."	ds	1
+00b61a60	rmPlaceGroupingInArea(int groupingID, int playerID, int areaID, int placeCount): Place grouping for the player in the given area.	"rmPlaceGroupingInArea(int groupingID, int playerID, int areaID, int placeCount): Place grouping for the player in the given area."	ds	1
+00b61cc8	rmCreateGrouping(string name, string filename): Creates a grouping.	"rmCreateGrouping(string name, string filename): Creates a grouping."	ds	1
+00b61d20	rmSetIgnoreForceToGaia(bool val)	"rmSetIgnoreForceToGaia(bool val)"	ds	1
+00b61d5c	rmDefineConstant(string name, int value)	"rmDefineConstant(string name, int value)"	ds	1
+00b61d9c	rmGetUnitPlacedOfPlayer(int objectDefID, int playerID)	"rmGetUnitPlacedOfPlayer(int objectDefID, int playerID)"	ds	1
+00b61dec	rmGetUnitPlaced(int objectDefID, int index)	"rmGetUnitPlaced(int objectDefID, int index)"	ds	1
+00b61e28	rmGetNumberUnitsPlaced(int objectDefID)	"rmGetNumberUnitsPlaced(int objectDefID)"	ds	1
+00b61e68	rmAddUnitsToArmy(int playerID, int armyID, int objectDefID)	"rmAddUnitsToArmy(int playerID, int armyID, int objectDefID)"	ds	1
+00b61eb8	rmCreateArmy(int playerID, string armyName)	"rmCreateArmy(int playerID, string armyName)"	ds	1
+00b61ef8	rmSetTriggerEffectParamArmy(string paramName, int playerID, int armyID, bool add)	"rmSetTriggerEffectParamArmy(string paramName, int playerID, int armyID, bool add)"	ds	1
+00b61f68	rmSetTriggerEffectParamFloat(string paramName, float value, bool add)	"rmSetTriggerEffectParamFloat(string paramName, float value, bool add)"	ds	1
+00b61fd0	rmSetTriggerEffectParamInt(string paramName, int value, bool add)	"rmSetTriggerEffectParamInt(string paramName, int value, bool add)"	ds	1
+00b62030	rmSetTriggerEffectParam(string paramName, string value, bool add)	"rmSetTriggerEffectParam(string paramName, string value, bool add)"	ds	1
+00b6208c	rmAddTriggerEffect(string effectType)	"rmAddTriggerEffect(string effectType)"	ds	1
+00b620c8	rmSetTriggerConditionParamArmy(string paramName, int playerID, int armyID, bool add)	"rmSetTriggerConditionParamArmy(string paramName, int playerID, int armyID, bool add)"	ds	1
+00b62140	rmSetTriggerConditionParamFloat(string paramName, float value, bool add)	"rmSetTriggerConditionParamFloat(string paramName, float value, bool add)"	ds	1
+00b621b0	rmSetTriggerConditionParamInt(string paramName, int value, bool add)	"rmSetTriggerConditionParamInt(string paramName, int value, bool add)"	ds	1
+00b62218	rmSetTriggerConditionParam(string paramName, string value, bool add)	"rmSetTriggerConditionParam(string paramName, string value, bool add)"	ds	1
+00b6227c	rmAddTriggerCondition(string conditionType)	"rmAddTriggerCondition(string conditionType)"	ds	1
+00b622c0	rmSetTriggerLoop(bool loop)	"rmSetTriggerLoop(bool loop)"	ds	1
+00b622f0	rmSetTriggerRunImmediately(bool runImmediately)	"rmSetTriggerRunImmediately(bool runImmediately)"	ds	1
+00b6233c	rmSetTriggerActive(bool active)	"rmSetTriggerActive(bool active)"	ds	1
+00b62370	rmSetTriggerPriority(int priority)	"rmSetTriggerPriority(int priority)"	ds	1
+00b623ac	rmTriggerID(string triggerName)	"rmTriggerID(string triggerName)"	ds	1
+00b623d8	rmSwitchToTrigger(int triggerID)	"rmSwitchToTrigger(int triggerID)"	ds	1
+00b62410	rmCreateTrigger(string triggerName)	"rmCreateTrigger(string triggerName)"	ds	1
+00b62444	rmSetVPFile(string filename)	"rmSetVPFile(string filename)"	ds	1
+00b62470	sqrt(float x): Returns the square root of x.	"sqrt(float x): Returns the square root of x."	ds	1
+00b624b8	rmSetStatusText(status, progress) : Sets the friendly cool loading screen text.	"rmSetStatusText(status, progress) : Sets the friendly cool loading screen text."	ds	1
+00b626e8	rmAddConnectionToClass(int connectionID, int classID): Adds the connection to specified class.	"rmAddConnectionToClass(int connectionID, int classID): Adds the connection to specified class."	ds	1
+00b62760	rmBuildConnection(int connectionID): Builds the given connection.	"rmBuildConnection(int connectionID): Builds the given connection."	ds	1
+00b627b8	rmSetConnectionBaseTerrainCost(int connectionID, float cost): Sets the base terrain cost for a connection.	"rmSetConnectionBaseTerrainCost(int connectionID, float cost): Sets the base terrain cost for a connection."	ds	1
+00b62848	rmSetConnectionTerrainCost(int connectionID, string terrainTypeName, float cost): Sets the terrain cost for a connection.	"rmSetConnectionTerrainCost(int connectionID, string terrainTypeName, float cost): Sets the terrain cost for a connection."	ds	1
+00b628e0	rmAddConnectionTerrainReplacement(int connectionID, string terrainTypeName, string newTypeName): Adds a terrain replacement rule to the connection.	"rmAddConnectionTerrainReplacement(int connectionID, string terrainTypeName, string newTypeName): Adds a terrain replacement rule to the connection."	ds	1
+00b62998	rmSetConnectionSmoothDistance(int connectionID, float width): Sets connection edge smoothing distance (distance is number of neighboring points to consider in each direction).	"rmSetConnectionSmoothDistance(int connectionID, float width): Sets connection edge smoothing distance (distance is number of neighboring points to consider in each direction)."	ds	1
+00b62a68	rmSetConnectionHeightBlend(int connectionID, float width): Sets how smoothly connection height blends into surroundings.	"rmSetConnectionHeightBlend(int connectionID, float width): Sets how smoothly connection height blends into surroundings."	ds	1
+00b62b00	rmSetConnectionWarnFailure(int connectionID, bool warn): Sets whether a connection warns on failure.	"rmSetConnectionWarnFailure(int connectionID, bool warn): Sets whether a connection warns on failure."	ds	1
+00b62b88	rmSetConnectionCoherence(int connectionID, float width): Sets area coherence (0-1).	"rmSetConnectionCoherence(int connectionID, float width): Sets area coherence (0-1)."	ds	1
+00b62bf8	rmSetConnectionBaseHeight(int connectionID, float width): Sets the base height of a connection.	"rmSetConnectionBaseHeight(int connectionID, float width): Sets the base height of a connection."	ds	1
+00b62c78	rmSetConnectionWidth(int connectionID, float width, float variance): Sets the width of a connection.	"rmSetConnectionWidth(int connectionID, float width, float variance): Sets the width of a connection."	ds	1
+00b62cf8	rmSetConnectionPositionVariance(int connectionID, float variance): Sets the position variance of a connection.	"rmSetConnectionPositionVariance(int connectionID, float variance): Sets the position variance of a connection."	ds	1
+00b62d88	rmAddConnectionArea(int connectionID, int areaID): Adds an area to the connection.	"rmAddConnectionArea(int connectionID, int areaID): Adds an area to the connection."	ds	1
+00b62df0	rmSetConnectionType(int connectionID, int connectionType, bool connectAll, float connectPercentage): Sets the connection type.	"rmSetConnectionType(int connectionID, int connectionType, bool connectAll, float connectPercentage): Sets the connection type."	ds	1
+00b62e84	rmCreateConnection(string name): Creates an connection.	"rmCreateConnection(string name): Creates an connection."	ds	1
+00b62ed0	rmPlaceObjectDefInRandomAreaOfClass(int defID, int playerID, int classID, int placeCount): Place object definition for the player in a random area in the given class.	"rmPlaceObjectDefInRandomAreaOfClass(int defID, int playerID, int classID, int placeCount): Place object definition for the player in a random area in the given class."	ds	1
+00b62fa0	rmPlaceObjectDefAtRandomAreaOfClass(int defID, int playerID, int classID, int placeCount): Place object definition for the player at the location of a random area in the given class.	"rmPlaceObjectDefAtRandomAreaOfClass(int defID, int playerID, int classID, int placeCount): Place object definition for the player at the location of a random area in the given class."	ds	1
+00b63080	rmPlaceObjectDefInArea(int defID, int playerID, int areaID, int placeCount): Place object definition for the player in the given area.	"rmPlaceObjectDefInArea(int defID, int playerID, int areaID, int placeCount): Place object definition for the player in the given area."	ds	1
+00b63120	rmPlaceObjectDefAtAreaLoc(int defID, int playerID, int areaID, int placeCount): Place object definition for the player at the given area's location.	"rmPlaceObjectDefAtAreaLoc(int defID, int playerID, int areaID, int placeCount): Place object definition for the player at the given area's location."	ds	1
+00b631d8	rmPlaceObjectDefPerPlayer(int defID, bool playerOwned, int placeCount): Place object definition per player.	"rmPlaceObjectDefPerPlayer(int defID, bool playerOwned, int placeCount): Place object definition per player."	ds	1
+00b63260	rmSetObjectDefTradeRouteID(int defID, int tradeRouteID): Set the trade route for all objects in this object definition.	"rmSetObjectDefTradeRouteID(int defID, int tradeRouteID): Set the trade route for all objects in this object definition."	ds	1
+00b632f8	rmPlaceObjectDefAtPoint(int defID, int playerID, vector point, int placeCount): Place object definition at specific point for given player.	"rmPlaceObjectDefAtPoint(int defID, int playerID, vector point, int placeCount): Place object definition at specific point for given player."	ds	1
+00b633a0	rmPlaceObjectDefAtLoc(int defID, int playerID, float xFraction, float zFraction, int placeCount): Place object definition at specific location for given player.	"rmPlaceObjectDefAtLoc(int defID, int playerID, float xFraction, float zFraction, int placeCount): Place object definition at specific location for given player."	ds	1
+00b63460	rmAddObjectDefItemByTypeID(int defID, int unitTypeID, int count, float clusterDistance): Add item to object definition.	"rmAddObjectDefItemByTypeID(int defID, int unitTypeID, int count, float clusterDistance): Add item to object definition."	ds	1
+00b634f8	rmAddObjectDefItem(int defID, string unitName, int count, float clusterDistance): Add item to object definition.	"rmAddObjectDefItem(int defID, string unitName, int count, float clusterDistance): Add item to object definition."	ds	1
+00b63580	rmSetObjectDefForceFullRotation(int defID, bool on): Forces things in this object def to get full arbitrary rotation.	"rmSetObjectDefForceFullRotation(int defID, bool on): Forces things in this object def to get full arbitrary rotation."	ds	1
+00b63618	rmSetObjectDefAllowOverlap(int defID, bool on): Lets objects overlap within this object def.	"rmSetObjectDefAllowOverlap(int defID, bool on): Lets objects overlap within this object def."	ds	1
+00b63698	rmSetObjectDefHerdAngle(int defID, float angle): Set a herd angle(clockwise from +z) in the object def.	"rmSetObjectDefHerdAngle(int defID, float angle): Set a herd angle(clockwise from +z) in the object def."	ds	1
+00b63718	rmSetObjectDefCreateHerd(int defID, bool on): Creates a herd out of all units placed in this object def.	"rmSetObjectDefCreateHerd(int defID, bool on): Creates a herd out of all units placed in this object def."	ds	1
+00b637a0	rmSetObjectDefGarrisonStartingUnits(int defID, bool on): Turn on the garrison starting units flag.	"rmSetObjectDefGarrisonStartingUnits(int defID, bool on): Turn on the garrison starting units flag."	ds	1
+00b63828	rmSetObjectDefGarrisonSecondaryUnits(int defID, bool on): Turn on the garrison secondary units flag.	"rmSetObjectDefGarrisonSecondaryUnits(int defID, bool on): Turn on the garrison secondary units flag."	ds	1
+00b638b8	rmSetObjectDefMaxDistance(int defID, float dist): Set the maximum distance for the object definition (in meters).	"rmSetObjectDefMaxDistance(int defID, float dist): Set the maximum distance for the object definition (in meters)."	ds	1
+00b63948	rmSetObjectDefMinDistance(int defID, float dist): Set the minimum distance for the object definition (in meters).	"rmSetObjectDefMinDistance(int defID, float dist): Set the minimum distance for the object definition (in meters)."	ds	1
+00b639d8	rmCreateStartingUnitsObjectDef(float clusterDistance): Creates special object definition for starting units with the given cluster distance.	"rmCreateStartingUnitsObjectDef(float clusterDistance): Creates special object definition for starting units with the given cluster distance."	ds	1
+00b63a88	rmCreateObjectDef(string name): Creates an object definition.	"rmCreateObjectDef(string name): Creates an object definition."	ds	1
+00b63ae0	rmConstraintID(string name): Gets constraint ID for given constraint name.	"rmConstraintID(string name): Gets constraint ID for given constraint name."	ds	1
+00b63b3c	rmClassID(string name): Gets class ID for given class name.	"rmClassID(string name): Gets class ID for given class name."	ds	1
+00b64f68	rmSetTeamArea(int teamID, int areaID): Sets a team's 'official' area.	"rmSetTeamArea(int teamID, int areaID): Sets a team's 'official' area."	ds	1
+00b64fc0	rmGetNumberPlayersOnTeam(int teamID): Gets the number of players on the given team.	"rmGetNumberPlayersOnTeam(int teamID): Gets the number of players on the given team."	ds	1
+00b65030	rmGetPlayerCulture(int playerID): Gets the culture the specified player is on.	"rmGetPlayerCulture(int playerID): Gets the culture the specified player is on."	ds	1
+00b65098	rmGetPlayerCiv(int playerID): Gets the civilization the specified player is on.	"rmGetPlayerCiv(int playerID): Gets the civilization the specified player is on."	ds	1
+00b650f8	rmGetPlayerTeam(int playerID): Gets the team the specified player is on.	"rmGetPlayerTeam(int playerID): Gets the team the specified player is on."	ds	1
+00b65154	rmGetPlayerName(int playerID): Gets a player's name.	"rmGetPlayerName(int playerID): Gets a player's name."	ds	1
+00b651a0	rmMultiplyPlayerResource(int playerID, string resourceName, float factor): Multiplys a player's resource amount by the given factor.	"rmMultiplyPlayerResource(int playerID, string resourceName, float factor): Multiplys a player's resource amount by the given factor."	ds	1
+00b65248	rmAddPlayerResource(int playerID, string resourceName, float amount): Adds to a player's resource amount.	"rmAddPlayerResource(int playerID, string resourceName, float amount): Adds to a player's resource amount."	ds	1
+00b652c8	rmSetPlayerResource(int playerID, string resourceName, float amount): Sets a player's resource amount.	"rmSetPlayerResource(int playerID, string resourceName, float amount): Sets a player's resource amount."	ds	1
+00b65488	rmResetFairLocs(): Resets fairLoc placment info.	"rmResetFairLocs(): Resets fairLoc placment info."	ds	1
+00b655f8	rmPlayerLocZFraction(int playerID): Gets a player's start location z fraction.	"rmPlayerLocZFraction(int playerID): Gets a player's start location z fraction."	ds	1
+00b65660	rmPlayerLocXFraction(int playerID): Gets a player's start location x fraction.	"rmPlayerLocXFraction(int playerID): Gets a player's start location x fraction."	ds	1
+00b656c8	rmSetPlayerArea(int playerID, int areaID): Sets a player's 'official' area.	"rmSetPlayerArea(int playerID, int areaID): Sets a player's 'official' area."	ds	1
+00b65728	rmPlacePlayer(int playerID, float xFraction, float zFraction): Sets one player location.	"rmPlacePlayer(int playerID, float xFraction, float zFraction): Sets one player location."	ds	1
+00b65798	rmPlacePlayersRiver(int riverID, float distVariation, float spacingVariation, float edgeDistance): Makes a line of player locations along the specified river.	"rmPlacePlayersRiver(int riverID, float distVariation, float spacingVariation, float edgeDistance): Makes a line of player locations along the specified river."	ds	1
+00b65850	rmPlacePlayersLine(float x1, float z1, float x2, float z2, float distVariation, float spacingVariation): Makes a line of player locations.	"rmPlacePlayersLine(float x1, float z1, float x2, float z2, float distVariation, float spacingVariation): Makes a line of player locations."	ds	1
+00b658f0	rmPlacePlayersSquare(float dist, float distVariation, float spacingVariationfloat): Makes a square of player locations.	"rmPlacePlayersSquare(float dist, float distVariation, float spacingVariationfloat): Makes a square of player locations."	ds	1
+00b65980	rmPlacePlayersCircular(float minFraction, float maxFraction, float angleVariation): Makes a circle of player locations.	"rmPlacePlayersCircular(float minFraction, float maxFraction, float angleVariation): Makes a circle of player locations."	ds	1
+00b65a10	rmSetPlacementSection(float fromPercent, float toPercent): Sets the section of the placement line to use.	"rmSetPlacementSection(float fromPercent, float toPercent): Sets the section of the placement line to use."	ds	1
+00b65a94	rmSetPlacementTeam(int teamID): Sets the team to place.	"rmSetPlacementTeam(int teamID): Sets the team to place."	ds	1
+00b65ae0	rmSetTeamSpacingModifier(float modifier): Sets the team spacing modifier.	"rmSetTeamSpacingModifier(float modifier): Sets the team spacing modifier."	ds	1
+00b65b48	rmSetPlayerPlacementArea(float minX, float minZ, float maxX, float maxZ): Sets the area of the map to use for player placement.	"rmSetPlayerPlacementArea(float minX, float minZ, float maxX, float maxZ): Sets the area of the map to use for player placement."	ds	1
+00b65c70	rmAddMerc(string unitName, float count, float minCount, float maxCount, float countIncrement, bool multipleUses ) : Adds mercs of to the merc manager for this game.	"rmAddMerc(string unitName, float count, float minCount, float maxCount, float countIncrement, bool multipleUses ) : Adds mercs of to the merc manager for this game."	ds	1
+00b65d24	rmGetCivID(string civName) : Returns the civ ID.	"rmGetCivID(string civName) : Returns the civ ID."	ds	1
+00b65d68	rmSetSubCiv(int index, string civName, bool big) : Sets a given sub civ in the world.	"rmSetSubCiv(int index, string civName, bool big) : Sets a given sub civ in the world."	ds	1
+00b65dd0	rmAllocateSubCivs(int number) : Allocates the number of sub civs in the world.	"rmAllocateSubCivs(int number) : Allocates the number of sub civs in the world."	ds	1
+00b65e34	rmSetGaiaCiv(int civ) : Sets Gaia's civilization	"rmSetGaiaCiv(int civ) : Sets Gaia's civilization"	ds	1
+00b65e78	rmDoLightingEffect("lightSetName", blendInTime, effectTime, blendOutTime):  applies a lighting set effect.	"rmDoLightingEffect(\"lightSetName\", blendInTime, effectTime, blendOutTime):  applies a lighting set effect."	ds	1
+00b65ef8	rmDoLightingFade("lightSetName", fadeTime):  applies a lighting set fade.	"rmDoLightingFade(\"lightSetName\", fadeTime):  applies a lighting set fade."	ds	1
+00b65f58	rmSetLightingSet(string name) : Sets a lighting set	"rmSetLightingSet(string name) : Sets a lighting set"	ds	1
+00b65fa0	rmFillMapCorners(): Fill map corners with blackmap.	"rmFillMapCorners(): Fill map corners with blackmap."	ds	1
+00b65fe8	rmTerrainInitialize( string baseTerrain, float height ): Initializes the terrain to the base type and height.	"rmTerrainInitialize( string baseTerrain, float height ): Initializes the terrain to the base type and height."	ds	1
+00b66070	rmSetWindMagnitude(float magnitude): sets the global wind magnitude (1.0f is default).	"rmSetWindMagnitude(float magnitude): sets the global wind magnitude (1.0f is default)."	ds	1
+00b660e0	rmSetGlobalStormLength(length, timeBetweenStorms): sets storm length and time between storm in seconds.	"rmSetGlobalStormLength(length, timeBetweenStorms): sets storm length and time between storm in seconds."	ds	1
+00b66160	rmSetGlobalRain(percent): sets the global rain percent.	"rmSetGlobalRain(percent): sets the global rain percent."	ds	1
+00b661a8	rmSetGlobalSnow(percent): sets the global snow percent.	"rmSetGlobalSnow(percent): sets the global snow percent."	ds	1
+00b661f0	rmSetAreaReveal(int areaID, int tiles): Sets the area to be revealed (-1 means don't reveal, 0 means reveal, >0 means reveal plus that number of extra tiles.	"rmSetAreaReveal(int areaID, int tiles): Sets the area to be revealed (-1 means don't reveal, 0 means reveal, >0 means reveal plus that number of extra tiles."	ds	1
+00b662a0	rmSetAreaElevationNoiseBias(int areaID, float bias): Sets the area elevation variation noise bias (-1 means down only, 0 means +- equally, 1 means up only.)	"rmSetAreaElevationNoiseBias(int areaID, float bias): Sets the area elevation variation noise bias (-1 means down only, 0 means +- equally, 1 means up only.)"	ds	1
+00b66360	rmSetAreaElevationEdgeFalloffDist(int areaID, float dist): Sets the area elevation noise to falloff as it gets closer to the area edge.	"rmSetAreaElevationEdgeFalloffDist(int areaID, float dist): Sets the area elevation noise to falloff as it gets closer to the area edge."	ds	1
+00b66410	rmSetAreaElevationVariation(int areaID, float variation): Sets the area elevation variation height (amount to vary +- from area base height).	"rmSetAreaElevationVariation(int areaID, float variation): Sets the area elevation variation height (amount to vary +- from area base height)."	ds	1
+00b664c0	rmSetAreaElevationPersistence(int areaID, float persistence): Sets the area elevation variation noise persistence (best >0 and <1).	"rmSetAreaElevationPersistence(int areaID, float persistence): Sets the area elevation variation noise persistence (best >0 and <1)."	ds	1
+00b66568	rmSetAreaElevationOctaves(int areaID, int octaves): Sets the area elevation variation noise octaves.	"rmSetAreaElevationOctaves(int areaID, int octaves): Sets the area elevation variation noise octaves."	ds	1
+00b665f0	rmSetAreaElevationMinFrequency(int areaID, float freq): Sets the area elevation variation noise frequency (best >0 and <1).	"rmSetAreaElevationMinFrequency(int areaID, float freq): Sets the area elevation variation noise frequency (best >0 and <1)."	ds	1
+00b66690	rmSetAreaElevationType(int areaID, int type): Sets the area elevation variation type (cElevNormal, cElevFractalSum, cElevTurbulence).	"rmSetAreaElevationType(int areaID, int type): Sets the area elevation variation type (cElevNormal, cElevFractalSum, cElevTurbulence)."	ds	1
+00b66730	rmAddAreaTerrainReplacement(int areaID, string terrainTypeName, string newTypeName): Adds a terrain replacement rule to the area.	"rmAddAreaTerrainReplacement(int areaID, string terrainTypeName, string newTypeName): Adds a terrain replacement rule to the area."	ds	1
+00b667d0	rmAddAreaRemoveType(int areaID, string typeName): Add an unit type that the specified area removes.	"rmAddAreaRemoveType(int areaID, string typeName): Add an unit type that the specified area removes."	ds	1
+00b66848	rmAddAreaInfluenceSegment(int areaID, float xFraction1, float zFraction1, float xFraction2, float zFraction2): Adds an area influence segment.	"rmAddAreaInfluenceSegment(int areaID, float xFraction1, float zFraction1, float xFraction2, float zFraction2): Adds an area influence segment."	ds	1
+00b668f8	rmAddAreaInfluencePoint(int areaID, float xFraction, float zFraction): Adds an area influence point.	"rmAddAreaInfluencePoint(int areaID, float xFraction, float zFraction): Adds an area influence point."	ds	1
+00b66978	rmAreaID(string name): Gets area ID for given area name.	"rmAreaID(string name): Gets area ID for given area name."	ds	1
+00b669c0	rmSetAreaHeightBlend(int areaID, int heightBlend): Sets how smoothly area height blends into surroundings.	"rmSetAreaHeightBlend(int areaID, int heightBlend): Sets how smoothly area height blends into surroundings."	ds	1
+00b66a48	rmSetAreaSmoothDistance(int areaID, int smoothDistance): Sets area edge smoothing distance (distance is number of neighboring points to consider in each direction).	"rmSetAreaSmoothDistance(int areaID, int smoothDistance): Sets area edge smoothing distance (distance is number of neighboring points to consider in each direction)."	ds	1
+00b66b08	rmSetAreaCoherence(int areaID, float coherence): Sets area coherence (0-1).	"rmSetAreaCoherence(int areaID, float coherence): Sets area coherence (0-1)."	ds	1
+00b66b68	rmSetAreaMaxBlobDistance(int areaID, float dist): Sets maximum blob distance.	"rmSetAreaMaxBlobDistance(int areaID, float dist): Sets maximum blob distance."	ds	1
+00b66bd8	rmSetAreaMinBlobDistance(int areaID, float dist): Sets minimum blob distance.	"rmSetAreaMinBlobDistance(int areaID, float dist): Sets minimum blob distance."	ds	1
+00b66c48	rmSetAreaMaxBlobs(int areaID, int blobs): Sets maximum number of area blobs.	"rmSetAreaMaxBlobs(int areaID, int blobs): Sets maximum number of area blobs."	ds	1
+00b66cb0	rmSetAreaMinBlobs(int areaID, int blobs): Sets minimum number of area blobs.	"rmSetAreaMinBlobs(int areaID, int blobs): Sets minimum number of area blobs."	ds	1
+00b66d18	rmSetAreaTerrainLayerVariance(int areaID, bool variance): Specifies if the area should vary the terrain layer edges.	"rmSetAreaTerrainLayerVariance(int areaID, bool variance): Specifies if the area should vary the terrain layer edges."	ds	1
+00b66db0	rmAddAreaTerrainLayer(int areaID, string terrain, float minDist, float maxDist): Adds a terrain layer to an area.	"rmAddAreaTerrainLayer(int areaID, string terrain, float minDist, float maxDist): Adds a terrain layer to an area."	ds	1
+00b66e40	rmSetAreaObeyWorldCircleConstraint(int areaID, bool constrain): Determines whether an area obeys world circle constraint.	"rmSetAreaObeyWorldCircleConstraint(int areaID, bool constrain): Determines whether an area obeys world circle constraint."	ds	1
+00b66ee0	rmSetWorldCircleConstraint(bool constrain): sets whether RM activities should be constrained to the main world circle.	"rmSetWorldCircleConstraint(bool constrain): sets whether RM activities should be constrained to the main world circle."	ds	1
+00b66f78	rmSetRiverFoundationParams(int tileBuffer, float heightOffset) -- sets up river foundation parameters: the terrain buffer around the river, and the height of the banks above water level	"rmSetRiverFoundationParams(int tileBuffer, float heightOffset) -- sets up river foundation parameters: the terrain buffer around the river, and the height of the banks above water level"	ds	1
+00b67050	rmRiverReveal(int riverID, int extraTiles) -- reveals a river plus the specified number of extra tiles around it.	"rmRiverReveal(int riverID, int extraTiles) -- reveals a river plus the specified number of extra tiles around it."	ds	1
+00b670e4	rmRiverAvoid(riverID, riverID2, minDist)	"rmRiverAvoid(riverID, riverID2, minDist)"	ds	1
+00b67120	rmRiverAddShallows(riverID, count, radius);	"rmRiverAddShallows(riverID, count, radius);"	ds	1
+00b67160	rmRiverAddShallow(riverID, distancePct);	"rmRiverAddShallow(riverID, distancePct);"	ds	1
+00b671a0	rmRiverSetShallowRadius(riverID, radius);	"rmRiverSetShallowRadius(riverID, radius);"	ds	1
+00b671e8	rmRiverSetBankNoiseParams(riverID, frequency, octaves, persistence, sineLength, sineAmt, variation);	"rmRiverSetBankNoiseParams(riverID, frequency, octaves, persistence, sineLength, sineAmt, variation);"	ds	1
+00b67270	rmRiverAddWaypoint(riverID, xFraction, zFraction): Add waypoint to a river.  Don't mix with rmRiverSetConnections or rmRiverConnectRiver	"rmRiverAddWaypoint(riverID, xFraction, zFraction): Add waypoint to a river.  Don't mix with rmRiverSetConnections or rmRiverConnectRiver"	ds	1
+00b67310	rmRiverConnectRiver(riverID, riverID, pct, end);	"rmRiverConnectRiver(riverID, riverID, pct, end);"	ds	1
+00b67358	rmRiverSetConnections(riverID, start, end);	"rmRiverSetConnections(riverID, start, end);"	ds	1
+00b673a0	rmRiverCreate(int areaID, string waterType, int breaks, int offset, int minR, int maxR): make a river dude.	"rmRiverCreate(int areaID, string waterType, int breaks, int offset, int minR, int maxR): make a river dude."	ds	1
+00b67420	rmAddAreaCliffEdgeAvoidClass(int areaID, int avoidID, float minDist): Adds a class for an area's cliff edge to avoid.	"rmAddAreaCliffEdgeAvoidClass(int areaID, int avoidID, float minDist): Adds a class for an area's cliff edge to avoid."	ds	1
+00b674b8	rmSetAreaCliffHeight(int areaID, float val, float variance, float ramp): Set an area's cliff height.	"rmSetAreaCliffHeight(int areaID, float val, float variance, float ramp): Set an area's cliff height."	ds	1
+00b67538	rmSetAreaCliffEdge(int areaID, int count, float size, float variance, float spacing, int mapEdge): Set cliff edge parameters for an area.	"rmSetAreaCliffEdge(int areaID, int count, float size, float variance, float spacing, int mapEdge): Set cliff edge parameters for an area."	ds	1
+00b675d8	rmSetAreaCliffPainting(int areaID, bool paintGround, bool paintOutsideEdge, bool paintSide, float minSideHeight, bool paintInsideEdge): Set cliff painting options for an area.	"rmSetAreaCliffPainting(int areaID, bool paintGround, bool paintOutsideEdge, bool paintSide, float minSideHeight, bool paintInsideEdge): Set cliff painting options for an area."	ds	1
+00b676a0	rmSetAreaCliffType(int areaID, string cliffName): Sets the cliff type for an area.	"rmSetAreaCliffType(int areaID, string cliffName): Sets the cliff type for an area."	ds	1
+00b677f8	rmSetAreaWaterType(int areaID, string waterName): Sets the water type for an area.	"rmSetAreaWaterType(int areaID, string waterName): Sets the water type for an area."	ds	1
+00b67860	rmSetAreaForestUnderbrush(int areaID, float density): Sets the forest density for an area.	"rmSetAreaForestUnderbrush(int areaID, float density): Sets the forest density for an area."	ds	1
+00b678d8	rmSetAreaForestClumpiness(int areaID, float density): Sets the forest density for an area.	"rmSetAreaForestClumpiness(int areaID, float density): Sets the forest density for an area."	ds	1
+00b67950	rmSetAreaForestDensity(int areaID, float density): Sets the forest density for an area.	"rmSetAreaForestDensity(int areaID, float density): Sets the forest density for an area."	ds	1
+00b67a10	rmSetAreaForestType(int areaID, string forestName): Sets the forest type for an area.	"rmSetAreaForestType(int areaID, string forestName): Sets the forest type for an area."	ds	1
+00b67a80	rmSetAreaWarnFailure(int areaID, bool warn): Sets whether the area build process will warn if it fails.	"rmSetAreaWarnFailure(int areaID, bool warn): Sets whether the area build process will warn if it fails."	ds	1
+00b67b00	rmSetAreaBaseHeight(int areaID, float height): Sets the base height for an area.	"rmSetAreaBaseHeight(int areaID, float height): Sets the base height for an area."	ds	1
+00b67b68	rmPaintAreaTerrainByAngle(long areaID, string terrain, float minAngle, float maxAngle, float outerRange): Paints the area's tiles in the specified angle range with specified terrain (with outerRange buffer if feathering is desired).	"rmPaintAreaTerrainByAngle(long areaID, string terrain, float minAngle, float maxAngle, float outerRange): Paints the area's tiles in the specified angle range with specified terrain (with outerRange buffer if feathering is desired)."	ds	1
+00b67c70	rmPaintAreaTerrainByHeight(long areaID, string terrain, float minHeight, float maxHeight, float outerRange): Paints the area's tiles in the specified height range with specified terrain (with outerRange buffer if feathering is desired).	"rmPaintAreaTerrainByHeight(long areaID, string terrain, float minHeight, float maxHeight, float outerRange): Paints the area's tiles in the specified height range with specified terrain (with outerRange buffer if feathering is desired)."	ds	1
+00b67d80	rmPaintAreaTerrain(int areaID): Paints the terrain for a specified area.	"rmPaintAreaTerrain(int areaID): Paints the terrain for a specified area."	ds	1
+00b67de0	rmSetAreaMix(int areaID, string mixName): Sets the mix for an area.  Overrides terrain type if it is also set.	"rmSetAreaMix(int areaID, string mixName): Sets the mix for an area.  Overrides terrain type if it is also set."	ds	1
+00b67e60	rmSetAreaTerrainType(int areaID, string terrainTypeName): Sets the terrain type for an area.	"rmSetAreaTerrainType(int areaID, string terrainTypeName): Sets the terrain type for an area."	ds	1
+00b67ed8	rmBuildAllAreas(): Simulatenously builds all unbuilt areas.	"rmBuildAllAreas(): Simulatenously builds all unbuilt areas."	ds	1
+00b67f24	rmBuildArea(int areaID): Builds the specified area.	"rmBuildArea(int areaID): Builds the specified area."	ds	1
+00b67f68	rmSetAreaLocTeam(int areaID, int teamID): Set the area location to team's location.	"rmSetAreaLocTeam(int areaID, int teamID): Set the area location to team's location."	ds	1
+00b67fd0	rmSetAreaLocPlayer(int areaID, int playerID): Set the area location to player's location.	"rmSetAreaLocPlayer(int areaID, int playerID): Set the area location to player's location."	ds	1
+00b68040	rmSetAreaLocation(int areaID, float xFraction, float zFraction): Set the area location.	"rmSetAreaLocation(int areaID, float xFraction, float zFraction): Set the area location."	ds	1
+00b680b0	rmSetAreaEdgeFilling(int areaID, int borderSize): Enable edge filling and set a border search size (for Carolina and similar maps with a big continent).	"rmSetAreaEdgeFilling(int areaID, int borderSize): Enable edge filling and set a border search size (for Carolina and similar maps with a big continent)."	ds	1
+00b68168	rmSetAreaSize(float minFraction, float maxFraction): Set the area size to a min/max fraction of the map.	"rmSetAreaSize(float minFraction, float maxFraction): Set the area size to a min/max fraction of the map."	ds	1
+00b681e4	rmCreateArea(string name, int parentAreaID): Creates an area.	"rmCreateArea(string name, int parentAreaID): Creates an area."	ds	1
+00b68238	rmZFractionToMeters(float meters): Converts meters a fraction of the map in the z direction to meters.	"rmZFractionToMeters(float meters): Converts meters a fraction of the map in the z direction to meters."	ds	1
+00b682b8	rmXFractionToMeters(float meters): Converts a fraction of the map in the x direction to meters.	"rmXFractionToMeters(float meters): Converts a fraction of the map in the x direction to meters."	ds	1
+00b68330	rmZMetersToFraction(float meters): Converts meters into a fraction of the map in the z direction.	"rmZMetersToFraction(float meters): Converts meters into a fraction of the map in the z direction."	ds	1
+00b683a8	rmXMetersToFraction(float meters): Converts meters into a fraction of the map in the x direction.	"rmXMetersToFraction(float meters): Converts meters into a fraction of the map in the x direction."	ds	1
+00b68420	rmTilesToMeters(int tiles): Converts a number of tiles to a distance in meters.	"rmTilesToMeters(int tiles): Converts a number of tiles to a distance in meters."	ds	1
+00b68480	rmMetersToTiles(float meters): Converts a distance in meters to a number of tiles.	"rmMetersToTiles(float meters): Converts a distance in meters to a number of tiles."	ds	1
+00b684e8	rmDegreesToRadians(float degrees): Converts an angle in degrees to radians.	"rmDegreesToRadians(float degrees): Converts an angle in degrees to radians."	ds	1
+00b68548	rmZTilesToFraction(int tiles): Converts tile count in the z direction to fraction of map.	"rmZTilesToFraction(int tiles): Converts tile count in the z direction to fraction of map."	ds	1
+00b685b8	rmZFractionToTiles(float fraction): Converts an fraction of the map in the z direction to tile count.	"rmZFractionToTiles(float fraction): Converts an fraction of the map in the z direction to tile count."	ds	1
+00b68638	rmXTilesToFraction(int tiles): Converts tile count in the x direction to fraction of map.	"rmXTilesToFraction(int tiles): Converts tile count in the x direction to fraction of map."	ds	1
+00b686a8	rmXFractionToTiles(float fraction): Converts an fraction of the map in the x direction to tile count.	"rmXFractionToTiles(float fraction): Converts an fraction of the map in the x direction to tile count."	ds	1
+00b68728	rmAreaTilesToFraction(int tiles): Converts area tile count to fraction of map.	"rmAreaTilesToFraction(int tiles): Converts area tile count to fraction of map."	ds	1
+00b68790	rmAreaFractionToTiles(float fraction): Converts an area from fraction of the map to tile count.	"rmAreaFractionToTiles(float fraction): Converts an area from fraction of the map to tile count."	ds	1
+00b68808	rmSetMapClusteringNoiseParams(float minFrequency, int octaves, float persistence): sets up cluster system; standard inputs to noise generator used to determine cluster placement.	"rmSetMapClusteringNoiseParams(float minFrequency, int octaves, float persistence): sets up cluster system; standard inputs to noise generator used to determine cluster placement."	ds	1
+00b688e0	rmSetMapClusteringObjectParams(int minObjectCount, int maxObjectCount, float maxPosOffset): sets up cluster system; min/max objects per tile (default: 0-3), and max random offset when placing (default: 0.5 tiles).	"rmSetMapClusteringObjectParams(int minObjectCount, int maxObjectCount, float maxPosOffset): sets up cluster system; min/max objects per tile (default: 0-3), and max random offset when placing (default: 0.5 tiles)."	ds	1
+00b689d8	rmSetMapClusteringPlacementParams(float paintThreshold, float placeMinVal, float placeMaxVal, int type): sets up cluster system; valid ranges are from -1.0 to 1.0 and are compared to the internal noise field for deciding where to paint terrain and place clusters. Type is cClusterLand, or cClusterWater, or cClusterShallowWater, or cClusterEverywhere.	"rmSetMapClusteringPlacementParams(float paintThreshold, float placeMinVal, float placeMaxVal, int type): sets up cluster system; valid ranges are from -1.0 to 1.0 and are compared to the internal noise field for deciding where to paint terrain and place clusters. Type is cClusterLand, or cClusterWater, or cClusterShallowWater, or cClusterEverywhere."	ds	1
+00b68b60	rmPlaceMapClusters(string terrain, string protounit): place object clusters (of the specified protounit) around the map, and also optionally paint with the specified terrain.	"rmPlaceMapClusters(string terrain, string protounit): place object clusters (of the specified protounit) around the map, and also optionally paint with the specified terrain."	ds	1
+00b68c28	rmSetMapElevationHeightBlend(int blend): Sets how much to smooth the overall terrain after initializing with noise.	"rmSetMapElevationHeightBlend(int blend): Sets how much to smooth the overall terrain after initializing with noise."	ds	1
+00b68cc0	rmAddMapTerrainByAngleInfo(string terrain, float minSlope, float maxSlope, float outerRange): Adds a terrain to paint on tiles that are sloped between the specified angles (0 degrees is flat terrain, 90 degrees is sheer terrain), modified by a random number between 0.0 and outerRange.	"rmAddMapTerrainByAngleInfo(string terrain, float minSlope, float maxSlope, float outerRange): Adds a terrain to paint on tiles that are sloped between the specified angles (0 degrees is flat terrain, 90 degrees is sheer terrain), modified by a random number between 0.0 and outerRange."	ds	1
+00b68e00	rmAddMapTerrainByHeightInfo(string terrain, float minHeight, float maxHeight, float outerRange): Adds a terrain to paint between the specified heights, modified by a random number between 0.0 and outerRange.	"rmAddMapTerrainByHeightInfo(string terrain, float minHeight, float maxHeight, float outerRange): Adds a terrain to paint between the specified heights, modified by a random number between 0.0 and outerRange."	ds	1
+00b68ef0	rmSetBaseTerrainMix(string mixName): Initializes the base terrain with the requested mix.  Call before rmTerrainInitialize.	"rmSetBaseTerrainMix(string mixName): Initializes the base terrain with the requested mix.  Call before rmTerrainInitialize."	ds	1
+00b68f80	rmSetMapElevationParameters(int type, float freq, int octaves, float persistence, float variation): Sets up terrain for initializing with a noise layer.	"rmSetMapElevationParameters(int type, float freq, int octaves, float persistence, float variation): Sets up terrain for initializing with a noise layer."	ds	1
+00b69038	rmSetSeaType(string name): Sets the sea type for the map.  This is used if terrain is initialized to water.	"rmSetSeaType(string name): Sets the sea type for the map.  This is used if terrain is initialized to water."	ds	1
+00b690b4	rmGetSeaLevel(): Gets the sea level for the map.	"rmGetSeaLevel(): Gets the sea level for the map."	ds	1
+00b690f8	rmSetSeaLevel(): Sets the sea level for the map.	"rmSetSeaLevel(): Sets the sea level for the map."	ds	1
+00b691d4	rmSetMapSize( int x, int z ): Sets the size of the map.	"rmSetMapSize( int x, int z ): Sets the size of the map."	ds	1
+00b69220	rmGetIsFFA(): Returns true if this map is set to be a FFA game which means each player on their own team.	"rmGetIsFFA(): Returns true if this map is set to be a FFA game which means each player on their own team."	ds	1
+00b69298	rmGetNomadStart(): Returns true if this map is to place a covered wagon instead of a town center.	"rmGetNomadStart(): Returns true if this map is to place a covered wagon instead of a town center."	ds	1
+00b69310	rmRandInt(int min, int max): Returns a random integer between min and max.	"rmRandInt(int min, int max): Returns a random integer between min and max."	ds	1
+00b69368	rmRandFloat(float min, float max): Returns a random float between min and max.	"rmRandFloat(float min, float max): Returns a random float between min and max."	ds	1
+00b693c4	rmEchoInfo( string echoString, int level ): Random map echo.	"rmEchoInfo( string echoString, int level ): Random map echo."	ds	1
+00b69410	rmEchoError( string echoString, int level ): Random map echo.	"rmEchoError( string echoString, int level ): Random map echo."	ds	1
+00b69460	rmEchoWarning( string echoString, int level ): Random map echo.	"rmEchoWarning( string echoString, int level ): Random map echo."	ds	1
+00b6a930	uiPowerCircleMenu([on]) : turn on/off gamepad power panel circle menu.	"uiPowerCircleMenu([on]) : turn on/off gamepad power panel circle menu."	ds	1
+00b6a990	uiCommandCircleMenu([on]) : turn on/off gamepad command panel circle menu.	"uiCommandCircleMenu([on]) : turn on/off gamepad command panel circle menu."	ds	1
+00b6aa40	uiCommandPanelMove([x], [y]) : move between selections in the command panel.	"uiCommandPanelMove([x], [y]) : move between selections in the command panel."	ds	1
+00b6aaa8	uiCommandPanelControl([on]) : turn on/off gamepad command panel control.	"uiCommandPanelControl([on]) : turn on/off gamepad command panel control."	ds	1
+00b6ab10	changeCliffType(string cliffName): change the cliff type for all cliffs on the map	"changeCliffType(string cliffName): change the cliff type for all cliffs on the map"	ds	1
+00b6ab74	modelDestroyAll()	"modelDestroyAll()"	ds	1
+00b6ab98	modelSetAnim(anim Index)	"modelSetAnim(anim Index)"	ds	1
+00b6abc4	modelLoad(model XML file name)	"modelLoad(model XML file name)"	ds	1
+00b6ae0c	showCampaignDialog(<name><msg>): UI used only	"showCampaignDialog(<name><msg>): UI used only"	ds	1
+00b6ae50	mpCustomScreenSetSavegame(<name>): UI used only	"mpCustomScreenSetSavegame(<name>): UI used only"	ds	1
+00b6ae9c	enterCampaignMode(<name>): 	"enterCampaignMode(<name>): "	ds	1
+00b6aecc	enterGCGameMode(<name>): 	"enterGCGameMode(<name>): "	ds	1
+00b6aef8	enterRecordGameMode(<name>): 	"enterRecordGameMode(<name>): "	ds	1
+00b6af9c	doMPSetup(bool useESO) : Enter BMultiplayer setup.	"doMPSetup(bool useESO) : Enter BMultiplayer setup."	ds	1
+00b6afdc	doSPSetup() : Enter Single player setup.	"doSPSetup() : Enter Single player setup."	ds	1
+00b6b2c0	setSunPosition( [integerSunInclination] [integerSunRotation] [boolRelative] ) sets the sun height above the horizon and position in the world, The bool tells if the changes are relative	"setSunPosition( [integerSunInclination] [integerSunRotation] [boolRelative] ) sets the sun height above the horizon and position in the world, The bool tells if the changes are relative"	ds	1
+00b6b390	sunDecreaseRotation([integerKeyState]) : intended for ui use only.  Indicates that the decrease sun rotation key has gone up/down.	"sunDecreaseRotation([integerKeyState]) : intended for ui use only.  Indicates that the decrease sun rotation key has gone up/down."	ds	1
+00b6b428	sunIncreaseRotation([integerKeyState]) : intended for ui use only.  Indicates that the increase sun rotation key has gone up/down.	"sunIncreaseRotation([integerKeyState]) : intended for ui use only.  Indicates that the increase sun rotation key has gone up/down."	ds	1
+00b6b4c0	sunDecreaseInclination([integerKeyState]) : intended for ui use only.  Indicates that the decrease sun inclination key has gone up/down.	"sunDecreaseInclination([integerKeyState]) : intended for ui use only.  Indicates that the decrease sun inclination key has gone up/down."	ds	1
+00b6b568	sunIncreaseInclination([integerKeyState]) : intended for ui use only.  Indicates that the increase sun inclination key has gone up/down.	"sunIncreaseInclination([integerKeyState]) : intended for ui use only.  Indicates that the increase sun inclination key has gone up/down."	ds	1
+00b6b9a0	chat([stringText] {integerPlayer}) : adds a line of chat text from the given player (current if not provided.	"chat([stringText] {integerPlayer}) : adds a line of chat text from the given player (current if not provided."	ds	1
+00b6ba18	minimapRotateMode({integerMode}) : changes the minimap rotation mode.  No arg means toggle.	"minimapRotateMode({integerMode}) : changes the minimap rotation mode.  No arg means toggle."	ds	1
+00b6ba88	minimapZoom([floatZoom]) : sets the zoom factor of the minimap.	"minimapZoom([floatZoom]) : sets the zoom factor of the minimap."	ds	1
+00b6bad8	minimapZoomDelta([floatZoomDelta]) : changes the zoom factor of the minimap up or down by that amount (remaining centered on the current view)	"minimapZoomDelta([floatZoomDelta]) : changes the zoom factor of the minimap up or down by that amount (remaining centered on the current view)"	ds	1
+00b6bcd8	startRandomGameMapCode(<mapcode> : Generates a random map game with the given map code.	"startRandomGameMapCode(<mapcode> : Generates a random map game with the given map code."	ds	1
+00b6bd48	startRandomGame2(<filename> <#players> <random seed> <scenarioFilename> <debug> <teamCount> <mapsize> <resources>) : begins a new random game with the given parms.	"startRandomGame2(<filename> <#players> <random seed> <scenarioFilename> <debug> <teamCount> <mapsize> <resources>) : begins a new random game with the given parms."	ds	1
+00b6be40	sendPromptType(int sendingPlayer, int promptType): send AIChat to current player from sendingPlayer; specify desired AIChatPromptType.	"sendPromptType(int sendingPlayer, int promptType): send AIChat to current player from sendingPlayer; specify desired AIChatPromptType."	ds	1
+00b6bed8	sendTributeSentence(int sendingPlayer, int receivingPlayer, int resourceID): send tribute sentence from one player to another; specify desired resource.	"sendTributeSentence(int sendingPlayer, int receivingPlayer, int resourceID): send tribute sentence from one player to another; specify desired resource."	ds	1
+00b6bf88	sendDefendSentence(int sendingPlayer, int receivingPlayer, float xPos, float zPos): send defend sentence from one player to another; specify target xPos and zPos.	"sendDefendSentence(int sendingPlayer, int receivingPlayer, float xPos, float zPos): send defend sentence from one player to another; specify target xPos and zPos."	ds	1
+00b6c040	sendAttackSentence(int sendingPlayer, int receivingPlayer, int targetPlayer, int targetUnit, float xPos, float zPos): send attack sentence from one player to another; specify targetPlayer, or targetUnit, or xPos and zPos.	"sendAttackSentence(int sendingPlayer, int receivingPlayer, int targetPlayer, int targetUnit, float xPos, float zPos): send attack sentence from one player to another; specify targetPlayer, or targetUnit, or xPos and zPos."	ds	1
+00b6c260	showSPCNote(title, text) : Display's the SPC Note Dialog with the specified title and text.	"showSPCNote(title, text) : Display's the SPC Note Dialog with the specified title and text."	ds	1
+00b6c2c8	setDropTerrainMips( int num ) : Set mip levels to skip for terrain category textures.	"setDropTerrainMips( int num ) : Set mip levels to skip for terrain category textures."	ds	1
+00b6c338	setDropDefaultMips( int num ) : Set mip levels to skip for default category textures.	"setDropDefaultMips( int num ) : Set mip levels to skip for default category textures."	ds	1
+00b6c3a8	cancelTrainReinforcement( int armyID ) : Cancel training of a reinforcement.	"cancelTrainReinforcement( int armyID ) : Cancel training of a reinforcement."	ds	1
+00b6c414	trainReinforcement( int armyID ) : Trains a reinforcement.	"trainReinforcement( int armyID ) : Trains a reinforcement."	ds	1
+00b6c468	startMoviePlayback(string filename, long sizing, float fadeIn, float fadeOut) : Start fullscreen playback of a movie.	"startMoviePlayback(string filename, long sizing, float fadeIn, float fadeOut) : Start fullscreen playback of a movie."	ds	1
+00b6c4f8	vsync(int state) : Set vertical syncing (-1 toggles, 0 is off, 1 is on).	"vsync(int state) : Set vertical syncing (-1 toggles, 0 is off, 1 is on)."	ds	1
+00b6c550	specialPower( int playerID, int powerEntryIndex, int powerID ) : Special power use.	"specialPower( int playerID, int powerEntryIndex, int powerID ) : Special power use."	ds	1
+00b6c5b4	ability( int abilityId, int unitID ) : Explorer Abilities use.	"ability( int abilityId, int unitID ) : Explorer Abilities use."	ds	1
+00b6c600	spawnUnits(protoname, count, unitID) : Spawn Units from the UnitID building.	"spawnUnits(protoname, count, unitID) : Spawn Units from the UnitID building."	ds	1
+00b6c660	upgradeTradeRoute(int unitID) : UI use - upgrade the trade route associated with this unit.	"upgradeTradeRoute(int unitID) : UI use - upgrade the trade route associated with this unit."	ds	1
+00b6c6d0	setWorldTooltipRectDims1024(minX, minY, maxX, maxY) : Sets the world tooltip restricted screen rectangle to the given dimensions relative to 1024x768 resolution.	"setWorldTooltipRectDims1024(minX, minY, maxX, maxY) : Sets the world tooltip restricted screen rectangle to the given dimensions relative to 1024x768 resolution."	ds	1
+00b6c790	drawWorldTooltipClipRect() : Toggles whether or not to draw the world tooltip restricted screen rectangle.	"drawWorldTooltipClipRect() : Toggles whether or not to draw the world tooltip restricted screen rectangle."	ds	1
+00b6c818	toggleWorldTooltipClipRect() : Toggles whether or not world tooltips are using the restricted screen rectangle.	"toggleWorldTooltipClipRect() : Toggles whether or not world tooltips are using the restricted screen rectangle."	ds	1
+00b6c8a4	ransomExplorer() : ransoms your explorer	"ransomExplorer() : ransoms your explorer"	ds	1
+00b6c8e0	breakTreaty() : break your treaties	"breakTreaty() : break your treaties"	ds	1
+00b6c910	convertCoveredWagon() : Convert a covered wagon into a Town Center	"convertCoveredWagon() : Convert a covered wagon into a Town Center"	ds	1
+00b6c968	setHomeCityGatherUnit(int unitID): Sets the home city gather point to the specified unit.	"setHomeCityGatherUnit(int unitID): Sets the home city gather point to the specified unit."	ds	1
+00b6c9e0	cancelRepairUnit(int unitID): Cancels the auto repair on the specified unit.	"cancelRepairUnit(int unitID): Cancels the auto repair on the specified unit."	ds	1
+00b6ca48	repairUnit(int unitID): Starts the auto repair on the specified unit.	"repairUnit(int unitID): Starts the auto repair on the specified unit."	ds	1
+00b6cb08	loadUserDefinedGrouping(string groupingName) : Loads a grouping from the user writable grouping directory.	"loadUserDefinedGrouping(string groupingName) : Loads a grouping from the user writable grouping directory."	ds	1
+00b6cb90	loadGrouping( string groupingName ) : Loads a grouping.  No parameter pops up dialog.	"loadGrouping( string groupingName ) : Loads a grouping.  No parameter pops up dialog."	ds	1
+00b6cbf8	homeCityShipEject( int playerID, int buildingID, int puid, int index ) : Cancels the given unit out of the ship.	"homeCityShipEject( int playerID, int buildingID, int puid, int index ) : Cancels the given unit out of the ship."	ds	1
+00b6cc80	mercTrain( int playerID, int buildingID, int puid ) : Trains the given merc from the given home city building.	"mercTrain( int playerID, int buildingID, int puid ) : Trains the given merc from the given home city building."	ds	1
+00b6cd00	commandResearch( int commandID, int unitID) : Researches the given command from the given unit.	"commandResearch( int commandID, int unitID) : Researches the given command from the given unit."	ds	1
+00b6cd70	tradeRouteTrain( int playerID, int tradeRoutUnit, int puid ) : Trains the given PUID from the given trade post on the trade route.	"tradeRouteTrain( int playerID, int tradeRoutUnit, int puid ) : Trains the given PUID from the given trade post on the trade route."	ds	1
+00b6ce08	tradeRouteCommand( int playerID, int tradeRoutUnit, int commandID ) : Adds the given command to the trade post bucket.	"tradeRouteCommand( int playerID, int tradeRoutUnit, int commandID ) : Adds the given command to the trade post bucket."	ds	1
+00b6ce94	fourOfAKind() : starts the four of a kind victory if valid.	"fourOfAKind() : starts the four of a kind victory if valid."	ds	1
+00b6ced0	homeCityTransport( int playerID ) : Transports units from the home city.	"homeCityTransport( int playerID ) : Transports units from the home city."	ds	1
+00b6cf30	homeCityTrain2( int playerID, int cardIndex ) : Sends the given HC card in the home city.	"homeCityTrain2( int playerID, int cardIndex ) : Sends the given HC card in the home city."	ds	1
+00b6cfa0	homeCityTrain( int playerID, int buildingID, int puid ) : Trains the given PUID from the given home city building.	"homeCityTrain( int playerID, int buildingID, int puid ) : Trains the given PUID from the given home city building."	ds	1
+00b6d028	lookAtHomeCityBuilding( int building ) : View the specific home city building.	"lookAtHomeCityBuilding( int building ) : View the specific home city building."	ds	1
+00b6d090	toggleHomeCityViewTech( ) : Toggles tech home city view for the current player.	"toggleHomeCityViewTech( ) : Toggles tech home city view for the current player."	ds	1
+00b6d0f8	toggleHomeCityView( ) : Toggles home city view for the current player.	"toggleHomeCityView( ) : Toggles home city view for the current player."	ds	1
+00b6d158	playMovie() : Plays movies from a playlist in the AVI directory	"playMovie() : Plays movies from a playlist in the AVI directory"	ds	1
+00b6d1b8	confirmAutoPatcher() : Used to tell autpatcher user pressed OK on exit or error dialog.	"confirmAutoPatcher() : Used to tell autpatcher user pressed OK on exit or error dialog."	ds	1
+00b6d210	cancelAutoPatcher() : Cancel the auto patcher.	"cancelAutoPatcher() : Cancel the auto patcher."	ds	1
+00b6d254	startAutoPatcher(bool manualMode) : Start the auto patcher.	"startAutoPatcher(bool manualMode) : Start the auto patcher."	ds	1
+00b6d300	setGraphicDetail(<detailLevel>) : Sets the graphic detail.  (0 = HIGH, 1 = MEDIUM, 2 = LOW)	"setGraphicDetail(<detailLevel>) : Sets the graphic detail.  (0 = HIGH, 1 = MEDIUM, 2 = LOW)"	ds	1
+00b6d370	setMinimapUnitFilter() : sets the minimap filter for units	"setMinimapUnitFilter() : sets the minimap filter for units"	ds	1
+00b6d3c8	resetDefaultPlayerColors() : reloads the player colors from the XML file	"resetDefaultPlayerColors() : reloads the player colors from the XML file"	ds	1
+00b6d430	lookAtArmy(int playerID, string armyName) : looks at given kb army.	"lookAtArmy(int playerID, string armyName) : looks at given kb army."	ds	1
+00b6d480	lookAt(float x, float z) : looks at given x,z location on terrain.	"lookAt(float x, float z) : looks at given x,z location on terrain."	ds	1
+00b6d4d0	helpText( string helptextSubstring ) - Lists all of the commands that contain the given substring in their help text.	"helpText( string helptextSubstring ) - Lists all of the commands that contain the given substring in their help text."	ds	1
+00b6d548	help( string commandSubstring ) - Lists all of the commands that contain the given substring	"help( string commandSubstring ) - Lists all of the commands that contain the given substring"	ds	1
+00b6d5b0	helpPrefix( string commandPrefix ) - Lists all of the commands that start with the given prefix	"helpPrefix( string commandPrefix ) - Lists all of the commands that start with the given prefix"	ds	1
+00b6d620	modeToggleBetweenIfNotMP(<stringMode1> <stringMode2>) : toggles between the two modes only if we're not in a BMultiplayer game.	"modeToggleBetweenIfNotMP(<stringMode1> <stringMode2>) : toggles between the two modes only if we're not in a BMultiplayer game."	ds	1
+00b6d748	startCampaign( string campaignName ) : starts the given campaign.	"startCampaign( string campaignName ) : starts the given campaign."	ds	1
+00b6d79c	modeEnter(<stringMode>) : enters the named mode.	"modeEnter(<stringMode>) : enters the named mode."	ds	1
+00b6d7e0	blackmap([integerState]) : toggles or sets unexplored black map rendering.	"blackmap([integerState]) : toggles or sets unexplored black map rendering."	ds	1
+00b6d838	fog([integerState]) : toggles or sets LOS fog.	"fog([integerState]) : toggles or sets LOS fog."	ds	1
+00b6d868	player([integerPlayer]) : with no arg, outputs current player.  otherwise, sets current player to given argument	"player([integerPlayer]) : with no arg, outputs current player.  otherwise, sets current player to given argument"	ds	1
+00b6d8e0	display([integerState]) : with no arg, toggles display on/off.  otherwise, sets display	"display([integerState]) : with no arg, toggles display on/off.  otherwise, sets display"	ds	1
+00b6d940	displayType([integerState]) : with no arg, cycles through the various status display modes.  otherwise sets display type	"displayType([integerState]) : with no arg, cycles through the various status display modes.  otherwise sets display type"	ds	1
+00b6daf8	brushCircularSize([<floatValue>]) : sets the circular brush size	"brushCircularSize([<floatValue>]) : sets the circular brush size"	ds	1
+00b6db50	brushSize([integerSize]) : sets brush size.	"brushSize([integerSize]) : sets brush size."	ds	1
+00b6db88	loadLightingSet([name] [apply]) : loads the specified lighting set	"loadLightingSet([name] [apply]) : loads the specified lighting set"	ds	1
+00b6dbe0	saveLightingSet([name]) : Saves the current status of lighting values as a set	"saveLightingSet([name]) : Saves the current status of lighting values as a set"	ds	1
+00b6dc40	applyLightingSet([name]) : Applies a Lighting set	"applyLightingSet([name]) : Applies a Lighting set"	ds	1
+00b6dc88	setTerrainLightingParams([bumpScale] [specularPower] [specularIntensity] [terrainMetalness]):sets Terrain Lighting Params	"setTerrainLightingParams([bumpScale] [specularPower] [specularIntensity] [terrainMetalness]):sets Terrain Lighting Params"	ds	1
+00b6dd20	setBloomFeedbackParams([currentFrameContribution] [lastFrameContribution]):sets bloom feedback params	"setBloomFeedbackParams([currentFrameContribution] [lastFrameContribution]):sets bloom feedback params"	ds	1
+00b6dda0	setBloomStreakParams([streakCount] [Passes] [ElementOffset] [Exposure] [Intensity] [Falloff] [streakRed] [streakGreen] [streakBlue] [threshold]):sets bloom streak params	"setBloomStreakParams([streakCount] [Passes] [ElementOffset] [Exposure] [Intensity] [Falloff] [streakRed] [streakGreen] [streakBlue] [threshold]):sets bloom streak params"	ds	1
+00b6de68	setLDRBloomParams([bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomSigma]):sets LDR Bloom params	"setLDRBloomParams([bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomSigma]):sets LDR Bloom params"	ds	1
+00b6def0	setBloomParams([bloomThreshold] [bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomPass] [bloomSigma]):sets tonemap params	"setBloomParams([bloomThreshold] [bloomColorR] [bloomColorG] [bloomColorB] [bloomIntensity] [bloomPass] [bloomSigma]):sets tonemap params"	ds	1
+00b6df90	setToneMapParams([exposure] [dispGamma] [greyFStops] [kneeLow] [kneeHigh] [ditherNoiseInten]):sets tonemap params	"setToneMapParams([exposure] [dispGamma] [greyFStops] [kneeLow] [kneeHigh] [ditherNoiseInten]):sets tonemap params"	ds	1
+00b6e018	unitPlayerDefakify() sets the selected units to stop using a fake player.	"unitPlayerDefakify() sets the selected units to stop using a fake player."	ds	1
+00b6e078	unitPlayerFakify(fakePlayerIndex) sets the selected units to use the fake player indicated.	"unitPlayerFakify(fakePlayerIndex) sets the selected units to use the fake player indicated."	ds	1
+00b6e814	uiMinimizeStats()	"uiMinimizeStats()"	ds	1
+00b6e838	uiShowCommandPanel()	"uiShowCommandPanel()"	ds	1
+00b6e864	uiShowDetailedHelp()	"uiShowDetailedHelp()"	ds	1
+00b6e890	uiShowStatPanel()	"uiShowStatPanel()"	ds	1
+00b6e8b4	uiToggleAdvancedHUD()	"uiToggleAdvancedHUD()"	ds	1
+00b6e8f4	uiFindCrowd([findType],[noLookAt])	"uiFindCrowd([findType],[noLookAt])"	ds	1
+00b6e968	uiScreenSelect([modifier]) : screen selection.	"uiScreenSelect([modifier]) : screen selection."	ds	1
+00b6e9a8	uiForceShift([on]) : Force shift key on or off.	"uiForceShift([on]) : Force shift key on or off."	ds	1
+00b6ea24	uiCircleSelectResize([x],[y]) : Circle selection resizing.	"uiCircleSelectResize([x],[y]) : Circle selection resizing."	ds	1
+00b6ea78	uiCircleSelect([on],[doubleClick],[leaveSelected]) : Start/stop circle selection.	"uiCircleSelect([on],[doubleClick],[leaveSelected]) : Start/stop circle selection."	ds	1
+00b6eae0	uiMapPointerGoto([activeCheck]) : Jump to map pointer location.	"uiMapPointerGoto([activeCheck]) : Jump to map pointer location."	ds	1
+00b6eb34	uiMapPointerControl([x],[y],[doGoto]) : Moves the map pointer.	"uiMapPointerControl([x],[y],[doGoto]) : Moves the map pointer."	ds	1
+00b6eb88	uiCameraControl([x],[y]) : Controls camera with gamepad stick.	"uiCameraControl([x],[y]) : Controls camera with gamepad stick."	ds	1
+00b6ebd8	uiCameraScroll([fast],[x],[y]) : Scrolls the game view.	"uiCameraScroll([fast],[x],[y]) : Scrolls the game view."	ds	1
+00b6eca8	uiVPAccelClick([unitID]) : Shows the VP accel building from the unitID.	"uiVPAccelClick([unitID]) : Shows the VP accel building from the unitID."	ds	1
+00b6ed00	uiFindAlliedNatives() : finds allied natives of the current player in order, so that it can be called repeatedly to cycle.	"uiFindAlliedNatives() : finds allied natives of the current player in order, so that it can be called repeatedly to cycle."	ds	1
+00b6f174	uiShowChatWindow()	"uiShowChatWindow()"	ds	1
+00b6f268	uiClearChat(clearOnly) : Clears the chat and resets to recent mode.  clearOnly == true if you don't want it to populate the chat, but only clear it.	"uiClearChat(clearOnly) : Clears the chat and resets to recent mode.  clearOnly == true if you don't want it to populate the chat, but only clear it."	ds	1
+00b6f438	uiChatScrollForward([integerKeyState]) : Scrolls chat forward one.	"uiChatScrollForward([integerKeyState]) : Scrolls chat forward one."	ds	1
+00b6f490	uiChatScrollBack([integerKeyState]) : Scrolls chat back one.	"uiChatScrollBack([integerKeyState]) : Scrolls chat back one."	ds	1
+00b6f4e8	uiSetBuildingPlacementRender(id, on) : controls rendering of the building placement info for the given ID	"uiSetBuildingPlacementRender(id, on) : controls rendering of the building placement info for the given ID"	ds	1
+00b6f6a8	uiSetKBArmyRender( int id, bool [set]: render the kbArmy info for the given ID. If not set given, will not render the army.	"uiSetKBArmyRender( int id, bool [set]: render the kbArmy info for the given ID. If not set given, will not render the army."	ds	1
+00b6f7a8	uiSetKBResourceRender( resID, [set]: render the kbResource info for the given ID. If not set given, will not render the resource.	"uiSetKBResourceRender( resID, [set]: render the kbResource info for the given ID. If not set given, will not render the resource."	ds	1
+00b701c0	uiTopicDetailHelp(topicName) : brings up the detail help UI for the given help topic	"uiTopicDetailHelp(topicName) : brings up the detail help UI for the given help topic"	ds	1
+00b70230	uiTechDetailHelp(techID, civ) : brings up the detail help UI for the given tech node ID	"uiTechDetailHelp(techID, civ) : brings up the detail help UI for the given tech node ID"	ds	1
+00b702a0	uiTechDetailHelp(techID) : brings up the detail help UI for the given tech node ID	"uiTechDetailHelp(techID) : brings up the detail help UI for the given tech node ID"	ds	1
+00b70308	uiUnitDetailHelp(protoID, civID) : brings up the detail help UI for the given proto ID, or -1 for current unit selection proto.	"uiUnitDetailHelp(protoID, civID) : brings up the detail help UI for the given proto ID, or -1 for current unit selection proto."	ds	1
+00b706c8	setGameFadeIn(<r> <g> <b> <duration> <delay> <inout>): turn fade in on/off, set color duration.	"setGameFadeIn(<r> <g> <b> <duration> <delay> <inout>): turn fade in on/off, set color duration."	ds	1
+00b70738	fadeToColor(<r> <g> <b> <duration> <delay> <inout>): fade in/out using color specified.	"fadeToColor(<r> <g> <b> <duration> <delay> <inout>): fade in/out using color specified."	ds	1
+00b7079c	categoryFlash(<ID> <flash>) : turns gadget flashing on/off.	"categoryFlash(<ID> <flash>) : turns gadget flashing on/off."	ds	1
+00b707e8	trainFlash(<protoID> <flash>) : turns gadget flashing on/off.	"trainFlash(<protoID> <flash>) : turns gadget flashing on/off."	ds	1
+00b70834	techFlash(<techID> <flash>) : turns gadget flashing on/off.	"techFlash(<techID> <flash>) : turns gadget flashing on/off."	ds	1
+00b70880	gadgetFlash(<stringName> <flash>) : turns gadget flashing on/off.	"gadgetFlash(<stringName> <flash>) : turns gadget flashing on/off."	ds	1
+00b708d0	gadgetRefresh(<stringName>) : refresh the contents of the named gadget.	"gadgetRefresh(<stringName>) : refresh the contents of the named gadget."	ds	1
+00b70998	gadgetRealIfNotMP(<stringName>) : makes real the named gadget.	"gadgetRealIfNotMP(<stringName>) : makes real the named gadget."	ds	1
+00b709ec	gadgetUnreal(<stringName>) : makes un-real the named gadget.	"gadgetUnreal(<stringName>) : makes un-real the named gadget."	ds	1
+00b70a3c	gadgetReal(<stringName>) : makes real the named gadget.	"gadgetReal(<stringName>) : makes real the named gadget."	ds	1
+00b70c18	uiToggleCliff() : toggles cliff pieces on or off under the pointer.	"uiToggleCliff() : toggles cliff pieces on or off under the pointer."	ds	1
+00b70c6c	uiUnselectCliff() : de-selects the forest under the pointer.	"uiUnselectCliff() : de-selects the forest under the pointer."	ds	1
+00b70cc0	uiSelectCliffAtPointer() : selects the cliff under the pointer.	"uiSelectCliffAtPointer() : selects the cliff under the pointer."	ds	1
+00b70d18	uiUnselectForest() : de-selects the forest under the pointer.	"uiUnselectForest() : de-selects the forest under the pointer."	ds	1
+00b70d70	uiSelectForestAtPointer() : selects the forest under the pointer.	"uiSelectForestAtPointer() : selects the forest under the pointer."	ds	1
+00b70dd0	uiSetForestType(longForestType) : sets the forest type by index.	"uiSetForestType(longForestType) : sets the forest type by index."	ds	1
+00b70e28	uiSetForestType(stringForestName) : sets the forest type by name.	"uiSetForestType(stringForestName) : sets the forest type by name."	ds	1
+00b70e80	uiSetWaterTypeNum(longWaterType) : sets the water type by index.	"uiSetWaterTypeNum(longWaterType) : sets the water type by index."	ds	1
+00b70ed8	uiSetWaterType(stringWaterName) : sets the water type by name.	"uiSetWaterType(stringWaterName) : sets the water type by name."	ds	1
+00b70f28	uiSetCliffTypeNum(longCliffType) : sets the cliff type by index.	"uiSetCliffTypeNum(longCliffType) : sets the cliff type by index."	ds	1
+00b70f80	uiSetCliffType(stringCliffName) : sets the cliff type by name.	"uiSetCliffType(stringCliffName) : sets the cliff type by name."	ds	1
+00b70fd0	uiCoverTerrainWithWater(floatWaterHeight, floatDepth, waterName) : flattens terrain and paints water over the entire map.	"uiCoverTerrainWithWater(floatWaterHeight, floatDepth, waterName) : flattens terrain and paints water over the entire map."	ds	1
+00b71190	uiDumpAllUnitHotKeyMappings(): spews all hot key mappings that create units to the console	"uiDumpAllUnitHotKeyMappings(): spews all hot key mappings that create units to the console"	ds	1
+00b71618	uiChangeBrushSize({p1} {p2} {p3} {p4}) : changes the size of the current brush	"uiChangeBrushSize({p1} {p2} {p3} {p4}) : changes the size of the current brush"	ds	1
+00b71680	uiChangeBrushType( "name") : changes the brush to the named type	"uiChangeBrushType( \"name\") : changes the brush to the named type"	ds	1
+00b716d8	uiSetBrushType( "name" {p1} {p2} {p3} {p4} ) : makes the current brush based on the name and parameters.	"uiSetBrushType( \"name\" {p1} {p2} {p3} {p4} ) : makes the current brush based on the name and parameters."	ds	1
+00b71758	uiApplyLightingSet([integerIndex]) : intended for UI use only.  Applies a Lighting Set	"uiApplyLightingSet([integerIndex]) : intended for UI use only.  Applies a Lighting Set"	ds	1
+00b7197c	uiRotateClipboard(degrees) : rotate the clipboard by amount.	"uiRotateClipboard(degrees) : rotate the clipboard by amount."	ds	1
+00b719d0	uiSetClipboardRotation(degrees) : sets the clipboard rotation amount.	"uiSetClipboardRotation(degrees) : sets the clipboard rotation amount."	ds	1
+00b71a30	uiPasteFromClipboard() : pastes the contents of the clipboard to the brush selection.	"uiPasteFromClipboard() : pastes the contents of the clipboard to the brush selection."	ds	1
+00b71aa0	uiCopyToClipboard() : copies the brush selection to the clipboard.	"uiCopyToClipboard() : copies the brush selection to the clipboard."	ds	1
+00b71af8	uiMessageBox2([stringID] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit	"uiMessageBox2([stringID] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit"	ds	1
+00b71b88	uiMessageBox([stringText] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit	"uiMessageBox([stringText] [stringCommand]) : pops up a message box with text that activated the cmd when the ok button is hit"	ds	1
+00b71ce0	uiCycleGadget([integerDelta]) : cycles through the 'active' child gadget of a deluxe gadget.	"uiCycleGadget([integerDelta]) : cycles through the 'active' child gadget of a deluxe gadget."	ds	1
+00b71f90	uiBuildMode([integerType]) : does and editMode and setProtoID, after verifying sufficient resources for the current player.	"uiBuildMode([integerType]) : does and editMode and setProtoID, after verifying sufficient resources for the current player."	ds	1
+00b720b8	uiSetProtoID([integerType]) : sets the proto ID to place.	"uiSetProtoID([integerType]) : sets the proto ID to place."	ds	1
+00b72108	uiPlaceAtPointer([boolChangeVariation]): intended for ui use only.  Places unit at pointer location.	"uiPlaceAtPointer([boolChangeVariation]): intended for ui use only.  Places unit at pointer location."	ds	1
+00b72188	uiSetTerrainOverlayColor([float] [float] [float]: intended for ui use only.  Sets the terrain overlay color to the given (R,G,B) color.	"uiSetTerrainOverlayColor([float] [float] [float]: intended for ui use only.  Sets the terrain overlay color to the given (R,G,B) color."	ds	1
+00b722c0	uiPaintTerrainOverlay([integerKeyState]) : intended for ui use only.  Indicates that the paint terrain overlay button has gone up/down.	"uiPaintTerrainOverlay([integerKeyState]) : intended for ui use only.  Indicates that the paint terrain overlay button has gone up/down."	ds	1
+00b72360	uiPaintForest(paint, offset) : intended for ui use only.  Indicates that the paint button has gone up/down.	"uiPaintForest(paint, offset) : intended for ui use only.  Indicates that the paint button has gone up/down."	ds	1
+00b723e0	uiPaint([integerKeyState]) : intended for ui use only.  Indicates that the paint button has gone up/down.	"uiPaint([integerKeyState]) : intended for ui use only.  Indicates that the paint button has gone up/down."	ds	1
+00b72458	uiDeleteUnits([integerKeyState]) : intended for ui use only.  Indicates that the delete units button has gone up/down.	"uiDeleteUnits([integerKeyState]) : intended for ui use only.  Indicates that the delete units button has gone up/down."	ds	1
+00b724e0	uiRoughen([integerKeyState]) : intended for ui use only.  Indicates that the roughen button has gone up/down.	"uiRoughen([integerKeyState]) : intended for ui use only.  Indicates that the roughen button has gone up/down."	ds	1
+00b72560	uiLookAtNumberGroup([integerGroup]): moves the camera to see the given number group.	"uiLookAtNumberGroup([integerGroup]): moves the camera to see the given number group."	ds	1
+00b72648	uiLookAtUnitByName(scenarioName): moves the camera to see the specified Unit.	"uiLookAtUnitByName(scenarioName): moves the camera to see the specified Unit."	ds	1
+00b72880	uiZoomToProto([stringProto]) : zooms to the first instance of proto unit X owned by the current player.	"uiZoomToProto([stringProto]) : zooms to the first instance of proto unit X owned by the current player."	ds	1
+00b72e90	uiLowerTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the lower terrain selection button has gone up/down.	"uiLowerTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the lower terrain selection button has gone up/down."	ds	1
+00b72f38	uiRaiseTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the raise terrain selection button has gone up/down.	"uiRaiseTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the raise terrain selection button has gone up/down."	ds	1
+00b72fe0	uiTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the terrain selection button has gone up/down.	"uiTerrainSelection([integerKeyState]) : intended for ui use only.  Indicates that the terrain selection button has gone up/down."	ds	1
+00b73078	uiPaintCliff([integerKeyState]) : intended for ui use only.  Indicates that the paint cliff button has gone up/down.	"uiPaintCliff([integerKeyState]) : intended for ui use only.  Indicates that the paint cliff button has gone up/down."	ds	1
+00b73100	uiPaintWaterArea([integerKeyState]) : intended for ui use only. Painting water area.	"uiPaintWaterArea([integerKeyState]) : intended for ui use only. Painting water area."	ds	1
+00b73170	uiPaintWater([integerKeyState]) : intended for ui use only.  Indicates that the paint water button has gone up/down.	"uiPaintWater([integerKeyState]) : intended for ui use only.  Indicates that the paint water button has gone up/down."	ds	1
+00b731f8	uiSmooth([integerKeyState]) : intended for ui use only.  Indicates that the smooth button has gone up/down.	"uiSmooth([integerKeyState]) : intended for ui use only.  Indicates that the smooth button has gone up/down."	ds	1
+00b73350	uiLowerElevation([integerKeyState]) : intended for ui use only.  Indicates that the lower elevation button has gone up/down.	"uiLowerElevation([integerKeyState]) : intended for ui use only.  Indicates that the lower elevation button has gone up/down."	ds	1
+00b733e8	uiRaiseElevation([integerKeyState]) : intended for ui use only.  Indicates that the raise elevation button has gone up/down.	"uiRaiseElevation([integerKeyState]) : intended for ui use only.  Indicates that the raise elevation button has gone up/down."	ds	1
+00b734c0	uiRemoveSelectedUnit([unitID]) : Removes specified unit, or selected unit if not ID is specified.	"uiRemoveSelectedUnit([unitID]) : Removes specified unit, or selected unit if not ID is specified."	ds	1
+00b73590	uiDeleteSelectedUnit2() : deletes selected unit.	"uiDeleteSelectedUnit2() : deletes selected unit."	ds	1
+00b735dc	uiDeleteSelectedUnit() : deletes selected unit.	"uiDeleteSelectedUnit() : deletes selected unit."	ds	1
+00b736a0	uiPaintTerrainToSample([integerKeyState]) : intended for ui use only.  Indicates that the sample terrain button has gone up/down.	"uiPaintTerrainToSample([integerKeyState]) : intended for ui use only.  Indicates that the sample terrain button has gone up/down."	ds	1
+00b73848	uiChangeElevationToSample([integerKeyState]) : intended for ui use only.  Indicates that the change elevation to sample button has gone up/down.	"uiChangeElevationToSample([integerKeyState]) : intended for ui use only.  Indicates that the change elevation to sample button has gone up/down."	ds	1
+00b73e38	uiDoubleClickSelect([integerAdd], [checkAction]) : intended for ui use only.  Double click select at pointer location.	"uiDoubleClickSelect([integerAdd], [checkAction]) : intended for ui use only.  Double click select at pointer location."	ds	1
+00b73f30	uiAddSelectNumberGroup([integerGroup]) : adds the units in the given number group to current selection.	"uiAddSelectNumberGroup([integerGroup]) : adds the units in the given number group to current selection."	ds	1
+00b73fb0	uiSelectNumberGroup([integerGroup]) : selects the units in the given number group.	"uiSelectNumberGroup([integerGroup]) : selects the units in the given number group."	ds	1
+00b74018	uiClearNumberGroup([integerGroup]) : erases the given number group.	"uiClearNumberGroup([integerGroup]) : erases the given number group."	ds	1
+00b74070	uiCreateNumberGroup([integerGroup]) : creates a number group with the currently selected units.	"uiCreateNumberGroup([integerGroup]) : creates a number group with the currently selected units."	ds	1
+00b741e0	rotateWaterRight([integerKeyState]) : intended for ui use only.  Indicates that the rotate water right button has gone up/down.	"rotateWaterRight([integerKeyState]) : intended for ui use only.  Indicates that the rotate water right button has gone up/down."	ds	1
+00b74278	rotateWaterLeft([integerKeyState]) : intended for ui use only.  Indicates that the rotate water left button has gone up/down.	"rotateWaterLeft([integerKeyState]) : intended for ui use only.  Indicates that the rotate water left button has gone up/down."	ds	1
+00b74310	uiLowerWater([integerKeyState]) : intended for ui use only.  Indicates that the lower water button has gone up/down.	"uiLowerWater([integerKeyState]) : intended for ui use only.  Indicates that the lower water button has gone up/down."	ds	1
+00b74398	uiRaiseWater([integerKeyState]) : intended for ui use only.  Indicates that the raise water button has gone up/down.	"uiRaiseWater([integerKeyState]) : intended for ui use only.  Indicates that the raise water button has gone up/down."	ds	1
+00b745e0	uiMoveUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the move unit down key has gone up/down.	"uiMoveUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the move unit down key has gone up/down."	ds	1
+00b74668	uiMoveUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the move unit up key has gone up/down.	"uiMoveUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the move unit up key has gone up/down."	ds	1
+00b746f0	uiMoveUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the move unit left key has gone up/down.	"uiMoveUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the move unit left key has gone up/down."	ds	1
+00b74778	uiMoveUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the move unit right key has gone up/down.	"uiMoveUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the move unit right key has gone up/down."	ds	1
+00b74808	uiMoveUnitBackward([integerKeyState]) : intended for ui use only.  Indicates that the move unit backward key has gone up/down.	"uiMoveUnitBackward([integerKeyState]) : intended for ui use only.  Indicates that the move unit backward key has gone up/down."	ds	1
+00b748a0	uiMoveUnitForward([integerKeyState]) : intended for ui use only.  Indicates that the move unit forward key has gone up/down.	"uiMoveUnitForward([integerKeyState]) : intended for ui use only.  Indicates that the move unit forward key has gone up/down."	ds	1
+00b74938	uiRollUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the roll unit left key has gone up/down.	"uiRollUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the roll unit left key has gone up/down."	ds	1
+00b749c0	uiRollUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the roll unit right key has gone up/down.	"uiRollUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the roll unit right key has gone up/down."	ds	1
+00b74a50	uiPitchUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit down key has gone up/down.	"uiPitchUnitDown([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit down key has gone up/down."	ds	1
+00b74ae0	uiPitchUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit up key has gone up/down.	"uiPitchUnitUp([integerKeyState]) : intended for ui use only.  Indicates that the pitch unit up key has gone up/down."	ds	1
+00b74b68	uiYawUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit left key has gone up/down.	"uiYawUnitLeft([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit left key has gone up/down."	ds	1
+00b74bf0	uiYawUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit right key has gone up/down.	"uiYawUnitRight([integerKeyState]) : intended for ui use only.  Indicates that the yaw unit right key has gone up/down."	ds	1
+00b74cc0	uiLeaveContext(<stringContext>) : leaves the specified UI context.	"uiLeaveContext(<stringContext>) : leaves the specified UI context."	ds	1
+00b74d18	uiEnterContext(<stringContext>) : enters the specified UI context.	"uiEnterContext(<stringContext>) : enters the specified UI context."	ds	1
+00b74d70	uiSetProtoCursorID(<integerProtoID>) : sets the cursor to a proto-unit.	"uiSetProtoCursorID(<integerProtoID>) : sets the cursor to a proto-unit."	ds	1
+00b74dd0	uiSetProtoCursor(<stringProtoName>, <setPlacement>) : sets the cursor to a proto-unit.	"uiSetProtoCursor(<stringProtoName>, <setPlacement>) : sets the cursor to a proto-unit."	ds	1
+00b751b8	uiSetHomeCityWaterSpawnPointAtPointer( void ): Sets the HC spawn point.	"uiSetHomeCityWaterSpawnPointAtPointer( void ): Sets the HC spawn point."	ds	1
+00b75588	uiFormationOrientation( ) : Sets the orientation of a formation.	"uiFormationOrientation( ) : Sets the orientation of a formation."	ds	1
+00b755e8	uiBuildAtPointer( ) : instructs the currently selected unit(s) to build the current proto unit cursor building type at the pointer location.	"uiBuildAtPointer( ) : instructs the currently selected unit(s) to build the current proto unit cursor building type at the pointer location."	ds	1
+00b7568c	editMode(<symbolModeName>) : changes the edit mode	"editMode(<symbolModeName>) : changes the edit mode"	ds	1
+00b76cc4	setBumpScale([scale]) : sets scene bump scale	"setBumpScale([scale]) : sets scene bump scale"	ds	1
+00b76d08	setFogParams([planarfogColorR] [planarfogColorG] [planarfogColorB] [planarfogDensity] [planarfogHeight]) : set Planar Height Params	"setFogParams([planarfogColorR] [planarfogColorG] [planarfogColorB] [planarfogDensity] [planarfogHeight]) : set Planar Height Params"	ds	1
+00b76da0	setSceneLightParams([sunIntensity] [power] [specIntensity] [metalness] [fogColorR] [fogColorG] [fogColorB] [fogDensity] [fogStart]) : sets scene light params	"setSceneLightParams([sunIntensity] [power] [specIntensity] [metalness] [fogColorR] [fogColorG] [fogColorB] [fogDensity] [fogStart]) : sets scene light params"	ds	1
+00b76e58	setHemiLight([topColorR] [topColorG] [topColorB] [bottomColorR] [bottomColorG] [bottomColorB] [axisYaw] [axisPitch] [intensity] [unitIntensity] [terrainIntensity]) : sets a hemilight	"setHemiLight([topColorR] [topColorG] [topColorB] [bottomColorR] [bottomColorG] [bottomColorB] [axisYaw] [axisPitch] [intensity] [unitIntensity] [terrainIntensity]) : sets a hemilight"	ds	1
+00b76f20	fakeSunParams([intensity] [specIntensity] [specPower] [inclination] [rotation]) : Set fake sun params for water	"fakeSunParams([intensity] [specIntensity] [specPower] [inclination] [rotation]) : Set fake sun params for water"	ds	1
+00b76fd8	sunColor([integerR] [integerG] [integerB]) : Set sun color to given RGB (0-255)	"sunColor([integerR] [integerG] [integerB]) : Set sun color to given RGB (0-255)"	ds	1
+00b77038	shadowDarkness([integerDarkness] [pcfFilterScalar] [biasNV] [biasATI] [slope]) : Set shadow darkness (0-255) - (PCF Filter Sclar 0-16)	"shadowDarkness([integerDarkness] [pcfFilterScalar] [biasNV] [biasATI] [slope]) : Set shadow darkness (0-255) - (PCF Filter Sclar 0-16)"	ds	1
+00b770d0	ambientColor2([integerR] [integerG] [integerB]) : Set ambient color 2 to given RGB (0-255)	"ambientColor2([integerR] [integerG] [integerB]) : Set ambient color 2 to given RGB (0-255)"	ds	1
+00b771a0	ambientColor([integerR] [integerG] [integerB]) : Set ambient color to given RGB (0-255)	"ambientColor([integerR] [integerG] [integerB]) : Set ambient color to given RGB (0-255)"	ds	1
+00b77208	renderFriendOrFoe([integerState]) : with no arg, toggles friend or foe colors.  otherwise, sets it	"renderFriendOrFoe([integerState]) : with no arg, toggles friend or foe colors.  otherwise, sets it"	ds	1
+00b77280	renderTrilinear([integerState]) : sets trilinear filtering on/off	"renderTrilinear([integerState]) : sets trilinear filtering on/off"	ds	1
+00b772d8	setSuperSampleFilterIndex([int]) : sets supersample filter kernel	"setSuperSampleFilterIndex([int]) : sets supersample filter kernel"	ds	1
+00b77338	setSuperSampleFilterScales([floatX], [floatY]) : sets supersample kernel scales(1.0 = normal, less = blurrier, higher = sharper)	"setSuperSampleFilterScales([floatX], [floatY]) : sets supersample kernel scales(1.0 = normal, less = blurrier, higher = sharper)"	ds	1
+00b773d8	setSuperSampleFactors([floatX], [floatY]) : sets HDR supersampling factors (1.0 to 2.0, both 1.0 is off)	"setSuperSampleFactors([floatX], [floatY]) : sets HDR supersampling factors (1.0 to 2.0, both 1.0 is off)"	ds	1
+00b77460	setHDRMultisampleFactor([int]) : sets HDR multisample factor [1,8] - 1 is disabled	"setHDRMultisampleFactor([int]) : sets HDR multisample factor [1,8] - 1 is disabled"	ds	1
+00b774cc	renderAnisotropic([integerState]) : sets desired anisotropy	"renderAnisotropic([integerState]) : sets desired anisotropy"	ds	1
+00b77520	renderAreaGroupID([playerID], <areaGroupID> [integerState]) : sets the render state of the given area (no integerState toggles).	"renderAreaGroupID([playerID], <areaGroupID> [integerState]) : sets the render state of the given area (no integerState toggles)."	ds	1
+00b775b8	renderAreaID([playerID], <areaID> [integerState]) : sets the render state of the given area (no integerState toggles).	"renderAreaID([playerID], <areaID> [integerState]) : sets the render state of the given area (no integerState toggles)."	ds	1
+00b77640	renderAreaDangerLevels(int playerID, int state): draws areas and color-codes them by danger level.	"renderAreaDangerLevels(int playerID, int state): draws areas and color-codes them by danger level."	ds	1
+00b776c0	renderAreas([playerID], [integerState]) : sets the render state for all areas (no arg toggles).	"renderAreas([playerID], [integerState]) : sets the render state for all areas (no arg toggles)."	ds	1
+00b77730	renderBaseID([playerID], <areaID> [integerState]) : sets the render state of the given base (no integerState toggles).	"renderBaseID([playerID], <areaID> [integerState]) : sets the render state of the given base (no integerState toggles)."	ds	1
+00b777b8	renderRefresh([integerState]) : with no arg, changes refresh rate to 75hz in fullscreen.  otherwise, sets fullscreen refresh to value	"renderRefresh([integerState]) : with no arg, changes refresh rate to 75hz in fullscreen.  otherwise, sets fullscreen refresh to value"	ds	1
+00b77850	renderWindow([integerState]) : with no arg, toggles window/fullscreen.  otherwise, sets mode to window(1)/fullscreen(0)	"renderWindow([integerState]) : with no arg, toggles window/fullscreen.  otherwise, sets mode to window(1)/fullscreen(0)"	ds	1
+00b778d8	setShadowRotationOp( [bool] ): controls shadow projection rotation optimization	"setShadowRotationOp( [bool] ): controls shadow projection rotation optimization"	ds	1
+00b7793c	setShadowSnapping( [bool] ): controls shadow matrix snapping	"setShadowSnapping( [bool] ): controls shadow matrix snapping"	ds	1
+00b77990	setShadowBiasMul( [biasMultiplier] ): set the shadow buffer bias multipler (supaScreenshot only)	"setShadowBiasMul( [biasMultiplier] ): set the shadow buffer bias multipler (supaScreenshot only)"	ds	1
+00b77a08	setShadowQuality( [qualityLevel] ): set the quality level of shadows	"setShadowQuality( [qualityLevel] ): set the quality level of shadows"	ds	1
+00b77a64	toggleShadows(void) : toggle shadows on/off	"toggleShadows(void) : toggle shadows on/off"	ds	1
+00b77aa0	areaIncrementAreaToRender( int playerID ): increments the area to render.	"areaIncrementAreaToRender( int playerID ): increments the area to render."	ds	1
+00b77b08	trackGotoSelectedEvent(<index>): moves the camera to the current event.	"trackGotoSelectedEvent(<index>): moves the camera to the current event."	ds	1
+00b77b68	trackAdvance(): advances the camera track to a specific location.	"trackAdvance(): advances the camera track to a specific location."	ds	1
+00b77bbc	trackStop(): stops the current camera track.	"trackStop(): stops the current camera track."	ds	1
+00b77bf8	trackPause(): pauses the current camera track.	"trackPause(): pauses the current camera track."	ds	1
+00b77c38	trackPlay([duration], eventID): plays a track file (otherwise if "none" than plays the current track.) with no arg uses current duration, otherwise sets duration	"trackPlay([duration], eventID): plays a track file (otherwise if \"none\" than plays the current track.) with no arg uses current duration, otherwise sets duration"	ds	1
+00b77ce8	trackRemove(): removes selected track.	"trackRemove(): removes selected track."	ds	1
+00b77d1c	trackInsert(): adds a new camera track.	"trackInsert(): adds a new camera track."	ds	1
+00b77dc8	trackGotoSelectedWaypoint(<index>): moves the camera to the current waypoint.	"trackGotoSelectedWaypoint(<index>): moves the camera to the current waypoint."	ds	1
+00b77e38	trackSetSelectedWaypoint(<index>): sets the current waypoint to the button with the same index.	"trackSetSelectedWaypoint(<index>): sets the current waypoint to the button with the same index."	ds	1
+00b780b4	trackSave(<stringFilename>) : saves the current camera track	"trackSave(<stringFilename>) : saves the current camera track"	ds	1
+00b78100	trackLoad(<stringFilename>) : loads a camera track and makes it current	"trackLoad(<stringFilename>) : loads a camera track and makes it current"	ds	1
+00b78158	cameraDump() : debug command to spew info about the current state of the game camera	"cameraDump() : debug command to spew info about the current state of the game camera"	ds	1
+00b781c0	cameraLocalYawLeft([integerKeyState]) : intended for ui use only.  Indicates that camera 'Local Yaw left' key has gone up or down.	"cameraLocalYawLeft([integerKeyState]) : intended for ui use only.  Indicates that camera 'Local Yaw left' key has gone up or down."	ds	1
+00b78258	cameraLocalYawRight([integerKeyState]) : intended for ui use only.  Indicates that camera 'Local Yaw right' key has gone up or down.	"cameraLocalYawRight([integerKeyState]) : intended for ui use only.  Indicates that camera 'Local Yaw right' key has gone up or down."	ds	1
+00b782f8	cameraYawLeft([integerKeyState]) : intended for ui use only.  Indicates that camera yaw left key has gone up or down.	"cameraYawLeft([integerKeyState]) : intended for ui use only.  Indicates that camera yaw left key has gone up or down."	ds	1
+00b78380	cameraYawRight([integerKeyState]) : intended for ui use only.  Indicates that camera yaw right key has gone up or down.	"cameraYawRight([integerKeyState]) : intended for ui use only.  Indicates that camera yaw right key has gone up or down."	ds	1
+00b78408	cameraRollRight([integerKeyState]) : intended for ui use only.  Indicates that camera roll right key has gone up or down.	"cameraRollRight([integerKeyState]) : intended for ui use only.  Indicates that camera roll right key has gone up or down."	ds	1
+00b78498	cameraRollLeft([integerKeyState]) : intended for ui use only.  Indicates that camera roll left key has gone up or down.	"cameraRollLeft([integerKeyState]) : intended for ui use only.  Indicates that camera roll left key has gone up or down."	ds	1
+00b78520	cameraPitchBackward([integerKeyState]) : intended for ui use only.  Indicates that camera pitch backward key has gone up or down.	"cameraPitchBackward([integerKeyState]) : intended for ui use only.  Indicates that camera pitch backward key has gone up or down."	ds	1
+00b785b8	cameraPitchForward([integerKeyState]) : intended for ui use only.  Indicates that camera pitch forward key has gone up or down.	"cameraPitchForward([integerKeyState]) : intended for ui use only.  Indicates that camera pitch forward key has gone up or down."	ds	1
+00b78650	cameraDown([integerKeyState]) : intended for ui use only.  Indicates that camera down key has gone up or down.	"cameraDown([integerKeyState]) : intended for ui use only.  Indicates that camera down key has gone up or down."	ds	1
+00b786d0	cameraUp([integerKeyState]) : intended for ui use only.  Indicates that camera up key has gone up or down.	"cameraUp([integerKeyState]) : intended for ui use only.  Indicates that camera up key has gone up or down."	ds	1
+00b78748	cameraLeft([integerKeyState]) : intended for ui use only.  Indicates that camera left key has gone up or down.	"cameraLeft([integerKeyState]) : intended for ui use only.  Indicates that camera left key has gone up or down."	ds	1
+00b787c8	cameraRight([integerKeyState]) : intended for ui use only.  Indicates that camera right key has gone up or down.	"cameraRight([integerKeyState]) : intended for ui use only.  Indicates that camera right key has gone up or down."	ds	1
+00b78848	cameraWorldBackwardRight([integerKeyState]) : intended for ui use only.  Indicates that camera world backward & right key has gone up or down.	"cameraWorldBackwardRight([integerKeyState]) : intended for ui use only.  Indicates that camera world backward & right key has gone up or down."	ds	1
+00b788f8	cameraWorldBackwardLeft([integerKeyState]) : intended for ui use only.  Indicates that camera world backward & left key has gone up or down.	"cameraWorldBackwardLeft([integerKeyState]) : intended for ui use only.  Indicates that camera world backward & left key has gone up or down."	ds	1
+00b789a0	cameraWorldBackward([integerKeyState]) : intended for ui use only.  Indicates that camera world backward key has gone up or down.	"cameraWorldBackward([integerKeyState]) : intended for ui use only.  Indicates that camera world backward key has gone up or down."	ds	1
+00b78a38	cameraBackward([integerKeyState]) : intended for ui use only.  Indicates that camera backward key has gone up or down.	"cameraBackward([integerKeyState]) : intended for ui use only.  Indicates that camera backward key has gone up or down."	ds	1
+00b78ac0	cameraWorldForwardRight([integerKeyState]) : intended for ui use only.  Indicates that camera world forward & right key has gone up or down.	"cameraWorldForwardRight([integerKeyState]) : intended for ui use only.  Indicates that camera world forward & right key has gone up or down."	ds	1
+00b78b68	cameraWorldForwardLeft([integerKeyState]) : intended for ui use only.  Indicates that camera world forward & left key has gone up or down.	"cameraWorldForwardLeft([integerKeyState]) : intended for ui use only.  Indicates that camera world forward & left key has gone up or down."	ds	1
+00b78c10	cameraWorldForward([integerKeyState]) : intended for ui use only.  Indicates that camera world forward key has gone up or down.	"cameraWorldForward([integerKeyState]) : intended for ui use only.  Indicates that camera world forward key has gone up or down."	ds	1
+00b78ca8	cameraForward([integerKeyState]) : intended for ui use only.  Indicates that camera forward key has gone up or down.	"cameraForward([integerKeyState]) : intended for ui use only.  Indicates that camera forward key has gone up or down."	ds	1
+00b78d78	cameraRotate(<integerState>) : sets whether camera limiting is on.	"cameraRotate(<integerState>) : sets whether camera limiting is on."	ds	1
+00b78dd0	terrainAdjustGlobalHeight(float meters) : adjusts (raise/lower) the terrain height by the specified meters.	"terrainAdjustGlobalHeight(float meters) : adjusts (raise/lower) the terrain height by the specified meters."	ds	1
+00b78ea0	terrainAmbient([integerR] [integerG] [integerB]) : Set terrain ambient reflectivity to the given RGB (0-255)	"terrainAmbient([integerR] [integerG] [integerB]) : Set terrain ambient reflectivity to the given RGB (0-255)"	ds	1
+00b78fb0	terrainSetMix([integerType]) : sets the terrain mix to paint.	"terrainSetMix([integerType]) : sets the terrain mix to paint."	ds	1
+00b79000	terrainSetSubtype([integerType]) : sets the terrain subtype to paint.	"terrainSetSubtype([integerType]) : sets the terrain subtype to paint."	ds	1
+00b79060	terrainSetType([integerType]) : sets the terrain type to paint.	"terrainSetType([integerType]) : sets the terrain type to paint."	ds	1
+00b790b0	terrainFlattenArea(<integerX1> <integerY1> <integerX2> <integerY2> : flattens a sub-area of the terrain.	"terrainFlattenArea(<integerX1> <integerY1> <integerX2> <integerY2> : flattens a sub-area of the terrain."	ds	1
+00b79170	terrainFilterArea(<integerX1> <integerY1> <integerX2> <integerY2> : filters a sub-area of the terrain.	"terrainFilterArea(<integerX1> <integerY1> <integerX2> <integerY2> : filters a sub-area of the terrain."	ds	1
+00b79228	restart() : re-launch current scenario.	"restart() : re-launch current scenario."	ds	1
+00b79258	loadCamera(<stringFilename>) : load camera from file.	"loadCamera(<stringFilename>) : load camera from file."	ds	1
+00b792a0	saveCurrentHomeCityWidescreenCamera() : save widescreen camera to file.	"saveCurrentHomeCityWidescreenCamera() : save widescreen camera to file."	ds	1
+00b7930c	saveCurrentHomeCityCamera() : save camera to file.	"saveCurrentHomeCityCamera() : save camera to file."	ds	1
+00b7935c	saveCamera(<stringFilename>) : save camera to file.	"saveCamera(<stringFilename>) : save camera to file."	ds	1
+00b793a0	loadRecentFile(<stringFilename>) : loads the file named, interpreting whether it is a scenario, savegame, etc. dynamically	"loadRecentFile(<stringFilename>) : loads the file named, interpreting whether it is a scenario, savegame, etc. dynamically"	ds	1
+00b79430	loadCampaignScenario(<stringFilename>) : loads in a campaign scenario file.	"loadCampaignScenario(<stringFilename>) : loads in a campaign scenario file."	ds	1
+00b79498	loadTutorial(<stringFilename>, <loadMode>, <loadImage>, <textID>) : loads in a tutorial scenario file.	"loadTutorial(<stringFilename>, <loadMode>, <loadImage>, <textID>) : loads in a tutorial scenario file."	ds	1
+00b79510	loadScenario(<stringFilename>) : loads in a scenario file.	"loadScenario(<stringFilename>) : loads in a scenario file."	ds	1
+00b7955c	loadGame(<stringFilename>) : loads in a saved game.	"loadGame(<stringFilename>) : loads in a saved game."	ds	1
+00b7959c	saveScenario(<stringFilename>) : saves out a scenario file.	"saveScenario(<stringFilename>) : saves out a scenario file."	ds	1
+00b795e8	saveGame(<stringFilename>) : saves out a game in progress.	"saveGame(<stringFilename>) : saves out a game in progress."	ds	1
+00b79630	configHelpPrefix([symbolFilter]) : show all formally defined config variables that start with the filter string, or use no parameters for a full list.	"configHelpPrefix([symbolFilter]) : show all formally defined config variables that start with the filter string, or use no parameters for a full list."	ds	1
+00b796e0	configHelp([symbolFilter]) : show all formally defined config variables that contain the filter string, or use no parameters for a full list.	"configHelp([symbolFilter]) : show all formally defined config variables that contain the filter string, or use no parameters for a full list."	ds	1
+00b7977c	configGetByID(<intValue>) : look up config by enum ID	"configGetByID(<intValue>) : look up config by enum ID"	ds	1
+00b797c8	config(<stringToken>) : changes config state just like a .cfg line	"config(<stringToken>) : changes config state just like a .cfg line"	ds	1
+00b79818	configToggle(<stringName>) : defined var becomes undefined, and vice versa	"configToggle(<stringName>) : defined var becomes undefined, and vice versa"	ds	1
+00b79874	configUndef(stringName) : un-defines a config variable	"configUndef(stringName) : un-defines a config variable"	ds	1
+00b798b8	configDef(<stringName>) : defines a config variable	"configDef(<stringName>) : defines a config variable"	ds	1
+00b798f8	configSetFloat(<stringName> <floatValue>) : sets a config var to a floating point value	"configSetFloat(<stringName> <floatValue>) : sets a config var to a floating point value"	ds	1
+00b79960	configSetInt(<stringName> <integerValue>) : sets a config var to an integer value	"configSetInt(<stringName> <integerValue>) : sets a config var to an integer value"	ds	1
+00b799c8	configSet(<stringName> <stringValue>) : sets a particular config var to a string value	"configSet(<stringName> <stringValue>) : sets a particular config var to a string value"	ds	1
+00b79b84	squadWheel( float angle, int squadID ) : Wheels the squad.	"squadWheel( float angle, int squadID ) : Wheels the squad."	ds	1
+00b79d88	unitSetVariation([UnitID]) : Decrements the current variation of the given UnitID (current selected unit(s) if UnitID is -1).	"unitSetVariation([UnitID]) : Decrements the current variation of the given UnitID (current selected unit(s) if UnitID is -1)."	ds	1
+00b79e20	unitIncVariation([UnitID]) : Increments the current variation of the given UnitID (current selected unit(s) if UnitID is -1).	"unitIncVariation([UnitID]) : Increments the current variation of the given UnitID (current selected unit(s) if UnitID is -1)."	ds	1
+00b79eb8	unitSetVariation(<Variation> [UnitID]) : Sets the current variation of the given UnitID (current selected unit(s) if UnitID is -1).	"unitSetVariation(<Variation> [UnitID]) : Sets the current variation of the given UnitID (current selected unit(s) if UnitID is -1)."	ds	1
+00b79f50	unitData({intUnitID}) : spews database values on the specified unit or the selected unit (if no argument).	"unitData({intUnitID}) : spews database values on the specified unit or the selected unit (if no argument)."	ds	1
+00b79fc8	resourceTrade(<intPlayerID> <stringResourceTo> <floatAmountTo> <stringResourceFrom> <resourceAmountFrom>) : Sends out a trade resource command for the given player, resource and amount.	"resourceTrade(<intPlayerID> <stringResourceTo> <floatAmountTo> <stringResourceFrom> <resourceAmountFrom>) : Sends out a trade resource command for the given player, resource and amount."	ds	1
+00b7a098	resourceMarket(<intPlayerID> <stringResourceTo> <floatAmount> <stringResourceFrom>) : Sends out a market use command for the given player, resource and amount.  Negative means selling.	"resourceMarket(<intPlayerID> <stringResourceTo> <floatAmount> <stringResourceFrom>) : Sends out a market use command for the given player, resource and amount.  Negative means selling."	ds	1
+00b7a1a8	alignSelectedUnits() : realigns all selected units to tile boundaries	"alignSelectedUnits() : realigns all selected units to tile boundaries"	ds	1
+00b7a208	alignResources() : realigns all resources in the world to tile boundaries	"alignResources() : realigns all resources in the world to tile boundaries"	ds	1
+00b7a2c0	resbpp(<integerXRes>, <integerYRes>, <integerBPP>) : changes screen resolution and bit depth.	"resbpp(<integerXRes>, <integerYRes>, <integerBPP>) : changes screen resolution and bit depth."	ds	1
+00b7a328	res(<integerXRes>, <integerYRes>) : changes screen resolution.	"res(<integerXRes>, <integerYRes>) : changes screen resolution."	ds	1
+00b7a430	pause2([integerState]) : with no arg, toggles pause state on/off.  otherwise, sets pause state	"pause2([integerState]) : with no arg, toggles pause state on/off.  otherwise, sets pause state"	ds	1
+00b7a498	pause([integerState]) : with no arg, toggles pause state on/off.  otherwise, sets pause state	"pause([integerState]) : with no arg, toggles pause state on/off.  otherwise, sets pause state"	ds	1
+00b7a52c	IMEEnable(<true/false>) : enables or disables IME	"IMEEnable(<true/false>) : enables or disables IME"	ds	1
+00b7a570	echoNum(<stringMessage>) : sends a number to the console output	"echoNum(<stringMessage>) : sends a number to the console output"	ds	1
+00b7a5b8	echoLocalized(<stringID>) : sets the game status text from a string in the string resource.	"echoLocalized(<stringID>) : sets the game status text from a string in the string resource."	ds	1
+00b7a624	echo(<stringMessage>) : sends a message to the console output	"echo(<stringMessage>) : sends a message to the console output"	ds	1
+00b7a670	map(<eventString> <contextString> <commandString> : maps input event to command, in that context.  See input mapper design.doc for more details.	"map(<eventString> <contextString> <commandString> : maps input event to command, in that context.  See input mapper design.doc for more details."	ds	1
+00b7dcb0	2x23V(V(#V A0>,l"A0.42x l"%k!`2x	u"2x23V(V(#V A0>,l\"A0.42x l\"%k!`2x"	unicode	1
+00b8de98	uiFindType("%S")	u"uiFindType(\"%S\")"	unicode	1
+00b8e224	uiShowAIDebugInfoBase(%d)	u"uiShowAIDebugInfoBase(%d)"	unicode	1
+00b96f40	saveGame("%s") leaveGame	u"saveGame(\"%s\") leaveGame"	unicode	1
+00b98984	Position(%.2f, %.2f, %.2f)	u"Position(%.2f, %.2f, %.2f)\n"	unicode	1
+00b99278	loadRecentFile("%s")	u"loadRecentFile(\"%s\")"	unicode	1
+00b9987c	uiFindType("%s")	u"uiFindType(\"%s\")"	unicode	1
+00b998a0	uiHandleIdleBanner("%s")	u"uiHandleIdleBanner(\"%s\")"	unicode	1
+00b998d4	uiFindTownBellTC()	u"uiFindTownBellTC()"	unicode	1
+00b99900	gadgetToggle("objectivesdialog-screen")	u"gadgetToggle(\"objectivesdialog-screen\")"	unicode	1
+00b9a03c	trackLoad("	u"trackLoad(\""	unicode	1
+00b9a1e4	leaveGame(%d,1)	u"leaveGame(%d,1)"	unicode	1
+00b9a6dc	uiPowerCircleMenu(false)	"uiPowerCircleMenu(false)"	ds	1
+00b9a7d8	editMode("rallyPoint") uiSetProtoCursor("WaypointFlag")	u"editMode(\"rallyPoint\") uiSetProtoCursor(\"WaypointFlag\")"	unicode	1
+00b9a930	editMode("flare") uiSetProtoCursor("WaypointFlag")	u"editMode(\"flare\") uiSetProtoCursor(\"WaypointFlag\")"	unicode	1
+00b9aa24	specialPower(%d, %d, %d)	u"specialPower(%d, %d, %d)"	unicode	1
+00b9ad64	uiVPAccelClick(%d)	u"uiVPAccelClick(%d)"	unicode	1
+00ba23c0	aiCommsAllowChat( bool flag ): enables or disables the chats from this ai player.	"aiCommsAllowChat( bool flag ): enables or disables the chats from this ai player."	ds	1
+00ba6110	aiBreakpointGo( int playerID ): Restart XS execution after the current breakpoint.	"aiBreakpointGo( int playerID ): Restart XS execution after the current breakpoint."	ds	1
+00ba6178	aiBreakpointSet( int playerID, string filename, int lineNumber, bool on ): Sets a breakpoint.	"aiBreakpointSet( int playerID, string filename, int lineNumber, bool on ): Sets a breakpoint."	ds	1
+00ba6458	Opp(%d): %s %s %s	u"Opp(%d): %s %s %s"	unicode	1
+00ba647c	Opp(%d): %s %s %s targetID=%d	u"Opp(%d): %s %s %s targetID=%d"	unicode	1
+00ba64b8	Opp(%d): %s %s %s loc(%.2f,%.2f) radius=%.2f	u"Opp(%d): %s %s %s loc(%.2f,%.2f) radius=%.2f"	unicode	1
+00ba6b48	BuildPlan(%s : %d): failed. couldn't set number of foundation variables.	"BuildPlan(%s : %d): failed. couldn't set number of foundation variables."	ds	1
+00ba6b94	BuildPlan(%s : %d): failed. couldn't add foundation variable.	"BuildPlan(%s : %d): failed. couldn't add foundation variable."	ds	1
+00ba6bd8	BuildPlan(%s : %d): failing because I can't afford the building(%d).	"BuildPlan(%s : %d): failing because I can't afford the building(%d)."	ds	1
+00ba6c2c	BuildPlan(%s : %d): Failed checkPlacement, restarting plan.	"BuildPlan(%s : %d): Failed checkPlacement, restarting plan."	ds	1
+00ba6cb8	BuildPlan(%s : %d): failing because building placement is null.	"BuildPlan(%s : %d): failing because building placement is null."	ds	1
+00ba6cf8	BuildPlan(%s : %d): failing because the plan has no units left to build with.	"BuildPlan(%s : %d): failing because the plan has no units left to build with."	ds	1
+00ba6d48	BuildPlan(%s : %d): failing because there are  %d foundations to build.	"BuildPlan(%s : %d): failing because there are  %d foundations to build."	ds	1
+00ba6d90	BuildPlan(%s : %d): failing because there are  %d foundations to build in build state.	"BuildPlan(%s : %d): failing because there are  %d foundations to build in build state."	ds	1
+00ba6de8	BuildPlan(%s : %d): failing because building placement failed with state (%d).	"BuildPlan(%s : %d): failing because building placement failed with state (%d)."	ds	1
+00ba6e90	BuildPlan(%s : %d): restarting because building placement id(%d) is invalid.	"BuildPlan(%s : %d): restarting because building placement id(%d) is invalid."	ds	1
+00baf5b8	setWorldTooltipRectDims1024() - Dims must be within resolution 1024x768.  Current dims are min(%d,%d) max(%d,%d)	u"setWorldTooltipRectDims1024() - Dims must be within resolution 1024x768.  Current dims are min(%d,%d) max(%d,%d)"	unicode	1
+00baf8b0	saveScenario("%s")	u"saveScenario(\"%s\")"	unicode	1
+00bb06c0	uiSetForestTypeNum(%d)	u"uiSetForestTypeNum(%d)"	unicode	1
+00bb0714	terrainSetMix(%d)	u"terrainSetMix(%d)"	unicode	1
+00bb07f4	uiSetCliffTypeNum(%d)	u"uiSetCliffTypeNum(%d)"	unicode	1
+00bb0880	terrainSetType(%d) terrainSetSubtype(%d)	u"terrainSetType(%d) terrainSetSubtype(%d)"	unicode	1
+00bb08e8	editMode("placeunit") uiSetProtoID(%d)	u"editMode(\"placeunit\") uiSetProtoID(%d)"	unicode	1
+00bb0cb8	uiToggleBrushMask(%d)	u"uiToggleBrushMask(%d)"	unicode	1
+00bb23e0	startRandomGame2("%s", %d, %d, "", %s, %d, %d)	"startRandomGame2(\"%s\", %d, %d, \"\", %s, %d, %d)"	ds	1
+00bb2410	uiNewScenario()	"uiNewScenario()"	ds	1
+00bb30f8	Female(Odd)	u"Female(Odd)"	unicode	1
+00bb3110	Male(Even)	u"Male(Even)"	unicode	1
+00bb5270	gadgetUnreal("pregame-messagedialog") %S	u"gadgetUnreal(\"pregame-messagedialog\") %S"	unicode	1
+00bb5308	gadgetUnreal("ingame-messagedialog") %S	u"gadgetUnreal(\"ingame-messagedialog\") %S"	unicode	1
+00bb53b0	uiShowAIDebugInfoEscrow(%d)	u"uiShowAIDebugInfoEscrow(%d)"	unicode	1
+00bb55e0	uiShowAIDebugInfoPlacement(%d) uiSetBuildingPlacementRender(%d,true)	u"uiShowAIDebugInfoPlacement(%d) uiSetBuildingPlacementRender(%d,true)"	unicode	1
+00bb56c8	uiSetBuildingPlacementRender(%d,false)	u"uiSetBuildingPlacementRender(%d,false)"	unicode	1
+00bb57f0	uiShowAIDebugInfoProgression(%d)	u"uiShowAIDebugInfoProgression(%d)"	unicode	1
+00bb5a30	renderBaseID(%d, %d, %d)	u"renderBaseID(%d, %d, %d)"	unicode	1
+00bb5af4	uiShowAIDebugInfoArea(%d)	u"uiShowAIDebugInfoArea(%d)"	unicode	1
+00bb5b9c	renderAreaID(%d, %d, %d)	u"renderAreaID(%d, %d, %d)"	unicode	1
+00bb5c60	uiShowAIDebugInfoAreaGroup(%d, 1)	u"uiShowAIDebugInfoAreaGroup(%d, 1)"	unicode	1
+00bb5d38	uiShowAIDebugInfoAreaGroup(%d, %d)	u"uiShowAIDebugInfoAreaGroup(%d, %d)"	unicode	1
+00bb5e30	uiShowAIDebugInfoAttackRoute(%d)	u"uiShowAIDebugInfoAttackRoute(%d)"	unicode	1
+00bb5ee8	uiSetKBAttackRouteRender(%d,false)	u"uiSetKBAttackRouteRender(%d,false)"	unicode	1
+00bb5ff0	uiSetKBResourceRender(%d,false)	u"uiSetKBResourceRender(%d,false)"	unicode	1
+00bb60ec	uiShowAIDebugInfoKBArmy(%d)	u"uiShowAIDebugInfoKBArmy(%d)"	unicode	1
+00bb6180	uiSetKBArmyRender(%d,false)	u"uiSetKBArmyRender(%d,false)"	unicode	1
+00bb6258	uiShowAIDebugInfoKBUnitPick(%d)	u"uiShowAIDebugInfoKBUnitPick(%d)"	unicode	1
+00bb6518	uiShowAIDebugInfoKBResource(%d)	u"uiShowAIDebugInfoKBResource(%d)"	unicode	1
+00bb85d4	BaseAR(%d:%d-%d:%d)	u"BaseAR(%d:%d-%d:%d)"	unicode	1
+00bc5ffc	tis("%S")	u"tis(\"%S\")"	unicode	1
+00bc6010	trainInSelected("%S")	u"trainInSelected(\"%S\")"	unicode	1
+00bcd9c0	Tile(%d,%d) Zone: %ld Point(%f, %f, %f): %S Blends:	"Tile(%d,%d) Zone: %ld Point(%f, %f, %f): %S Blends:"	ds	1
+00bce260	loadScenario("%S")	u"loadScenario(\"%S\")"	unicode	1
+00bce288	modeEnter("Credits")	"modeEnter(\"Credits\")"	ds	1
+00bce400	campaignAdvance() campaignPlayCurrent()	u"campaignAdvance() campaignPlayCurrent()"	unicode	1
+00bce450	campaignPlayCurrent()	u"campaignPlayCurrent()"	unicode	1
+00bce4f8	trShowSPCNote(<Title> <Text>): Displays the SPC Note Dlg with the specified title and text.	"trShowSPCNote(<Title> <Text>): Displays the SPC Note Dlg with the specified title and text."	ds	1
+00bce578	trSetShadowFarClip( <enable>, <distance> ): Enable or disables the shadow far clippping plane.	"trSetShadowFarClip( <enable>, <distance> ): Enable or disables the shadow far clippping plane."	ds	1
+00bce5f0	trTradeRouteSetLevel(traderouteindex, level) : Sets the specified trade route to the specified level from a trigger.	"trTradeRouteSetLevel(traderouteindex, level) : Sets the specified trade route to the specified level from a trigger."	ds	1
+00bce680	trTradeRouteToggleState(position): Enable or disables the unit from showing.	"trTradeRouteToggleState(position): Enable or disables the unit from showing."	ds	1
+00bce6e8	trTradeRouteSetPosition(position): Places train on a specified position on the route.	"trTradeRouteSetPosition(position): Places train on a specified position on the route."	ds	1
+00bce758	trAICommsTrain(sendToPlayerID, unitTypeName): tell player sendToPlayerID to train Units of type unitTypeName, sent via player Comms.	"trAICommsTrain(sendToPlayerID, unitTypeName): tell player sendToPlayerID to train Units of type unitTypeName, sent via player Comms."	ds	1
+00bce7f0	trAICommsClaim(sendToPlayerID): tell player sendToPlayerID to claim TradePost at (locX, locY, locZ), sent via player Comms.	"trAICommsClaim(sendToPlayerID): tell player sendToPlayerID to claim TradePost at (locX, locY, locZ), sent via player Comms."	ds	1
+00bce880	trAICommsCancelOrder(sendToPlayerID): tell player sendToPlayerID to cancel order, sent via player Comms.	"trAICommsCancelOrder(sendToPlayerID): tell player sendToPlayerID to cancel order, sent via player Comms."	ds	1
+00bce908	trAICommsRequestTribute(fromPlayerID, resource, amount): fromPlayerID will send resource of x amount, sent via player Comms.	"trAICommsRequestTribute(fromPlayerID, resource, amount): fromPlayerID will send resource of x amount, sent via player Comms."	ds	1
+00bce9a0	trAICommsDefendPoint(playerID, defendX, defendY, defendZ): playerID will defend point(defendX, defendY, defendZ), sent via player Comms.	"trAICommsDefendPoint(playerID, defendX, defendY, defendZ): playerID will defend point(defendX, defendY, defendZ), sent via player Comms."	ds	1
+00bcea48	trAICommsAttackUnits(playerID, armyToAttack): playerID will attack armyToAttack, sent via player Comms.	"trAICommsAttackUnits(playerID, armyToAttack): playerID will attack armyToAttack, sent via player Comms."	ds	1
+00bceac8	trAttackUnits(srcArmyname, armyToAttack, planname): srcArmy units will attack armyToAttack in the given planname.	"trAttackUnits(srcArmyname, armyToAttack, planname): srcArmy units will attack armyToAttack in the given planname."	ds	1
+00bceb50	trDefendUnits(srcArmyname, defendedArmyname, planname, evaluationFrequency, gatherdistance): srcArmy units will defend defendedArmyUnits in the given planname.	"trDefendUnits(srcArmyname, defendedArmyname, planname, evaluationFrequency, gatherdistance): srcArmy units will defend defendedArmyUnits in the given planname."	ds	1
+00bcec00	trAddArmyToPlan(armyname, planname): Adds the units in the specified army to the specified plan.	"trAddArmyToPlan(armyname, planname): Adds the units in the specified army to the specified plan."	ds	1
+00bcec74	trKillAIPlan(playerID, planName) : No help 	"trKillAIPlan(playerID, planName) : No help "	ds	1
+00bcecb0	trCreateAttackPlan(armyName, PlanName, attackPlayerID, attackX, attackY, attackZ, engageRange, evaluationFrequency) : No help 	"trCreateAttackPlan(armyName, PlanName, attackPlayerID, attackX, attackY, attackZ, engageRange, evaluationFrequency) : No help "	ds	1
+00bced48	trCreateDefendPlan(armyName, defendPlanName, defendX, defendY, defendZ, engageRange, evaluationFrequency, gatherdistance) : No help 	"trCreateDefendPlan(armyName, defendPlanName, defendX, defendY, defendZ, engageRange, evaluationFrequency, gatherdistance) : No help "	ds	1
+00bcedf8	trUnitMakeInvulnerable( <enable> ) : Makes a unit invulnerable to damage.  Turn it off to return the unit to normal.	"trUnitMakeInvulnerable( <enable> ) : Makes a unit invulnerable to damage.  Turn it off to return the unit to normal."	ds	1
+00bcee88	trActivateTrigger(<eventID>) : Activates (sets active = true) the trigger specified by the given eventID.	"trActivateTrigger(<eventID>) : Activates (sets active = true) the trigger specified by the given eventID."	ds	1
+00bcef08	trDisableTrigger(<eventID>) : Disables (sets active = false) the trigger specified by the given eventID.	"trDisableTrigger(<eventID>) : Disables (sets active = false) the trigger specified by the given eventID."	ds	1
+00bcef88	trCameraPanWithUnit( <enable> <trigger ID>) : Moves the camera in the same direction that a particular unit moves.	"trCameraPanWithUnit( <enable> <trigger ID>) : Moves the camera in the same direction that a particular unit moves."	ds	1
+00bcf010	trCameraLockOnUnit( <enable> <time to orient> <trigger ID>) : Orients the camera to the selected unit, and keeps it locked on that unit. ): puts the camera in the specified location.	"trCameraLockOnUnit( <enable> <time to orient> <trigger ID>) : Orients the camera to the selected unit, and keeps it locked on that unit. ): puts the camera in the specified location."	ds	1
+00bcf0e0	trUnitFaceUnit( <unitScenarioName> <eventID> : Moves the selected unit(s) to face the given unit.	"trUnitFaceUnit( <unitScenarioName> <eventID> : Moves the selected unit(s) to face the given unit."	ds	1
+00bcf158	vcCheckConquestVictory(): checks for victory by being the last allied-unit alive	"vcCheckConquestVictory(): checks for victory by being the last allied-unit alive"	ds	1
+00bcf1c4	vcGetGameplayMode(): returns the current gameplay mode index	"vcGetGameplayMode(): returns the current gameplay mode index"	ds	1
+00bcf228	trVPAnnualAwards(enable): enables/disables the award of VP's each year.	"trVPAnnualAwards(enable): enables/disables the award of VP's each year."	ds	1
+00bcf288	trPlayerVPCount(playerID): returns the number of victory points for the player.	"trPlayerVPCount(playerID): returns the number of victory points for the player."	ds	1
+00bcf2e8	trGrantVP(player, number): Grants a number of Scenario VP to a player	"trGrantVP(player, number): Grants a number of Scenario VP to a player"	ds	1
+00bcf340	trQuestVarEcho(varname, value) : chats out the value of one of the trigger scratch variables	"trQuestVarEcho(varname, value) : chats out the value of one of the trigger scratch variables"	ds	1
+00bcf3b0	trQuestVarGet(varname) : retrieve value of a trigger scratch variable, returns zero if unset	"trQuestVarGet(varname) : retrieve value of a trigger scratch variable, returns zero if unset"	ds	1
+00bcf420	trQuestVarSetFromRand(varname, minval, maxval, round) : sets one of the trigger scratch variables within a random range	"trQuestVarSetFromRand(varname, minval, maxval, round) : sets one of the trigger scratch variables within a random range"	ds	1
+00bcf4b0	trQuestVarCopy(var1, var2) : copies value of one of the trigger scratch variables	"trQuestVarCopy(var1, var2) : copies value of one of the trigger scratch variables"	ds	1
+00bcf518	trQuestVarSet(varname, value) : sets one of the trigger scratch variables	"trQuestVarSet(varname, value) : sets one of the trigger scratch variables"	ds	1
+00bcf578	trOverlayText(message, time, x, y, width, background) : puts up a big movie-credits style text overlay, optionally in a strange location, and now with a background	"trOverlayText(message, time, x, y, width, background) : puts up a big movie-credits style text overlay, optionally in a strange location, and now with a background"	ds	1
+00bcf630	trDamageUnitsInArea(player, unitType, dist, damage): All units within dist of the selected ref object that match type take dmg	"trDamageUnitsInArea(player, unitType, dist, damage): All units within dist of the selected ref object that match type take dmg"	ds	1
+00bcf6c8	trDamageUnit(amt): does a specific amount of damage to HP in instant typeless damage.	"trDamageUnit(amt): does a specific amount of damage to HP in instant typeless damage."	ds	1
+00bcf730	trDamageUnitPercent(percent): does % percent of a unit's total HP in instant typeless damage.	"trDamageUnitPercent(percent): does % percent of a unit's total HP in instant typeless damage."	ds	1
+00bcf7a8	trModifyProtounit(unit, player, field, delta): modifies proto unit data for this scenario only.	"trModifyProtounit(unit, player, field, delta): modifies proto unit data for this scenario only."	ds	1
+00bcf820	trShowChoiceDialog(maintext, choice1, event1, choice2, event2) : displays dialog with 2 choices, and activates a trigger in response	"trShowChoiceDialog(maintext, choice1, event1, choice2, event2) : displays dialog with 2 choices, and activates a trigger in response"	ds	1
+00bcf8d8	trShowImageDialog(texture, subtitle) : displays a custom image in a dialog, with a subtitle	"trShowImageDialog(texture, subtitle) : displays a custom image in a dialog, with a subtitle"	ds	1
+00bcf948	trEchoStatValue(player, stat) : fetch a stat value from the KB and echo to chat	"trEchoStatValue(player, stat) : fetch a stat value from the KB and echo to chat"	ds	1
+00bcf9a8	trGetStatValue(player, stat) : fetch a stat value from the KB	"trGetStatValue(player, stat) : fetch a stat value from the KB"	ds	1
+00bcfa48	trChatHistoryContains(text): returns whether or not the current chat history has any instance (substring) of this text	"trChatHistoryContains(text): returns whether or not the current chat history has any instance (substring) of this text"	ds	1
+00bcfad8	trUnitChangeName(name): set an override name for a specific unit	"trUnitChangeName(name): set an override name for a specific unit"	ds	1
+00bcfb90	trIsMovieNotPlaying() -- returns false if a movie is currently playing	"trIsMovieNotPlaying() -- returns false if a movie is currently playing"	ds	1
+00bcfbec	trPlayMovie(<FileName>) -- plays movies from the AVI directory	"trPlayMovie(<FileName>) -- plays movies from the AVI directory"	ds	1
+00bcfc44	trClearCounterDisplay()	"trClearCounterDisplay()"	ds	1
+00bcfc74	trSetCounterDisplay(text)	"trSetCounterDisplay(text)"	ds	1
+00bcfca4	trSetPauseInObjectiveWindow()	"trSetPauseInObjectiveWindow()"	ds	1
+00bcfce0	trSetPauseOnAgeUpgrade()	"trSetPauseOnAgeUpgrade()"	ds	1
+00bcfd18	trForbidProtounit(player, protoname): adds protounit to the forbidden list	"trForbidProtounit(player, protoname): adds protounit to the forbidden list"	ds	1
+00bcfd78	trUnforbidProtounit(player, protoname): removes protounit from the forbidden list	"trUnforbidProtounit(player, protoname): removes protounit from the forbidden list"	ds	1
+00bcfde0	trGetWorldDifficulty()	"trGetWorldDifficulty()"	ds	1
+00bcfe10	trGetSelectedUnitID(int index)	"trGetSelectedUnitID(int index)"	ds	1
+00bcfe44	trGetNumberSelectedUnitIDs()	"trGetNumberSelectedUnitIDs()"	ds	1
+00bcfe80	trAIFunc(<playerID> <functionName> <param>: Makes the camera shake.	"trAIFunc(<playerID> <functionName> <param>: Makes the camera shake."	ds	1
+00bcfed0	trArmyPlayerDefakify(armyname) : Defakifies the army.	"trArmyPlayerDefakify(armyname) : Defakifies the army."	ds	1
+00bcff20	trUnitPlayerDefakify() : Sets the selected unit as not having a fake player	"trUnitPlayerDefakify() : Sets the selected unit as not having a fake player"	ds	1
+00bcff88	trArmyPlayerFakify(armyname, fakeplayerindex) : Fakifies the army to the specified fake player index.	"trArmyPlayerFakify(armyname, fakeplayerindex) : Fakifies the army to the specified fake player index."	ds	1
+00bd0008	trUnitPlayerFakify(fakePlayerIndex) : Sets the selected unit as having the fake player with the specified index (0-7)	"trUnitPlayerFakify(fakePlayerIndex) : Sets the selected unit as having the fake player with the specified index (0-7)"	ds	1
+00bd0098	trPlayerGrantResources(player, resource, amount): advances the campaign.	"trPlayerGrantResources(player, resource, amount): advances the campaign."	ds	1
+00bd0100	trCampaignPlayCurrent(): plays the current scenario in the campaign	"trCampaignPlayCurrent(): plays the current scenario in the campaign"	ds	1
+00bd0160	trCampaignAdvanceProgress(): advances the user progress through the campaign.(updates user profile only)	"trCampaignAdvanceProgress(): advances the user progress through the campaign.(updates user profile only)"	ds	1
+00bd01e8	trCampaignAdvance(): advances the campaign (advance user profile, AND plays the next scenario).	"trCampaignAdvance(): advances the campaign (advance user profile, AND plays the next scenario)."	ds	1
+00bd025c	trModeEnter(<name>): enters the mode specified.	"trModeEnter(<name>): enters the mode specified."	ds	1
+00bd0298	trIsGadgetVisible(<name>): returns true if gadget is real.	"trIsGadgetVisible(<name>): returns true if gadget is real."	ds	1
+00bd02e8	trPlayerKillAllBuildings(<playerID> Kills all of the buildings of a given player.	"trPlayerKillAllBuildings(<playerID> Kills all of the buildings of a given player."	ds	1
+00bd0358	trPlayerKillAllUnits(<playerID> Kills all of the units of a given player.	"trPlayerKillAllUnits(<playerID> Kills all of the units of a given player."	ds	1
+00bd03c0	trPlayerResetBlackMapForAllPlayers(Resets the black map for all HUMAN players.	"trPlayerResetBlackMapForAllPlayers(Resets the black map for all HUMAN players."	ds	1
+00bd0438	trPlayerResetBlackMap(<playerID>: Resets the black map for a given HUMAN player.	"trPlayerResetBlackMap(<playerID>: Resets the black map for a given HUMAN player."	ds	1
+00bd04a4	trCameraShake(<duration> <strength>: Makes the camera shake.	"trCameraShake(<duration> <strength>: Makes the camera shake."	ds	1
+00bd04f8	trMinimapFlare(<playerID> <duration> <position> <flash>): Sends a Minimap flare to a certain player.	"trMinimapFlare(<playerID> <duration> <position> <flash>): Sends a Minimap flare to a certain player."	ds	1
+00bd0570	trRateResearch(void): restore all rates to normal.	"trRateResearch(void): restore all rates to normal."	ds	1
+00bd05b4	trRateResearch(<rate>): modify research rate.	"trRateResearch(<rate>): modify research rate."	ds	1
+00bd05f4	trRateTrain(<rate>): modify training rate.	"trRateTrain(<rate>): modify training rate."	ds	1
+00bd062c	trRateConstruction(<rate>): modify construction rate.	"trRateConstruction(<rate>): modify construction rate."	ds	1
+00bd0678	trUIFadeToColor(<r> <g> <b> <duration> <delay> <inout>): fade in/out using color specified.	"trUIFadeToColor(<r> <g> <b> <duration> <delay> <inout>): fade in/out using color specified."	ds	1
+00bd06e8	trUIFlashCategory(<category> <flash>): flashes a UI element (maybe).	"trUIFlashCategory(<category> <flash>): flashes a UI element (maybe)."	ds	1
+00bd0744	trUIFlash(<proto name> <flash>): flashes a UI element (maybe).	"trUIFlash(<proto name> <flash>): flashes a UI element (maybe)."	ds	1
+00bd0794	trUIFlash(<tech id> <flash>): flashes a UI element (maybe).	"trUIFlash(<tech id> <flash>): flashes a UI element (maybe)."	ds	1
+00bd07e0	trUIStopFlash(<gadget name>): stops the flashing of a UI element.	"trUIStopFlash(<gadget name>): stops the flashing of a UI element."	ds	1
+00bd0838	trUIFlash(<gadget name> <flashLimit> <colorR> <colorG> <colorB>): flashes a UI element.	"trUIFlash(<gadget name> <flashLimit> <colorR> <colorG> <colorB>): flashes a UI element."	ds	1
+00bd09e8	trFormationScale(scale): scales the formation size of formations in the game.	"trFormationScale(scale): scales the formation size of formations in the game."	ds	1
+00bd0a50	trForceNonCinematicModels(): forces models to be in non cinematic mode	"trForceNonCinematicModels(): forces models to be in non cinematic mode"	ds	1
+00bd0ab4	trCinematicDoAbort(): aborts the cinematic.	"trCinematicDoAbort(): aborts the cinematic."	ds	1
+00bd0af4	trCinematicAbort(): returns the abort cinematic status.	"trCinematicAbort(): returns the abort cinematic status."	ds	1
+00bd0b40	trCounterAbort(name): abort a counter.	"trCounterAbort(name): abort a counter."	ds	1
+00bd0b78	trCounterAddUnit(name, playerid, count, message, event): start a counter that may or may not fire an event.	"trCounterAddUnit(name, playerid, count, message, event): start a counter that may or may not fire an event."	ds	1
+00bd0bf8	trCounterAddUnit(name, playerid, count, protounit, message, event): start a counter that may or may not fire an event.	"trCounterAddUnit(name, playerid, count, protounit, message, event): start a counter that may or may not fire an event."	ds	1
+00bd0c90	trCounterAddTimeMs(name, start, stop, message, event): start a counter that may or may not fire an event.	"trCounterAddTimeMs(name, start, stop, message, event): start a counter that may or may not fire an event."	ds	1
+00bd0d10	trCounterAddTime(name, start, stop, message, event): start a counter that may or may not fire an event.	"trCounterAddTime(name, start, stop, message, event): start a counter that may or may not fire an event."	ds	1
+00bd0d90	trSetLighting(setname, fadetime): fades to the specified lighting set over fadetime.	"trSetLighting(setname, fadetime): fades to the specified lighting set over fadetime."	ds	1
+00bd0df8	trArmyDispatch(<parameters>): creates the units in the army specified.	"trArmyDispatch(<parameters>): creates the units in the army specified."	ds	1
+00bd0e50	trArmySelectInt(int playerID, int armyID): selects the units in the army specified.	"trArmySelectInt(int playerID, int armyID): selects the units in the army specified."	ds	1
+00bd0eb8	trArmySelect(army info string): selects the units in the army specified.	"trArmySelect(army info string): selects the units in the army specified."	ds	1
+00bd0f88	trSetFogAndBlackmap(<true/false> <true/false>): turn fog and black map on/off.	"trSetFogAndBlackmap(<true/false> <true/false>): turn fog and black map on/off."	ds	1
+00bd0fec	trRenderRain(<float percent>): controls rain rendering.	"trRenderRain(<float percent>): controls rain rendering."	ds	1
+00bd1034	trRenderSnow(<float percent>): controls snow rendering.	"trRenderSnow(<float percent>): controls snow rendering."	ds	1
+00bd1080	trRenderSky(<true/false> <skyName>): turn sky rendering on/off and set which sky to use.	"trRenderSky(<true/false> <skyName>): turn sky rendering on/off and set which sky to use."	ds	1
+00bd10f8	trShowCampaignDlg(NextCampaign): .	"trShowCampaignDlg(NextCampaign): ."	ds	1
+00bd1138	trShowWinLose(text, soundfile): message and sound.	"trShowWinLose(text, soundfile): message and sound."	ds	1
+00bd117c	trYouLose(text): player loses, specifies message.	"trYouLose(text): player loses, specifies message."	ds	1
+00bd11c0	trYouWin(directToMenu): player wins.  If you set directToMenu to true, you go directly to Campaign Menu.	"trYouWin(directToMenu): player wins.  If you set directToMenu to true, you go directly to Campaign Menu."	ds	1
+00bd1238	trTechSetStatus(playerID techID status): sets the tech status for the player.	"trTechSetStatus(playerID techID status): sets the tech status for the player."	ds	1
+00bd1298	trTechStatusCheck(playerID, techID, techStatus): returns true if tech's status is techStatus.	"trTechStatusCheck(playerID, techID, techStatus): returns true if tech's status is techStatus."	ds	1
+00bd1310	trTechStatusResearching(playerID techID): returns true if tech is being researched for player.	"trTechStatusResearching(playerID techID): returns true if tech is being researched for player."	ds	1
+00bd1388	trTechStatusActive(playerID techID): returns true if tech is active for player.	"trTechStatusActive(playerID techID): returns true if tech is active for player."	ds	1
+00bd13f0	trGameLoadScenario(<dialog message>): pop up a dialog allowing choice to load a scenario.	"trGameLoadScenario(<dialog message>): pop up a dialog allowing choice to load a scenario."	ds	1
+00bd1460	trGameLoadScenario(<scenario name>): start a game using scenario.	"trGameLoadScenario(<scenario name>): start a game using scenario."	ds	1
+00bd14b8	trGamePause(<true/false>): pause or unpause the game.	"trGamePause(<true/false>): pause or unpause the game."	ds	1
+00bd14fc	trWriteToLog(message): Writes text to the Age3Log	"trWriteToLog(message): Writes text to the Age3Log"	ds	1
+00bd1540	trChatSendSpoofedToPlayer(fromID toID message): Changes the chat status, but does not append player.  Goes to specific player.	"trChatSendSpoofedToPlayer(fromID toID message): Changes the chat status, but does not append player.  Goes to specific player."	ds	1
+00bd15e0	trChatSendSpoofed(fromID message): Changes the chat status, but does not append player.	"trChatSendSpoofed(fromID message): Changes the chat status, but does not append player."	ds	1
+00bd1650	trChatSendToPlayer(fromID toID message): Changes the chat status for one specific player.	"trChatSendToPlayer(fromID toID message): Changes the chat status for one specific player."	ds	1
+00bd16c0	trChatSend(fromID message): Changes the chat status.	"trChatSend(fromID message): Changes the chat status."	ds	1
+00bd170c	trChatSetStatus(<onOff>): Changes the chat status.	"trChatSetStatus(<onOff>): Changes the chat status."	ds	1
+00bd1750	trMessageSetText(<text><timeout>): displays the message text.	"trMessageSetText(<text><timeout>): displays the message text."	ds	1
+00bd17a8	trCamTrackPlay(<duration> <eventID>): plays the current camera track.	"trCamTrackPlay(<duration> <eventID>): plays the current camera track."	ds	1
+00bd1800	trCamTrackLoad(<filename>): Loads a camera track.	"trCamTrackLoad(<filename>): Loads a camera track."	ds	1
+00bd1848	trMusicSetMood(<moodID>): Changes the music to mood associated with mood id.	"trMusicSetMood(<moodID>): Changes the music to mood associated with mood id."	ds	1
+00bd18a8	trMusicSetCurrentMusicSet(): sets the current music set.	"trMusicSetCurrentMusicSet(): sets the current music set."	ds	1
+00bd1900	trMusicStop(): Stops the current music.	"trMusicStop(): Stops the current music."	ds	1
+00bd1934	trMusicPlayCurrent(): Plays the current music.	"trMusicPlayCurrent(): Plays the current music."	ds	1
+00bd1978	trMusicPlay(<filename> <duration>): Plays the music file.	"trMusicPlay(<filename> <duration>): Plays the music file."	ds	1
+00bd19c0	trSoundPlayDialogue(<stringID>, <eventID>, <ignoreOnAbort>, <seconds>): Plays the sound associated with the dialogue.	"trSoundPlayDialogue(<stringID>, <eventID>, <ignoreOnAbort>, <seconds>): Plays the sound associated with the dialogue."	ds	1
+00bd1a50	trSoundPlayDialog(<filename>, <event>, <ignoreOnAbort>, <subtitle>, <portrait>): Plays the sound associated with the filename.	"trSoundPlayDialog(<filename>, <event>, <ignoreOnAbort>, <subtitle>, <portrait>): Plays the sound associated with the filename."	ds	1
+00bd1ae8	trUnBlockAllAmbientSounds(): Unblocks all ambient sounds that were previously blocked from playing	"trUnBlockAllAmbientSounds(): Unblocks all ambient sounds that were previously blocked from playing"	ds	1
+00bd1b68	trBlockAllAmbientSounds(): blocks all ambient sounds from this point forward	"trBlockAllAmbientSounds(): blocks all ambient sounds from this point forward"	ds	1
+00bd1bd0	trUnblockAllSounds(): Unblocks all sounds that were previously blocked from playing	"trUnblockAllSounds(): Unblocks all sounds that were previously blocked from playing"	ds	1
+00bd1c38	trBlockAllSounds(excludeDialog): Blocks all sounds from playing from this point forward	"trBlockAllSounds(excludeDialog): Blocks all sounds from playing from this point forward"	ds	1
+00bd1ca8	trFadeOutAllSounds(<duration>): Fades out all sounds over a given duration	"trFadeOutAllSounds(<duration>): Fades out all sounds over a given duration"	ds	1
+00bd1d08	trPlayNextMusicTrack(): Plays the next song in the music play list.	"trPlayNextMusicTrack(): Plays the next song in the music play list."	ds	1
+00bd1d68	trFadeOutMusic(<duration>): Fades out current music over a given duration.	"trFadeOutMusic(<duration>): Fades out current music over a given duration."	ds	1
+00bd1dc8	trSoundTimer(long milliseconds, long eventID) creates a high performance sound timer and passes the eventID as data.	"trSoundTimer(long milliseconds, long eventID) creates a high performance sound timer and passes the eventID as data."	ds	1
+00bd1e50	trSoundPlayPaused(<filename>): Plays the sound associated with the filename.	"trSoundPlayPaused(<filename>): Plays the sound associated with the filename."	ds	1
+00bd1eb8	trSoundPlayFN(<filename>): Plays the sound associated with the filename.	"trSoundPlayFN(<filename>): Plays the sound associated with the filename."	ds	1
+00bd1f14	trLetterBox(<onOff>): Turns letter box mode on or off.	"trLetterBox(<onOff>): Turns letter box mode on or off."	ds	1
+00bd1f58	trSetObscuredUnits( <bool> ): Sets whether or not units can be drawn obscured or not.	"trSetObscuredUnits( <bool> ): Sets whether or not units can be drawn obscured or not."	ds	1
+00bd1fc8	trSetUnitIdleProcessing( <bool> ): Sets whether or not units can do their idle processing.	"trSetUnitIdleProcessing( <bool> ): Sets whether or not units can do their idle processing."	ds	1
+00bd203c	trEventFire(<eventID>): cause an event to occur.	"trEventFire(<eventID>): cause an event to occur."	ds	1
+00bd2080	trEventSetHandler(<eventID> <handler>): sets a handler function for an event id.	"trEventSetHandler(<eventID> <handler>): sets a handler function for an event id."	ds	1
+00bd20e8	trSetCinematicUnitSpeaking(objectScenarioName, speaking, duration): Sets the unit as speaking or not.	"trSetCinematicUnitSpeaking(objectScenarioName, speaking, duration): Sets the unit as speaking or not."	ds	1
+00bd2170	trPlayerGetPopulation(playerID): returns the player population.	"trPlayerGetPopulation(playerID): returns the player population."	ds	1
+00bd21c8	trPlayerAtPopCap(playerID): returns true if player is at pop cap.	"trPlayerAtPopCap(playerID): returns true if player is at pop cap."	ds	1
+00bd2220	trObjectiveDiscover(objectiveID, playSound): 'Discovers' a previously unknown (to the player) objective.	"trObjectiveDiscover(objectiveID, playSound): 'Discovers' a previously unknown (to the player) objective."	ds	1
+00bd22a0	trObjectiveShow(objectiveID): Shows the specified objective on the UI.	"trObjectiveShow(objectiveID): Shows the specified objective on the UI."	ds	1
+00bd22f8	trObjectiveHide(objectiveID): Hides the specified objective on the UI.	"trObjectiveHide(objectiveID): Hides the specified objective on the UI."	ds	1
+00bd2350	trObjectiveComplete(objectiveID, forceComplete, playSound): Completes the specified objective.  Forces a reoccurring objective complete if forceComplete is true.	"trObjectiveComplete(objectiveID, forceComplete, playSound): Completes the specified objective.  Forces a reoccurring objective complete if forceComplete is true."	ds	1
+00bd2408	trPlayerSetActive(playerID): sets the active player.	"trPlayerSetActive(playerID): sets the active player."	ds	1
+00bd2458	trBuildingIsOnCursor(protoname) : Returns true if the proto unit specified is on the cursor and is a building.	"trBuildingIsOnCursor(protoname) : Returns true if the proto unit specified is on the cursor and is a building."	ds	1
+00bd24e0	trPlayerCountBuildingInProgress(playerID protoname): returns true if building is being built.	"trPlayerCountBuildingInProgress(playerID protoname): returns true if building is being built."	ds	1
+00bd2560	trPlayerModifiedLOS(playerID cansee playerID): Adds/removes LOS between players.	"trPlayerModifiedLOS(playerID cansee playerID): Adds/removes LOS between players."	ds	1
+00bd25c8	trPlayerGetDiplomacy(playerID playerID): gets the diplomacy status between players.	"trPlayerGetDiplomacy(playerID playerID): gets the diplomacy status between players."	ds	1
+00bd2638	trPlayerSetDiplomacy(playerID playerID status): sets the diplomacy status between players.	"trPlayerSetDiplomacy(playerID playerID status): sets the diplomacy status between players."	ds	1
+00bd2878	trPlayerActive(playerID): returns true/false if the player is active.	"trPlayerActive(playerID): returns true/false if the player is active."	ds	1
+00bd28d0	trPlayerDefeated(playerID): returns true/false if the player has been defeated.	"trPlayerDefeated(playerID): returns true/false if the player has been defeated."	ds	1
+00bd2938	trPlayerCurrentXPCount(playerID): Returns the current (not total) XP for the player.	"trPlayerCurrentXPCount(playerID): Returns the current (not total) XP for the player."	ds	1
+00bd29a8	trPlayerResourceCount(playerID, resource): returns the number of resources for the player.	"trPlayerResourceCount(playerID, resource): returns the number of resources for the player."	ds	1
+00bd2a20	trPlayerToggleAllowNewCWSpawning(playerID, allowSpawning) : Toggles whether the player can spawn new covered wagons.	"trPlayerToggleAllowNewCWSpawning(playerID, allowSpawning) : Toggles whether the player can spawn new covered wagons."	ds	1
+00bd2ac0	trPlayerToggleAllowTCSpawning(playerID, allowSpawning) : Toggles whether the player's TC can spawn units.	"trPlayerToggleAllowTCSpawning(playerID, allowSpawning) : Toggles whether the player's TC can spawn units."	ds	1
+00bd2b50	trPlayerTribute(from, resource, amount to): tributes resources to a player.	"trPlayerTribute(from, resource, amount to): tributes resources to a player."	ds	1
+00bd2bb8	trPlayerUnitCountSpecific(playerID, protoName): returns the number of units for the player.	"trPlayerUnitCountSpecific(playerID, protoName): returns the number of units for the player."	ds	1
+00bd2c40	trPlayerUnitAndBuildingCount(playerID): returns the number of units and buildings for the player.	"trPlayerUnitAndBuildingCount(playerID): returns the number of units and buildings for the player."	ds	1
+00bd2cc8	trPlayerBuildingCount(playerID): returns the number of buildings for the player.	"trPlayerBuildingCount(playerID): returns the number of buildings for the player."	ds	1
+00bd2d38	trPlayerUnitCount(playerID): returns the number of units for the player.	"trPlayerUnitCount(playerID): returns the number of units for the player."	ds	1
+00bd2d98	trSetUserControls(<active>): sets the player controls on or off.	"trSetUserControls(<active>): sets the player controls on or off."	ds	1
+00bd2df0	trSetCurrentPlayerStatus(<active>): sets the current player as active or inactive.	"trSetCurrentPlayerStatus(<active>): sets the current player as active or inactive."	ds	1
+00bd2e60	trCurrentPlayer(): returns the current player.	"trCurrentPlayer(): returns the current player."	ds	1
+00bd2ea0	trWaypointAddUnit( <unitScenarioName> ): Adds the unit's position as a waypoint in the trigger selection system.	"trWaypointAddUnit( <unitScenarioName> ): Adds the unit's position as a waypoint in the trigger selection system."	ds	1
+00bd2f28	trWaypointAddPoint( <vector> ): Adds the waypoint into the trigger selection system.	"trWaypointAddPoint( <vector> ): Adds the waypoint into the trigger selection system."	ds	1
+00bd2f98	trWaypointClear( void ): Clears the waypoints in the trigger selection system.	"trWaypointClear( void ): Clears the waypoints in the trigger selection system."	ds	1
+00bd2ff8	trCameraCut( pos, dir, up, right ): puts the camera in the specified location.	"trCameraCut( pos, dir, up, right ): puts the camera in the specified location."	ds	1
+00bd30a8	trUnitIsOwnedBy(playerID): determines if the selected units are owned by the player specified.	"trUnitIsOwnedBy(playerID): determines if the selected units are owned by the player specified."	ds	1
+00bd3218	trUnitGetIsContained(protounit) : returns true if this unit is contained by the specified protounit.	"trUnitGetIsContained(protounit) : returns true if this unit is contained by the specified protounit."	ds	1
+00bd3350	trUnitHighlight(seconds) : does something to highlight the units selected.	"trUnitHighlight(seconds) : does something to highlight the units selected."	ds	1
+00bd34c8	trUnitConvert(playerID): converts the selected units to player.	"trUnitConvert(playerID): converts the selected units to player."	ds	1
+00bd3518	trUnitHasLOS(playerID): returns true if the player can see the selected unit, otherwise returns false.	"trUnitHasLOS(playerID): returns true if the player can see the selected unit, otherwise returns false."	ds	1
+00bd3590	trUnitVisToPlayer(playerID): returns true if the player can see the selected unit, and it is on screen.	"trUnitVisToPlayer(playerID): returns true if the player can see the selected unit, and it is on screen."	ds	1
+00bd3610	trUnitSetHP( <hitpoints> ): set the hitpoints for all selected units.	"trUnitSetHP( <hitpoints> ): set the hitpoints for all selected units."	ds	1
+00bd3664	trUnitSetHeading( <degrees> ): sets the units heading.	"trUnitSetHeading( <degrees> ): sets the units heading."	ds	1
+00bd36b0	trUnitGetHeading( <scenarioName> ): returns the units heading.	"trUnitGetHeading( <scenarioName> ): returns the units heading."	ds	1
+00bd3708	trUnitCreate( <protoName> <scenarioName> <x> <y> <z> <heading> <playerID> ): creates a new unit.	"trUnitCreate( <protoName> <scenarioName> <x> <y> <z> <heading> <playerID> ): creates a new unit."	ds	1
+00bd377c	trUnitDestroy(void): destroys the selected unit(s).	"trUnitDestroy(void): destroys the selected unit(s)."	ds	1
+00bd37c0	trUnitDelete( remove ): removes or kills the selected unit(s).	"trUnitDelete( remove ): removes or kills the selected unit(s)."	ds	1
+00bd3810	trUnitDead( void ): Returns true if all selected units are dead.	"trUnitDead( void ): Returns true if all selected units are dead."	ds	1
+00bd3860	trUnitAlive( void ): Returns true if all selected units are alive.	"trUnitAlive( void ): Returns true if all selected units are alive."	ds	1
+00bd38b0	trUnitSetAnimation( <AnimName> <versionIndex> <loop> <eventID> <destroyOnNextControlAction> ): Sets the cinematic animation version for the selected unit(s).	"trUnitSetAnimation( <AnimName> <versionIndex> <loop> <eventID> <destroyOnNextControlAction> ): Sets the cinematic animation version for the selected unit(s)."	ds	1
+00bd3968	trUnitCinematicRemoveControlAction() - Removes the current control action so the next thing can take effect immediately.  (For IGC)	"trUnitCinematicRemoveControlAction() - Removes the current control action so the next thing can take effect immediately.  (For IGC)"	ds	1
+00bd3a10	trCountUnitsInArea(centerUnit, matchPlayer, matchType, range)	"trCountUnitsInArea(centerUnit, matchPlayer, matchType, range)"	ds	1
+00bd3a68	trUnitDistanceToUnitID( <unitID> ): Returns the shortest distance between the trRT units and the given unit.	"trUnitDistanceToUnitID( <unitID> ): Returns the shortest distance between the trRT units and the given unit."	ds	1
+00bd3af0	trUnitDistanceToUnit( <unitScenarioName> ): Returns the shortest distance between the trRT units and the given unit.	"trUnitDistanceToUnit( <unitScenarioName> ): Returns the shortest distance between the trRT units and the given unit."	ds	1
+00bd3b80	trUnitDistanceToPoint( <x> <y> <z> ): Returns the shortest distance between the trRT units and the point.	"trUnitDistanceToPoint( <x> <y> <z> ): Returns the shortest distance between the trRT units and the point."	ds	1
+00bd3c08	trImmediateUnitGarrison( <unitScenarioName> ): Instantly garrisons units inside another unit without considering distance.	"trImmediateUnitGarrison( <unitScenarioName> ): Instantly garrisons units inside another unit without considering distance."	ds	1
+00bd3ca0	trShowWorldView(playerID): Sets the view to the world if the player specified is the current player.	"trShowWorldView(playerID): Sets the view to the world if the player specified is the current player."	ds	1
+00bd3d18	trShowHCView(playerID): Sets the view to the HC if the player specified is the current player.	"trShowHCView(playerID): Sets the view to the HC if the player specified is the current player."	ds	1
+00bd3d88	trPlayerSetHCAccess(playerID, hcAccess): Sets whether the player has access to the HC.	"trPlayerSetHCAccess(playerID, hcAccess): Sets whether the player has access to the HC."	ds	1
+00bd3df8	trPlayerSetAge(playerID, age, displayEffect): Sets the age of the specified player.	"trPlayerSetAge(playerID, age, displayEffect): Sets the age of the specified player."	ds	1
+00bd3e60	trUnitGarrison( <unitScenarioName> <eventID> ): Tasks the selected unit(s) to garrision into another unit.	"trUnitGarrison( <unitScenarioName> <eventID> ): Tasks the selected unit(s) to garrision into another unit."	ds	1
+00bd3ef0	trUnitDoWorkOnUnit( <unitScenarioName> <eventID> ): Tasks the selected unit(s) to perform work on the given unit.	"trUnitDoWorkOnUnit( <unitScenarioName> <eventID> ): Tasks the selected unit(s) to perform work on the given unit."	ds	1
+00bd3f78	trUnitBuildUnit( <protoUnitName> <BVector position (x,y,z): Selects units and makes the build a unit at specified location	"trUnitBuildUnit( <protoUnitName> <BVector position (x,y,z): Selects units and makes the build a unit at specified location"	ds	1
+00bd4008	trUnitMoveFromArea( <x> <y> <z> <eventID> <bAttackMove> <player> <unitType> <radius>): Moves all matching units near the selected unit(s) to the given position.	"trUnitMoveFromArea( <x> <y> <z> <eventID> <bAttackMove> <player> <unitType> <radius>): Moves all matching units near the selected unit(s) to the given position."	ds	1
+00bd40c0	trCreateRevealer(playerID, revealerName, position, revealerLOS, blackmapOnly) : Creates a revealer with the given attributes.	"trCreateRevealer(playerID, revealerName, position, revealerLOS, blackmapOnly) : Creates a revealer with the given attributes."	ds	1
+00bd4158	trSetRevealerActiveState(revealerName, active) : Finds the specified revealer and sets it to active or inactive.	"trSetRevealerActiveState(revealerName, active) : Finds the specified revealer and sets it to active or inactive."	ds	1
+00bd41e8	trUnitMoveToUnit( <unitScenarioName> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>): Moves the selected unit(s) to the spot occupied by the given unit.	"trUnitMoveToUnit( <unitScenarioName> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>): Moves the selected unit(s) to the spot occupied by the given unit."	ds	1
+00bd42a0	trUnitMoveToPoint( <x> <y> <z> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>): Moves the selected unit(s) to the given position.	"trUnitMoveToPoint( <x> <y> <z> <eventID> <bAttackMove> <bUnitRun> <runSpeedMultiplier>): Moves the selected unit(s) to the given position."	ds	1
+00bd4340	trObjectGettingWorked(objectScenarioName): Returns true if the object is currently being worked.	"trObjectGettingWorked(objectScenarioName): Returns true if the object is currently being worked."	ds	1
+00bd43c0	trIsPlayerSendingHCShipment(<targetHCPlayerID>) : Returns true when the player sends a shipment from home city.	"trIsPlayerSendingHCShipment(<targetHCPlayerID>) : Returns true when the player sends a shipment from home city."	ds	1
+00bd4450	trHasPlayerSentHCShipment(<targetHCPlayerID>) : Returns true when the player has sent a shipment from the home city.	"trHasPlayerSentHCShipment(<targetHCPlayerID>) : Returns true when the player has sent a shipment from the home city."	ds	1
+00bd44e8	trIsPlayerSelectingHCBuilding(<hcBuildingName>) : Returns true if the current player is selecting the building in their HC which has the specified name.	"trIsPlayerSelectingHCBuilding(<hcBuildingName>) : Returns true if the current player is selecting the building in their HC which has the specified name."	ds	1
+00bd45a8	trIsPlayerVisitingHC(<targetHCPlayerID>) : Returns true if the current player is looking at (visiting) the home city of the player specified by the player ID passed in.	"trIsPlayerVisitingHC(<targetHCPlayerID>) : Returns true if the current player is looking at (visiting) the home city of the player specified by the player ID passed in."	ds	1
+00bd4670	trPlayerControlsSocket(playerID, objectScenarioName): Returns true if the specified player is built on the specified socket.	"trPlayerControlsSocket(playerID, objectScenarioName): Returns true if the specified player is built on the specified socket."	ds	1
+00bd4708	trUnitSelectByID( <unitID> ): 'Selects' the unit in the trigger selection system.	"trUnitSelectByID( <unitID> ): 'Selects' the unit in the trigger selection system."	ds	1
+00bd4770	trUnitSelect( <unitScenarioName> ): 'Selects' the unit in the trigger selection system.	"trUnitSelect( <unitScenarioName> ): 'Selects' the unit in the trigger selection system."	ds	1
+00bd47d8	trUnitSelectClear( void ): Clears the units in the trigger selection system.	"trUnitSelectClear( void ): Clears the units in the trigger selection system."	ds	1
+00bd4840	trTimeMS( void ): Returns the current gametime in Milliseconds.	"trTimeMS( void ): Returns the current gametime in Milliseconds."	ds	1
+00bd488c	trTime( void ): Returns the current gametime in Seconds.	"trTime( void ): Returns the current gametime in Seconds."	ds	1
+00bd48d0	trDelayedRuleActivation( <rulename> ): adds a rule to the runtime to be activated on the next update.	"trDelayedRuleActivation( <rulename> ): adds a rule to the runtime to be activated on the next update."	ds	1
+00bd4950	trEcho( <echoString> ): Trigger echo.	"trEcho( <echoString> ): Trigger echo."	ds	1
+00bd4a14	trUnitDistanceToUnit("%s")	"trUnitDistanceToUnit(\"%s\")"	ds	1
+00bd4a30	trUnitDistanceToUnitID(%d)	"trUnitDistanceToUnitID(%d)"	ds	1
+00bd4a4c	trUnitDistanceToUnit("	"trUnitDistanceToUnit(\""	ds	1
+00bd4a64	trUnitSelect("%s")	"trUnitSelect(\"%s\")"	ds	1
+00bd4a78	trUnitSelectByID(%d)	"trUnitSelectByID(%d)"	ds	1
+00bd4a90	trUnitSelect("	"trUnitSelect(\""	ds	1
+00bd4dc8	squadMode(%d, %d)	"squadMode(%d, %d)"	ds	1
+00bd4e5c	unitSetTactic("	u"unitSetTactic(\""	unicode	1
+00bd4e88	uiPoliticianUI(%d, %d)	"uiPoliticianUI(%d, %d)"	ds	1
+00bd5b38	homeCityResearchByIDOutsideGame(%d, %d)	u"homeCityResearchByIDOutsideGame(%d, %d)"	unicode	1
+00bd5b88	homeCityResearchByID(%d, %d)	u"homeCityResearchByID(%d, %d)"	unicode	1
+00bd664c	uiTechDetailHelp(%d)	"uiTechDetailHelp(%d)"	ds	1
+00bd8b18	tradeRouteTrain(%d, %d, %d)	"tradeRouteTrain(%d, %d, %d)"	ds	1
+00bd9828	homeCityShipEject(%d, %d, %d, %d)	u"homeCityShipEject(%d, %d, %d, %d)"	unicode	1
+00bd986c	lookAtHomeCityBuilding(0)	"lookAtHomeCityBuilding(0)"	ds	1
+00bdcddc	Error(UNDEFINED)  	"Error(UNDEFINED)  "	ds	1
+00bdcdf0	Error(%.8d)  	"Error(%.8d)  "	ds	1
+00bdce00	Warning(UNDEFINED)  	"Warning(UNDEFINED)  "	ds	1
+00bdce18	Warning(%.8d)  	"Warning(%.8d)  "	ds	1
+00bec34c	strlen(pName) < (size_t)mName.maxLen()	"strlen(pName) < (size_t)mName.maxLen()"	ds	1
+00bed620	configToggle("	u"configToggle(\""	unicode	1
+00bed804	uiHandleUserTab(%d)	u"uiHandleUserTab(%d)"	unicode	1
+00b5a668	uiShowAIDebugInfoKBUnit(1)	"uiShowAIDebugInfoKBUnit(1)"	ds	2
+00b60df0	rmFindClosestPoint(float xFraction, float zFraction, float maxDistance): Finds closest point satisfying the preset constraints.	"rmFindClosestPoint(float xFraction, float zFraction, float maxDistance): Finds closest point satisfying the preset constraints."	ds	2
+00b70940	gadgetToggle(<stringName>) : toggles the reality of the named gadget.	"gadgetToggle(<stringName>) : toggles the reality of the named gadget."	ds	2
+00ba6c68	BuildPlan(%s : %d): failing because building placement unitType(%d) is invalid.	"BuildPlan(%s : %d): failing because building placement unitType(%d) is invalid."	ds	2
+00ba6e38	BuildPlan(%s : %d): failing because we can't path to any points we want to build at.	"BuildPlan(%s : %d): failing because we can't path to any points we want to build at."	ds	2
+00bb1e90	trackPlay(%f)	u"trackPlay(%f)"	unicode	2
+00bb4130	vector(%f,%f,%f), vector(%f,%f,%f), vector(%f,%f,%f), vector(%f,%f,%f)	"vector(%f,%f,%f), vector(%f,%f,%f), vector(%f,%f,%f), vector(%f,%f,%f)"	ds	2
+00bb4178	vector(%f,%f,%f), vector(%f,%f,%f), vector(%f,%f,%f), vector(%f,%f,%f)	u"vector(%f,%f,%f), vector(%f,%f,%f), vector(%f,%f,%f), vector(%f,%f,%f)"	unicode	2
+00bd6b1c	homeCityTrain2(%d, %d)	"homeCityTrain2(%d, %d)"	ds	2
+00bd4ea0	trainInSelectedByID(%d, 5)	"trainInSelectedByID(%d, 5)"	ds	3
+00bd4ebc	trainInSelectedByID(%d, 1)	"trainInSelectedByID(%d, 1)"	ds	3
+00bd4ed8	uiBuildMode(%d)	"uiBuildMode(%d)"	ds	3
+00bb0750	uiSetWaterTypeNum(%d)	u"uiSetWaterTypeNum(%d)"	unicode	4
+00bb54d4	uiShowAIDebugInfoPlan(%d)	u"uiShowAIDebugInfoPlan(%d)"	unicode	4
+00bd6b34	uiSetHCNotifyText(%d, %d)	"uiSetHCNotifyText(%d, %d)"	ds	4
+00bcc3a4	loadCampaignScenario("%s")	u"loadCampaignScenario(\"%s\")"	unicode	5
+00bd97f0	uiLookAtAndSelectUnit(%d)	u"uiLookAtAndSelectUnit(%d)"	unicode	5
+00b8de28	researchByID(%d, %d, %d)	"researchByID(%d, %d, %d)"	ds	6
+00bec2b0	SUCCEEDED(hres)	"SUCCEEDED(hres)"	ds	11
